@@ -1,13 +1,14 @@
 RE0 Annotated Map - Survivor's Notes - Resident Evil 0 HD REMASTER
 상세 지도: 생존자의 메모
 
-지원: Steam판 Resident Evil 0 / biohazard 0 HD REMASTER(re0hd.exe, 2025년 1월 28일 빌드) + Ultimate ASI Loader(포함).
-다른 실행 파일에서는 아무것도 패치하지 않고 로그만 남깁니다.
+지원: Steam 또는 GOG판 Resident Evil 0 / biohazard 0 HD REMASTER(re0hd.exe) + Ultimate ASI Loader(포함).
 게임 지도에 방 이름, 잠긴 문, 핵심 아이템, 문서·지도, 퍼즐, 이벤트, 일반 아이템, 적을 표시합니다.
 
 설치
 1. 게임을 종료합니다.
-2. Steam 라이브러리에서 게임을 우클릭 → 관리 → 로컬 파일 탐색을 눌러 re0hd.exe가 있는 폴더를 엽니다.
+2. re0hd.exe가 있는 폴더를 엽니다.
+   Steam: 라이브러리에서 게임을 우클릭 → 관리 → 로컬 파일 탐색.
+   GOG: GOG Galaxy에서 게임 → 설치 관리 → 폴더 표시.
 3. ZIP의 내용을 그 폴더에 폴더 구조 그대로 복사합니다.
    (dinput8.dll, scripts/RE0.AnnotatedMap.asi, scripts/RE0.AnnotatedMap.bgra,
     scripts/RE0.AnnotatedMap.icons.bgra, scripts/RE0.AnnotatedMap.ini)
@@ -38,15 +39,16 @@ https://github.com/eggu/resident-evil-0-annotated-map
 English
 ================================================================
 
-Supported: Resident Evil 0 / biohazard 0 HD REMASTER on Steam (re0hd.exe, build of 28 January 2025)
-+ Ultimate ASI Loader (included). On any other executable nothing is patched and only a log is written.
+Supported: Resident Evil 0 / biohazard 0 HD REMASTER, Steam or GOG version (re0hd.exe)
++ Ultimate ASI Loader (included).
 Shows room names, locked doors, key items, files and maps, puzzles, events, common items
 and enemies on the game's map.
 
 Installation
 1. Close the game.
-2. In your Steam library, right-click the game -> Manage -> Browse local files.
-   This opens the folder containing re0hd.exe.
+2. Open the folder containing re0hd.exe.
+   Steam: in your library, right-click the game -> Manage -> Browse local files.
+   GOG: in GOG Galaxy, open the game -> Manage installation -> Show folder.
 3. Copy the ZIP contents into that folder, keeping the folder structure
    (dinput8.dll, scripts/RE0.AnnotatedMap.asi, scripts/RE0.AnnotatedMap.bgra,
     scripts/RE0.AnnotatedMap.icons.bgra and scripts/RE0.AnnotatedMap.ini).

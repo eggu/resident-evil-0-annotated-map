@@ -4,7 +4,7 @@
 
 <p align="center"><img src="docs/logo.png" alt="RE0 Annotated Map - Survivor's Notes" width="320"></p>
 
-Steam PC판 Resident Evil 0 / biohazard 0 HD REMASTER의 게임 지도에 방 이름, 잠긴 문, 핵심 아이템, 문서·지도, 퍼즐, 이벤트, 일반 아이템, 적을 표시하는 ASI 모드입니다. 한국어와 영어를 지원합니다.
+Steam·GOG PC판 Resident Evil 0 / biohazard 0 HD REMASTER의 게임 지도에 방 이름, 잠긴 문, 핵심 아이템, 문서·지도, 퍼즐, 이벤트, 일반 아이템, 적을 표시하는 ASI 모드입니다. 한국어와 영어를 지원합니다.
 
 - 게임의 지도 화면 위에 그리며, 게임의 지도 확대·이동·층 선택을 그대로 따릅니다.
 - 주운 아이템, 푼 퍼즐, 연 문, 처치한 적은 지도에서 사라집니다. 이야기 진행에 따라 나타나는 아이템과 Leech Hunter 보상은 얻을 수 있게 되면 표시됩니다.
@@ -24,13 +24,15 @@ Steam PC판 Resident Evil 0 / biohazard 0 HD REMASTER의 게임 지도에 방 �
 
 ## 요구 사항
 
-- **Resident Evil 0 / biohazard 0 HD REMASTER, Steam PC판** — 현재 Steam 빌드의 `re0hd.exe`(2025년 1월 28일 빌드). 다른 실행 파일은 지원하지 않습니다.
+- **Resident Evil 0 / biohazard 0 HD REMASTER, Steam 또는 GOG PC판** (`re0hd.exe`).
 - [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader) v9.7.4(MIT)가 `dinput8.dll`로 포함되어 있습니다.
 
 ## 설치
 
 1. 게임을 종료합니다. [Releases](https://github.com/eggu/resident-evil-0-annotated-map/releases/latest)에서 `RE0-Annotated-Map-<버전>.zip`을 내려받아 압축을 풉니다. `Source code`는 설치용 파일이 아닙니다.
-2. Steam 라이브러리에서 **Resident Evil 0**을 우클릭 → **관리** → **로컬 파일 탐색**을 누릅니다. `re0hd.exe`가 있는 폴더가 열립니다.
+2. `re0hd.exe`가 있는 폴더를 엽니다:
+   - Steam: 라이브러리에서 **Resident Evil 0**을 우클릭 → **관리** → **로컬 파일 탐색**.
+   - GOG: GOG Galaxy에서 게임을 열고 **설치 관리** → **폴더 표시**.
 3. ZIP의 내용(`dinput8.dll`, `scripts/`)을 폴더 구조 그대로 그 폴더에 복사합니다.
    - 다른 ASI 모드로 `dinput8.dll`이 이미 있으면 기존 파일을 두고 `scripts/`만 복사하세요.
 4. 게임을 실행하고 지도를 엽니다.
@@ -89,7 +91,6 @@ Steam PC판 Resident Evil 0 / biohazard 0 HD REMASTER의 게임 지도에 방 �
 
 ## 알려진 제한
 
-- 위에 적은 Steam PC판 `re0hd.exe`만 지원합니다.
 - 표식은 아이템·퍼즐·적이 있는 방을 알려 줄 뿐, 방 안의 정확한 위치는 아닙니다.
 - 방이 붐비면 일반 아이템과 적의 이름, 또는 핵심 아이템과 겹치는 표식이 숨겨질 수 있습니다. 게임의 지도 확대로 더 볼 수 있습니다.
 - 바닥에 내려놓은 아이템은 이 모드가 아니라 게임 지도가 직접 표시합니다.

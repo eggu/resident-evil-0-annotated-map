@@ -4,7 +4,7 @@ English | [한국어](README.ko.md)
 
 <p align="center"><img src="docs/logo.png" alt="RE0 Annotated Map - Survivor's Notes" width="320"></p>
 
-An ASI mod for the Steam PC version of Resident Evil 0 / biohazard 0 HD REMASTER that adds room names, locked doors, key items, files and maps, puzzles, events, common items and enemies to the game's own map. Korean and English are supported.
+An ASI mod for the Steam and GOG PC versions of Resident Evil 0 / biohazard 0 HD REMASTER that adds room names, locked doors, key items, files and maps, puzzles, events, common items and enemies to the game's own map. Korean and English are supported.
 
 - Annotations are drawn on the game's map screen and follow its zoom, scrolling and floor selection.
 - Taken items, solved puzzles, opened doors and defeated enemies disappear from the map. Items that appear later in the story and Leech Hunter rewards are shown when they become available.
@@ -24,13 +24,15 @@ A new configuration starts in **Korean, name size 100%, name opacity 60%, icon s
 
 ## Requirements
 
-- **Resident Evil 0 / biohazard 0 HD REMASTER, Steam PC version** — the current Steam build of `re0hd.exe` (built 28 January 2025). Other executables are not supported.
+- **Resident Evil 0 / biohazard 0 HD REMASTER, Steam or GOG PC version** (`re0hd.exe`).
 - [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader) v9.7.4 (MIT) is included as `dinput8.dll`.
 
 ## Installation
 
 1. Close the game. Download `RE0-Annotated-Map-<version>.zip` from [Releases](https://github.com/eggu/resident-evil-0-annotated-map/releases/latest) and extract it. `Source code` is not the install package.
-2. In your Steam library, right-click **Resident Evil 0** → **Manage** → **Browse local files**. This opens the folder containing `re0hd.exe`.
+2. Open the folder containing `re0hd.exe`:
+   - Steam: in your library, right-click **Resident Evil 0** → **Manage** → **Browse local files**.
+   - GOG: in GOG Galaxy, open the game → **Manage installation** → **Show folder**.
 3. Copy the ZIP contents (`dinput8.dll`, `scripts/`) into that folder, preserving the folder structure.
    - If you already have a `dinput8.dll` from another ASI mod, keep yours and copy `scripts/` only.
 4. Start the game and open the map.
@@ -89,7 +91,6 @@ The `[Colors]` section sets each category's colour as `#RRGGBB`: `Lock`, `KeyIte
 
 ## Known limitations
 
-- Only the Steam PC `re0hd.exe` described above is supported.
 - Marks show which room an item, puzzle or enemy is in, not its exact spot inside the room.
 - When a room is crowded, names of common items and enemies, or marks overlapping a key item, may be hidden. Zoom in with the game's map controls to see more.
 - Items you drop are shown by the game's own map, not by this mod.

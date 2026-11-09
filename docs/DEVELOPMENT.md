@@ -100,7 +100,7 @@ The label command rasterizes with the bundled Pretendard Medium (`fonts/`, SIL O
 
 Native draw wrappers preserve the original thiscall chain. A map-draw TLS context limits instance/sprite capture to this map. The instance owner and region must match, and the sprite must have a texture, nonzero alpha and supported normal sprite geometry. Closed-map/unsupported states publish an empty capture. EndScene consumes each snapshot once; captures older than 100 ms are refused. Read-only state is not persisted between saves. Only annotation INI/log/capture files may be written by the installed candidate.
 
-The installer thread verifies the exact installed EXE file SHA256, fixed game image base, build string, three native code prefixes and the original vtable slots before replacing aligned pointers. It waits for Steam's decrypted code. Existing conflicting GUI slots cause refusal/rollback; the D3D9 EndScene original is retained per vtable and never replaced with a later hook. This is static/synthetic safety evidence, not a claim of runtime compatibility. Hot unload is unsupported.
+The installer thread verifies the fixed game image base, three native code prefixes (it checks neither the EXE hash nor the build string, so Steam and GOG builds both load) and the original vtable slots before replacing aligned pointers. It waits for the decrypted code. Existing conflicting GUI slots cause refusal/rollback; the D3D9 EndScene original is retained per vtable and never replaced with a later hook. This is static/synthetic safety evidence, not a claim of runtime compatibility. Hot unload is unsupported.
 
 Bounded original-x86 instance→animation→sprite virtual dispatch and viewport shader constants are checked independently:
 

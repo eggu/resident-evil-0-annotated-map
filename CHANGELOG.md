@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+- Also works with the GOG version; the mod no longer checks the EXE hash or build string.
+
+- GOG판에서도 작동합니다. 모드가 더 이상 EXE 해시와 빌드 문자열을 확인하지 않습니다.
+
 ## 1.0.0
 
 - First public release: room names, locked doors, key items, files and maps, puzzles, events, common items and enemies on the map of Resident Evil 0 HD REMASTER (Steam).

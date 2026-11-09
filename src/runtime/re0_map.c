@@ -1,7 +1,6 @@
 /* RE0 2025-only experimental native-draw annotation adapter. */
 #define COBJMACROS
 #include <windows.h>
-#include <wincrypt.h>
 #include <d3d9.h>
 #include <stdint.h>
 #include <stdio.h>
@@ -12,7 +11,7 @@ static float lower(float a,float b){return a<b?a:b;}
 static float upper(float a,float b){return a>b?a:b;}
 #define VA(a) ((BYTE *)(uintptr_t)(a))
 #define MAX_OBSTACLES 256
-static const char expected_hash[]="67418c3a307b49e9bde8123df4cad1fa910f3a29adc3e4c0ba64eb96524bc14b";
+static const char capture_profile[]="67418c3a307b49e9bde8123df4cad1fa910f3a29adc3e4c0ba64eb96524bc14b";
 static CRITICAL_SECTION lock;
 static DWORD tls;
 static char ini_path[MAX_PATH],atlas_path[MAX_PATH],icon_path[MAX_PATH],log_path[MAX_PATH],report_path[MAX_PATH];
@@ -82,7 +81,7 @@ static void dump_write(void) {
  char *body=HeapAlloc(GetProcessHeap(),0,cap);if(!body)return;
  char tmp[MAX_PATH],path[MAX_PATH];size_t at=0;
  snprintf(path,sizeof(path),"%s",report_path);char *dot=strrchr(path,'-');if(!dot){HeapFree(GetProcessHeap(),0,body);return;}strcpy(dot,"-sprites.json");
- at+=(size_t)snprintf(body+at,cap-at,"{\"schema_version\":2,\"evidence\":\"captured-native-sprites\",\"profile_sha256\":\"%s\",\"region\":%d,\"textures\":[",expected_hash,(int)dump.region);
+ at+=(size_t)snprintf(body+at,cap-at,"{\"schema_version\":2,\"evidence\":\"captured-native-sprites\",\"profile_sha256\":\"%s\",\"region\":%d,\"textures\":[",capture_profile,(int)dump.region);
  for(unsigned t=0;t<dump.textures;t++){at+=(size_t)snprintf(body+at,cap-at,"%s{\"ptr\":%u,\"head\":\"",t?",":"",dump.texture_ptr[t]);at+=put_hex(body+at,dump.texture_head[t],DUMP_RESOURCE_BYTES);body[at++]='"';body[at++]='}';}
  at+=(size_t)snprintf(body+at,cap-at,"],\"sprites\":[");
  for(unsigned n=0;n<dump.count;n++){const DumpRow *r=&dump.rows[n];
@@ -124,19 +123,7 @@ static int module_path(char *out,const char *name) {
  char *slash=strrchr(out,'\\');if(!slash||(size_t)(slash-out)+1+strlen(name)>=MAX_PATH) return 0;
  strcpy(slash+1,name);return 1;
 }
-static int supported_exe(void) {
- char path[MAX_PATH],digest[65]; BYTE buf[65536],hash[32]; DWORD n,bytes=32; HCRYPTPROV provider=0;HCRYPTHASH h=0;
- if((uintptr_t)GetModuleHandleA(0)!=0x400000||!GetModuleFileNameA(0,path,MAX_PATH)) return 0;
- HANDLE file=CreateFileA(path,GENERIC_READ,FILE_SHARE_READ,0,OPEN_EXISTING,FILE_ATTRIBUTE_NORMAL,0);
- if(file==INVALID_HANDLE_VALUE)return 0;
- int ok=CryptAcquireContextA(&provider,0,0,PROV_RSA_AES,CRYPT_VERIFYCONTEXT)&&CryptCreateHash(provider,CALG_SHA_256,0,0,&h);
- while(ok) {if(!ReadFile(file,buf,sizeof(buf),&n,0)){ok=0;break;}if(!n)break;ok=CryptHashData(h,buf,n,0);}
- if(ok)ok=CryptGetHashParam(h,HP_HASHVAL,hash,&bytes,0)&&bytes==32;
- CloseHandle(file);if(h)CryptDestroyHash(h);if(provider)CryptReleaseContext(provider,0);
- if(!ok)return 0;
- for(unsigned i=0;i<32;i++)sprintf(digest+i*2,"%02x",hash[i]);
- return strcmp(digest,expected_hash)==0;
-}
+static int supported_exe(void) {return (uintptr_t)GetModuleHandleA(0)==0x400000;}
 static int settings_migrated; /* the INI came from before Version 50: sizes (before 44) were converted, ItemNames moved to the 3-state value and Contents gained the event bit; the file is rewritten once the log is open */
 /* [Colors]: one #RRGGBB per category, keys in category id order. A missing or malformed value keeps the shipped colour. */
 static const char *const color_keys[RE0_CATEGORIES]={"Lock","KeyItem","File","Puzzle","Item","Enemy","Event"};
@@ -427,7 +414,7 @@ static int overlay_allowed(const Capture *c,int clear){
 static void capture_report(const Capture *c,unsigned width,unsigned height) {
  char body[32768],tmp[MAX_PATH];size_t at=0;
  #define APPEND(...) do {int wrote=snprintf(body+at,sizeof(body)-at,__VA_ARGS__);if(wrote<0||(size_t)wrote>=sizeof(body)-at)return;at+=(size_t)wrote;} while(0)
- APPEND("{\"schema_version\":1,\"evidence\":\"captured-native-draw\",\"profile_sha256\":\"%s\",\"region\":%d,\"target\":[%u,%u],\"settings\":{\"enabled\":%d,\"names\":%d,\"english\":%d,\"size\":%d,\"opacity\":%d,\"difficulty\":%d,\"contents\":%u,\"selected\":%d,\"scope\":%d},\"rooms\":[",expected_hash,c->region,width,height,cfg.enabled,cfg.names,cfg.english,cfg.size,cfg.opacity,cfg.difficulty,cfg.mask,cfg.selected,cfg.scope);
+ APPEND("{\"schema_version\":1,\"evidence\":\"captured-native-draw\",\"profile_sha256\":\"%s\",\"region\":%d,\"target\":[%u,%u],\"settings\":{\"enabled\":%d,\"names\":%d,\"english\":%d,\"size\":%d,\"opacity\":%d,\"difficulty\":%d,\"contents\":%u,\"selected\":%d,\"scope\":%d},\"rooms\":[",capture_profile,c->region,width,height,cfg.enabled,cfg.names,cfg.english,cfg.size,cfg.opacity,cfg.difficulty,cfg.mask,cfg.selected,cfg.scope);
  int first=1;
  for(unsigned i=0;i<ROOM_COUNT;i++)if(c->seen[i]){RE0Box b=c->room[i];APPEND("%s{\"index\":%u,\"box\":[%.6f,%.6f,%.6f,%.6f],\"state\":%d}",first?"":",",i,b.l,b.t,b.r,b.b,re0_frame_room_state(i,live_flags));first=0;}
  APPEND("],\"obstacles\":[");
@@ -649,10 +636,8 @@ static DWORD WINAPI install(void *unused) {
  (void)unused;
  settings_load();logfile=CreateFileA(log_path,GENERIC_WRITE,FILE_SHARE_READ,0,CREATE_ALWAYS,FILE_ATTRIBUTE_NORMAL,0);
  log_line("RE0 Annotated Map " RE0_MAP_VERSION "\r\n");
- if(!supported_exe()){log_line("Unsupported EXE SHA256/base; disabled without hooks\r\n");return 0;}
+ if(!supported_exe()){log_line("Unsupported EXE base; disabled without hooks\r\n");return 0;}
  if(settings_migrated){log_line("Settings from an older build: migrated (sizes before Version 44: names /1.1, icons /1.3; ItemNames on -> 1; Contents: events off)\r\n");settings_save();}
- static const char version[]="MasterRelease Jan 28 2025 16:45:59";
- if(memcmp(VA(0xd1e574),version,sizeof(version))){log_line("Build string mismatch; disabled\r\n");return 0;}
  unsigned tick;
  for(tick=0;tick<2400;tick++,Sleep(50)) {
   if(readable(VA(0x883090),6)&&!memcmp(VA(0x883090),"\x55\x8b\xec\x83\xe4\xf8",6)&&
