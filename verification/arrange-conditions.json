@@ -1,0 +1,1546 @@
+{
+ "schema_version": 1,
+ "evidence": "static: native code and event scripts; no run of the game",
+ "script_groups_decoded": 2404,
+ "script_groups_undecoded": 1,
+ "values": [
+  {
+   "condition": 0,
+   "flag": 786,
+   "cls": "always",
+   "normal_item_rows": 214,
+   "normal_enemy_rows": 68,
+   "normal_other_rows": 8,
+   "rooms": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    17,
+    36,
+    37,
+    38,
+    39,
+    41,
+    42,
+    43,
+    44,
+    45,
+    47,
+    49,
+    50,
+    51,
+    52,
+    54,
+    55,
+    56,
+    57,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    99,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    132,
+    133,
+    134,
+    135,
+    136,
+    142,
+    143,
+    144,
+    145,
+    146,
+    148,
+    152,
+    153,
+    154,
+    157,
+    158,
+    159,
+    161,
+    162,
+    163,
+    164,
+    165,
+    173,
+    174
+   ],
+   "set_by": [],
+   "cleared_by": []
+  },
+  {
+   "condition": 1,
+   "flag": 787,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    7
+   ],
+   "set_by": [
+    "tr07:6",
+    "tr1f:6"
+   ],
+   "cleared_by": [
+    "tr01:3"
+   ]
+  },
+  {
+   "condition": 2,
+   "flag": 788,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    7
+   ],
+   "set_by": [
+    "tr07:6",
+    "tr1f:6"
+   ],
+   "cleared_by": [
+    "tr01:3"
+   ]
+  },
+  {
+   "condition": 3,
+   "flag": 789,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    6
+   ],
+   "set_by": [
+    "tr06:8",
+    "tr07:7",
+    "tr1e:8",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "tr07:6",
+    "tr1f:6"
+   ]
+  },
+  {
+   "condition": 4,
+   "flag": 790,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    6
+   ],
+   "set_by": [
+    "tr06:8",
+    "tr07:7",
+    "tr1e:8",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "tr06:1",
+    "tr06:2",
+    "tr06:3",
+    "tr1e:1",
+    "tr1e:2",
+    "tr1e:3"
+   ]
+  },
+  {
+   "condition": 5,
+   "flag": 791,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    6
+   ],
+   "set_by": [
+    "tr06:8",
+    "tr07:7",
+    "tr1e:8",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "tr06:1",
+    "tr06:2",
+    "tr06:3",
+    "tr1e:1",
+    "tr1e:2",
+    "tr1e:3"
+   ]
+  },
+  {
+   "condition": 10,
+   "flag": 796,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    2
+   ],
+   "set_by": [
+    "tr02:6",
+    "tr10:6",
+    "tr1b:6"
+   ],
+   "cleared_by": [
+    "tr01:3"
+   ]
+  },
+  {
+   "condition": 11,
+   "flag": 797,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    2
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "tr01:3"
+   ]
+  },
+  {
+   "condition": 15,
+   "flag": 801,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 15,
+   "normal_other_rows": 0,
+   "rooms": [
+    12
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 22,
+   "flag": 808,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 2,
+   "normal_other_rows": 0,
+   "rooms": [
+    1
+   ],
+   "set_by": [
+    "tr01:3",
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 24,
+   "flag": 810,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    2
+   ],
+   "set_by": [
+    "tr01:3"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 27,
+   "flag": 813,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    15
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "tr0f:4",
+    "tr21:4"
+   ]
+  },
+  {
+   "condition": 29,
+   "flag": 815,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    8
+   ],
+   "set_by": [
+    "tr08:11",
+    "tr15:11",
+    "tr22:11"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 30,
+   "flag": 816,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    15
+   ],
+   "set_by": [
+    "tr0f:4",
+    "tr21:4"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 31,
+   "flag": 817,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 2,
+   "normal_other_rows": 0,
+   "rooms": [
+    7
+   ],
+   "set_by": [
+    "tr01:3"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 35,
+   "flag": 821,
+   "cls": "native-start",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 3,
+   "normal_other_rows": 0,
+   "rooms": [
+    7
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "tr01:3"
+   ]
+  },
+  {
+   "condition": 57,
+   "flag": 843,
+   "cls": "script-later",
+   "normal_item_rows": 1,
+   "normal_enemy_rows": 0,
+   "normal_other_rows": 0,
+   "rooms": [
+    61
+   ],
+   "set_by": [
+    "sh19:5",
+    "sh19:6"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 63,
+   "flag": 849,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 4,
+   "normal_other_rows": 0,
+   "rooms": [
+    6
+   ],
+   "set_by": [
+    "tr00:3"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 69,
+   "flag": 855,
+   "cls": "opening-block",
+   "normal_item_rows": 1,
+   "normal_enemy_rows": 0,
+   "normal_other_rows": 0,
+   "rooms": [
+    62
+   ],
+   "set_by": [
+    "sh1a:11",
+    "sh1a:7",
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "sh1a:6"
+   ]
+  },
+  {
+   "condition": 71,
+   "flag": 857,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 4,
+   "normal_other_rows": 0,
+   "rooms": [
+    55
+   ],
+   "set_by": [
+    "sh13:3",
+    "sh13:6",
+    "sh26:3",
+    "sh26:6"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 83,
+   "flag": 869,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    100
+   ],
+   "set_by": [
+    "ch01:2",
+    "ch01:4",
+    "ch11:2",
+    "ch11:4",
+    "ch1f:2",
+    "ch1f:4"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 84,
+   "flag": 870,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    103
+   ],
+   "set_by": [
+    "ch07:2",
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 88,
+   "flag": 874,
+   "cls": "opening-block",
+   "normal_item_rows": 1,
+   "normal_enemy_rows": 0,
+   "normal_other_rows": 0,
+   "rooms": [
+    52
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "sh10:5"
+   ]
+  },
+  {
+   "condition": 90,
+   "flag": 876,
+   "cls": "opening-block",
+   "normal_item_rows": 1,
+   "normal_enemy_rows": 0,
+   "normal_other_rows": 0,
+   "rooms": [
+    153
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "pl0c:4"
+   ]
+  },
+  {
+   "condition": 91,
+   "flag": 877,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 2,
+   "normal_other_rows": 0,
+   "rooms": [
+    161
+   ],
+   "set_by": [
+    "pl14:4",
+    "pl1e:4"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 92,
+   "flag": 878,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 2,
+   "normal_other_rows": 0,
+   "rooms": [
+    50
+   ],
+   "set_by": [
+    "sh0e:15",
+    "sh2e:15",
+    "sh30:15",
+    "sh31:15"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 94,
+   "flag": 880,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 4,
+   "normal_other_rows": 0,
+   "rooms": [
+    65
+   ],
+   "set_by": [
+    "sh0b:11",
+    "sh22:11",
+    "sh23:11",
+    "sh24:11"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 95,
+   "flag": 881,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    156
+   ],
+   "set_by": [
+    "pl0f:4"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 97,
+   "flag": 883,
+   "cls": "script-later",
+   "normal_item_rows": 1,
+   "normal_enemy_rows": 2,
+   "normal_other_rows": 0,
+   "rooms": [
+    11,
+    15
+   ],
+   "set_by": [
+    "tr0b:6",
+    "tr16:6"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 98,
+   "flag": 884,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 5,
+   "normal_other_rows": 2,
+   "rooms": [
+    41,
+    63,
+    88
+   ],
+   "set_by": [
+    "ch03:2",
+    "ch13:2",
+    "ch14:2",
+    "ch15:2"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 100,
+   "flag": 886,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    96
+   ],
+   "set_by": [
+    "dm0a:8"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 101,
+   "flag": 887,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    96
+   ],
+   "set_by": [
+    "dm0a:8"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 102,
+   "flag": 888,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 5,
+   "normal_other_rows": 0,
+   "rooms": [
+    45
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "bt02:14",
+    "bt02:19",
+    "bt02:4",
+    "bt06:14",
+    "bt06:19",
+    "bt06:4",
+    "bt07:14",
+    "bt07:19",
+    "bt07:4",
+    "bt08:14",
+    "bt08:19",
+    "bt08:4",
+    "sh0b:11",
+    "sh22:11",
+    "sh23:11",
+    "sh24:11"
+   ]
+  },
+  {
+   "condition": 103,
+   "flag": 889,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 4,
+   "normal_other_rows": 2,
+   "rooms": [
+    44,
+    53,
+    64,
+    90
+   ],
+   "set_by": [
+    "bt02:14",
+    "bt02:19",
+    "bt02:4",
+    "bt06:14",
+    "bt06:19",
+    "bt06:4",
+    "bt07:14",
+    "bt07:19",
+    "bt07:4",
+    "bt08:14",
+    "bt08:19",
+    "bt08:4"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 104,
+   "flag": 890,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 8,
+   "normal_other_rows": 2,
+   "rooms": [
+    44,
+    48,
+    53,
+    64
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "dm02:5",
+    "dm0c:5"
+   ]
+  },
+  {
+   "condition": 111,
+   "flag": 897,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    65
+   ],
+   "set_by": [
+    "sh1d:15",
+    "sh2a:15",
+    "sh2f:15"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 112,
+   "flag": 898,
+   "cls": "opening-block",
+   "normal_item_rows": 1,
+   "normal_enemy_rows": 0,
+   "normal_other_rows": 0,
+   "rooms": [
+    96
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "dm0a:10"
+   ]
+  },
+  {
+   "condition": 113,
+   "flag": 899,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    102
+   ],
+   "set_by": [
+    "ch03:2",
+    "ch13:2",
+    "ch14:2",
+    "ch15:2"
+   ],
+   "cleared_by": [
+    "sh09:11"
+   ]
+  },
+  {
+   "condition": 114,
+   "flag": 900,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    134
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 115,
+   "flag": 901,
+   "cls": "opening-block",
+   "normal_item_rows": 1,
+   "normal_enemy_rows": 0,
+   "normal_other_rows": 0,
+   "rooms": [
+    161
+   ],
+   "set_by": [
+    "bt00:4",
+    "bt05:4",
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "pl14:4",
+    "pl1e:4"
+   ]
+  },
+  {
+   "condition": 116,
+   "flag": 902,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    160
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 118,
+   "flag": 904,
+   "cls": "opening-block",
+   "normal_item_rows": 1,
+   "normal_enemy_rows": 0,
+   "normal_other_rows": 0,
+   "rooms": [
+    8
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "tr08:7",
+    "tr15:7",
+    "tr22:7"
+   ]
+  },
+  {
+   "condition": 119,
+   "flag": 905,
+   "cls": "opening-block",
+   "normal_item_rows": 1,
+   "normal_enemy_rows": 0,
+   "normal_other_rows": 0,
+   "rooms": [
+    55
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "sh13:3",
+    "sh13:6",
+    "sh26:3",
+    "sh26:6"
+   ]
+  },
+  {
+   "condition": 120,
+   "flag": 906,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 3,
+   "normal_other_rows": 0,
+   "rooms": [
+    6
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "tr00:3"
+   ]
+  },
+  {
+   "condition": 121,
+   "flag": 907,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    41
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "ch03:2",
+    "ch13:2",
+    "ch14:2",
+    "ch15:2"
+   ]
+  },
+  {
+   "condition": 122,
+   "flag": 908,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    40
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "ch03:2",
+    "ch13:2",
+    "ch14:2",
+    "ch15:2"
+   ]
+  },
+  {
+   "condition": 123,
+   "flag": 909,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    58
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "ch03:2",
+    "ch13:2",
+    "ch14:2",
+    "ch15:2"
+   ]
+  },
+  {
+   "condition": 124,
+   "flag": 910,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    63
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "ch03:2",
+    "ch13:2",
+    "ch14:2",
+    "ch15:2"
+   ]
+  },
+  {
+   "condition": 125,
+   "flag": 911,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    59
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "ch03:2",
+    "ch13:2",
+    "ch14:2",
+    "ch15:2"
+   ]
+  },
+  {
+   "condition": 126,
+   "flag": 912,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    110
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "ch03:2",
+    "ch13:2",
+    "ch14:2",
+    "ch15:2"
+   ]
+  },
+  {
+   "condition": 128,
+   "flag": 914,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 9,
+   "normal_other_rows": 0,
+   "rooms": [
+    88,
+    89,
+    90,
+    97
+   ],
+   "set_by": [
+    "dm02:5",
+    "dm0c:5"
+   ],
+   "cleared_by": [
+    "ch03:2",
+    "ch13:2",
+    "ch14:2",
+    "ch15:2"
+   ]
+  },
+  {
+   "condition": 134,
+   "flag": 920,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 4,
+   "normal_other_rows": 0,
+   "rooms": [
+    44,
+    64
+   ],
+   "set_by": [
+    "dm02:5",
+    "dm0c:5"
+   ],
+   "cleared_by": [
+    "ch03:2",
+    "ch13:2",
+    "ch14:2",
+    "ch15:2"
+   ]
+  },
+  {
+   "condition": 138,
+   "flag": 924,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 4,
+   "normal_other_rows": 0,
+   "rooms": [
+    48,
+    53
+   ],
+   "set_by": [
+    "dm02:5",
+    "dm0c:5"
+   ],
+   "cleared_by": [
+    "ch03:2",
+    "ch13:2",
+    "ch14:2",
+    "ch15:2"
+   ]
+  },
+  {
+   "condition": 145,
+   "flag": 931,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 2,
+   "normal_other_rows": 0,
+   "rooms": [
+    6
+   ],
+   "set_by": [
+    "tr06:1",
+    "tr06:2",
+    "tr06:3",
+    "tr1e:1",
+    "tr1e:2",
+    "tr1e:3"
+   ],
+   "cleared_by": [
+    "tr00:3"
+   ]
+  },
+  {
+   "condition": 146,
+   "flag": 932,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 2,
+   "normal_other_rows": 0,
+   "rooms": [
+    44,
+    48
+   ],
+   "set_by": [
+    "sh0e:15",
+    "sh2e:15",
+    "sh30:15",
+    "sh31:15"
+   ],
+   "cleared_by": [
+    "dm0b:5"
+   ]
+  },
+  {
+   "condition": 147,
+   "flag": 933,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 2,
+   "normal_other_rows": 0,
+   "rooms": [
+    37
+   ],
+   "set_by": [
+    "sh1d:9",
+    "sh2a:9",
+    "sh2f:9"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 148,
+   "flag": 934,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 15,
+   "normal_other_rows": 0,
+   "rooms": [
+    40
+   ],
+   "set_by": [
+    "sh00:24",
+    "sh0a:24",
+    "sh0e:15",
+    "sh18:7",
+    "sh19:9",
+    "sh1a:9",
+    "sh1d:9",
+    "sh29:24",
+    "sh2a:9",
+    "sh2e:15",
+    "sh2f:9",
+    "sh30:15",
+    "sh31:15"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 149,
+   "flag": 935,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 15,
+   "normal_other_rows": 0,
+   "rooms": [
+    58
+   ],
+   "set_by": [
+    "sh00:24",
+    "sh0a:24",
+    "sh18:7",
+    "sh19:9",
+    "sh1a:9",
+    "sh29:24"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 150,
+   "flag": 936,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 15,
+   "normal_other_rows": 0,
+   "rooms": [
+    59
+   ],
+   "set_by": [
+    "sh00:24",
+    "sh0a:24",
+    "sh18:7",
+    "sh19:9",
+    "sh1a:9",
+    "sh29:24"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 151,
+   "flag": 937,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 15,
+   "normal_other_rows": 0,
+   "rooms": [
+    104
+   ],
+   "set_by": [
+    "ch03:2",
+    "ch13:2",
+    "ch14:2",
+    "ch15:2"
+   ],
+   "cleared_by": [
+    "pl0f:4"
+   ]
+  },
+  {
+   "condition": 152,
+   "flag": 938,
+   "cls": "opening-block",
+   "normal_item_rows": 1,
+   "normal_enemy_rows": 0,
+   "normal_other_rows": 0,
+   "rooms": [
+    106
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "ch07:2"
+   ]
+  },
+  {
+   "condition": 153,
+   "flag": 939,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 5,
+   "normal_other_rows": 0,
+   "rooms": [
+    99
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "ch01:4",
+    "ch01:7",
+    "ch11:4",
+    "ch11:7",
+    "ch1f:4",
+    "ch1f:7"
+   ]
+  },
+  {
+   "condition": 157,
+   "flag": 943,
+   "cls": "script-later",
+   "normal_item_rows": 1,
+   "normal_enemy_rows": 0,
+   "normal_other_rows": 0,
+   "rooms": [
+    104
+   ],
+   "set_by": [
+    "ch03:2",
+    "ch13:2",
+    "ch14:2",
+    "ch15:2"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 159,
+   "flag": 945,
+   "cls": "script-later",
+   "normal_item_rows": 2,
+   "normal_enemy_rows": 0,
+   "normal_other_rows": 0,
+   "rooms": [
+    164
+   ],
+   "set_by": [
+    "pl17:10"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 160,
+   "flag": 946,
+   "cls": "fresh-unlock",
+   "normal_item_rows": 1,
+   "normal_enemy_rows": 0,
+   "normal_other_rows": 0,
+   "rooms": [
+    5
+   ],
+   "set_by": [],
+   "cleared_by": []
+  },
+  {
+   "condition": 161,
+   "flag": 947,
+   "cls": "fresh-unlock",
+   "normal_item_rows": 7,
+   "normal_enemy_rows": 0,
+   "normal_other_rows": 0,
+   "rooms": [
+    1,
+    5,
+    36,
+    87,
+    96,
+    136,
+    173
+   ],
+   "set_by": [],
+   "cleared_by": []
+  },
+  {
+   "condition": 162,
+   "flag": 948,
+   "cls": "fresh-unlock",
+   "normal_item_rows": 1,
+   "normal_enemy_rows": 0,
+   "normal_other_rows": 0,
+   "rooms": [
+    5
+   ],
+   "set_by": [],
+   "cleared_by": []
+  },
+  {
+   "condition": 163,
+   "flag": 949,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 3,
+   "normal_other_rows": 0,
+   "rooms": [
+    99
+   ],
+   "set_by": [
+    "ch07:2"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 169,
+   "flag": 955,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 3,
+   "normal_other_rows": 0,
+   "rooms": [
+    145
+   ],
+   "set_by": [
+    "pl0d:11",
+    "pl0d:14",
+    "pl1b:11",
+    "pl1b:14"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 170,
+   "flag": 956,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 4,
+   "normal_other_rows": 0,
+   "rooms": [
+    151,
+    153,
+    156,
+    157
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "pl17:4"
+   ]
+  },
+  {
+   "condition": 171,
+   "flag": 957,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 5,
+   "normal_other_rows": 0,
+   "rooms": [
+    151,
+    156,
+    157
+   ],
+   "set_by": [
+    "pl17:4"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 173,
+   "flag": 959,
+   "cls": "opening-block",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 34,
+   "normal_other_rows": 0,
+   "rooms": [
+    133,
+    146,
+    147,
+    150,
+    155
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "pl0b:4"
+   ]
+  },
+  {
+   "condition": 174,
+   "flag": 960,
+   "cls": "script-later",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 39,
+   "normal_other_rows": 0,
+   "rooms": [
+    133,
+    134,
+    146,
+    147,
+    150,
+    155
+   ],
+   "set_by": [
+    "pl0b:4"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 175,
+   "flag": 961,
+   "cls": "opening-block",
+   "normal_item_rows": 1,
+   "normal_enemy_rows": 0,
+   "normal_other_rows": 0,
+   "rooms": [
+    45
+   ],
+   "set_by": [
+    "tr07:7",
+    "tr1f:7"
+   ],
+   "cleared_by": [
+    "sh09:14"
+   ]
+  },
+  {
+   "condition": 197,
+   "flag": 983,
+   "cls": "no-writer",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    91
+   ],
+   "set_by": [],
+   "cleared_by": []
+  },
+  {
+   "condition": 198,
+   "flag": 984,
+   "cls": "script-later",
+   "normal_item_rows": 1,
+   "normal_enemy_rows": 0,
+   "normal_other_rows": 0,
+   "rooms": [
+    102
+   ],
+   "set_by": [
+    "ch03:5",
+    "ch13:5",
+    "ch14:5",
+    "ch15:5"
+   ],
+   "cleared_by": []
+  },
+  {
+   "condition": 255,
+   "flag": 1041,
+   "cls": "no-writer",
+   "normal_item_rows": 0,
+   "normal_enemy_rows": 1,
+   "normal_other_rows": 0,
+   "rooms": [
+    7
+   ],
+   "set_by": [],
+   "cleared_by": []
+  }
+ ]
+}

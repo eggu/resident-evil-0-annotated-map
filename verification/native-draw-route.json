@@ -1,0 +1,402 @@
+{
+  "evidence": "bounded-original-x86-draw-contract",
+  "original_sha256": "67418c3a307b49e9bde8123df4cad1fa910f3a29adc3e4c0ba64eb96524bc14b",
+  "instance_dispatch": {
+    "animation": "instance+0xec",
+    "arguments": "same render-argument pointer",
+    "calls": [
+      "animation",
+      "sprite-prepare",
+      "sprite-draw"
+    ],
+    "stack": "ret 4",
+    "result": "pass"
+  },
+  "viewport_cases": [
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "resolution_adjust": false,
+      "origin": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "max_pixel_error": 1.0132789611816406e-05
+    },
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "resolution_adjust": false,
+      "origin": [
+        120,
+        50
+      ],
+      "scale": [
+        0.5,
+        2
+      ],
+      "max_pixel_error": 2.039968967437744e-05
+    },
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "resolution_adjust": false,
+      "origin": [
+        -20,
+        310
+      ],
+      "scale": [
+        3,
+        3
+      ],
+      "max_pixel_error": 8.106231689453125e-05
+    },
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "resolution_adjust": true,
+      "origin": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "max_pixel_error": 1.0132789611816406e-05
+    },
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "resolution_adjust": true,
+      "origin": [
+        120,
+        50
+      ],
+      "scale": [
+        0.5,
+        2
+      ],
+      "max_pixel_error": 2.039968967437744e-05
+    },
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "resolution_adjust": true,
+      "origin": [
+        -20,
+        310
+      ],
+      "scale": [
+        3,
+        3
+      ],
+      "max_pixel_error": 8.106231689453125e-05
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "resolution_adjust": false,
+      "origin": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "max_pixel_error": 3.546476364135742e-05
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "resolution_adjust": false,
+      "origin": [
+        120,
+        50
+      ],
+      "scale": [
+        0.5,
+        2
+      ],
+      "max_pixel_error": 1.773238182067871e-05
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "resolution_adjust": false,
+      "origin": [
+        -20,
+        310
+      ],
+      "scale": [
+        3,
+        3
+      ],
+      "max_pixel_error": 0.0001442432403564453
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "resolution_adjust": true,
+      "origin": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "max_pixel_error": 9.119510650634766e-05
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "resolution_adjust": true,
+      "origin": [
+        120,
+        50
+      ],
+      "scale": [
+        0.5,
+        2
+      ],
+      "max_pixel_error": 6.413459777832031e-05
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "resolution_adjust": true,
+      "origin": [
+        -20,
+        310
+      ],
+      "scale": [
+        3,
+        3
+      ],
+      "max_pixel_error": 9.143352508544922e-05
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "resolution_adjust": false,
+      "origin": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "max_pixel_error": 1.1086463928222656e-05
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "resolution_adjust": false,
+      "origin": [
+        120,
+        50
+      ],
+      "scale": [
+        0.5,
+        2
+      ],
+      "max_pixel_error": 3.743171691894531e-05
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "resolution_adjust": false,
+      "origin": [
+        -20,
+        310
+      ],
+      "scale": [
+        3,
+        3
+      ],
+      "max_pixel_error": 7.62939453125e-06
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "resolution_adjust": true,
+      "origin": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "max_pixel_error": 2.7894973754882812e-05
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "resolution_adjust": true,
+      "origin": [
+        120,
+        50
+      ],
+      "scale": [
+        0.5,
+        2
+      ],
+      "max_pixel_error": 7.104873657226562e-05
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "resolution_adjust": true,
+      "origin": [
+        -20,
+        310
+      ],
+      "scale": [
+        3,
+        3
+      ],
+      "max_pixel_error": 9.250640869140625e-05
+    },
+    {
+      "size": [
+        3440,
+        1440
+      ],
+      "resolution_adjust": false,
+      "origin": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "max_pixel_error": 9.007751941680908e-06
+    },
+    {
+      "size": [
+        3440,
+        1440
+      ],
+      "resolution_adjust": false,
+      "origin": [
+        120,
+        50
+      ],
+      "scale": [
+        0.5,
+        2
+      ],
+      "max_pixel_error": 5.6102871894836426e-05
+    },
+    {
+      "size": [
+        3440,
+        1440
+      ],
+      "resolution_adjust": false,
+      "origin": [
+        -20,
+        310
+      ],
+      "scale": [
+        3,
+        3
+      ],
+      "max_pixel_error": 7.727742195129395e-05
+    },
+    {
+      "size": [
+        3440,
+        1440
+      ],
+      "resolution_adjust": true,
+      "origin": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "max_pixel_error": 2.7231872081756592e-05
+    },
+    {
+      "size": [
+        3440,
+        1440
+      ],
+      "resolution_adjust": true,
+      "origin": [
+        120,
+        50
+      ],
+      "scale": [
+        0.5,
+        2
+      ],
+      "max_pixel_error": 7.08363950252533e-05
+    },
+    {
+      "size": [
+        3440,
+        1440
+      ],
+      "resolution_adjust": true,
+      "origin": [
+        -20,
+        310
+      ],
+      "scale": [
+        3,
+        3
+      ],
+      "max_pixel_error": 0.00020831823348999023
+    }
+  ],
+  "scope": "native instance animation dispatch; GUI viewport shader constants vs C projection; no native instance-scissor/GPU/final composition validation"
+}

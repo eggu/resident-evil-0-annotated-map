@@ -1,0 +1,3691 @@
+{
+ "schema_version": 2,
+ "evidence": "one external catalogue compared by room, name, difficulty, amount, wording and condition; no coordinates exist in it",
+ "source": "https://www.evilresource.com/resident-evil-zero/maps",
+ "by_difficulty": {
+  "easy": {
+   "match": 284,
+   "conditional": 8,
+   "only_external": 21,
+   "only_game": 20
+  },
+  "normal": {
+   "match": 230,
+   "conditional": 8,
+   "only_external": 18,
+   "only_game": 16
+  },
+  "hard": {
+   "match": 211,
+   "conditional": 8,
+   "only_external": 17,
+   "only_game": 14
+  }
+ },
+ "conditional": [
+  {
+   "place": "train-1f/engine-carriage",
+   "mode": "easy",
+   "name": "Machinegun Ammo (1×20%)",
+   "index": 7,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the floor next to the bodies of the two Umbrella special forces men. Only appears here "
+  },
+  {
+   "place": "train-1f/engine-carriage",
+   "mode": "normal",
+   "name": "Machinegun Ammo (1×20%)",
+   "index": 7,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the floor next to the bodies of the two Umbrella special forces men. Only appears here "
+  },
+  {
+   "place": "train-1f/engine-carriage",
+   "mode": "hard",
+   "name": "Machinegun Ammo (1×20%)",
+   "index": 7,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the floor next to the bodies of the two Umbrella special forces men. Only appears here "
+  },
+  {
+   "place": "train-1f/cabin-202",
+   "mode": "easy",
+   "name": "Machinegun Ammo (1×100%)",
+   "index": 22,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the top bunk bed. Only appears here after achieving at least an E Rank in the Leech Hun"
+  },
+  {
+   "place": "train-1f/cabin-202",
+   "mode": "easy",
+   "name": "Magnum Revolver",
+   "index": 21,
+   "condition": 160,
+   "catalogue_rank": "B",
+   "game_rank": "B",
+   "wording": "On the bottom bunk bed. Only appears here after achieving at least a B Rank in the Leech H"
+  },
+  {
+   "place": "train-1f/cabin-202",
+   "mode": "normal",
+   "name": "Machinegun Ammo (1×100%)",
+   "index": 22,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the top bunk bed. Only appears here after achieving at least an E Rank in the Leech Hun"
+  },
+  {
+   "place": "train-1f/cabin-202",
+   "mode": "normal",
+   "name": "Magnum Revolver",
+   "index": 21,
+   "condition": 160,
+   "catalogue_rank": "B",
+   "game_rank": "B",
+   "wording": "On the bottom bunk bed. Only appears here after achieving at least a B Rank in the Leech H"
+  },
+  {
+   "place": "train-1f/cabin-202",
+   "mode": "hard",
+   "name": "Machinegun Ammo (1×100%)",
+   "index": 22,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the top bunk bed. Only appears here after achieving at least an E Rank in the Leech Hun"
+  },
+  {
+   "place": "train-1f/cabin-202",
+   "mode": "hard",
+   "name": "Magnum Revolver",
+   "index": 21,
+   "condition": 160,
+   "catalogue_rank": "B",
+   "game_rank": "B",
+   "wording": "On the bottom bunk bed. Only appears here after achieving at least a B Rank in the Leech H"
+  },
+  {
+   "place": "training-facility-1f/main-hall",
+   "mode": "easy",
+   "name": "Machinegun Ammo (1×34%)",
+   "index": 102,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the chairs in the north east corner of the hall. Only appears here after achieving at l"
+  },
+  {
+   "place": "training-facility-1f/main-hall",
+   "mode": "normal",
+   "name": "Machinegun Ammo (1×34%)",
+   "index": 102,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the chairs in the north east corner of the hall. Only appears here after achieving at l"
+  },
+  {
+   "place": "training-facility-1f/main-hall",
+   "mode": "hard",
+   "name": "Machinegun Ammo (1×34%)",
+   "index": 102,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the chairs in the north east corner of the hall. Only appears here after achieving at l"
+  },
+  {
+   "place": "facility-basement-b1/monitor-room",
+   "mode": "easy",
+   "name": "Machinegun Ammo (1×17%)",
+   "index": 316,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the bed on the north side of the room. Only appears here after achieving at least an E "
+  },
+  {
+   "place": "facility-basement-b1/monitor-room",
+   "mode": "normal",
+   "name": "Machinegun Ammo (1×17%)",
+   "index": 316,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the bed on the north side of the room. Only appears here after achieving at least an E "
+  },
+  {
+   "place": "facility-basement-b1/monitor-room",
+   "mode": "hard",
+   "name": "Machinegun Ammo (1×17%)",
+   "index": 316,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the bed on the north side of the room. Only appears here after achieving at least an E "
+  },
+  {
+   "place": "facility-basement-b3/training-room",
+   "mode": "easy",
+   "name": "Machinegun Ammo (1×17%)",
+   "index": 362,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the bench on the south side of the upstairs control room. Only appears here after achie"
+  },
+  {
+   "place": "facility-basement-b3/training-room",
+   "mode": "normal",
+   "name": "Machinegun Ammo (1×17%)",
+   "index": 362,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the bench on the south side of the upstairs control room. Only appears here after achie"
+  },
+  {
+   "place": "facility-basement-b3/training-room",
+   "mode": "hard",
+   "name": "Machinegun Ammo (1×17%)",
+   "index": 362,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the bench on the south side of the upstairs control room. Only appears here after achie"
+  },
+  {
+   "place": "factory-1f/turntable-control-room",
+   "mode": "easy",
+   "name": "Machinegun Ammo (1×34%)",
+   "index": 478,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On top of the monitor consoles in the north east corner of the room. Only appears here aft"
+  },
+  {
+   "place": "factory-1f/turntable-control-room",
+   "mode": "normal",
+   "name": "Machinegun Ammo (1×34%)",
+   "index": 478,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On top of the monitor consoles in the north east corner of the room. Only appears here aft"
+  },
+  {
+   "place": "factory-1f/turntable-control-room",
+   "mode": "hard",
+   "name": "Machinegun Ammo (1×34%)",
+   "index": 478,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On top of the monitor consoles in the north east corner of the room. Only appears here aft"
+  },
+  {
+   "place": "treatment-plant-b9/storage",
+   "mode": "easy",
+   "name": "Machinegun Ammo (1×34%)",
+   "index": 636,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the floor in the north east corner of the room. Only appears here after achieving at le"
+  },
+  {
+   "place": "treatment-plant-b9/storage",
+   "mode": "normal",
+   "name": "Machinegun Ammo (1×34%)",
+   "index": 636,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the floor in the north east corner of the room. Only appears here after achieving at le"
+  },
+  {
+   "place": "treatment-plant-b9/storage",
+   "mode": "hard",
+   "name": "Machinegun Ammo (1×34%)",
+   "index": 636,
+   "condition": 161,
+   "catalogue_rank": "E",
+   "game_rank": "E",
+   "wording": "On the floor in the north east corner of the room. Only appears here after achieving at le"
+  },
+  {
+   "place": null,
+   "mode": "easy",
+   "name": "Molotov Cocktail",
+   "index": 23,
+   "room": 5,
+   "condition": 162,
+   "catalogue_rank": null,
+   "game_rank": "A",
+   "wording": null
+  },
+  {
+   "place": null,
+   "mode": "normal",
+   "name": "Molotov Cocktail",
+   "index": 23,
+   "room": 5,
+   "condition": 162,
+   "catalogue_rank": null,
+   "game_rank": "A",
+   "wording": null
+  },
+  {
+   "place": null,
+   "mode": "hard",
+   "name": "Molotov Cocktail",
+   "index": 23,
+   "room": 5,
+   "condition": 162,
+   "catalogue_rank": null,
+   "game_rank": "A",
+   "wording": null
+  }
+ ],
+ "condition_conflicts": [],
+ "only_external": [
+  {
+   "place": "train-1f/conductors-office",
+   "mode": "easy",
+   "name": "Blue Keycard",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Briefcase. You need to use the Gold Ring and the Silver Ring to unlock it.",
+   "class": "inside-item"
+  },
+  {
+   "place": "train-1f/conductors-office",
+   "mode": "normal",
+   "name": "Blue Keycard",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Briefcase. You need to use the Gold Ring and the Silver Ring to unlock it.",
+   "class": "inside-item"
+  },
+  {
+   "place": "train-1f/conductors-office",
+   "mode": "hard",
+   "name": "Blue Keycard",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Briefcase. You need to use the Gold Ring and the Silver Ring to unlock it.",
+   "class": "inside-item"
+  },
+  {
+   "place": "train-2f/cabin-102",
+   "mode": "easy",
+   "name": "Silver Ring",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Jewelry Box.",
+   "class": "inside-item"
+  },
+  {
+   "place": "train-2f/cabin-102",
+   "mode": "normal",
+   "name": "Silver Ring",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Jewelry Box.",
+   "class": "inside-item"
+  },
+  {
+   "place": "train-2f/cabin-102",
+   "mode": "hard",
+   "name": "Silver Ring",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Jewelry Box.",
+   "class": "inside-item"
+  },
+  {
+   "place": "training-facility-2f/small-library",
+   "mode": "easy",
+   "name": "Angel Wings",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Book of Good.",
+   "class": "inside-item"
+  },
+  {
+   "place": "training-facility-2f/small-library",
+   "mode": "normal",
+   "name": "Angel Wings",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Book of Good.",
+   "class": "inside-item"
+  },
+  {
+   "place": "training-facility-2f/small-library",
+   "mode": "hard",
+   "name": "Angel Wings",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Book of Good.",
+   "class": "inside-item"
+  },
+  {
+   "place": "training-facility-2f/marcus-office",
+   "mode": "easy",
+   "name": "Black Wing",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Book of Evil.",
+   "class": "inside-item"
+  },
+  {
+   "place": "training-facility-2f/marcus-office",
+   "mode": "normal",
+   "name": "Black Wing",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Book of Evil.",
+   "class": "inside-item"
+  },
+  {
+   "place": "training-facility-2f/marcus-office",
+   "mode": "hard",
+   "name": "Black Wing",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Book of Evil.",
+   "class": "inside-item"
+  },
+  {
+   "place": "training-facility-2f/main-hall",
+   "mode": "easy",
+   "name": "1 Green Herb",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor next to the trapdoor leading down to the Sewer Passage in the north west area of the hall.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-2f/main-hall",
+   "mode": "easy",
+   "name": "1 Red Herb",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor next to the trapdoor leading down to the Sewer Passage in the north west area of the hall.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-2f/main-hall",
+   "mode": "easy",
+   "name": "Ink Ribbon (×6)",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the desk, next to the typewriter in the north east area of the hall.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-2f/main-hall",
+   "mode": "easy",
+   "name": "Handgun Ammo (1×30)",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the desk, next to the typewriter, in the north east area of the hall.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-2f/main-hall",
+   "mode": "easy",
+   "name": "1 Green Herb",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor, next to the desk with the typewriter, in the north east corner of the hall.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-2f/main-hall",
+   "mode": "easy",
+   "name": "1 Red Herb",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor, next to the desk with the typewriter, in the north east corner of the hall.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-2f/main-hall",
+   "mode": "easy",
+   "name": "Machinegun Ammo (1×34%)",
+   "conditional": true,
+   "catalogue_rank": "E",
+   "wording": "On the chairs in the north east corner of the hall. Only appears here after achieving at least an E Rank in the Leech Hunter mini-game.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-2f/main-hall",
+   "mode": "normal",
+   "name": "Ink Ribbon (×3)",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the desk, next to the typewriter in the north east area of the hall.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-2f/main-hall",
+   "mode": "normal",
+   "name": "Handgun Ammo (1×15)",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the desk, next to the typewriter, in the north east area of the hall.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-2f/main-hall",
+   "mode": "normal",
+   "name": "1 Green Herb",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor, next to the desk with the typewriter, in the north east corner of the hall.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-2f/main-hall",
+   "mode": "normal",
+   "name": "1 Red Herb",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor, next to the desk with the typewriter, in the north east corner of the hall.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-2f/main-hall",
+   "mode": "normal",
+   "name": "Machinegun Ammo (1×34%)",
+   "conditional": true,
+   "catalogue_rank": "E",
+   "wording": "On the chairs in the north east corner of the hall. Only appears here after achieving at least an E Rank in the Leech Hunter mini-game.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-2f/main-hall",
+   "mode": "hard",
+   "name": "Ink Ribbon (×3)",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the desk, next to the typewriter in the north east area of the hall.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-2f/main-hall",
+   "mode": "hard",
+   "name": "Handgun Ammo (1×30)",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the desk, next to the typewriter, in the north east area of the hall.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-2f/main-hall",
+   "mode": "hard",
+   "name": "1 Green Herb",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor, next to the desk with the typewriter, in the north east corner of the hall.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-2f/main-hall",
+   "mode": "hard",
+   "name": "1 Red Herb",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor, next to the desk with the typewriter, in the north east corner of the hall.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-2f/main-hall",
+   "mode": "hard",
+   "name": "Machinegun Ammo (1×34%)",
+   "conditional": true,
+   "catalogue_rank": "E",
+   "wording": "On the chairs in the north east corner of the hall. Only appears here after achieving at least an E Rank in the Leech Hunter mini-game.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-3f/large-hall",
+   "mode": "easy",
+   "name": "Fire Key",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Underneath the cage in the lower area. You need to instruct Billy to raise the cage while Rebecca retrieves the key.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-3f/large-hall",
+   "mode": "normal",
+   "name": "Fire Key",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Underneath the cage in the lower area. You need to instruct Billy to raise the cage while Rebecca retrieves the key.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "training-facility-3f/large-hall",
+   "mode": "hard",
+   "name": "Fire Key",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Underneath the cage in the lower area. You need to instruct Billy to raise the cage while Rebecca retrieves the key.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "facility-basement-b2/boiler-room",
+   "mode": "easy",
+   "name": "2 Green Herbs",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor behind the boiler in the north western area of the room.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "facility-basement-b2/boiler-room",
+   "mode": "easy",
+   "name": "2 Green Herbs",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor behind the boiler in the north western area of the room.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "facility-basement-b2/boiler-room",
+   "mode": "easy",
+   "name": "1 Red Herb",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor behind the boiler in the north eastern area of the room.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "facility-basement-b2/boiler-room",
+   "mode": "easy",
+   "name": "1 Blue Herb",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor behind the boiler in the north eastern area of the room.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "facility-basement-b2/boiler-room",
+   "mode": "normal",
+   "name": "2 Green Herbs",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor behind the boiler in the north western area of the room.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "facility-basement-b2/boiler-room",
+   "mode": "normal",
+   "name": "2 Green Herbs",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor behind the boiler in the north western area of the room.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "facility-basement-b2/boiler-room",
+   "mode": "normal",
+   "name": "1 Red Herb",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor behind the boiler in the north eastern area of the room.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "facility-basement-b2/boiler-room",
+   "mode": "normal",
+   "name": "1 Blue Herb",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor behind the boiler in the north eastern area of the room.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "facility-basement-b2/boiler-room",
+   "mode": "hard",
+   "name": "2 Green Herbs",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor behind the boiler in the north western area of the room.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "facility-basement-b2/boiler-room",
+   "mode": "hard",
+   "name": "2 Green Herbs",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor behind the boiler in the north western area of the room.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "facility-basement-b2/boiler-room",
+   "mode": "hard",
+   "name": "1 Blue Herb",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the floor behind the boiler in the north eastern area of the room.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "facility-basement-b3/training-room",
+   "mode": "easy",
+   "name": "Handgun Parts",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Duralumin Case. The combination for the case can be found by examining it.",
+   "class": "inside-item"
+  },
+  {
+   "place": "facility-basement-b3/training-room",
+   "mode": "normal",
+   "name": "Handgun Parts",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Duralumin Case. The combination for the case can be found by examining it.",
+   "class": "inside-item"
+  },
+  {
+   "place": "facility-basement-b3/training-room",
+   "mode": "hard",
+   "name": "Handgun Parts",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Duralumin Case. The combination for the case can be found by examining it.",
+   "class": "inside-item"
+  },
+  {
+   "place": "laboratory-b1/leech-room",
+   "mode": "easy",
+   "name": "Blue Leech Charm",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Leech Capsule. Use the Stripping Agent on the capsule to acquire it.",
+   "class": "inside-item"
+  },
+  {
+   "place": "laboratory-b1/leech-room",
+   "mode": "normal",
+   "name": "Blue Leech Charm",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Leech Capsule. Use the Stripping Agent on the capsule to acquire it.",
+   "class": "inside-item"
+  },
+  {
+   "place": "laboratory-b1/leech-room",
+   "mode": "hard",
+   "name": "Blue Leech Charm",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "Inside the Leech Capsule. Use the Stripping Agent on the capsule to acquire it.",
+   "class": "inside-item"
+  },
+  {
+   "place": "factory-b1/platform",
+   "mode": "easy",
+   "name": "2 Green Herbs",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the ground in the north east corner, next to the doors to the cable car.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "factory-b1/platform",
+   "mode": "easy",
+   "name": "2 Green Herbs",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the ground in the north east corner, next to the doors to the cable car.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "factory-b1/platform",
+   "mode": "normal",
+   "name": "2 Green Herbs",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the ground in the north east corner, next to the doors to the cable car.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "factory-b1/platform",
+   "mode": "normal",
+   "name": "2 Green Herbs",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the ground in the north east corner, next to the doors to the cable car.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "factory-b1/platform",
+   "mode": "hard",
+   "name": "2 Green Herbs",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the ground in the north east corner, next to the doors to the cable car.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "factory-b1/platform",
+   "mode": "hard",
+   "name": "2 Green Herbs",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On the ground in the north east corner, next to the doors to the cable car.",
+   "class": "catalogue-repeat"
+  },
+  {
+   "place": "factory-b1/turntable-yard",
+   "mode": "easy",
+   "name": "Handgun Ammo (1×30)",
+   "conditional": false,
+   "catalogue_rank": null,
+   "wording": "On a barrel next to the north west door.",
+   "class": "catalogue-repeat"
+  }
+ ],
+ "amount_mismatch": [
+  {
+   "place": "train-1f/engine-carriage",
+   "mode": "easy",
+   "name": "Machinegun Ammo (1×20%)",
+   "game": 60
+  },
+  {
+   "place": "train-1f/engine-carriage",
+   "mode": "normal",
+   "name": "Machinegun Ammo (1×20%)",
+   "game": 60
+  },
+  {
+   "place": "train-1f/engine-carriage",
+   "mode": "hard",
+   "name": "Machinegun Ammo (1×20%)",
+   "game": 60
+  },
+  {
+   "place": "train-1f/cabin-202",
+   "mode": "easy",
+   "name": "Machinegun Ammo (1×100%)",
+   "game": 300
+  },
+  {
+   "place": "train-1f/cabin-202",
+   "mode": "normal",
+   "name": "Machinegun Ammo (1×100%)",
+   "game": 300
+  },
+  {
+   "place": "train-1f/cabin-202",
+   "mode": "hard",
+   "name": "Machinegun Ammo (1×100%)",
+   "game": 300
+  },
+  {
+   "place": "training-facility-1f/main-hall",
+   "mode": "easy",
+   "name": "Machinegun Ammo (1×34%)",
+   "game": 100
+  },
+  {
+   "place": "training-facility-1f/main-hall",
+   "mode": "normal",
+   "name": "Machinegun Ammo (1×34%)",
+   "game": 100
+  },
+  {
+   "place": "training-facility-1f/main-hall",
+   "mode": "hard",
+   "name": "Machinegun Ammo (1×34%)",
+   "game": 100
+  },
+  {
+   "place": "facility-basement-b1/monitor-room",
+   "mode": "easy",
+   "name": "Machinegun Ammo (1×17%)",
+   "game": 50
+  },
+  {
+   "place": "facility-basement-b1/monitor-room",
+   "mode": "normal",
+   "name": "Machinegun Ammo (1×17%)",
+   "game": 50
+  },
+  {
+   "place": "facility-basement-b1/monitor-room",
+   "mode": "hard",
+   "name": "Machinegun Ammo (1×17%)",
+   "game": 50
+  },
+  {
+   "place": "facility-basement-b3/training-room",
+   "mode": "easy",
+   "name": "Machinegun Ammo (1×17%)",
+   "game": 50
+  },
+  {
+   "place": "facility-basement-b3/training-room",
+   "mode": "normal",
+   "name": "Machinegun Ammo (1×17%)",
+   "game": 50
+  },
+  {
+   "place": "facility-basement-b3/training-room",
+   "mode": "hard",
+   "name": "Machinegun Ammo (1×17%)",
+   "game": 50
+  },
+  {
+   "place": "factory-1f/turntable-control-room",
+   "mode": "easy",
+   "name": "Machinegun Ammo (1×34%)",
+   "game": 100
+  },
+  {
+   "place": "factory-1f/turntable-control-room",
+   "mode": "normal",
+   "name": "Machinegun Ammo (1×34%)",
+   "game": 100
+  },
+  {
+   "place": "factory-1f/turntable-control-room",
+   "mode": "hard",
+   "name": "Machinegun Ammo (1×34%)",
+   "game": 100
+  },
+  {
+   "place": "treatment-plant-b9/storage",
+   "mode": "easy",
+   "name": "Machinegun Ammo (1×34%)",
+   "game": 100
+  },
+  {
+   "place": "treatment-plant-b9/storage",
+   "mode": "normal",
+   "name": "Machinegun Ammo (1×34%)",
+   "game": 100
+  },
+  {
+   "place": "treatment-plant-b9/storage",
+   "mode": "hard",
+   "name": "Machinegun Ammo (1×34%)",
+   "game": 100
+  }
+ ],
+ "height": {
+  "low-ok": 258,
+  "high-ok": 197,
+  "low-conflict": 28,
+  "high-conflict": 16
+ },
+ "height_conflicts": [
+  {
+   "place": "train-1f/dining-car",
+   "name": "Empty Bottle (×3)",
+   "y": 21,
+   "wording": "On the floor of the large refrigerator. It becomes accessible after the Zombie h"
+  },
+  {
+   "place": "train-1f/dining-car",
+   "name": "Empty Bottle (×3)",
+   "y": 21,
+   "wording": "On the floor of the large refrigerator. It becomes accessible after the Zombie h"
+  },
+  {
+   "place": "train-1f/dining-car",
+   "name": "Empty Bottle (×3)",
+   "y": 21,
+   "wording": "On the floor of the large refrigerator. It becomes accessible after the Zombie h"
+  },
+  {
+   "place": "training-facility-1f/storage-room",
+   "name": "Shotgun",
+   "y": 45,
+   "wording": "On the floor, propped up against the shelves in the south west corner of the roo"
+  },
+  {
+   "place": "training-facility-1f/storage-room",
+   "name": "Shotgun",
+   "y": 45,
+   "wording": "On the floor, propped up against the shelves in the south west corner of the roo"
+  },
+  {
+   "place": "training-facility-1f/storage-room",
+   "name": "Shotgun",
+   "y": 45,
+   "wording": "On the floor, propped up against the shelves in the south west corner of the roo"
+  },
+  {
+   "place": "training-facility-2f/medicine-room",
+   "name": "2 Blue Herbs",
+   "y": 14,
+   "wording": "On the lower shelf of the medicine shelf unit in the north east area of the room"
+  },
+  {
+   "place": "training-facility-2f/medicine-room",
+   "name": "2 Blue Herbs",
+   "y": 14,
+   "wording": "On the lower shelf of the medicine shelf unit in the north east area of the room"
+  },
+  {
+   "place": "training-facility-2f/medicine-room",
+   "name": "2 Blue Herbs",
+   "y": 14,
+   "wording": "On the lower shelf of the medicine shelf unit in the north east area of the room"
+  },
+  {
+   "place": "training-facility-2f/medicine-room",
+   "name": "2 Blue Herbs",
+   "y": 14,
+   "wording": "On the lower shelf of the medicine shelf unit in the north east area of the room"
+  },
+  {
+   "place": "training-facility-2f/medicine-room",
+   "name": "2 Blue Herbs",
+   "y": 14,
+   "wording": "On the lower shelf of the medicine shelf unit in the north east area of the room"
+  },
+  {
+   "place": "training-facility-2f/medicine-room",
+   "name": "2 Blue Herbs",
+   "y": 14,
+   "wording": "On the lower shelf of the medicine shelf unit in the north east area of the room"
+  },
+  {
+   "place": "training-facility-2f/marcus-office",
+   "name": "Book of Evil",
+   "y": 0,
+   "wording": "Underneath the chess board on the desk. Solve the puzzle by moving the large che"
+  },
+  {
+   "place": "training-facility-2f/marcus-office",
+   "name": "Book of Evil",
+   "y": 0,
+   "wording": "Underneath the chess board on the desk. Solve the puzzle by moving the large che"
+  },
+  {
+   "place": "training-facility-2f/marcus-office",
+   "name": "Book of Evil",
+   "y": 0,
+   "wording": "Underneath the chess board on the desk. Solve the puzzle by moving the large che"
+  },
+  {
+   "place": "training-facility-2f/piano-bar",
+   "name": "Empty Bottle (×3)",
+   "y": 0,
+   "wording": "On a table in the south west corner of the room."
+  },
+  {
+   "place": "training-facility-2f/piano-bar",
+   "name": "Empty Bottle (×3)",
+   "y": 96,
+   "wording": "On the floor of the secret wine room. Have Billy play the piano in order to reve"
+  },
+  {
+   "place": "training-facility-3f/clock-room",
+   "name": "Shotgun Ammo (1×7)",
+   "y": 300,
+   "wording": "On the floor next to the lift."
+  },
+  {
+   "place": "training-facility-3f/clock-room",
+   "name": "1 First-Aid Spray",
+   "y": 301,
+   "wording": "On the floor near the old clock."
+  },
+  {
+   "place": "training-facility-3f/fountain-area",
+   "name": "1 Red Herb",
+   "y": 700,
+   "wording": "On the ground next to the seat next to the western door."
+  },
+  {
+   "place": "training-facility-3f/fountain-area",
+   "name": "1 Green Herb",
+   "y": 700,
+   "wording": "On the ground near the fountain."
+  },
+  {
+   "place": "training-facility-3f/fountain-area",
+   "name": "1 Red Herb",
+   "y": 700,
+   "wording": "On the ground near the fountain."
+  },
+  {
+   "place": "training-facility-3f/fountain-area",
+   "name": "2 Green Herbs",
+   "y": 700,
+   "wording": "On the ground next to the eastern wall."
+  },
+  {
+   "place": "training-facility-3f/fountain-area",
+   "name": "2 Green Herbs",
+   "y": 700,
+   "wording": "On the ground next to the eastern wall."
+  },
+  {
+   "place": "training-facility-3f/fountain-area",
+   "name": "1 Red Herb",
+   "y": 700,
+   "wording": "On the ground next to the eastern wall."
+  },
+  {
+   "place": "training-facility-3f/fountain-area",
+   "name": "1 Green Herb",
+   "y": 700,
+   "wording": "On the ground near the fountain."
+  },
+  {
+   "place": "training-facility-3f/fountain-area",
+   "name": "1 Red Herb",
+   "y": 700,
+   "wording": "On the ground near the fountain."
+  },
+  {
+   "place": "training-facility-3f/fountain-area",
+   "name": "1 Green Herb",
+   "y": 700,
+   "wording": "On the ground near the fountain."
+  },
+  {
+   "place": "laboratory-b1/leech-room",
+   "name": "Gas Tank (×6)",
+   "y": 13,
+   "wording": "On the lower shelf of the unit in the south west corner of the room."
+  },
+  {
+   "place": "laboratory-b1/leech-room",
+   "name": "Gas Tank (×6)",
+   "y": 13,
+   "wording": "On the lower shelf of the unit in the south west corner of the room."
+  },
+  {
+   "place": "laboratory-b1/leech-room",
+   "name": "Gas Tank (×6)",
+   "y": 13,
+   "wording": "On the lower shelf of the unit in the south west corner of the room."
+  },
+  {
+   "place": "laboratory-b2/machine-room-1f",
+   "name": "Output Regulator Coil",
+   "y": 16,
+   "wording": "Once you have pulled the switch on the southern wall to move the ladder, it is o"
+  },
+  {
+   "place": "laboratory-b2/machine-room-1f",
+   "name": "Output Regulator Coil",
+   "y": 16,
+   "wording": "Once you have pulled the switch on the southern wall to move the ladder, it is o"
+  },
+  {
+   "place": "laboratory-b2/machine-room-1f",
+   "name": "Output Regulator Coil",
+   "y": 16,
+   "wording": "Once you have pulled the switch on the southern wall to move the ladder, it is o"
+  },
+  {
+   "place": "treatment-plant-b5/control-room",
+   "name": "Gas Tank (×6)",
+   "y": 470,
+   "wording": "On the floor next to the north door."
+  },
+  {
+   "place": "treatment-plant-b5/control-room",
+   "name": "Gas Tank (×6)",
+   "y": 470,
+   "wording": "On the floor next to the north door."
+  },
+  {
+   "place": "treatment-plant-b5/control-room",
+   "name": "Gas Tank (×6)",
+   "y": 470,
+   "wording": "On the floor next to the north door."
+  },
+  {
+   "place": "treatment-plant-b6/air-regulator-room",
+   "name": "1 Green Herb",
+   "y": 475,
+   "wording": "On the floor opposite the door in the south west corner of the room."
+  },
+  {
+   "place": "treatment-plant-b9/storage",
+   "name": "Shotgun Ammo (1×7)",
+   "y": 11,
+   "wording": "On the shelves in the south east area of the room."
+  },
+  {
+   "place": "treatment-plant-b9/storage",
+   "name": "Shotgun Ammo (1×7)",
+   "y": 11,
+   "wording": "On the shelves in the south east area of the room."
+  },
+  {
+   "place": "treatment-plant-b9/storage",
+   "name": "Shotgun Ammo (1×7)",
+   "y": 11,
+   "wording": "On the shelves in the south east area of the room."
+  },
+  {
+   "place": "treatment-plant-b9/engine-room",
+   "name": "Handgun Ammo (1×30)",
+   "y": 43,
+   "wording": "On the floor in the north west corner of the room."
+  },
+  {
+   "place": "treatment-plant-b9/engine-room",
+   "name": "Handgun Ammo (1×15)",
+   "y": 43,
+   "wording": "On the floor in the north west corner of the room."
+  },
+  {
+   "place": "treatment-plant-b9/engine-room",
+   "name": "Handgun Ammo (1×30)",
+   "y": 43,
+   "wording": "On the floor in the north west corner of the room."
+  }
+ ],
+ "doors": {
+  "both": 227,
+  "only_script": 11
+ },
+ "doors_only_in_script": [
+  {
+   "room": 99,
+   "target": 99,
+   "places": [
+    "laboratory-1f/outside-area"
+   ],
+   "target_places": [
+    "laboratory-1f/outside-area"
+   ]
+  },
+  {
+   "room": 99,
+   "target": 131,
+   "places": [
+    "laboratory-1f/outside-area"
+   ],
+   "target_places": [
+    "laboratory-1f/outside-area"
+   ]
+  },
+  {
+   "room": 104,
+   "target": 104,
+   "places": [
+    "laboratory-b1/machine-room-2f"
+   ],
+   "target_places": [
+    "laboratory-b1/machine-room-2f"
+   ]
+  },
+  {
+   "room": 105,
+   "target": 105,
+   "places": [
+    "laboratory-b1/leech-laboratory"
+   ],
+   "target_places": [
+    "laboratory-b1/leech-laboratory"
+   ]
+  },
+  {
+   "room": 112,
+   "target": 110,
+   "places": [
+    "laboratory-b2/reference-room"
+   ],
+   "target_places": [
+    "laboratory-b1/leech-room"
+   ]
+  },
+  {
+   "room": 131,
+   "target": 99,
+   "places": [
+    "laboratory-1f/outside-area"
+   ],
+   "target_places": [
+    "laboratory-1f/outside-area"
+   ]
+  },
+  {
+   "room": 90,
+   "target": 42,
+   "places": [
+    "facility-basement-b2/boiler-room",
+    "facility-basement-b2/cavernous-area"
+   ],
+   "target_places": [
+    "training-facility-1f/boiler-room"
+   ]
+  },
+  {
+   "room": 90,
+   "target": 95,
+   "places": [
+    "facility-basement-b2/boiler-room",
+    "facility-basement-b2/cavernous-area"
+   ],
+   "target_places": [
+    "facility-basement-b3/cavernous-area"
+   ]
+  },
+  {
+   "room": 152,
+   "target": 160,
+   "places": [
+    "treatment-plant-b7/cargo-control-room"
+   ],
+   "target_places": [
+    "treatment-plant-b9/water-treatment-room"
+   ]
+  },
+  {
+   "room": 160,
+   "target": 152,
+   "places": [
+    "treatment-plant-b9/water-treatment-room"
+   ],
+   "target_places": [
+    "treatment-plant-b7/cargo-control-room"
+   ]
+  },
+  {
+   "room": 0,
+   "target": 66,
+   "places": [
+    "train-1f/engine-cab"
+   ],
+   "target_places": [
+    "training-facility-b1/train-passage"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "index": 0,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 1,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 2,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 3,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 4,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 7,
+   "external": {
+    "easy": "conditional",
+    "normal": "conditional",
+    "hard": "conditional"
+   }
+  },
+  {
+   "index": 11,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 12,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 13,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 14,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 15,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 16,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 17,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 18,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 19,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 20,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 21,
+   "external": {
+    "easy": "conditional",
+    "normal": "conditional",
+    "hard": "conditional"
+   }
+  },
+  {
+   "index": 22,
+   "external": {
+    "easy": "conditional",
+    "normal": "conditional",
+    "hard": "conditional"
+   }
+  },
+  {
+   "index": 23,
+   "external": {
+    "easy": "game-only",
+    "normal": "game-only",
+    "hard": "game-only"
+   }
+  },
+  {
+   "index": 24,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 25,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 26,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 27,
+   "external": {
+    "easy": "game-only"
+   }
+  },
+  {
+   "index": 48,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 49,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 50,
+   "external": {
+    "easy": "game-only",
+    "normal": "game-only",
+    "hard": "game-only"
+   }
+  },
+  {
+   "index": 53,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 54,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 55,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 56,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 57,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 59,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 75,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 76,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 77,
+   "external": {
+    "easy": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 78,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 79,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 80,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 81,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 82,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 83,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 84,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 86,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 87,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 88,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 92,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 93,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 94,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 95,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 96,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 97,
+   "external": {
+    "easy": "game-only"
+   }
+  },
+  {
+   "index": 98,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 99,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 100,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 101,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 102,
+   "external": {
+    "easy": "conditional",
+    "normal": "conditional",
+    "hard": "conditional"
+   }
+  },
+  {
+   "index": 103,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 104,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 110,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 111,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 112,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 113,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 114,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 117,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 118,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 138,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 139,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 140,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 141,
+   "external": {
+    "easy": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 142,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 143,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 144,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 145,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 146,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 153,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 154,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 155,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 161,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 162,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 163,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 164,
+   "external": {
+    "easy": "game-only",
+    "normal": "game-only",
+    "hard": "game-only"
+   }
+  },
+  {
+   "index": 165,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 166,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 167,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 168,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 169,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 170,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 171,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 172,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 180,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 181,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 182,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 183,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 184,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 187,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 188,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 189,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 190,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 191,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 192,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 193,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 194,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 195,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 196,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 200,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 201,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 202,
+   "external": {
+    "easy": "game-only",
+    "normal": "game-only",
+    "hard": "game-only"
+   }
+  },
+  {
+   "index": 208,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 209,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 210,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 211,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 216,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 217,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 218,
+   "external": {
+    "easy": "game-only",
+    "normal": "game-only",
+    "hard": "game-only"
+   }
+  },
+  {
+   "index": 219,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 224,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 225,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 226,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 227,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 230,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 231,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 232,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 233,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 266,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 267,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 268,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 269,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 270,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 273,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 274,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 275,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 276,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 277,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 278,
+   "external": {
+    "easy": "game-only",
+    "normal": "game-only",
+    "hard": "game-only"
+   }
+  },
+  {
+   "index": 279,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 284,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 293,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 294,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 295,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 301,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 311,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 312,
+   "external": {
+    "easy": "game-only",
+    "normal": "game-only",
+    "hard": "game-only"
+   }
+  },
+  {
+   "index": 313,
+   "external": {
+    "easy": "game-only",
+    "normal": "game-only",
+    "hard": "game-only"
+   }
+  },
+  {
+   "index": 314,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 315,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 316,
+   "external": {
+    "easy": "conditional",
+    "normal": "conditional",
+    "hard": "conditional"
+   }
+  },
+  {
+   "index": 322,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 324,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 325,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 326,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 327,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 328,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 329,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 335,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 336,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 339,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 340,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 341,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 342,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 343,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 344,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 348,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 349,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 354,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 355,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 356,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 357,
+   "external": {
+    "easy": "game-only",
+    "normal": "game-only"
+   }
+  },
+  {
+   "index": 358,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 359,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 360,
+   "external": {
+    "easy": "game-only",
+    "normal": "game-only",
+    "hard": "game-only"
+   }
+  },
+  {
+   "index": 361,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 362,
+   "external": {
+    "easy": "conditional",
+    "normal": "conditional",
+    "hard": "conditional"
+   }
+  },
+  {
+   "index": 363,
+   "external": {
+    "easy": "game-only"
+   }
+  },
+  {
+   "index": 374,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 375,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 376,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 377,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 378,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 379,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 382,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 384,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 385,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 386,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 402,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 403,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 404,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 405,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 406,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 407,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 411,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 412,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 413,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 416,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 417,
+   "external": {
+    "easy": "game-only",
+    "normal": "game-only",
+    "hard": "game-only"
+   }
+  },
+  {
+   "index": 421,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 422,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 423,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 424,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 427,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 428,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 429,
+   "external": {
+    "easy": "match",
+    "normal": "game-only"
+   }
+  },
+  {
+   "index": 430,
+   "external": {
+    "easy": "game-only"
+   }
+  },
+  {
+   "index": 433,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 434,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 436,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 437,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 438,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 439,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 440,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 442,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 444,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 445,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 446,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 447,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 448,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 449,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 450,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 451,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 452,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 453,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 454,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 455,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 459,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 460,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 461,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 462,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 467,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 468,
+   "external": {
+    "easy": "game-only",
+    "normal": "game-only",
+    "hard": "game-only"
+   }
+  },
+  {
+   "index": 469,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 472,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 473,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 474,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 475,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 476,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 477,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 478,
+   "external": {
+    "easy": "conditional",
+    "normal": "conditional",
+    "hard": "conditional"
+   }
+  },
+  {
+   "index": 479,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 480,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 484,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 485,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 486,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 487,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 488,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 489,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 490,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 493,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 494,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 495,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 496,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 503,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 511,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 512,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 517,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 518,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 519,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 520,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 521,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 522,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 523,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 524,
+   "external": {
+    "easy": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 560,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 561,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 562,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 564,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 565,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 566,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 567,
+   "external": {
+    "easy": "game-only",
+    "normal": "game-only",
+    "hard": "game-only"
+   }
+  },
+  {
+   "index": 568,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 569,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 606,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 607,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 608,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 609,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 613,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 614,
+   "external": {
+    "easy": "game-only",
+    "normal": "game-only",
+    "hard": "game-only"
+   }
+  },
+  {
+   "index": 617,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 618,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 619,
+   "external": {
+    "easy": "game-only"
+   }
+  },
+  {
+   "index": 621,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 622,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 624,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 625,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 626,
+   "external": {
+    "easy": "match",
+    "normal": "match"
+   }
+  },
+  {
+   "index": 628,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 629,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 630,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 631,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 632,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 633,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 634,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 635,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 636,
+   "external": {
+    "easy": "conditional",
+    "normal": "conditional",
+    "hard": "conditional"
+   }
+  },
+  {
+   "index": 637,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 638,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 639,
+   "external": {
+    "easy": "match"
+   }
+  },
+  {
+   "index": 640,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 641,
+   "external": {
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 685,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 686,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 687,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 688,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 689,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 690,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 691,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 692,
+   "external": {
+    "easy": "game-only",
+    "normal": "game-only",
+    "hard": "game-only"
+   }
+  },
+  {
+   "index": 693,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 694,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 695,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 696,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 697,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 698,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 699,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  },
+  {
+   "index": 700,
+   "external": {
+    "easy": "match",
+    "normal": "match",
+    "hard": "match"
+   }
+  }
+ ]
+}

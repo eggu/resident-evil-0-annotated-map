@@ -1,0 +1,3656 @@
+{
+  "schema_version": 1,
+  "claim": "external-location-catalogue-only",
+  "edition": "HD applicability not independently confirmed",
+  "locations": [
+    {
+      "id": "train-1f/engine-cab",
+      "name": "Engine Cab",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/engine-cab",
+      "areas": [
+        {
+          "map": "re0_train1f_map",
+          "shape": "rect",
+          "coords": [
+            18,
+            0,
+            45,
+            35
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-1f/engine-carriage",
+      "name": "Engine Carriage",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/engine-carriage",
+      "areas": [
+        {
+          "map": "re0_train1f_map",
+          "shape": "poly",
+          "coords": [
+            130,
+            0,
+            130,
+            12,
+            141,
+            12,
+            141,
+            24,
+            130,
+            24,
+            130,
+            36,
+            46,
+            36,
+            46,
+            0
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-1f/officers-car",
+      "name": "Officer's Car",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/officers-car",
+      "areas": [
+        {
+          "map": "re0_train1f_map",
+          "shape": "poly",
+          "coords": [
+            141,
+            0,
+            209,
+            0,
+            209,
+            21,
+            262,
+            21,
+            262,
+            0,
+            279,
+            0,
+            279,
+            36,
+            192,
+            36,
+            192,
+            15,
+            156,
+            15,
+            156,
+            36,
+            141,
+            36
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-1f/conductors-office",
+      "name": "Conductor's Office",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/conductors-office",
+      "areas": [
+        {
+          "map": "re0_train1f_map",
+          "shape": "rect",
+          "coords": [
+            156,
+            15,
+            182,
+            35
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-1f/cabin-201",
+      "name": "Cabin 201",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/cabin-201",
+      "areas": [
+        {
+          "map": "re0_train1f_map",
+          "shape": "rect",
+          "coords": [
+            209,
+            0,
+            235,
+            20
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-1f/cabin-202",
+      "name": "Cabin 202",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/cabin-202",
+      "areas": [
+        {
+          "map": "re0_train1f_map",
+          "shape": "rect",
+          "coords": [
+            236,
+            0,
+            261,
+            20
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-1f/passenger-car-2",
+      "name": "Passenger Car 2",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/passenger-car-2",
+      "areas": [
+        {
+          "map": "re0_train1f_map",
+          "shape": "rect",
+          "coords": [
+            279,
+            0,
+            409,
+            35
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-1f/passenger-car-1",
+      "name": "Passenger Car 1",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/passenger-car-1",
+      "areas": [
+        {
+          "map": "re0_train1f_map",
+          "shape": "rect",
+          "coords": [
+            410,
+            0,
+            540,
+            35
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-1f/dining-car",
+      "name": "Dining Car",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/dining-car",
+      "areas": [
+        {
+          "map": "re0_train1f_map",
+          "shape": "rect",
+          "coords": [
+            541,
+            0,
+            612,
+            35
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-1f/freight-car",
+      "name": "Freight Car",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/freight-car",
+      "areas": [
+        {
+          "map": "re0_train1f_map",
+          "shape": "rect",
+          "coords": [
+            613,
+            0,
+            675,
+            35
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-1f/rear-carriage",
+      "name": "Rear Carriage",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/rear-carriage",
+      "areas": [
+        {
+          "map": "re0_train1f_map",
+          "shape": "rect",
+          "coords": [
+            676,
+            0,
+            707,
+            35
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-2f/bar-lounge",
+      "name": "Bar Lounge",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/bar-lounge",
+      "areas": [
+        {
+          "map": "re0_train2f_map",
+          "shape": "rect",
+          "coords": [
+            0,
+            0,
+            136,
+            35
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-2f/upstairs-passenger-car",
+      "name": "Upstairs Passenger Car",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/upstairs-passenger-car",
+      "areas": [
+        {
+          "map": "re0_train2f_map",
+          "shape": "poly",
+          "coords": [
+            203,
+            0,
+            203,
+            22,
+            239,
+            22,
+            239,
+            0,
+            269,
+            0,
+            269,
+            36,
+            188,
+            36,
+            188,
+            14,
+            153,
+            14,
+            153,
+            36,
+            137,
+            36,
+            137,
+            0
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-2f/cabin-101",
+      "name": "Cabin 101",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/cabin-101",
+      "areas": [
+        {
+          "map": "re0_train2f_map",
+          "shape": "rect",
+          "coords": [
+            153,
+            14,
+            187,
+            35
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-2f/cabin-102",
+      "name": "Cabin 102",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/cabin-102",
+      "areas": [
+        {
+          "map": "re0_train2f_map",
+          "shape": "rect",
+          "coords": [
+            203,
+            0,
+            238,
+            21
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-2f/restaurant-car",
+      "name": "Restaurant Car",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/restaurant-car",
+      "areas": [
+        {
+          "map": "re0_train2f_map",
+          "shape": "poly",
+          "coords": [
+            400,
+            0,
+            536,
+            0,
+            536,
+            36,
+            439,
+            36,
+            439,
+            11,
+            400,
+            11
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-2f/service-room",
+      "name": "Service Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/service-room",
+      "areas": [
+        {
+          "map": "re0_train2f_map",
+          "shape": "rect",
+          "coords": [
+            400,
+            11,
+            438,
+            35
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-roof/officers-car-roof",
+      "name": "Officer's Car Roof",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-roof/officers-car-roof",
+      "areas": [
+        {
+          "map": "re0_trainroof_map",
+          "shape": "rect",
+          "coords": [
+            0,
+            0,
+            131,
+            35
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "train-roof/dining-car-roof",
+      "name": "Dining Car Roof",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-roof/dining-car-roof",
+      "areas": [
+        {
+          "map": "re0_trainroof_map",
+          "shape": "rect",
+          "coords": [
+            263,
+            0,
+            398,
+            35
+          ]
+        }
+      ],
+      "region": "tr",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/train"
+    },
+    {
+      "id": "training-facility-b1/train-passage",
+      "name": "Train Passage",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-b1/train-passage",
+      "areas": [
+        {
+          "map": "re0_trainingfacilityb1_map",
+          "shape": "poly",
+          "coords": [
+            26,
+            21,
+            139,
+            21,
+            139,
+            55,
+            147,
+            55,
+            147,
+            127,
+            87,
+            127,
+            87,
+            135,
+            73,
+            135,
+            73,
+            127,
+            17,
+            127,
+            117,
+            67,
+            97,
+            40,
+            64,
+            57,
+            57,
+            57,
+            26,
+            47
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-b1/sewer-passage",
+      "name": "Sewer Passage",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-b1/sewer-passage",
+      "areas": [
+        {
+          "map": "re0_trainingfacilityb1_map",
+          "shape": "poly",
+          "coords": [
+            43,
+            152,
+            73,
+            152,
+            73,
+            135,
+            87,
+            135,
+            87,
+            152,
+            164,
+            152,
+            164,
+            171,
+            159,
+            171,
+            159,
+            194,
+            137,
+            194,
+            137,
+            171,
+            43,
+            171
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-b1/elevator",
+      "name": "Elevator",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-b1/elevator",
+      "areas": [
+        {
+          "map": "re0_trainingfacilityb1_map",
+          "shape": "rect",
+          "coords": [
+            43,
+            0,
+            73,
+            20
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-1f/projection-room",
+      "name": "Projection Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/projection-room",
+      "areas": [
+        {
+          "map": "re0_trainingfacility1f_map",
+          "shape": "rect",
+          "coords": [
+            26,
+            159,
+            83,
+            216
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-1f/west-wing-corridor",
+      "name": "West Wing Corridor",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/west-wing-corridor",
+      "areas": [
+        {
+          "map": "re0_trainingfacility1f_map",
+          "shape": "poly",
+          "coords": [
+            9,
+            185,
+            26,
+            185,
+            26,
+            217,
+            84,
+            217,
+            84,
+            278,
+            66,
+            278,
+            66,
+            234,
+            9,
+            234
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-1f/bathroom",
+      "name": "Bathroom",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/bathroom",
+      "areas": [
+        {
+          "map": "re0_trainingfacility1f_map",
+          "shape": "rect",
+          "coords": [
+            0,
+            234,
+            65,
+            278
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-1f/main-hall",
+      "name": "Main Hall",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/main-hall",
+      "areas": [
+        {
+          "map": "re0_trainingfacility1f_map",
+          "shape": "poly",
+          "coords": [
+            84,
+            145,
+            211,
+            145,
+            211,
+            181,
+            224,
+            181,
+            224,
+            278,
+            84,
+            278
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-1f/training-facility-entrance",
+      "name": "Training Facility Entrance",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/training-facility-entrance",
+      "areas": [
+        {
+          "map": "re0_trainingfacility1f_map",
+          "shape": "poly",
+          "coords": [
+            66,
+            315,
+            66,
+            278,
+            242,
+            278,
+            242,
+            315,
+            169,
+            315,
+            169,
+            387,
+            165,
+            390,
+            161,
+            390,
+            161,
+            389,
+            142,
+            389,
+            139,
+            386,
+            139,
+            315
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-1f/dining-room",
+      "name": "Dining Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/dining-room",
+      "areas": [
+        {
+          "map": "re0_trainingfacility1f_map",
+          "shape": "poly",
+          "coords": [
+            211,
+            145,
+            254,
+            145,
+            254,
+            208,
+            295,
+            208,
+            295,
+            279,
+            242,
+            279,
+            242,
+            278,
+            224,
+            278,
+            224,
+            181,
+            211,
+            181
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-1f/kitchen",
+      "name": "Kitchen",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/kitchen",
+      "areas": [
+        {
+          "map": "re0_trainingfacility1f_map",
+          "shape": "poly",
+          "coords": [
+            307,
+            145,
+            307,
+            203,
+            302,
+            203,
+            302,
+            208,
+            254,
+            208,
+            254,
+            145
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-1f/boiler-room",
+      "name": "Boiler Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/boiler-room",
+      "areas": [
+        {
+          "map": "re0_trainingfacility1f_map",
+          "shape": "poly",
+          "coords": [
+            209,
+            0,
+            223,
+            0,
+            223,
+            58,
+            226,
+            58,
+            226,
+            131,
+            278,
+            131,
+            278,
+            145,
+            211,
+            145,
+            211,
+            120,
+            181,
+            120,
+            181,
+            58,
+            209,
+            58
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-1f/storage-room",
+      "name": "Storage Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/storage-room",
+      "areas": [
+        {
+          "map": "re0_trainingfacility1f_map",
+          "shape": "poly",
+          "coords": [
+            278,
+            65,
+            278,
+            131,
+            226,
+            131,
+            226,
+            65
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/assistant-directors-office",
+      "name": "Assistant Director's Office",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/assistant-directors-office",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "rect",
+          "coords": [
+            0,
+            82,
+            69,
+            139
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/small-library",
+      "name": "Small Library",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/small-library",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "rect",
+          "coords": [
+            0,
+            140,
+            56,
+            180
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/main-library",
+      "name": "Main Library",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/main-library",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "rect",
+          "coords": [
+            57,
+            158,
+            158,
+            219
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/art-corridor",
+      "name": "Art Corridor",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/art-corridor",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "poly",
+          "coords": [
+            57,
+            140,
+            71,
+            140,
+            71,
+            144,
+            145,
+            144,
+            145,
+            122,
+            159,
+            122,
+            159,
+            158,
+            57,
+            158
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/medicine-room",
+      "name": "Medicine Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/medicine-room",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "poly",
+          "coords": [
+            70,
+            96,
+            159,
+            96,
+            159,
+            122,
+            145,
+            122,
+            145,
+            144,
+            71,
+            144,
+            71,
+            140,
+            70,
+            140
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/private-corridor",
+      "name": "Private Corridor",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/private-corridor",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "poly",
+          "coords": [
+            70,
+            82,
+            144,
+            82,
+            144,
+            40,
+            159,
+            40,
+            159,
+            96,
+            70,
+            96
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/marcus-office",
+      "name": "Marcus' Office",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/marcus-office",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "poly",
+          "coords": [
+            67,
+            38,
+            87,
+            38,
+            87,
+            33,
+            91,
+            23,
+            97,
+            17,
+            108,
+            12,
+            123,
+            12,
+            134,
+            17,
+            141,
+            24,
+            144,
+            34,
+            144,
+            82,
+            67,
+            82
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/lecture-room",
+      "name": "Lecture Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/lecture-room",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "poly",
+          "coords": [
+            158,
+            36,
+            298,
+            36,
+            298,
+            149,
+            159,
+            149,
+            159,
+            40,
+            158,
+            40
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/outside-balcony",
+      "name": "Outside Balcony",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/outside-balcony",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "poly",
+          "coords": [
+            158,
+            18,
+            250,
+            18,
+            250,
+            0,
+            278,
+            0,
+            278,
+            18,
+            317,
+            18,
+            317,
+            70,
+            352,
+            70,
+            352,
+            88,
+            298,
+            88,
+            298,
+            36,
+            158,
+            36
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/main-hall",
+      "name": "Main Hall",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/main-hall",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "rect",
+          "coords": [
+            159,
+            149,
+            297,
+            280
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/living-room",
+      "name": "Living Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/living-room",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "rect",
+          "coords": [
+            88,
+            220,
+            158,
+            280
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/large-hall",
+      "name": "Large Hall",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/large-hall",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "rect",
+          "coords": [
+            298,
+            123,
+            311,
+            202
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/art-room",
+      "name": "Art Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/art-room",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "poly",
+          "coords": [
+            386,
+            150,
+            386,
+            197,
+            369,
+            197,
+            369,
+            219,
+            298,
+            219,
+            298,
+            203,
+            312,
+            203,
+            312,
+            150
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/narrow-corridor-a",
+      "name": "Narrow Corridor A",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/narrow-corridor-a",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "poly",
+          "coords": [
+            386,
+            150,
+            401,
+            150,
+            401,
+            211,
+            369,
+            211,
+            369,
+            197,
+            386,
+            197
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/narrow-corridor-b",
+      "name": "Narrow Corridor B",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/narrow-corridor-b",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "rect",
+          "coords": [
+            351,
+            135,
+            421,
+            149
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/old-laboratory",
+      "name": "Old Laboratory",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/old-laboratory",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "poly",
+          "coords": [
+            298,
+            88,
+            368,
+            88,
+            368,
+            135,
+            351,
+            135,
+            351,
+            150,
+            312,
+            150,
+            312,
+            123,
+            298,
+            123
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/maintenance-room",
+      "name": "Maintenance Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/maintenance-room",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "poly",
+          "coords": [
+            448,
+            88,
+            448,
+            150,
+            422,
+            150,
+            422,
+            135,
+            368,
+            135,
+            368,
+            88
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/piano-bar",
+      "name": "Piano Bar",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/piano-bar",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "poly",
+          "coords": [
+            474,
+            88,
+            474,
+            199,
+            401,
+            199,
+            401,
+            150,
+            448,
+            150,
+            448,
+            88
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/broadcast-room",
+      "name": "Broadcast Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/broadcast-room",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "poly",
+          "coords": [
+            369,
+            255,
+            369,
+            211,
+            401,
+            211,
+            401,
+            199,
+            448,
+            199,
+            448,
+            255
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-2f/private-study-room",
+      "name": "Private Study Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/private-study-room",
+      "areas": [
+        {
+          "map": "re0_trainingfacility2f_map",
+          "shape": "rect",
+          "coords": [
+            298,
+            219,
+            368,
+            280
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-3f/clock-room",
+      "name": "Clock Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-3f/clock-room",
+      "areas": [
+        {
+          "map": "re0_trainingfacility3f_map",
+          "shape": "rect",
+          "coords": [
+            0,
+            306,
+            66,
+            384
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-3f/fountain-area",
+      "name": "Fountain Area",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-3f/fountain-area",
+      "areas": [
+        {
+          "map": "re0_trainingfacility3f_map",
+          "shape": "poly",
+          "coords": [
+            194,
+            332,
+            194,
+            385,
+            184,
+            385,
+            184,
+            400,
+            164,
+            400,
+            164,
+            385,
+            146,
+            385,
+            146,
+            394,
+            128,
+            394,
+            128,
+            385,
+            67,
+            385,
+            67,
+            332
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-3f/large-hall",
+      "name": "Large Hall",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-3f/large-hall",
+      "areas": [
+        {
+          "map": "re0_trainingfacility3f_map",
+          "shape": "poly",
+          "coords": [
+            49,
+            122,
+            136,
+            122,
+            136,
+            111,
+            137,
+            111,
+            137,
+            105,
+            152,
+            107,
+            166,
+            105,
+            166,
+            111,
+            167,
+            111,
+            167,
+            122,
+            202,
+            122,
+            202,
+            253,
+            190,
+            253,
+            190,
+            332,
+            67,
+            332,
+            67,
+            184,
+            49,
+            184
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "training-facility-3f/observatory-tower",
+      "name": "Observatory Tower",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-3f/observatory-tower",
+      "areas": [
+        {
+          "map": "re0_trainingfacility3f_map",
+          "shape": "circle",
+          "coords": [
+            151,
+            53,
+            53
+          ]
+        }
+      ],
+      "region": "sh",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/training-facility"
+    },
+    {
+      "id": "facility-basement-b1/torture-room-a",
+      "name": "Torture Room A",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b1/torture-room-a",
+      "areas": [
+        {
+          "map": "re0_facilitybasementb1_map",
+          "shape": "rect",
+          "coords": [
+            0,
+            30,
+            52,
+            74
+          ]
+        }
+      ],
+      "region": "dm",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement"
+    },
+    {
+      "id": "facility-basement-b1/observation-room",
+      "name": "Observation Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b1/observation-room",
+      "areas": [
+        {
+          "map": "re0_facilitybasementb1_map",
+          "shape": "poly",
+          "coords": [
+            0,
+            110,
+            26,
+            110,
+            26,
+            91,
+            39,
+            91,
+            39,
+            75,
+            0,
+            75
+          ]
+        }
+      ],
+      "region": "dm",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement"
+    },
+    {
+      "id": "facility-basement-b1/basement-entrance",
+      "name": "Basement Entrance",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b1/basement-entrance",
+      "areas": [
+        {
+          "map": "re0_facilitybasementb1_map",
+          "shape": "poly",
+          "coords": [
+            69,
+            201,
+            69,
+            110,
+            26,
+            110,
+            26,
+            91,
+            87,
+            91,
+            87,
+            183,
+            140,
+            183,
+            140,
+            247,
+            126,
+            247,
+            126,
+            201
+          ]
+        }
+      ],
+      "region": "dm",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement"
+    },
+    {
+      "id": "facility-basement-b1/monitor-room",
+      "name": "Monitor Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b1/monitor-room",
+      "areas": [
+        {
+          "map": "re0_facilitybasementb1_map",
+          "shape": "poly",
+          "coords": [
+            87,
+            74,
+            130,
+            74,
+            130,
+            100,
+            157,
+            100,
+            157,
+            129,
+            87,
+            129
+          ]
+        }
+      ],
+      "region": "dm",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement"
+    },
+    {
+      "id": "facility-basement-b1/torture-room-b",
+      "name": "Torture Room B",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b1/torture-room-b",
+      "areas": [
+        {
+          "map": "re0_facilitybasementb1_map",
+          "shape": "poly",
+          "coords": [
+            130,
+            0,
+            157,
+            0,
+            157,
+            97,
+            130,
+            97,
+            130,
+            74,
+            94,
+            74,
+            94,
+            30,
+            130,
+            30
+          ]
+        }
+      ],
+      "region": "dm",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement"
+    },
+    {
+      "id": "facility-basement-b2/cavernous-area",
+      "name": "Cavernous Area",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b2/cavernous-area",
+      "areas": [
+        {
+          "map": "re0_facilitybasementb2_map",
+          "shape": "rect",
+          "coords": [
+            0,
+            0,
+            17,
+            30
+          ]
+        }
+      ],
+      "region": "dm",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement"
+    },
+    {
+      "id": "facility-basement-b2/statue-room",
+      "name": "Statue Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b2/statue-room",
+      "areas": [
+        {
+          "map": "re0_facilitybasementb2_map",
+          "shape": "poly",
+          "coords": [
+            0,
+            88,
+            0,
+            31,
+            35,
+            31,
+            35,
+            45,
+            13,
+            45,
+            13,
+            66,
+            132,
+            66,
+            132,
+            82,
+            114,
+            82,
+            114,
+            120,
+            88,
+            120,
+            88,
+            184,
+            69,
+            184,
+            69,
+            120,
+            52,
+            120,
+            52,
+            88
+          ]
+        }
+      ],
+      "region": "dm",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement"
+    },
+    {
+      "id": "facility-basement-b2/storage-room",
+      "name": "Storage Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b2/storage-room",
+      "areas": [
+        {
+          "map": "re0_facilitybasementb2_map",
+          "shape": "rect",
+          "coords": [
+            35,
+            16,
+            137,
+            60
+          ]
+        }
+      ],
+      "region": "dm",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement"
+    },
+    {
+      "id": "facility-basement-b2/boiler-room",
+      "name": "Boiler Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b2/boiler-room",
+      "areas": [
+        {
+          "map": "re0_facilitybasementb2_map",
+          "shape": "rect",
+          "coords": [
+            117,
+            82,
+            131,
+            114
+          ]
+        }
+      ],
+      "region": "dm",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement"
+    },
+    {
+      "id": "facility-basement-b2/bunk-room-a",
+      "name": "Bunk Room A",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b2/bunk-room-a",
+      "areas": [
+        {
+          "map": "re0_facilitybasementb2_map",
+          "shape": "rect",
+          "coords": [
+            9,
+            130,
+            68,
+            175
+          ]
+        }
+      ],
+      "region": "dm",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement"
+    },
+    {
+      "id": "facility-basement-b2/bunk-room-b",
+      "name": "Bunk Room B",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b2/bunk-room-b",
+      "areas": [
+        {
+          "map": "re0_facilitybasementb2_map",
+          "shape": "poly",
+          "coords": [
+            57,
+            184,
+            102,
+            184,
+            102,
+            228,
+            98,
+            228,
+            98,
+            237,
+            61,
+            237,
+            61,
+            228,
+            40,
+            228,
+            40,
+            210,
+            57,
+            210
+          ]
+        }
+      ],
+      "region": "dm",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement"
+    },
+    {
+      "id": "facility-basement-b3/training-room",
+      "name": "Training Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b3/training-room",
+      "areas": [
+        {
+          "map": "re0_facilitybasementb3_map",
+          "shape": "poly",
+          "coords": [
+            107,
+            0,
+            143,
+            0,
+            143,
+            44,
+            123,
+            44,
+            123,
+            92,
+            51,
+            92,
+            51,
+            73,
+            57,
+            73,
+            57,
+            70,
+            36,
+            70,
+            36,
+            17,
+            107,
+            17,
+            107,
+            70,
+            69,
+            70,
+            69,
+            73,
+            107,
+            73
+          ]
+        }
+      ],
+      "region": "dm",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement"
+    },
+    {
+      "id": "facility-basement-b3/cavernous-area",
+      "name": "Cavernous Area",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b3/cavernous-area",
+      "areas": [
+        {
+          "map": "re0_facilitybasementb3_map",
+          "shape": "poly",
+          "coords": [
+            123,
+            144,
+            18,
+            144,
+            18,
+            179,
+            0,
+            179,
+            0,
+            117,
+            96,
+            117,
+            96,
+            92,
+            123,
+            92
+          ]
+        }
+      ],
+      "region": "dm",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement"
+    },
+    {
+      "id": "facility-basement-b3/waterfall-room",
+      "name": "Waterfall Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b3/waterfall-room",
+      "areas": [
+        {
+          "map": "re0_facilitybasementb3_map",
+          "shape": "rect",
+          "coords": [
+            26,
+            144,
+            96,
+            202
+          ]
+        }
+      ],
+      "region": "dm",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement"
+    },
+    {
+      "id": "laboratory-1f/outside-area",
+      "name": "Outside Area",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-1f/outside-area",
+      "areas": [
+        {
+          "map": "re0_laboratory1f_map",
+          "shape": "poly",
+          "coords": [
+            0,
+            93,
+            0,
+            0,
+            105,
+            0,
+            105,
+            35,
+            15,
+            35,
+            15,
+            74,
+            32,
+            74,
+            32,
+            151,
+            67,
+            151,
+            67,
+            141,
+            92,
+            141,
+            92,
+            151,
+            127,
+            151,
+            127,
+            150,
+            158,
+            150,
+            158,
+            176,
+            128,
+            176,
+            127,
+            167,
+            92,
+            167,
+            92,
+            333,
+            66,
+            333,
+            66,
+            167,
+            14,
+            167,
+            14,
+            93
+          ]
+        }
+      ],
+      "region": "ch",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/laboratory"
+    },
+    {
+      "id": "laboratory-1f/church",
+      "name": "Church",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-1f/church",
+      "areas": [
+        {
+          "map": "re0_laboratory1f_map",
+          "shape": "poly",
+          "coords": [
+            56,
+            45,
+            107,
+            45,
+            107,
+            62,
+            127,
+            62,
+            127,
+            82,
+            107,
+            82,
+            107,
+            141,
+            56,
+            141
+          ]
+        }
+      ],
+      "region": "ch",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/laboratory"
+    },
+    {
+      "id": "laboratory-1f/church-back-room",
+      "name": "Church Back Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-1f/church-back-room",
+      "areas": [
+        {
+          "map": "re0_laboratory1f_map",
+          "shape": "poly",
+          "coords": [
+            127,
+            56,
+            154,
+            56,
+            154,
+            89,
+            143,
+            89,
+            143,
+            96,
+            127,
+            96
+          ]
+        }
+      ],
+      "region": "ch",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/laboratory"
+    },
+    {
+      "id": "laboratory-2f/church-roof",
+      "name": "Church Roof",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-2f/church-roof",
+      "areas": [
+        {
+          "map": "re0_laboratory2f_map",
+          "shape": "rect",
+          "coords": [
+            0,
+            0,
+            24,
+            113
+          ]
+        }
+      ],
+      "region": "ch",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/laboratory"
+    },
+    {
+      "id": "laboratory-b1/machine-room-2f",
+      "name": "Machine Room 2F",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/machine-room-2f",
+      "areas": [
+        {
+          "map": "re0_laboratoryb1_map",
+          "shape": "poly",
+          "coords": [
+            88,
+            0,
+            150,
+            0,
+            150,
+            70,
+            88,
+            70,
+            88,
+            26,
+            85,
+            26,
+            85,
+            54,
+            70,
+            54,
+            70,
+            0,
+            85,
+            0,
+            85,
+            13,
+            88,
+            13
+          ]
+        }
+      ],
+      "region": "ch",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/laboratory"
+    },
+    {
+      "id": "laboratory-b1/breeding-room",
+      "name": "Breeding Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/breeding-room",
+      "areas": [
+        {
+          "map": "re0_laboratoryb1_map",
+          "shape": "rect",
+          "coords": [
+            150,
+            24,
+            210,
+            94
+          ]
+        }
+      ],
+      "region": "ch",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/laboratory"
+    },
+    {
+      "id": "laboratory-b1/corridor",
+      "name": "Corridor",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/corridor",
+      "areas": [
+        {
+          "map": "re0_laboratoryb1_map",
+          "shape": "poly",
+          "coords": [
+            97,
+            89,
+            97,
+            70,
+            150,
+            70,
+            150,
+            109,
+            132,
+            109,
+            132,
+            89
+          ]
+        }
+      ],
+      "region": "ch",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/laboratory"
+    },
+    {
+      "id": "laboratory-b1/leech-laboratory",
+      "name": "Leech Laboratory",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/leech-laboratory",
+      "areas": [
+        {
+          "map": "re0_laboratoryb1_map",
+          "shape": "poly",
+          "coords": [
+            80,
+            70,
+            97,
+            70,
+            97,
+            89,
+            115,
+            89,
+            115,
+            167,
+            62,
+            167,
+            62,
+            124,
+            80,
+            124
+          ]
+        }
+      ],
+      "region": "ch",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/laboratory"
+    },
+    {
+      "id": "laboratory-b1/operating-room",
+      "name": "Operating Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/operating-room",
+      "areas": [
+        {
+          "map": "re0_laboratoryb1_map",
+          "shape": "rect",
+          "coords": [
+            0,
+            70,
+            79,
+            123
+          ]
+        }
+      ],
+      "region": "ch",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/laboratory"
+    },
+    {
+      "id": "laboratory-b1/morgue",
+      "name": "Morgue",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/morgue",
+      "areas": [
+        {
+          "map": "re0_laboratoryb1_map",
+          "shape": "rect",
+          "coords": [
+            0,
+            124,
+            61,
+            210
+          ]
+        }
+      ],
+      "region": "ch",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/laboratory"
+    },
+    {
+      "id": "laboratory-b1/leech-room",
+      "name": "Leech Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/leech-room",
+      "areas": [
+        {
+          "map": "re0_laboratoryb1_map",
+          "shape": "poly",
+          "coords": [
+            115,
+            89,
+            132,
+            89,
+            132,
+            109,
+            176,
+            109,
+            176,
+            167,
+            115,
+            167
+          ]
+        }
+      ],
+      "region": "ch",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/laboratory"
+    },
+    {
+      "id": "laboratory-b2/cable-car",
+      "name": "Cable Car",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/cable-car",
+      "areas": [
+        {
+          "map": "re0_laboratoryb2_map",
+          "shape": "poly",
+          "coords": [
+            1,
+            16,
+            74,
+            16,
+            74,
+            21,
+            75,
+            21,
+            75,
+            38,
+            74,
+            38,
+            74,
+            43,
+            1,
+            43,
+            1,
+            38,
+            0,
+            38,
+            0,
+            21,
+            1,
+            21
+          ]
+        }
+      ],
+      "region": "ch",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/laboratory"
+    },
+    {
+      "id": "laboratory-b2/machine-room-1f",
+      "name": "Machine Room 1F",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/machine-room-1f",
+      "areas": [
+        {
+          "map": "re0_laboratoryb2_map",
+          "shape": "poly",
+          "coords": [
+            76,
+            0,
+            165,
+            0,
+            165,
+            71,
+            7,
+            71,
+            7,
+            44,
+            76,
+            44
+          ]
+        }
+      ],
+      "region": "ch",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/laboratory"
+    },
+    {
+      "id": "laboratory-b2/elevator-passage",
+      "name": "Elevator Passage",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/elevator-passage",
+      "areas": [
+        {
+          "map": "re0_laboratoryb2_map",
+          "shape": "poly",
+          "coords": [
+            111,
+            89,
+            111,
+            71,
+            165,
+            71,
+            165,
+            96,
+            227,
+            96,
+            227,
+            110,
+            146,
+            110,
+            146,
+            89
+          ]
+        }
+      ],
+      "region": "ch",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/laboratory"
+    },
+    {
+      "id": "laboratory-b2/marcuss-study",
+      "name": "Marcus's Study",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/marcuss-study",
+      "areas": [
+        {
+          "map": "re0_laboratoryb2_map",
+          "shape": "poly",
+          "coords": [
+            76,
+            71,
+            111,
+            71,
+            111,
+            89,
+            129,
+            89,
+            129,
+            150,
+            117,
+            150,
+            117,
+            149,
+            76,
+            149
+          ]
+        }
+      ],
+      "region": "ch",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/laboratory"
+    },
+    {
+      "id": "laboratory-b2/marcuss-private-room",
+      "name": "Marcus's Private Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/marcuss-private-room",
+      "areas": [
+        {
+          "map": "re0_laboratoryb2_map",
+          "shape": "rect",
+          "coords": [
+            46,
+            149,
+            116,
+            193
+          ]
+        }
+      ],
+      "region": "ch",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/laboratory"
+    },
+    {
+      "id": "laboratory-b2/reference-room",
+      "name": "Reference Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/reference-room",
+      "areas": [
+        {
+          "map": "re0_laboratoryb2_map",
+          "shape": "poly",
+          "coords": [
+            129,
+            89,
+            146,
+            89,
+            146,
+            110,
+            191,
+            110,
+            191,
+            173,
+            129,
+            173
+          ]
+        }
+      ],
+      "region": "ch",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/laboratory"
+    },
+    {
+      "id": "factory-1f/platform",
+      "name": "Platform",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-1f/platform",
+      "areas": [
+        {
+          "map": "re0_factory1f_map",
+          "shape": "rect",
+          "coords": [
+            0,
+            8,
+            59,
+            26
+          ]
+        }
+      ],
+      "region": "bt",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/factory"
+    },
+    {
+      "id": "factory-1f/turntable-yard",
+      "name": "Turntable Yard",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-1f/turntable-yard",
+      "areas": [
+        {
+          "map": "re0_factory1f_map",
+          "shape": "poly",
+          "coords": [
+            17,
+            74,
+            17,
+            27,
+            60,
+            27,
+            60,
+            26,
+            123,
+            26,
+            149,
+            0,
+            198,
+            0,
+            224,
+            26,
+            224,
+            74,
+            198,
+            100,
+            149,
+            100,
+            123,
+            74
+          ]
+        }
+      ],
+      "region": "bt",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/factory"
+    },
+    {
+      "id": "factory-1f/turntable-control-room",
+      "name": "Turntable Control Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-1f/turntable-control-room",
+      "areas": [
+        {
+          "map": "re0_factory1f_map",
+          "shape": "rect",
+          "coords": [
+            58,
+            74,
+            114,
+            112
+          ]
+        }
+      ],
+      "region": "bt",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/factory"
+    },
+    {
+      "id": "factory-b1/platform",
+      "name": "Platform",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b1/platform",
+      "areas": [
+        {
+          "map": "re0_factoryb1_map",
+          "shape": "poly",
+          "coords": [
+            47,
+            11,
+            74,
+            11,
+            74,
+            81,
+            79,
+            81,
+            79,
+            94,
+            0,
+            94,
+            0,
+            76,
+            47,
+            76
+          ]
+        }
+      ],
+      "region": "bt",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/factory"
+    },
+    {
+      "id": "factory-b1/maintenance-shaft",
+      "name": "Maintenance Shaft",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b1/maintenance-shaft",
+      "areas": [
+        {
+          "map": "re0_factoryb1_map",
+          "shape": "poly",
+          "coords": [
+            108,
+            55,
+            174,
+            55,
+            209,
+            90,
+            209,
+            94,
+            243,
+            94,
+            243,
+            108,
+            204,
+            108,
+            204,
+            127,
+            194,
+            132,
+            191,
+            132,
+            191,
+            95,
+            164,
+            68,
+            118,
+            68,
+            92,
+            94,
+            79,
+            94,
+            79,
+            81,
+            82,
+            81
+          ]
+        }
+      ],
+      "region": "bt",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/factory"
+    },
+    {
+      "id": "factory-b1/turntable-yard",
+      "name": "Turntable Yard",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b1/turntable-yard",
+      "areas": [
+        {
+          "map": "re0_factoryb1_map",
+          "shape": "poly",
+          "coords": [
+            70,
+            101,
+            91,
+            101,
+            91,
+            138,
+            112,
+            159,
+            124,
+            159,
+            124,
+            168,
+            106,
+            168,
+            80,
+            142,
+            80,
+            113,
+            70,
+            113
+          ]
+        }
+      ],
+      "region": "bt",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/factory"
+    },
+    {
+      "id": "factory-b1/turntable-monitor-room",
+      "name": "Turntable Monitor Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b1/turntable-monitor-room",
+      "areas": [
+        {
+          "map": "re0_factoryb1_map",
+          "shape": "poly",
+          "coords": [
+            74,
+            211,
+            109,
+            211,
+            109,
+            168,
+            123,
+            168,
+            123,
+            259,
+            74,
+            259
+          ]
+        }
+      ],
+      "region": "bt",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/factory"
+    },
+    {
+      "id": "factory-b1/elevator",
+      "name": "Elevator",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b1/elevator",
+      "areas": [
+        {
+          "map": "re0_factoryb1_map",
+          "shape": "rect",
+          "coords": [
+            209,
+            73,
+            239,
+            93
+          ]
+        }
+      ],
+      "region": "bt",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/factory"
+    },
+    {
+      "id": "factory-b4/turntable-platform",
+      "name": "Turntable Platform",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b4/turntable-platform",
+      "areas": [
+        {
+          "map": "re0_factoryb4_map",
+          "shape": "poly",
+          "coords": [
+            0,
+            47,
+            43,
+            47,
+            43,
+            26,
+            78,
+            26,
+            104,
+            0,
+            153,
+            0,
+            179,
+            26,
+            281,
+            26,
+            281,
+            74,
+            179,
+            74,
+            153,
+            100,
+            104,
+            100,
+            78,
+            74,
+            70,
+            74,
+            70,
+            107,
+            52,
+            107,
+            52,
+            70,
+            0,
+            70
+          ]
+        }
+      ],
+      "region": "bt",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/factory"
+    },
+    {
+      "id": "factory-b4/elevator",
+      "name": "Elevator",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b4/elevator",
+      "areas": [
+        {
+          "map": "re0_factoryb4_map",
+          "shape": "rect",
+          "coords": [
+            193,
+            5,
+            223,
+            25
+          ]
+        }
+      ],
+      "region": "bt",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/factory"
+    },
+    {
+      "id": "treatment-plant-b5/generator-room-2f",
+      "name": "Generator Room 2F",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b5/generator-room-2f",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb5_map",
+          "shape": "rect",
+          "coords": [
+            0,
+            138,
+            78,
+            208
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b5/control-room",
+      "name": "Control Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b5/control-room",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb5_map",
+          "shape": "poly",
+          "coords": [
+            78,
+            74,
+            149,
+            74,
+            149,
+            163,
+            79,
+            163,
+            79,
+            138,
+            78,
+            138
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b5/bridge",
+      "name": "Bridge",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b5/bridge",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb5_map",
+          "shape": "rect",
+          "coords": [
+            123,
+            22,
+            141,
+            73
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b5/elevator",
+      "name": "Elevator",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b5/elevator",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb5_map",
+          "shape": "rect",
+          "coords": [
+            117,
+            0,
+            147,
+            21
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b6/rec-room",
+      "name": "Rec Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/rec-room",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb6_map",
+          "shape": "rect",
+          "coords": [
+            0,
+            139,
+            70,
+            191
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b6/l-corridor",
+      "name": "'L' Corridor",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/l-corridor",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb6_map",
+          "shape": "poly",
+          "coords": [
+            52,
+            52,
+            149,
+            52,
+            149,
+            70,
+            71,
+            70,
+            71,
+            139,
+            52,
+            139
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b6/generator-room",
+      "name": "Generator Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/generator-room",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb6_map",
+          "shape": "rect",
+          "coords": [
+            71,
+            70,
+            148,
+            139
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b6/air-regulator-room",
+      "name": "Air Regulator Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/air-regulator-room",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb6_map",
+          "shape": "poly",
+          "coords": [
+            148,
+            0,
+            219,
+            0,
+            219,
+            73,
+            218,
+            73,
+            218,
+            88,
+            149,
+            88,
+            149,
+            52,
+            148,
+            52
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b6/b6-walkway",
+      "name": "B6 Walkway",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/b6-walkway",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb6_map",
+          "shape": "rect",
+          "coords": [
+            149,
+            88,
+            217,
+            105
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b6/lodgings",
+      "name": "Lodgings",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/lodgings",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb6_map",
+          "shape": "rect",
+          "coords": [
+            218,
+            73,
+            288,
+            138
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b6/purification-room",
+      "name": "Purification Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/purification-room",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb6_map",
+          "shape": "rect",
+          "coords": [
+            227,
+            139,
+            288,
+            216
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b7/maintenance-area",
+      "name": "Maintenance Area",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b7/maintenance-area",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb7_map",
+          "shape": "poly",
+          "coords": [
+            15,
+            0,
+            95,
+            0,
+            95,
+            80,
+            89,
+            80,
+            89,
+            79,
+            15,
+            79
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b7/water-pool",
+      "name": "Water Pool",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b7/water-pool",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb7_map",
+          "shape": "rect",
+          "coords": [
+            0,
+            79,
+            88,
+            131
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b7/stairway",
+      "name": "Stairway",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b7/stairway",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb7_map",
+          "shape": "poly",
+          "coords": [
+            4,
+            144,
+            4,
+            132,
+            40,
+            132,
+            40,
+            170,
+            27,
+            170,
+            27,
+            144
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b7/b7-walkway",
+      "name": "B7 Walkway",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b7/b7-walkway",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb7_map",
+          "shape": "poly",
+          "coords": [
+            205,
+            70,
+            259,
+            70,
+            259,
+            166,
+            240,
+            166,
+            240,
+            88,
+            205,
+            88
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b7/cargo-control-room",
+      "name": "Cargo Control Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b7/cargo-control-room",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb7_map",
+          "shape": "rect",
+          "coords": [
+            214,
+            166,
+            293,
+            236
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b8/dumping-area",
+      "name": "Dumping Area",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b8/dumping-area",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb8_map",
+          "shape": "rect",
+          "coords": [
+            0,
+            1,
+            118,
+            54
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b8/laboratory",
+      "name": "Laboratory",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b8/laboratory",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb8_map",
+          "shape": "rect",
+          "coords": [
+            0,
+            55,
+            53,
+            133
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b8/floodgate-control-room",
+      "name": "Floodgate Control Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b8/floodgate-control-room",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb8_map",
+          "shape": "poly",
+          "coords": [
+            104,
+            133,
+            104,
+            204,
+            42,
+            204,
+            42,
+            134,
+            54,
+            134,
+            54,
+            133
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b8/water-treatment-walkway",
+      "name": "Water Treatment Walkway",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b8/water-treatment-walkway",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb8_map",
+          "shape": "rect",
+          "coords": [
+            208,
+            0,
+            287,
+            53
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b9/storage",
+      "name": "Storage",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/storage",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb9_map",
+          "shape": "poly",
+          "coords": [
+            39,
+            281,
+            106,
+            281,
+            106,
+            343,
+            66,
+            343,
+            66,
+            342,
+            39,
+            342
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b9/incinerator",
+      "name": "Incinerator",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/incinerator",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb9_map",
+          "shape": "poly",
+          "coords": [
+            80,
+            185,
+            80,
+            204,
+            171,
+            204,
+            171,
+            270,
+            102,
+            270,
+            102,
+            281,
+            61,
+            281,
+            61,
+            270,
+            0,
+            270,
+            0,
+            185
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b9/fenced-area",
+      "name": "Fenced Area",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/fenced-area",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb9_map",
+          "shape": "poly",
+          "coords": [
+            88,
+            176,
+            263,
+            176,
+            263,
+            204,
+            80,
+            204,
+            80,
+            185,
+            88,
+            185
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b9/engine-room",
+      "name": "Engine Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/engine-room",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb9_map",
+          "shape": "rect",
+          "coords": [
+            263,
+            133,
+            324,
+            203
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b9/laboratory-cryo-room",
+      "name": "Laboratory Cryo Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/laboratory-cryo-room",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb9_map",
+          "shape": "poly",
+          "coords": [
+            222,
+            54,
+            275,
+            54,
+            275,
+            133,
+            263,
+            133,
+            263,
+            134,
+            222,
+            134
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b9/dam",
+      "name": "Dam",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/dam",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb9_map",
+          "shape": "poly",
+          "coords": [
+            325,
+            145,
+            416,
+            145,
+            416,
+            31,
+            429,
+            31,
+            429,
+            102,
+            430,
+            102,
+            430,
+            164,
+            325,
+            164
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-b9/water-treatment-room",
+      "name": "Water Treatment Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/water-treatment-room",
+      "areas": [
+        {
+          "map": "re0_treatmentplantb9_map",
+          "shape": "rect",
+          "coords": [
+            429,
+            0,
+            508,
+            101
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    },
+    {
+      "id": "treatment-plant-1f/cargo-room",
+      "name": "Cargo Room",
+      "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-1f/cargo-room",
+      "areas": [
+        {
+          "map": "re0_treatmentplant1f_map",
+          "shape": "poly",
+          "coords": [
+            0,
+            0,
+            206,
+            0,
+            206,
+            89,
+            170,
+            89,
+            170,
+            134,
+            272,
+            134,
+            272,
+            224,
+            0,
+            224
+          ]
+        }
+      ],
+      "region": "pl",
+      "native_id": null,
+      "result": "native-mapping-unverified",
+      "checked_on": "2026-11-03",
+      "source_page": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant"
+    }
+  ]
+}

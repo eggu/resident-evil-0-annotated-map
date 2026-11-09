@@ -1,0 +1,5 @@
+// Same frame through the built WebAssembly, printed for comparison with the native build of the same C.
+const fs=require('fs');const[,,path,json]=process.argv;const req=JSON.parse(json);
+WebAssembly.instantiate(fs.readFileSync(path),{}).then(w=>{const a=w.instance.exports,m=a.memory;new Int32Array(m.buffer,a.re0_wasm_settings(),req.settings.length).set(req.settings);
+const seen=new Uint8Array(m.buffer,a.re0_wasm_seen(),256),box=new Float32Array(m.buffer,a.re0_wasm_boxes(),1024);for(const[k,b]of Object.entries(req.rooms)){seen[k]=1;box.set(b,k*4)}
+new Uint32Array(m.buffer,a.re0_wasm_flags(),33).set(req.flags||[]);new Float32Array(m.buffer,a.re0_wasm_obstacles(),1024).set((req.obstacles||[]).flat());const n=a.re0_wasm_frame(req.w,req.h,...req.view,(req.obstacles||[]).length),d=new DataView(m.buffer,a.re0_wasm_ops(),n*24),out=[];for(let i=0;i<n;i++){const o=i*24;out.push([d.getFloat32(o,true),d.getFloat32(o+4,true),d.getFloat32(o+8,true),d.getFloat32(o+12,true),d.getUint32(o+16,true),d.getInt32(o+20,true)])}console.log(JSON.stringify(out))});

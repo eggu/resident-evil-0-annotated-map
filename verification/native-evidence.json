@@ -1,0 +1,153 @@
+{
+  "evidence": "static-byte-checked",
+  "original_sha256": "67418c3a307b49e9bde8123df4cad1fa910f3a29adc3e4c0ba64eb96524bc14b",
+  "analysis_sha256": "ee00723d5dc55781e31d14977f77b1a7d6bbe68ace06b6eb455b3744e2e7e7a2",
+  "installed_files_modified": false,
+  "sites": [
+    {
+      "address": "0x00cdc6a8",
+      "bytes": "90308800",
+      "claim": "uGUIMap draw vtable slot +0x58 points to 0x883090"
+    },
+    {
+      "address": "0x00d25478",
+      "bytes": "40cc8700",
+      "claim": "cGUIInstAnimation vtable 0xd25448 slot +0x30 points to 0x87cc40"
+    },
+    {
+      "address": "0x008753c6",
+      "bytes": "c7064854d200",
+      "claim": "cGUIInstAnimation constructor installs vtable 0xd25448"
+    },
+    {
+      "address": "0x0087d535",
+      "bytes": "397904",
+      "claim": "GUI instance lookup compares resource ID at +4"
+    },
+    {
+      "address": "0x006021c0",
+      "bytes": "c74500c05fce00",
+      "claim": "renderer subclass installs vtable 0xce5fc0 over base sRender"
+    },
+    {
+      "address": "0x00d26168",
+      "bytes": "e00a8900",
+      "claim": "GUI sprite draw vtable slot +0x30 points to 0x890ae0"
+    },
+    {
+      "address": "0x005b2c3f",
+      "bytes": "c70650c6cd00",
+      "claim": "uGUIMap instance vtable is 0xcdc650"
+    },
+    {
+      "address": "0x005b4e0c",
+      "bytes": "8b837c020000",
+      "claim": "map update uses phase at owner+0x27c"
+    },
+    {
+      "address": "0x005b5008",
+      "bytes": "8b8578020000578b5844",
+      "claim": "map uses owner+0x278 state then region +0x44"
+    },
+    {
+      "address": "0x0087ccf5",
+      "bytes": "8b466c8b8048010000",
+      "claim": "GUI instance owner at +0x6c"
+    },
+    {
+      "address": "0x0087d0ef",
+      "bytes": "8b8eec00000085c9740657",
+      "claim": "instance draw dispatches its animation at +0xec"
+    },
+    {
+      "address": "0x008832f7",
+      "bytes": "8b4508f30f10442438",
+      "claim": "native draw writes GUI viewport arguments +0xb8..+0xc4"
+    },
+    {
+      "address": "0x0071c448",
+      "bytes": "893d0cd4e200",
+      "claim": "sRender constructor publishes singleton at 0xe2d40c"
+    },
+    {
+      "address": "0x0071c2a3",
+      "bytes": "c70778b2d100",
+      "claim": "sRender instance vtable is 0xd1b278"
+    },
+    {
+      "address": "0x007205cb",
+      "bytes": "8bbb98000000",
+      "claim": "sRender draw uses device at owner+0x98"
+    },
+    {
+      "address": "0x007206bf",
+      "bytes": "8b0757ff90a8000000",
+      "claim": "sRender calls D3D9 EndScene at device vtable+0xa8"
+    },
+    {
+      "address": "0x0057d123",
+      "bytes": "6a0c8d4c241089436c",
+      "claim": "event-script loader skips 12 bytes after big-endian count"
+    },
+    {
+      "address": "0x0057d140",
+      "bytes": "8d4c240c83fe20",
+      "claim": "event-script loader retains at most 32 four-word slots"
+    },
+    {
+      "address": "0x0068455a",
+      "bytes": "8bc28bcac1e910",
+      "claim": "event-script u32 reader swaps byte order"
+    },
+    {
+      "address": "0x0061a260",
+      "bytes": "8b4424048b0485700bdb0003442408",
+      "claim": "global room ID = region base plus local room index"
+    },
+    {
+      "address": "0x0061a500",
+      "bytes": "8b442404b90b0000003bc10f47c18b04851011db00",
+      "claim": "region name lookup from 12-entry table with out-of-range sentinel"
+    },
+    {
+      "address": "0x005bd6f3",
+      "bytes": "686ce1cd0068dcd9e200",
+      "claim": "maploc archive path and resource manager argument"
+    },
+    {
+      "address": "0x005bd6fd",
+      "bytes": "ff5030898688000000",
+      "claim": "archive load result stored at owner +0x88"
+    },
+    {
+      "address": "0x00885e8c",
+      "bytes": "8b82a4000000",
+      "claim": "GUI relocation reads animation table at header +0xa4"
+    },
+    {
+      "address": "0x00886213",
+      "bytes": "8b43688b8004010000014608",
+      "claim": "GUI property names use string pool at header +0x104"
+    },
+    {
+      "address": "0x00886275",
+      "bytes": "4783c610",
+      "claim": "GUI static property stride 16 bytes"
+    },
+    {
+      "address": "0x0088645d",
+      "bytes": "0fb64ff0",
+      "claim": "GUI object property count is low byte of packed field"
+    },
+    {
+      "address": "0x00885ab7",
+      "bytes": "3930740a4283c018",
+      "claim": "animation lookup compares ID and advances 24 bytes"
+    },
+    {
+      "address": "0x005b4a3c",
+      "bytes": "6838c7cd00",
+      "claim": "map instance formatted resource name argument"
+    }
+  ]
+}

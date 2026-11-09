@@ -1,0 +1,6339 @@
+{
+"schema_version": 1,
+"evidence": "Inventory of events in every main-game room script: groups that start a cutscene (Demo_Start, PlayMovie) or, with no cutscene, turn an enemy on (SetEnemyFlag x,1). Analysis only.\n\nGroups are walked from their real entry with Scripts.evaluate, one flag forced at a time, so conditions are what the script tests and no neighbouring group is attributed.\nscript_read means this reading only: nobody has seen the cutscene or the enemy, and what the scene shows is not known. Rules:\nexcluded: tag 18 (room setup, the same scenes in nearly every room), tag 8 or 30 (item use, has a puzzle mark), or a group outside PLACED whose cutscenes all run from a placed group too.\nunresolved: no flag decides that it has happened, so a mark could never hide; or that flag is cleared again by a script, so a mark would return (a repeatable action, not a one-shot).\nscript_read: done is a flag whose being set stops the event and which a script sets. need is a flag whose being clear stops it. Only the first need is applied to the mark; others are listed.\nPosition: tag 2 or 14 with volume x of <scene>b, tag 17 the table row of item x, otherwise room level, labelled so. What tags mean is observed over all scripts, see verification/event-audit.md: the native code that selects a group by tag was not found.\n",
+"rows": [
+{
+"scene": "bt00",
+"group": 4,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+115
+],
+"done_candidates": [
+62
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x3e",
+"done": 62,
+"room": 132,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "bt02",
+"group": 5,
+"tag": 2,
+"x": 4,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 179"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 134
+},
+{
+"scene": "bt02",
+"group": 12,
+"tag": 8,
+"x": 11,
+"y": 67,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 102"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 134
+},
+{
+"scene": "bt02",
+"group": 13,
+"tag": 4,
+"x": 12,
+"y": 131072,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 37"
+],
+"enemy_flags": [],
+"done_candidates": [
+246
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0xf6",
+"done": 246,
+"room": 134,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "bt02",
+"group": 14,
+"tag": 12,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 103"
+],
+"enemy_flags": [
+103
+],
+"done_candidates": [
+247
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0xf7",
+"done": 247,
+"room": 134,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "bt04",
+"group": 4,
+"tag": 8,
+"x": 2,
+"y": 73,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 27"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 136
+},
+{
+"scene": "bt04",
+"group": 5,
+"tag": 8,
+"x": 2,
+"y": 111,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 27"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 136
+},
+{
+"scene": "bt05",
+"group": 4,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+115
+],
+"done_candidates": [
+62
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 62,
+"room": 137
+},
+{
+"scene": "bt06",
+"group": 5,
+"tag": 2,
+"x": 4,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 179"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 138
+},
+{
+"scene": "bt06",
+"group": 12,
+"tag": 8,
+"x": 11,
+"y": 67,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 102"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 138
+},
+{
+"scene": "bt06",
+"group": 13,
+"tag": 4,
+"x": 12,
+"y": 131072,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 37"
+],
+"enemy_flags": [],
+"done_candidates": [
+246
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 246,
+"room": 138
+},
+{
+"scene": "bt06",
+"group": 14,
+"tag": 12,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 103"
+],
+"enemy_flags": [
+103
+],
+"done_candidates": [
+247
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 247,
+"room": 138
+},
+{
+"scene": "bt07",
+"group": 5,
+"tag": 2,
+"x": 4,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 179"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 139
+},
+{
+"scene": "bt07",
+"group": 12,
+"tag": 8,
+"x": 11,
+"y": 67,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 102"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 139
+},
+{
+"scene": "bt07",
+"group": 13,
+"tag": 4,
+"x": 12,
+"y": 131072,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 37"
+],
+"enemy_flags": [],
+"done_candidates": [
+246
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 246,
+"room": 139
+},
+{
+"scene": "bt07",
+"group": 14,
+"tag": 12,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 103"
+],
+"enemy_flags": [
+103
+],
+"done_candidates": [
+247
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 247,
+"room": 139
+},
+{
+"scene": "bt08",
+"group": 5,
+"tag": 2,
+"x": 4,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 179"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 140
+},
+{
+"scene": "bt08",
+"group": 12,
+"tag": 8,
+"x": 11,
+"y": 67,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 102"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 140
+},
+{
+"scene": "bt08",
+"group": 13,
+"tag": 4,
+"x": 12,
+"y": 131072,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 37"
+],
+"enemy_flags": [],
+"done_candidates": [
+246
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 246,
+"room": 140
+},
+{
+"scene": "bt08",
+"group": 14,
+"tag": 12,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 103"
+],
+"enemy_flags": [
+103
+],
+"done_candidates": [
+247
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 247,
+"room": 140
+},
+{
+"scene": "ch01",
+"group": 4,
+"tag": 6,
+"x": 3,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 66",
+"Demo_Start 64"
+],
+"enemy_flags": [
+83
+],
+"done_candidates": [
+404
+],
+"need": [
+403
+],
+"status": "script_read",
+"reason": "done flag 0x194",
+"done": 404,
+"room": 100,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "ch01",
+"group": 6,
+"tag": 12,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 92"
+],
+"enemy_flags": [],
+"done_candidates": [
+213
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0xd5",
+"done": 213,
+"room": 100,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "ch03",
+"group": 2,
+"tag": 31,
+"x": 1,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 90",
+"PlayMovie 21"
+],
+"enemy_flags": [
+98,
+99,
+113,
+151,
+157
+],
+"done_candidates": [
+217,
+234
+],
+"need": [
+216
+],
+"status": "script_read",
+"reason": "done flag 0xd9",
+"done": 217,
+"room": 102,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "ch03",
+"group": 5,
+"tag": 2,
+"x": 4,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 23"
+],
+"enemy_flags": [
+198
+],
+"done_candidates": [
+22
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x16",
+"done": 22,
+"room": 102,
+"position": "trigger volume 4"
+},
+{
+"scene": "ch03",
+"group": 6,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 81",
+"Demo_Start 82"
+],
+"enemy_flags": [],
+"done_candidates": [
+218
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0xda",
+"done": 218,
+"room": 102,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "ch04",
+"group": 12,
+"tag": 8,
+"x": 2,
+"y": 71,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+77
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 103
+},
+{
+"scene": "ch05",
+"group": 9,
+"tag": 8,
+"x": 6,
+"y": 92,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 24"
+],
+"enemy_flags": [
+80
+],
+"done_candidates": [],
+"need": [
+224
+],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 104
+},
+{
+"scene": "ch05",
+"group": 10,
+"tag": 8,
+"x": 6,
+"y": 93,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 24"
+],
+"enemy_flags": [
+79
+],
+"done_candidates": [],
+"need": [
+223
+],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 104
+},
+{
+"scene": "ch07",
+"group": 2,
+"tag": 2,
+"x": 1,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+84,
+163
+],
+"done_candidates": [
+226
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0xe2",
+"done": 226,
+"room": 106,
+"position": "trigger volume 1"
+},
+{
+"scene": "ch08",
+"group": 4,
+"tag": 8,
+"x": 1,
+"y": 72,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+76
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 107
+},
+{
+"scene": "ch0c",
+"group": 2,
+"tag": 2,
+"x": 1,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 26",
+"PlayMovie 25"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 111
+},
+{
+"scene": "ch0e",
+"group": 4,
+"tag": 2,
+"x": 3,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 75",
+"Demo_Start 76"
+],
+"enemy_flags": [],
+"done_candidates": [
+235
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0xeb",
+"done": 235,
+"room": 113,
+"position": "trigger volume 3"
+},
+{
+"scene": "ch11",
+"group": 4,
+"tag": 6,
+"x": 3,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 66",
+"Demo_Start 64"
+],
+"enemy_flags": [
+83
+],
+"done_candidates": [
+404
+],
+"need": [
+403
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 404,
+"room": 116
+},
+{
+"scene": "ch11",
+"group": 6,
+"tag": 12,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 92"
+],
+"enemy_flags": [],
+"done_candidates": [
+213
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 213,
+"room": 116
+},
+{
+"scene": "ch13",
+"group": 2,
+"tag": 31,
+"x": 1,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 90",
+"PlayMovie 21"
+],
+"enemy_flags": [
+98,
+99,
+113,
+151,
+157
+],
+"done_candidates": [
+217,
+234
+],
+"need": [
+216
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 217,
+"room": 118
+},
+{
+"scene": "ch13",
+"group": 5,
+"tag": 2,
+"x": 4,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 23"
+],
+"enemy_flags": [
+198
+],
+"done_candidates": [
+22
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 22,
+"room": 118
+},
+{
+"scene": "ch13",
+"group": 6,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 81",
+"Demo_Start 82"
+],
+"enemy_flags": [],
+"done_candidates": [
+218
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 218,
+"room": 118
+},
+{
+"scene": "ch14",
+"group": 2,
+"tag": 31,
+"x": 1,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 90",
+"PlayMovie 21"
+],
+"enemy_flags": [
+98,
+99,
+113,
+151,
+157
+],
+"done_candidates": [
+217,
+234
+],
+"need": [
+216
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 217,
+"room": 119
+},
+{
+"scene": "ch14",
+"group": 5,
+"tag": 2,
+"x": 4,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 23"
+],
+"enemy_flags": [
+198
+],
+"done_candidates": [
+22
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 22,
+"room": 119
+},
+{
+"scene": "ch14",
+"group": 6,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 81",
+"Demo_Start 82"
+],
+"enemy_flags": [],
+"done_candidates": [
+218
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 218,
+"room": 119
+},
+{
+"scene": "ch15",
+"group": 2,
+"tag": 31,
+"x": 1,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 90",
+"PlayMovie 21"
+],
+"enemy_flags": [
+98,
+99,
+113,
+151,
+157
+],
+"done_candidates": [
+217,
+234
+],
+"need": [
+216
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 217,
+"room": 120
+},
+{
+"scene": "ch15",
+"group": 5,
+"tag": 2,
+"x": 4,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 23"
+],
+"enemy_flags": [
+198
+],
+"done_candidates": [
+22
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 22,
+"room": 120
+},
+{
+"scene": "ch15",
+"group": 6,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 81",
+"Demo_Start 82"
+],
+"enemy_flags": [],
+"done_candidates": [
+218
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 218,
+"room": 120
+},
+{
+"scene": "ch17",
+"group": 9,
+"tag": 8,
+"x": 6,
+"y": 92,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 24"
+],
+"enemy_flags": [
+80
+],
+"done_candidates": [],
+"need": [
+224
+],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 122
+},
+{
+"scene": "ch17",
+"group": 10,
+"tag": 8,
+"x": 6,
+"y": 93,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 24"
+],
+"enemy_flags": [
+79
+],
+"done_candidates": [],
+"need": [
+223
+],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 122
+},
+{
+"scene": "ch18",
+"group": 9,
+"tag": 8,
+"x": 6,
+"y": 92,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 24"
+],
+"enemy_flags": [
+80
+],
+"done_candidates": [],
+"need": [
+224
+],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 123
+},
+{
+"scene": "ch18",
+"group": 10,
+"tag": 8,
+"x": 6,
+"y": 93,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 24"
+],
+"enemy_flags": [
+79
+],
+"done_candidates": [],
+"need": [
+223
+],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 123
+},
+{
+"scene": "ch19",
+"group": 9,
+"tag": 8,
+"x": 6,
+"y": 92,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 24"
+],
+"enemy_flags": [
+80
+],
+"done_candidates": [],
+"need": [
+224
+],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 124
+},
+{
+"scene": "ch19",
+"group": 10,
+"tag": 8,
+"x": 6,
+"y": 93,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 24"
+],
+"enemy_flags": [
+79
+],
+"done_candidates": [],
+"need": [
+223
+],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 124
+},
+{
+"scene": "ch1c",
+"group": 2,
+"tag": 2,
+"x": 1,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 26",
+"PlayMovie 25"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 127
+},
+{
+"scene": "ch1d",
+"group": 2,
+"tag": 2,
+"x": 1,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 26",
+"PlayMovie 25"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 128
+},
+{
+"scene": "ch1f",
+"group": 4,
+"tag": 6,
+"x": 3,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 66",
+"Demo_Start 64"
+],
+"enemy_flags": [
+83
+],
+"done_candidates": [
+404
+],
+"need": [
+403
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 404,
+"room": 130
+},
+{
+"scene": "ch1f",
+"group": 6,
+"tag": 12,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 92"
+],
+"enemy_flags": [],
+"done_candidates": [
+213
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 213,
+"room": 130
+},
+{
+"scene": "dm00",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 86
+},
+{
+"scene": "dm01",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 87
+},
+{
+"scene": "dm02",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 88
+},
+{
+"scene": "dm02",
+"group": 5,
+"tag": 2,
+"x": 1,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 17",
+"Demo_Start 57",
+"PlayMovie 18"
+],
+"enemy_flags": [
+66,
+128,
+134,
+138,
+156
+],
+"done_candidates": [
+10
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0xa",
+"done": 10,
+"room": 88,
+"position": "trigger volume 1"
+},
+{
+"scene": "dm03",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 89
+},
+{
+"scene": "dm04",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 90
+},
+{
+"scene": "dm05",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 91
+},
+{
+"scene": "dm05",
+"group": 5,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 59",
+"PlayMovie 19",
+"Demo_Start 61",
+"PlayMovie 20",
+"Demo_Start 62"
+],
+"enemy_flags": [],
+"done_candidates": [
+196,
+197
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0xc5",
+"done": 197,
+"room": 91,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "dm06",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 92
+},
+{
+"scene": "dm07",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 93
+},
+{
+"scene": "dm08",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 94
+},
+{
+"scene": "dm09",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 95
+},
+{
+"scene": "dm0a",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 96
+},
+{
+"scene": "dm0a",
+"group": 8,
+"tag": 2,
+"x": 3,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+100,
+101
+],
+"done_candidates": [
+205
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0xcd",
+"done": 205,
+"room": 96,
+"position": "trigger volume 3"
+},
+{
+"scene": "dm0b",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 97
+},
+{
+"scene": "dm0b",
+"group": 5,
+"tag": 31,
+"x": 1,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 56"
+],
+"enemy_flags": [],
+"done_candidates": [
+204
+],
+"need": [
+391
+],
+"status": "script_read",
+"reason": "done flag 0xcc",
+"done": 204,
+"room": 97,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "dm0c",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 98
+},
+{
+"scene": "dm0c",
+"group": 5,
+"tag": 2,
+"x": 1,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 17",
+"Demo_Start 57",
+"PlayMovie 18"
+],
+"enemy_flags": [
+66,
+128,
+134,
+138,
+156
+],
+"done_candidates": [
+10
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 10,
+"room": 98
+},
+{
+"scene": "pl00",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 39"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 141
+},
+{
+"scene": "pl00",
+"group": 4,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 28"
+],
+"enemy_flags": [],
+"done_candidates": [
+249
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0xf9",
+"done": 249,
+"room": 141,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "pl01",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 39"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 142
+},
+{
+"scene": "pl01",
+"group": 6,
+"tag": 2,
+"x": 4,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 30"
+],
+"enemy_flags": [],
+"done_candidates": [
+250
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0xfa",
+"done": 250,
+"room": 142,
+"position": "trigger volume 4"
+},
+{
+"scene": "pl02",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 143
+},
+{
+"scene": "pl03",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 144
+},
+{
+"scene": "pl04",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 145
+},
+{
+"scene": "pl04",
+"group": 5,
+"tag": 8,
+"x": 2,
+"y": 87,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 108",
+"Demo_Start 107"
+],
+"enemy_flags": [
+176
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 145
+},
+{
+"scene": "pl05",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 146
+},
+{
+"scene": "pl06",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 147
+},
+{
+"scene": "pl07",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 148
+},
+{
+"scene": "pl09",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 150
+},
+{
+"scene": "pl0a",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 151
+},
+{
+"scene": "pl0b",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 39"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 152
+},
+{
+"scene": "pl0b",
+"group": 4,
+"tag": 2,
+"x": 2,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+174
+],
+"done_candidates": [
+278
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x116",
+"done": 278,
+"room": 152,
+"position": "trigger volume 2"
+},
+{
+"scene": "pl0c",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 39"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 153
+},
+{
+"scene": "pl0c",
+"group": 5,
+"tag": 8,
+"x": 2,
+"y": 95,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+81
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 153
+},
+{
+"scene": "pl0d",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 154
+},
+{
+"scene": "pl0d",
+"group": 11,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+169
+],
+"done_candidates": [],
+"need": [
+418
+],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 154
+},
+{
+"scene": "pl0e",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 39"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 155
+},
+{
+"scene": "pl0f",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 39"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 156
+},
+{
+"scene": "pl0f",
+"group": 4,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 31"
+],
+"enemy_flags": [
+95
+],
+"done_candidates": [
+258
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x102",
+"done": 258,
+"room": 156,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "pl10",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 157
+},
+{
+"scene": "pl11",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 39"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 158
+},
+{
+"scene": "pl11",
+"group": 5,
+"tag": 2,
+"x": 3,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 32",
+"Demo_Start 132",
+"Demo_Start 131"
+],
+"enemy_flags": [],
+"done_candidates": [
+241
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0xf1",
+"done": 241,
+"room": 158,
+"position": "trigger volume 3"
+},
+{
+"scene": "pl12",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 159
+},
+{
+"scene": "pl13",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 160
+},
+{
+"scene": "pl13",
+"group": 5,
+"tag": 35,
+"x": 48,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 111",
+"Demo_Start 110",
+"Demo_Start 112"
+],
+"enemy_flags": [],
+"done_candidates": [
+259
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x103",
+"done": 259,
+"room": 160,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "pl14",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 161
+},
+{
+"scene": "pl14",
+"group": 4,
+"tag": 2,
+"x": 2,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 113",
+"Demo_Start 114"
+],
+"enemy_flags": [
+91
+],
+"done_candidates": [
+261
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x105",
+"done": 261,
+"room": 161,
+"position": "trigger volume 2"
+},
+{
+"scene": "pl15",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 39"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 162
+},
+{
+"scene": "pl16",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 163
+},
+{
+"scene": "pl17",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 39"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 164
+},
+{
+"scene": "pl17",
+"group": 4,
+"tag": 8,
+"x": 1,
+"y": 102,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+171
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 164
+},
+{
+"scene": "pl17",
+"group": 5,
+"tag": 8,
+"x": 1,
+"y": 127,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+171
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 164
+},
+{
+"scene": "pl17",
+"group": 6,
+"tag": 8,
+"x": 2,
+"y": 102,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+171
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 164
+},
+{
+"scene": "pl17",
+"group": 7,
+"tag": 8,
+"x": 2,
+"y": 127,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+171
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 164
+},
+{
+"scene": "pl17",
+"group": 10,
+"tag": 25,
+"x": 70,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 122"
+],
+"enemy_flags": [
+159
+],
+"done_candidates": [
+385
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x181",
+"done": 385,
+"room": 164,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "pl17",
+"group": 11,
+"tag": 36,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 33"
+],
+"enemy_flags": [],
+"done_candidates": [
+384
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x180",
+"done": 384,
+"room": 164,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "pl18",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 39"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 165
+},
+{
+"scene": "pl18",
+"group": 2,
+"tag": 36,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 34",
+"Demo_Start 124",
+"PlayMovie 40",
+"PlayMovie 41",
+"PlayMovie 42",
+"PlayMovie 43",
+"PlayMovie 29",
+"Demo_Start 130",
+"PlayMovie 35"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 165
+},
+{
+"scene": "pl19",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 39"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 166
+},
+{
+"scene": "pl19",
+"group": 3,
+"tag": 2,
+"x": 1,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 38"
+],
+"enemy_flags": [],
+"done_candidates": [
+389
+],
+"need": [
+268
+],
+"status": "script_read",
+"reason": "done flag 0x185",
+"done": 389,
+"room": 166,
+"position": "trigger volume 1"
+},
+{
+"scene": "pl1a",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 39"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 167
+},
+{
+"scene": "pl1a",
+"group": 6,
+"tag": 2,
+"x": 4,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 30"
+],
+"enemy_flags": [],
+"done_candidates": [
+250
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 250,
+"room": 167
+},
+{
+"scene": "pl1b",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 168
+},
+{
+"scene": "pl1b",
+"group": 11,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+169
+],
+"done_candidates": [],
+"need": [
+418
+],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 168
+},
+{
+"scene": "pl1d",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 39"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 170
+},
+{
+"scene": "pl1d",
+"group": 5,
+"tag": 2,
+"x": 3,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 32",
+"Demo_Start 132",
+"Demo_Start 131"
+],
+"enemy_flags": [],
+"done_candidates": [
+241
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 241,
+"room": 170
+},
+{
+"scene": "pl1e",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 171
+},
+{
+"scene": "pl1e",
+"group": 4,
+"tag": 2,
+"x": 2,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 113",
+"Demo_Start 114"
+],
+"enemy_flags": [
+91
+],
+"done_candidates": [
+261
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 261,
+"room": 171
+},
+{
+"scene": "pl1f",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 172
+},
+{
+"scene": "pl20",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 173
+},
+{
+"scene": "pl20",
+"group": 4,
+"tag": 2,
+"x": 2,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 123"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 173
+},
+{
+"scene": "pl21",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 40"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 174
+},
+{
+"scene": "sh00",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 36
+},
+{
+"scene": "sh00",
+"group": 14,
+"tag": 6,
+"x": 7,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 13"
+],
+"enemy_flags": [],
+"done_candidates": [
+158
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x9e",
+"done": 158,
+"room": 36,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "sh00",
+"group": 15,
+"tag": 2,
+"x": 11,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+107,
+110
+],
+"done_candidates": [
+144
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x90",
+"done": 144,
+"room": 36,
+"position": "trigger volume 11"
+},
+{
+"scene": "sh00",
+"group": 16,
+"tag": 8,
+"x": 11,
+"y": 121,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+108,
+110
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 36
+},
+{
+"scene": "sh00",
+"group": 17,
+"tag": 8,
+"x": 11,
+"y": 120,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+109,
+110
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 36
+},
+{
+"scene": "sh00",
+"group": 24,
+"tag": 6,
+"x": 6,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+148,
+149,
+150
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 36
+},
+{
+"scene": "sh00",
+"group": 25,
+"tag": 8,
+"x": 11,
+"y": 132,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+107,
+109
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 36
+},
+{
+"scene": "sh00",
+"group": 26,
+"tag": 8,
+"x": 11,
+"y": 133,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+107,
+108
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 36
+},
+{
+"scene": "sh00",
+"group": 27,
+"tag": 35,
+"x": 108409,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+107,
+108,
+109,
+110
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 36
+},
+{
+"scene": "sh01",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 37
+},
+{
+"scene": "sh02",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 38
+},
+{
+"scene": "sh03",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 39
+},
+{
+"scene": "sh04",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 40
+},
+{
+"scene": "sh04",
+"group": 7,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+48
+],
+"done_candidates": [
+133
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x85",
+"done": 133,
+"room": 40,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "sh05",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 41
+},
+{
+"scene": "sh06",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 42
+},
+{
+"scene": "sh07",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 43
+},
+{
+"scene": "sh07",
+"group": 7,
+"tag": 8,
+"x": 2,
+"y": 79,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 16",
+"Demo_Start 54",
+"Demo_Start 55",
+"Demo_Start 53"
+],
+"enemy_flags": [
+74
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 43
+},
+{
+"scene": "sh07",
+"group": 8,
+"tag": 8,
+"x": 2,
+"y": 80,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 16",
+"Demo_Start 54",
+"Demo_Start 55",
+"Demo_Start 53"
+],
+"enemy_flags": [
+75
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 43
+},
+{
+"scene": "sh07",
+"group": 9,
+"tag": 8,
+"x": 2,
+"y": 81,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 16",
+"Demo_Start 54",
+"Demo_Start 55",
+"Demo_Start 53"
+],
+"enemy_flags": [
+73
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 43
+},
+{
+"scene": "sh08",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 44
+},
+{
+"scene": "sh09",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 45
+},
+{
+"scene": "sh09",
+"group": 7,
+"tag": 8,
+"x": 4,
+"y": 94,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+70
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 45
+},
+{
+"scene": "sh0a",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 46
+},
+{
+"scene": "sh0a",
+"group": 14,
+"tag": 6,
+"x": 7,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 13"
+],
+"enemy_flags": [],
+"done_candidates": [
+158
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 158,
+"room": 46
+},
+{
+"scene": "sh0a",
+"group": 15,
+"tag": 2,
+"x": 11,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+107,
+110
+],
+"done_candidates": [
+144
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 144,
+"room": 46
+},
+{
+"scene": "sh0a",
+"group": 16,
+"tag": 8,
+"x": 11,
+"y": 121,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+108,
+110
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 46
+},
+{
+"scene": "sh0a",
+"group": 17,
+"tag": 8,
+"x": 11,
+"y": 120,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+109,
+110
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 46
+},
+{
+"scene": "sh0a",
+"group": 24,
+"tag": 6,
+"x": 6,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+148,
+149,
+150
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 46
+},
+{
+"scene": "sh0a",
+"group": 25,
+"tag": 8,
+"x": 11,
+"y": 132,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+107,
+109
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 46
+},
+{
+"scene": "sh0a",
+"group": 26,
+"tag": 8,
+"x": 11,
+"y": 133,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+107,
+108
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 46
+},
+{
+"scene": "sh0a",
+"group": 27,
+"tag": 35,
+"x": 108409,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+107,
+108,
+109,
+110
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 46
+},
+{
+"scene": "sh0b",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 47
+},
+{
+"scene": "sh0b",
+"group": 11,
+"tag": 2,
+"x": 6,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 15"
+],
+"enemy_flags": [
+94
+],
+"done_candidates": [
+26
+],
+"need": [
+163,
+168
+],
+"status": "script_read",
+"reason": "done flag 0x1a",
+"done": 26,
+"room": 47,
+"position": "trigger volume 6"
+},
+{
+"scene": "sh0b",
+"group": 12,
+"tag": 2,
+"x": 7,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 15"
+],
+"enemy_flags": [
+94
+],
+"done_candidates": [
+26
+],
+"need": [
+163,
+167
+],
+"status": "script_read",
+"reason": "done flag 0x1a",
+"done": 26,
+"room": 47,
+"position": "trigger volume 7"
+},
+{
+"scene": "sh0c",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 48
+},
+{
+"scene": "sh0d",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 49
+},
+{
+"scene": "sh0e",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 50
+},
+{
+"scene": "sh0e",
+"group": 10,
+"tag": 2,
+"x": 5,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 31"
+],
+"enemy_flags": [],
+"done_candidates": [
+146
+],
+"need": [
+145,
+147
+],
+"status": "script_read",
+"reason": "done flag 0x92",
+"done": 146,
+"room": 50,
+"position": "trigger volume 5"
+},
+{
+"scene": "sh0e",
+"group": 15,
+"tag": 6,
+"x": 6,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+92,
+146,
+148
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 50
+},
+{
+"scene": "sh0e",
+"group": 16,
+"tag": 8,
+"x": 7,
+"y": 126,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+177
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 50
+},
+{
+"scene": "sh0f",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 51
+},
+{
+"scene": "sh10",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 52
+},
+{
+"scene": "sh11",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 53
+},
+{
+"scene": "sh12",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 54
+},
+{
+"scene": "sh12",
+"group": 7,
+"tag": 4,
+"x": 6,
+"y": 3,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+59
+],
+"done_candidates": [
+169
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0xa9",
+"done": 169,
+"room": 54,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "sh13",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 55
+},
+{
+"scene": "sh13",
+"group": 6,
+"tag": 2,
+"x": 1,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+71
+],
+"done_candidates": [
+152
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x98",
+"done": 152,
+"room": 55,
+"position": "trigger volume 1"
+},
+{
+"scene": "sh14",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 56
+},
+{
+"scene": "sh15",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 57
+},
+{
+"scene": "sh16",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 58
+},
+{
+"scene": "sh17",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 59
+},
+{
+"scene": "sh18",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 60
+},
+{
+"scene": "sh18",
+"group": 7,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+148,
+149,
+150
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 60
+},
+{
+"scene": "sh19",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 61
+},
+{
+"scene": "sh19",
+"group": 6,
+"tag": 8,
+"x": 1,
+"y": 83,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 41",
+"Demo_Start 42"
+],
+"enemy_flags": [
+57
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 61
+},
+{
+"scene": "sh19",
+"group": 9,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+148,
+149,
+150
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 61
+},
+{
+"scene": "sh19",
+"group": 11,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+67
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 61
+},
+{
+"scene": "sh19",
+"group": 12,
+"tag": 6,
+"x": 4,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+67
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 61
+},
+{
+"scene": "sh1a",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 62
+},
+{
+"scene": "sh1a",
+"group": 5,
+"tag": 2,
+"x": 1,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 43",
+"Demo_Start 44"
+],
+"enemy_flags": [],
+"done_candidates": [
+154
+],
+"need": [],
+"status": "unresolved",
+"reason": "done flag 0x9a cleared again by ['sh1a:g6']",
+"done": 154,
+"room": 62
+},
+{
+"scene": "sh1a",
+"group": 7,
+"tag": 8,
+"x": 2,
+"y": 94,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+69
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 62
+},
+{
+"scene": "sh1a",
+"group": 9,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+148,
+149,
+150
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 62
+},
+{
+"scene": "sh1a",
+"group": 11,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+69
+],
+"done_candidates": [
+155
+],
+"need": [],
+"status": "unresolved",
+"reason": "done flag 0x9b cleared again by ['sh1a:g7']",
+"done": 155,
+"room": 62
+},
+{
+"scene": "sh1b",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 63
+},
+{
+"scene": "sh1c",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 64
+},
+{
+"scene": "sh1d",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 65
+},
+{
+"scene": "sh1d",
+"group": 8,
+"tag": 2,
+"x": 4,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 38"
+],
+"enemy_flags": [],
+"done_candidates": [
+178,
+185
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0xb2",
+"done": 178,
+"room": 65,
+"position": "trigger volume 4"
+},
+{
+"scene": "sh1d",
+"group": 9,
+"tag": 39,
+"x": 58,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 52"
+],
+"enemy_flags": [
+147,
+148
+],
+"done_candidates": [
+177
+],
+"need": [
+178
+],
+"status": "script_read",
+"reason": "done flag 0xb1",
+"done": 177,
+"room": 65,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "sh1d",
+"group": 15,
+"tag": 17,
+"x": 68,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 51"
+],
+"enemy_flags": [
+87,
+111
+],
+"done_candidates": [
+178
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0xb2",
+"done": 178,
+"room": 65,
+"position": "table row of item 68"
+},
+{
+"scene": "sh1e",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 66
+},
+{
+"scene": "sh1e",
+"group": 6,
+"tag": 36,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 30"
+],
+"enemy_flags": [],
+"done_candidates": [
+170
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0xaa",
+"done": 170,
+"room": 66,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "sh1f",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 67
+},
+{
+"scene": "sh20",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 68
+},
+{
+"scene": "sh20",
+"group": 7,
+"tag": 8,
+"x": 2,
+"y": 79,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 16",
+"Demo_Start 54",
+"Demo_Start 55",
+"Demo_Start 53"
+],
+"enemy_flags": [
+74
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 68
+},
+{
+"scene": "sh20",
+"group": 8,
+"tag": 8,
+"x": 2,
+"y": 80,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 16",
+"Demo_Start 54",
+"Demo_Start 55",
+"Demo_Start 53"
+],
+"enemy_flags": [
+75
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 68
+},
+{
+"scene": "sh20",
+"group": 9,
+"tag": 8,
+"x": 2,
+"y": 81,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 16",
+"Demo_Start 54",
+"Demo_Start 55",
+"Demo_Start 53"
+],
+"enemy_flags": [
+73
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 68
+},
+{
+"scene": "sh22",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 70
+},
+{
+"scene": "sh22",
+"group": 11,
+"tag": 2,
+"x": 6,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 15"
+],
+"enemy_flags": [
+94
+],
+"done_candidates": [
+26
+],
+"need": [
+163,
+168
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 26,
+"room": 70
+},
+{
+"scene": "sh22",
+"group": 12,
+"tag": 2,
+"x": 7,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 15"
+],
+"enemy_flags": [
+94
+],
+"done_candidates": [
+26
+],
+"need": [
+163,
+167
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 26,
+"room": 70
+},
+{
+"scene": "sh23",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 71
+},
+{
+"scene": "sh23",
+"group": 11,
+"tag": 2,
+"x": 6,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 15"
+],
+"enemy_flags": [
+94
+],
+"done_candidates": [
+26
+],
+"need": [
+163,
+168
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 26,
+"room": 71
+},
+{
+"scene": "sh23",
+"group": 12,
+"tag": 2,
+"x": 7,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 15"
+],
+"enemy_flags": [
+94
+],
+"done_candidates": [
+26
+],
+"need": [
+163,
+167
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 26,
+"room": 71
+},
+{
+"scene": "sh24",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 72
+},
+{
+"scene": "sh24",
+"group": 11,
+"tag": 2,
+"x": 6,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 15"
+],
+"enemy_flags": [
+94
+],
+"done_candidates": [
+26
+],
+"need": [
+163,
+168
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 26,
+"room": 72
+},
+{
+"scene": "sh24",
+"group": 12,
+"tag": 2,
+"x": 7,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 15"
+],
+"enemy_flags": [
+94
+],
+"done_candidates": [
+26
+],
+"need": [
+163,
+167
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 26,
+"room": 72
+},
+{
+"scene": "sh25",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 73
+},
+{
+"scene": "sh26",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 74
+},
+{
+"scene": "sh26",
+"group": 6,
+"tag": 2,
+"x": 1,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+71
+],
+"done_candidates": [
+152
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 152,
+"room": 74
+},
+{
+"scene": "sh27",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 75
+},
+{
+"scene": "sh28",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 76
+},
+{
+"scene": "sh28",
+"group": 6,
+"tag": 36,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 30"
+],
+"enemy_flags": [],
+"done_candidates": [
+170
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 170,
+"room": 76
+},
+{
+"scene": "sh29",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 77
+},
+{
+"scene": "sh29",
+"group": 14,
+"tag": 6,
+"x": 7,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 13"
+],
+"enemy_flags": [],
+"done_candidates": [
+158
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 158,
+"room": 77
+},
+{
+"scene": "sh29",
+"group": 15,
+"tag": 2,
+"x": 11,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+107,
+110
+],
+"done_candidates": [
+144
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 144,
+"room": 77
+},
+{
+"scene": "sh29",
+"group": 16,
+"tag": 8,
+"x": 11,
+"y": 121,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+108,
+110
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 77
+},
+{
+"scene": "sh29",
+"group": 17,
+"tag": 8,
+"x": 11,
+"y": 120,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+109,
+110
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 77
+},
+{
+"scene": "sh29",
+"group": 24,
+"tag": 6,
+"x": 6,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+148,
+149,
+150
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 77
+},
+{
+"scene": "sh29",
+"group": 25,
+"tag": 8,
+"x": 11,
+"y": 132,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+107,
+109
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 77
+},
+{
+"scene": "sh29",
+"group": 26,
+"tag": 8,
+"x": 11,
+"y": 133,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+107,
+108
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 77
+},
+{
+"scene": "sh29",
+"group": 27,
+"tag": 35,
+"x": 108409,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+107,
+108,
+109,
+110
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 77
+},
+{
+"scene": "sh2a",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 78
+},
+{
+"scene": "sh2a",
+"group": 8,
+"tag": 2,
+"x": 4,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 38"
+],
+"enemy_flags": [],
+"done_candidates": [
+178,
+185
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 178,
+"room": 78
+},
+{
+"scene": "sh2a",
+"group": 9,
+"tag": 39,
+"x": 58,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 52"
+],
+"enemy_flags": [
+147,
+148
+],
+"done_candidates": [
+177
+],
+"need": [
+178
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 177,
+"room": 78
+},
+{
+"scene": "sh2a",
+"group": 15,
+"tag": 17,
+"x": 68,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 51"
+],
+"enemy_flags": [
+87,
+111
+],
+"done_candidates": [
+178
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 178,
+"room": 78
+},
+{
+"scene": "sh2e",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 82
+},
+{
+"scene": "sh2e",
+"group": 10,
+"tag": 2,
+"x": 5,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 31"
+],
+"enemy_flags": [],
+"done_candidates": [
+146
+],
+"need": [
+145,
+147
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 146,
+"room": 82
+},
+{
+"scene": "sh2e",
+"group": 15,
+"tag": 6,
+"x": 6,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+92,
+146,
+148
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 82
+},
+{
+"scene": "sh2e",
+"group": 16,
+"tag": 8,
+"x": 7,
+"y": 126,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+177
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 82
+},
+{
+"scene": "sh2f",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 83
+},
+{
+"scene": "sh2f",
+"group": 8,
+"tag": 2,
+"x": 4,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 38"
+],
+"enemy_flags": [],
+"done_candidates": [
+178,
+185
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 178,
+"room": 83
+},
+{
+"scene": "sh2f",
+"group": 9,
+"tag": 39,
+"x": 58,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 52"
+],
+"enemy_flags": [
+147,
+148
+],
+"done_candidates": [
+177
+],
+"need": [
+178
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 177,
+"room": 83
+},
+{
+"scene": "sh2f",
+"group": 15,
+"tag": 17,
+"x": 68,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 51"
+],
+"enemy_flags": [
+87,
+111
+],
+"done_candidates": [
+178
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 178,
+"room": 83
+},
+{
+"scene": "sh30",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 84
+},
+{
+"scene": "sh30",
+"group": 10,
+"tag": 2,
+"x": 5,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 31"
+],
+"enemy_flags": [],
+"done_candidates": [
+146
+],
+"need": [
+145,
+147
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 146,
+"room": 84
+},
+{
+"scene": "sh30",
+"group": 15,
+"tag": 6,
+"x": 6,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+92,
+146,
+148
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 84
+},
+{
+"scene": "sh30",
+"group": 16,
+"tag": 8,
+"x": 7,
+"y": 126,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+177
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 84
+},
+{
+"scene": "sh31",
+"group": 0,
+"tag": 18,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 63"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "room setup",
+"done": null,
+"room": 85
+},
+{
+"scene": "sh31",
+"group": 10,
+"tag": 2,
+"x": 5,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 31"
+],
+"enemy_flags": [],
+"done_candidates": [
+146
+],
+"need": [
+145,
+147
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 146,
+"room": 85
+},
+{
+"scene": "sh31",
+"group": 15,
+"tag": 6,
+"x": 6,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+92,
+146,
+148
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 85
+},
+{
+"scene": "sh31",
+"group": 16,
+"tag": 8,
+"x": 7,
+"y": 126,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+177
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 85
+},
+{
+"scene": "tr00",
+"group": 2,
+"tag": 2,
+"x": 1,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 7",
+"Demo_Start 19",
+"Demo_Start 20"
+],
+"enemy_flags": [
+64
+],
+"done_candidates": [
+108
+],
+"need": [
+113
+],
+"status": "script_read",
+"reason": "done flag 0x6c",
+"done": 108,
+"room": 0,
+"position": "trigger volume 1"
+},
+{
+"scene": "tr00",
+"group": 3,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 29",
+"Demo_Start 13",
+"Demo_Start 14"
+],
+"enemy_flags": [
+63
+],
+"done_candidates": [
+121
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x79",
+"done": 121,
+"room": 0,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "tr01",
+"group": 3,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+18,
+22,
+23,
+24,
+31
+],
+"done_candidates": [
+121
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x79",
+"done": 121,
+"room": 1,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "tr02",
+"group": 1,
+"tag": 31,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 6"
+],
+"enemy_flags": [],
+"done_candidates": [
+390
+],
+"need": [
+0
+],
+"status": "script_read",
+"reason": "done flag 0x186",
+"done": 390,
+"room": 2,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "tr02",
+"group": 6,
+"tag": 2,
+"x": 5,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 0"
+],
+"enemy_flags": [
+9,
+10
+],
+"done_candidates": [
+76,
+121
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x4c",
+"done": 76,
+"room": 2,
+"position": "trigger volume 5"
+},
+{
+"scene": "tr06",
+"group": 1,
+"tag": 31,
+"x": 0,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+145
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 6
+},
+{
+"scene": "tr06",
+"group": 2,
+"tag": 31,
+"x": 1,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+145
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 6
+},
+{
+"scene": "tr06",
+"group": 3,
+"tag": 4,
+"x": 2,
+"y": 131072,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+145
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 6
+},
+{
+"scene": "tr06",
+"group": 8,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 2"
+],
+"enemy_flags": [
+3,
+4,
+5
+],
+"done_candidates": [
+73
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x49",
+"done": 73,
+"room": 6,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "tr06",
+"group": 9,
+"tag": 38,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 8"
+],
+"enemy_flags": [],
+"done_candidates": [
+117
+],
+"need": [
+115,
+116
+],
+"status": "script_read",
+"reason": "done flag 0x75",
+"done": 117,
+"room": 6,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "tr06",
+"group": 10,
+"tag": 38,
+"x": 1,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 8"
+],
+"enemy_flags": [],
+"done_candidates": [
+117
+],
+"need": [
+68,
+116
+],
+"status": "script_read",
+"reason": "done flag 0x75",
+"done": 117,
+"room": 6,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "tr06",
+"group": 11,
+"tag": 38,
+"x": 2,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 8"
+],
+"enemy_flags": [],
+"done_candidates": [
+117
+],
+"need": [
+68,
+115
+],
+"status": "script_read",
+"reason": "done flag 0x75",
+"done": 117,
+"room": 6,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "tr07",
+"group": 6,
+"tag": 14,
+"x": 6,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+1,
+2
+],
+"done_candidates": [
+67
+],
+"need": [
+76
+],
+"status": "script_read",
+"reason": "done flag 0x43",
+"done": 67,
+"room": 7,
+"position": "trigger volume 6"
+},
+{
+"scene": "tr07",
+"group": 7,
+"tag": 6,
+"x": 1,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+3,
+4,
+5,
+11,
+15,
+22,
+27,
+35,
+36,
+37,
+68,
+69,
+72,
+78,
+84,
+86,
+88,
+89,
+90,
+96,
+102,
+104,
+105,
+112,
+114,
+115,
+116,
+117,
+118,
+119,
+120,
+121,
+122,
+123,
+124,
+125,
+126,
+152,
+153,
+170,
+173,
+175
+],
+"done_candidates": [
+63
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x3f",
+"done": 63,
+"room": 7,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "tr07",
+"group": 8,
+"tag": 6,
+"x": 2,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 16",
+"Demo_Start 1"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 7
+},
+{
+"scene": "tr08",
+"group": 5,
+"tag": 8,
+"x": 2,
+"y": 82,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 9",
+"Demo_Start 10"
+],
+"enemy_flags": [],
+"done_candidates": [
+8
+],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": 8,
+"room": 8
+},
+{
+"scene": "tr08",
+"group": 11,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 2"
+],
+"enemy_flags": [
+29
+],
+"done_candidates": [
+85
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x55",
+"done": 85,
+"room": 8,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "tr08",
+"group": 13,
+"tag": 22,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 3"
+],
+"enemy_flags": [],
+"done_candidates": [
+64
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x40",
+"done": 64,
+"room": 8,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "tr0a",
+"group": 3,
+"tag": 2,
+"x": 2,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 22",
+"Demo_Start 23"
+],
+"enemy_flags": [],
+"done_candidates": [
+110,
+111
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x6e",
+"done": 110,
+"room": 10,
+"position": "trigger volume 2"
+},
+{
+"scene": "tr0a",
+"group": 4,
+"tag": 2,
+"x": 3,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 17",
+"Demo_Start 18"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [
+112
+],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 10
+},
+{
+"scene": "tr0a",
+"group": 5,
+"tag": 8,
+"x": 3,
+"y": 77,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 17",
+"Demo_Start 18"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 10
+},
+{
+"scene": "tr0b",
+"group": 6,
+"tag": 14,
+"x": 4,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 11"
+],
+"enemy_flags": [
+14,
+97
+],
+"done_candidates": [
+78
+],
+"need": [
+120
+],
+"status": "script_read",
+"reason": "done flag 0x4e",
+"done": 78,
+"room": 11,
+"position": "trigger volume 4"
+},
+{
+"scene": "tr0b",
+"group": 10,
+"tag": 14,
+"x": 8,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 4",
+"Demo_Start 27"
+],
+"enemy_flags": [],
+"done_candidates": [
+122
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x7a",
+"done": 122,
+"room": 11,
+"position": "trigger volume 8"
+},
+{
+"scene": "tr0e",
+"group": 1,
+"tag": 31,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 5"
+],
+"enemy_flags": [],
+"done_candidates": [
+94
+],
+"need": [
+87
+],
+"status": "script_read",
+"reason": "done flag 0x5e",
+"done": 94,
+"room": 14,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "tr0f",
+"group": 4,
+"tag": 14,
+"x": 3,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 3"
+],
+"enemy_flags": [],
+"done_candidates": [
+98
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x62",
+"done": 98,
+"room": 15,
+"position": "trigger volume 3"
+},
+{
+"scene": "tr0f",
+"group": 5,
+"tag": 12,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 4",
+"Demo_Start 26"
+],
+"enemy_flags": [
+30
+],
+"done_candidates": [
+99
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x63",
+"done": 99,
+"room": 15,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "tr0f",
+"group": 6,
+"tag": 4,
+"x": 4,
+"y": 131072,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 4",
+"Demo_Start 26"
+],
+"enemy_flags": [
+30
+],
+"done_candidates": [
+99
+],
+"need": [
+98
+],
+"status": "script_read",
+"reason": "done flag 0x63",
+"done": 99,
+"room": 15,
+"position": "room level, corner of its first piece, exact position unresolved"
+},
+{
+"scene": "tr0f",
+"group": 10,
+"tag": 11,
+"x": 98,
+"y": 99,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 4",
+"Demo_Start 26"
+],
+"enemy_flags": [
+30
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "same cutscenes run from a placed group",
+"done": null,
+"room": 15
+},
+{
+"scene": "tr10",
+"group": 1,
+"tag": 31,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 6"
+],
+"enemy_flags": [],
+"done_candidates": [
+390
+],
+"need": [
+0
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 390,
+"room": 16
+},
+{
+"scene": "tr10",
+"group": 6,
+"tag": 2,
+"x": 5,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 0"
+],
+"enemy_flags": [
+9,
+10
+],
+"done_candidates": [
+76,
+121
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 76,
+"room": 16
+},
+{
+"scene": "tr11",
+"group": 3,
+"tag": 2,
+"x": 2,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 9",
+"PlayMovie 10"
+],
+"enemy_flags": [],
+"done_candidates": [
+92
+],
+"need": [],
+"status": "script_read",
+"reason": "done flag 0x5c",
+"done": 92,
+"room": 17,
+"position": "trigger volume 2"
+},
+{
+"scene": "tr15",
+"group": 5,
+"tag": 8,
+"x": 2,
+"y": 82,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 9",
+"Demo_Start 10"
+],
+"enemy_flags": [],
+"done_candidates": [
+8
+],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": 8,
+"room": 21
+},
+{
+"scene": "tr15",
+"group": 11,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 2"
+],
+"enemy_flags": [
+29
+],
+"done_candidates": [
+85
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 85,
+"room": 21
+},
+{
+"scene": "tr15",
+"group": 13,
+"tag": 22,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 3"
+],
+"enemy_flags": [],
+"done_candidates": [
+64
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 64,
+"room": 21
+},
+{
+"scene": "tr16",
+"group": 6,
+"tag": 14,
+"x": 4,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 11"
+],
+"enemy_flags": [
+14,
+97
+],
+"done_candidates": [
+78
+],
+"need": [
+120
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 78,
+"room": 22
+},
+{
+"scene": "tr16",
+"group": 10,
+"tag": 14,
+"x": 8,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 4",
+"Demo_Start 27"
+],
+"enemy_flags": [],
+"done_candidates": [
+122
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 122,
+"room": 22
+},
+{
+"scene": "tr1a",
+"group": 3,
+"tag": 2,
+"x": 2,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 22",
+"Demo_Start 23"
+],
+"enemy_flags": [],
+"done_candidates": [
+110,
+111
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 110,
+"room": 26
+},
+{
+"scene": "tr1a",
+"group": 4,
+"tag": 2,
+"x": 3,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 17",
+"Demo_Start 18"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [
+112
+],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 26
+},
+{
+"scene": "tr1a",
+"group": 5,
+"tag": 8,
+"x": 3,
+"y": 77,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 17",
+"Demo_Start 18"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": null,
+"room": 26
+},
+{
+"scene": "tr1b",
+"group": 1,
+"tag": 31,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 6"
+],
+"enemy_flags": [],
+"done_candidates": [
+390
+],
+"need": [
+0
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 390,
+"room": 27
+},
+{
+"scene": "tr1b",
+"group": 6,
+"tag": 2,
+"x": 5,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 0"
+],
+"enemy_flags": [
+9,
+10
+],
+"done_candidates": [
+76,
+121
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 76,
+"room": 27
+},
+{
+"scene": "tr1e",
+"group": 1,
+"tag": 31,
+"x": 0,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+145
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 30
+},
+{
+"scene": "tr1e",
+"group": 2,
+"tag": 31,
+"x": 1,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+145
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 30
+},
+{
+"scene": "tr1e",
+"group": 3,
+"tag": 4,
+"x": 2,
+"y": 131072,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+145
+],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 30
+},
+{
+"scene": "tr1e",
+"group": 8,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 2"
+],
+"enemy_flags": [
+3,
+4,
+5
+],
+"done_candidates": [
+73
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 73,
+"room": 30
+},
+{
+"scene": "tr1e",
+"group": 9,
+"tag": 38,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 8"
+],
+"enemy_flags": [],
+"done_candidates": [
+117
+],
+"need": [
+115,
+116
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 117,
+"room": 30
+},
+{
+"scene": "tr1e",
+"group": 10,
+"tag": 38,
+"x": 1,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 8"
+],
+"enemy_flags": [],
+"done_candidates": [
+117
+],
+"need": [
+68,
+116
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 117,
+"room": 30
+},
+{
+"scene": "tr1e",
+"group": 11,
+"tag": 38,
+"x": 2,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 8"
+],
+"enemy_flags": [],
+"done_candidates": [
+117
+],
+"need": [
+68,
+115
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 117,
+"room": 30
+},
+{
+"scene": "tr1f",
+"group": 6,
+"tag": 14,
+"x": 6,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+1,
+2
+],
+"done_candidates": [
+67
+],
+"need": [
+76
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 67,
+"room": 31
+},
+{
+"scene": "tr1f",
+"group": 7,
+"tag": 6,
+"x": 1,
+"y": 0,
+"basis": "enemy on",
+"scenes": [],
+"enemy_flags": [
+3,
+4,
+5,
+11,
+15,
+22,
+27,
+35,
+36,
+37,
+68,
+69,
+72,
+78,
+84,
+86,
+88,
+89,
+90,
+96,
+102,
+104,
+105,
+112,
+114,
+115,
+116,
+117,
+118,
+119,
+120,
+121,
+122,
+123,
+124,
+125,
+126,
+152,
+153,
+170,
+173,
+175
+],
+"done_candidates": [
+63
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 63,
+"room": 31
+},
+{
+"scene": "tr1f",
+"group": 8,
+"tag": 6,
+"x": 2,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 16",
+"Demo_Start 1"
+],
+"enemy_flags": [],
+"done_candidates": [],
+"need": [],
+"status": "unresolved",
+"reason": "no flag decides it has happened",
+"done": null,
+"room": 31
+},
+{
+"scene": "tr21",
+"group": 4,
+"tag": 14,
+"x": 3,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 3"
+],
+"enemy_flags": [],
+"done_candidates": [
+98
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 98,
+"room": 33
+},
+{
+"scene": "tr21",
+"group": 5,
+"tag": 12,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 4",
+"Demo_Start 26"
+],
+"enemy_flags": [
+30
+],
+"done_candidates": [
+99
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 99,
+"room": 33
+},
+{
+"scene": "tr21",
+"group": 6,
+"tag": 4,
+"x": 4,
+"y": 131072,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 4",
+"Demo_Start 26"
+],
+"enemy_flags": [
+30
+],
+"done_candidates": [
+99
+],
+"need": [
+98
+],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 99,
+"room": 33
+},
+{
+"scene": "tr21",
+"group": 10,
+"tag": 11,
+"x": 98,
+"y": 99,
+"basis": "cutscene",
+"scenes": [
+"PlayMovie 4",
+"Demo_Start 26"
+],
+"enemy_flags": [
+30
+],
+"done_candidates": [],
+"need": [],
+"status": "excluded",
+"reason": "same cutscenes run from a placed group",
+"done": null,
+"room": 33
+},
+{
+"scene": "tr22",
+"group": 5,
+"tag": 8,
+"x": 2,
+"y": 82,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 9",
+"Demo_Start 10"
+],
+"enemy_flags": [],
+"done_candidates": [
+8
+],
+"need": [],
+"status": "excluded",
+"reason": "item use, has a puzzle mark",
+"done": 8,
+"room": 34
+},
+{
+"scene": "tr22",
+"group": 11,
+"tag": 6,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 2"
+],
+"enemy_flags": [
+29
+],
+"done_candidates": [
+85
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 85,
+"room": 34
+},
+{
+"scene": "tr22",
+"group": 13,
+"tag": 22,
+"x": 0,
+"y": 0,
+"basis": "cutscene",
+"scenes": [
+"Demo_Start 3"
+],
+"enemy_flags": [],
+"done_candidates": [
+64
+],
+"need": [],
+"status": "unresolved",
+"reason": "no map piece for its room",
+"done": 64,
+"room": 34
+}
+]
+}

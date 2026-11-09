@@ -1,0 +1,26 @@
+{
+  "evidence": "synthetic-compiled-x86-adapter",
+  "result": "pass",
+  "abi": "thiscall originals; fastcall hooks; balanced stack",
+  "cases": [
+    "native call count/order",
+    "room ID/owner/region",
+    "quad and viewport",
+    "TLS restoration",
+    "closed-map clear",
+    "unsupported-region refusal",
+    "unknown-ID refusal",
+    "transparent sprite refusal"
+  ],
+  "called_imports": {
+    "TlsGetValue": 19,
+    "memset": 6,
+    "GetTickCount": 6,
+    "VirtualQuery": 56,
+    "TlsSetValue": 12,
+    "EnterCriticalSection": 6,
+    "memcpy": 6,
+    "LeaveCriticalSection": 6
+  },
+  "game_executed": false
+}

@@ -1,0 +1,12 @@
+{
+  "evidence": "static-resource-class-hash-and-native-factory",
+  "room_class": "cGUIInstAnimation",
+  "room_vtable": "0xd25448",
+  "room_slot": "0xd25478",
+  "door_class": "cGUIInstDoorAnimation",
+  "renderer_vtables": [
+    "0xce5fc0",
+    "0xd1b278"
+  ],
+  "scope": "class identity only; no live object inspection"
+}

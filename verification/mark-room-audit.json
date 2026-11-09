@@ -1,0 +1,8 @@
+{
+"evidence": "static: placements against room shape (outline silhouette plus translucent floor sheet); run local/icon-integration-20261105/item6_classify.py",
+"placements_sha256": "4c61d5af757c3c8a6d69a2a44c3334a1e7654de1431de14c73bd84068f41536f",
+"checked": 738,
+"outside": 0,
+"over_12": 0,
+"rows": []
+}

@@ -1,0 +1,310 @@
+{
+ "schema_version": 1,
+ "evidence": "curated from external item pages",
+ "source": "https://www.evilresource.com/resident-evil-zero/items",
+ "checked_on": "2026-11-03",
+ "caveat": "Static placement of requirements; lock and solved state are not read from the game.",
+ "uses": [
+  {
+   "item": "Blue Keycard",
+   "slug": "blue-keycard",
+   "kind": "lock",
+   "place": "train-1f/engine-carriage",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Blue Leech Charm",
+   "slug": "blue-leech-charm",
+   "kind": "lock",
+   "place": "laboratory-b2/marcuss-study",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Breeding Room Key",
+   "slug": "breeding-room-key",
+   "kind": "lock",
+   "place": "laboratory-b1/breeding-room",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Conductor's Key",
+   "slug": "conductors-key",
+   "kind": "lock",
+   "place": "train-1f/conductors-office",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Dial",
+   "slug": "dial",
+   "kind": "lock",
+   "place": "laboratory-b2/machine-room-1f",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Dining Car Key",
+   "slug": "dining-car-key",
+   "kind": "lock",
+   "place": "train-1f/dining-car",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Fire Key",
+   "slug": "fire-key",
+   "kind": "lock",
+   "place": "training-facility-1f/kitchen",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Fire Key",
+   "slug": "fire-key",
+   "kind": "lock",
+   "place": "training-facility-2f/assistant-directors-office",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Green Leech Charm",
+   "slug": "green-leech-charm",
+   "kind": "lock",
+   "place": "laboratory-b1/morgue",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Handle",
+   "slug": "handle",
+   "kind": "lock",
+   "place": "treatment-plant-b6/l-corridor",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Ice Pick",
+   "slug": "ice-pick",
+   "kind": "lock",
+   "place": "train-2f/service-room",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Iron Needle",
+   "slug": "iron-needle",
+   "kind": "lock",
+   "place": "training-facility-2f/private-study-room",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Iron Needle",
+   "slug": "iron-needle",
+   "kind": "lock",
+   "place": "training-facility-1f/west-wing-corridor",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Keycard",
+   "slug": "keycard",
+   "kind": "lock",
+   "place": "treatment-plant-b9/fenced-area",
+   "inferred_from_text": false
+  },
+  {
+   "item": "MO Disk",
+   "slug": "mo-disk",
+   "kind": "lock",
+   "place": "training-facility-1f/training-facility-entrance",
+   "inferred_from_text": false
+  },
+  {
+   "item": "MO Disk",
+   "slug": "mo-disk",
+   "kind": "lock",
+   "place": "training-facility-2f/private-corridor",
+   "inferred_from_text": false
+  },
+  {
+   "item": "MO Disk",
+   "slug": "mo-disk",
+   "kind": "lock",
+   "place": "training-facility-3f/observatory-tower",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Shaft Key (L)",
+   "slug": "shaft-key-l",
+   "kind": "lock",
+   "place": "treatment-plant-b9/storage",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Shaft Key (R)",
+   "slug": "shaft-key-r",
+   "kind": "lock",
+   "place": "treatment-plant-b9/storage",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Water Key",
+   "slug": "water-key",
+   "kind": "lock",
+   "place": "training-facility-2f/narrow-corridor-a",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Battery",
+   "slug": "battery",
+   "kind": "puzzle",
+   "place": "training-facility-1f/training-facility-entrance",
+   "inferred_from_text": true
+  },
+  {
+   "item": "Crank Handle",
+   "slug": "crank-handle",
+   "kind": "puzzle",
+   "place": "training-facility-2f/main-library",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Discipline Tablet",
+   "slug": "discipline-tablet",
+   "kind": "puzzle",
+   "place": "training-facility-3f/observatory-tower",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Elevator Key",
+   "slug": "elevator-key",
+   "kind": "puzzle",
+   "place": "factory-b4/turntable-platform",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Hookshot",
+   "slug": "hookshot",
+   "kind": "puzzle",
+   "place": "train-1f/passenger-car-2",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Hookshot",
+   "slug": "hookshot",
+   "kind": "puzzle",
+   "place": "laboratory-1f/church",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Hookshot",
+   "slug": "hookshot",
+   "kind": "puzzle",
+   "place": "laboratory-b2/reference-room",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Hookshot",
+   "slug": "hookshot",
+   "kind": "puzzle",
+   "place": "laboratory-b2/machine-room-1f",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Input Regulator Coil",
+   "slug": "input-regulator-coil",
+   "kind": "puzzle",
+   "place": "laboratory-b1/machine-room-2f",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Iron Needle",
+   "slug": "iron-needle",
+   "kind": "puzzle",
+   "place": "training-facility-3f/clock-room",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Locker Key",
+   "slug": "locker-key",
+   "kind": "puzzle",
+   "place": "facility-basement-b3/training-room",
+   "inferred_from_text": false
+  },
+  {
+   "item": "MO Disk",
+   "slug": "mo-disk",
+   "kind": "puzzle",
+   "place": "training-facility-2f/lecture-room",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Magnetic Card",
+   "slug": "magnetic-card",
+   "kind": "puzzle",
+   "place": "train-1f/rear-carriage",
+   "inferred_from_text": true
+  },
+  {
+   "item": "Microfilm A",
+   "slug": "microfilm-a",
+   "kind": "puzzle",
+   "place": "training-facility-1f/projection-room",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Microfilm B",
+   "slug": "microfilm-b",
+   "kind": "puzzle",
+   "place": "training-facility-1f/projection-room",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Motherboard",
+   "slug": "motherboard",
+   "kind": "puzzle",
+   "place": "treatment-plant-b7/cargo-control-room",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Obedience Tablet",
+   "slug": "obedience-tablet",
+   "kind": "puzzle",
+   "place": "training-facility-3f/observatory-tower",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Output Regulator Coil",
+   "slug": "output-regulator-coil",
+   "kind": "puzzle",
+   "place": "laboratory-b1/machine-room-2f",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Panel Opener",
+   "slug": "panel-opener",
+   "kind": "puzzle",
+   "place": "train-1f/dining-car",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Sterilizing Agent",
+   "slug": "sterilizing-agent",
+   "kind": "puzzle",
+   "place": "laboratory-b1/leech-laboratory",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Unity Tablet",
+   "slug": "unity-tablet",
+   "kind": "puzzle",
+   "place": "training-facility-3f/observatory-tower",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Up Key",
+   "slug": "up-key",
+   "kind": "puzzle",
+   "place": "factory-1f/turntable-control-room",
+   "inferred_from_text": false
+  },
+  {
+   "item": "Vise Handle",
+   "slug": "vise-handle",
+   "kind": "puzzle",
+   "place": "training-facility-2f/maintenance-room",
+   "inferred_from_text": true
+  }
+ ]
+}

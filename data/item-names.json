@@ -1,0 +1,907 @@
+{
+"0": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"1": {
+"en": "Nothing",
+"ko": "장비 없음",
+"category": "key"
+},
+"2": {
+"en": "Knife",
+"ko": "나이프",
+"category": "key"
+},
+"3": {
+"en": "Handgun",
+"ko": "핸드건",
+"category": "key"
+},
+"4": {
+"en": "Handgun",
+"ko": "핸드건",
+"category": "key"
+},
+"5": {
+"en": "Hunting Gun",
+"ko": "엽총",
+"category": "key"
+},
+"6": {
+"en": "Shotgun",
+"ko": "샷건",
+"category": "key"
+},
+"7": {
+"en": "Grenade Launcher",
+"ko": "유탄 발사기",
+"category": "key"
+},
+"8": {
+"en": "Grenade Launcher",
+"ko": "유탄 발사기",
+"category": "key"
+},
+"9": {
+"en": "Grenade Launcher",
+"ko": "유탄 발사기",
+"category": "key"
+},
+"10": {
+"en": "Magnum",
+"ko": "매그넘",
+"category": "key"
+},
+"11": {
+"en": "Sub-Machinegun",
+"ko": "서브 머신건",
+"category": "item"
+},
+"12": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"13": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"14": {
+"en": "Molotov Cocktail",
+"ko": "화염병",
+"category": "key"
+},
+"15": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"16": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"17": {
+"en": "Custom Handgun",
+"ko": "커스텀 핸드건",
+"category": "item"
+},
+"18": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"19": {
+"en": "Custom Handgun",
+"ko": "커스텀 핸드건",
+"category": "item"
+},
+"20": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"21": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"22": {
+"en": "Magnum Revolver",
+"ko": "리볼버 매그넘",
+"category": "key"
+},
+"23": {
+"en": "Rocket Launcher",
+"ko": "로켓 런쳐",
+"category": "item"
+},
+"24": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"25": {
+"en": "CU-NULL",
+"ko": "CU-NULL",
+"category": "key"
+},
+"26": {
+"en": "Handgun Parts",
+"ko": "핸드건 파츠",
+"category": "item"
+},
+"27": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"28": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"29": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"30": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"31": {
+"en": "AM-NULL",
+"ko": "AM-NULL",
+"category": "key"
+},
+"32": {
+"en": "Handgun Ammo",
+"ko": "핸드건의 탄약",
+"category": "item"
+},
+"33": {
+"en": "Shotgun Ammo",
+"ko": "샷건의 탄약",
+"category": "item"
+},
+"34": {
+"en": "Magnum Ammo",
+"ko": "매그넘 탄약",
+"category": "item"
+},
+"35": {
+"en": "Grenades",
+"ko": "유탄",
+"category": "item"
+},
+"36": {
+"en": "Acid Grenades",
+"ko": "유산탄",
+"category": "item"
+},
+"37": {
+"en": "Napalm Grenades",
+"ko": "소이탄",
+"category": "item"
+},
+"38": {
+"en": "Empty Bottle",
+"ko": "빈병",
+"category": "item"
+},
+"39": {
+"en": "Gas Tank",
+"ko": "폴리 탱크",
+"category": "item"
+},
+"40": {
+"en": "Machinegun Ammo",
+"ko": "서브 머신건 탄약",
+"category": "item"
+},
+"41": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"42": {
+"en": "RE-NULL",
+"ko": "RE-NULL",
+"category": "key"
+},
+"43": {
+"en": "Green Herb",
+"ko": "그린 허브",
+"category": "item"
+},
+"44": {
+"en": "Blue Herb",
+"ko": "블루 허브",
+"category": "item"
+},
+"45": {
+"en": "Red Herb",
+"ko": "레드 허브",
+"category": "item"
+},
+"46": {
+"en": "Herbal Mix",
+"ko": "조제한 허브",
+"category": "item"
+},
+"47": {
+"en": "Herbal Mix",
+"ko": "조제한 허브",
+"category": "item"
+},
+"48": {
+"en": "Herbal Mix",
+"ko": "조제한 허브",
+"category": "item"
+},
+"49": {
+"en": "Herbal Mix",
+"ko": "조제한 허브",
+"category": "item"
+},
+"50": {
+"en": "Herbal Mix",
+"ko": "조제한 허브",
+"category": "item"
+},
+"51": {
+"en": "Herbal Mix",
+"ko": "조제한 허브",
+"category": "item"
+},
+"52": {
+"en": "Invalid Message",
+"ko": "화분",
+"category": "key"
+},
+"53": {
+"en": "First-Aid Spray",
+"ko": "구급 스프레이",
+"category": "item"
+},
+"54": {
+"en": "SA-NULL",
+"ko": "SA-NULL",
+"category": "key"
+},
+"55": {
+"en": "Ink Ribbon",
+"ko": "잉크 리본",
+"category": "item"
+},
+"56": {
+"en": "KEY-NULL",
+"ko": "KEY-NULL",
+"category": "key"
+},
+"57": {
+"en": "Gold Ring",
+"ko": "골드 링",
+"category": "key"
+},
+"58": {
+"en": "Silver Ring",
+"ko": "실버 링",
+"category": "key"
+},
+"59": {
+"en": "Briefcase",
+"ko": "차장의 가방",
+"category": "key"
+},
+"60": {
+"en": "Briefcase",
+"ko": "차장의 가방",
+"category": "key"
+},
+"61": {
+"en": "Briefcase",
+"ko": "차장의 가방",
+"category": "key"
+},
+"62": {
+"en": "Briefcase",
+"ko": "차장의 가방",
+"category": "key"
+},
+"63": {
+"en": "Lighter Fluid",
+"ko": "라이터 기름",
+"category": "key"
+},
+"64": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"65": {
+"en": "Train Key",
+"ko": "열차의 열쇠",
+"category": "key"
+},
+"66": {
+"en": "Breeding Rm. Key",
+"ko": "사육실의 열쇠",
+"category": "key"
+},
+"67": {
+"en": "Elevator Key",
+"ko": "엘리베이터 시동키",
+"category": "key"
+},
+"68": {
+"en": "Facility Key",
+"ko": "양성소의 열쇠",
+"category": "key"
+},
+"69": {
+"en": "Facility Key",
+"ko": "양성소의 열쇠",
+"category": "key"
+},
+"70": {
+"en": "Facility Key",
+"ko": "양성소의 열쇠",
+"category": "key"
+},
+"71": {
+"en": "Bl. Leech Charm",
+"ko": "푸른 거머리의 오브제",
+"category": "key"
+},
+"72": {
+"en": "Gr. Leech Charm",
+"ko": "녹색 거머리의 오브제",
+"category": "key"
+},
+"73": {
+"en": "Factory Key",
+"ko": "공장의 열쇠",
+"category": "key"
+},
+"74": {
+"en": "Factory Key",
+"ko": "공장의 열쇠",
+"category": "key"
+},
+"75": {
+"en": "Blue Keycard",
+"ko": "블루 카드 키",
+"category": "key"
+},
+"76": {
+"en": "Keycard",
+"ko": "카드 키",
+"category": "key"
+},
+"77": {
+"en": "Magnetic Card",
+"ko": "마그네틱 카드",
+"category": "key"
+},
+"78": {
+"en": "Locker Key",
+"ko": "사물함 열쇠",
+"category": "key"
+},
+"79": {
+"en": "Unity Tablet",
+"ko": "단결의 타블릿",
+"category": "key"
+},
+"80": {
+"en": "Obedience Tablet",
+"ko": "순종의 타블릿",
+"category": "key"
+},
+"81": {
+"en": "Discipline Tablet",
+"ko": "규율의 타블릿",
+"category": "key"
+},
+"82": {
+"en": "Panel Opener",
+"ko": "패널 오프너",
+"category": "key"
+},
+"83": {
+"en": "Vise Handle",
+"ko": "바이스 핸들",
+"category": "key"
+},
+"84": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"85": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"86": {
+"en": "Crank Handle",
+"ko": "크랭크 핸들",
+"category": "key"
+},
+"87": {
+"en": "Handle",
+"ko": "밸브 핸들",
+"category": "key"
+},
+"88": {
+"en": "Book of Good",
+"ko": "선의 서",
+"category": "key"
+},
+"89": {
+"en": "Book of Evil",
+"ko": "악의 서",
+"category": "key"
+},
+"90": {
+"en": "Bl. Leech Charm",
+"ko": "푸른 거머리의 오브제",
+"category": "key"
+},
+"91": {
+"en": "Gr. Leech Charm",
+"ko": "녹색 거머리의 오브제",
+"category": "key"
+},
+"92": {
+"en": "Input Reg. Coil",
+"ko": "입력 조정 코일",
+"category": "key"
+},
+"93": {
+"en": "Output Reg. Coil",
+"ko": "출력 조정 코일",
+"category": "key"
+},
+"94": {
+"en": "Battery",
+"ko": "배터리",
+"category": "key"
+},
+"95": {
+"en": "Hi-Power Battery",
+"ko": "고출력 배터리",
+"category": "key"
+},
+"96": {
+"en": "Sterilizing Agent",
+"ko": "멸균제",
+"category": "key"
+},
+"97": {
+"en": "Motherboard",
+"ko": "마더보드",
+"category": "key"
+},
+"98": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"99": {
+"en": "Microfilm A",
+"ko": "마이크로 필름 A",
+"category": "key"
+},
+"100": {
+"en": "Microfilm B",
+"ko": "마이크로 필름 B",
+"category": "key"
+},
+"101": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"102": {
+"en": "Shaft Key",
+"ko": "파일럿 구멍의 열쇠",
+"category": "key"
+},
+"103": {
+"en": "Train Key",
+"ko": "열차의 열쇠",
+"category": "key"
+},
+"104": {
+"en": "Hookshot",
+"ko": "갈고리 총",
+"category": "key"
+},
+"105": {
+"en": "Lighter",
+"ko": "라이터",
+"category": "key"
+},
+"106": {
+"en": "Lighter",
+"ko": "라이터",
+"category": "key"
+},
+"107": {
+"en": "Conductor's Key",
+"ko": "차장실의 열쇠",
+"category": "key"
+},
+"108": {
+"en": "Fire Key",
+"ko": "불의 열쇠",
+"category": "key"
+},
+"109": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"110": {
+"en": "Water Key",
+"ko": "물의 열쇠",
+"category": "key"
+},
+"111": {
+"en": "Up Key",
+"ko": "UP 키",
+"category": "key"
+},
+"112": {
+"en": "Down Key",
+"ko": "DOWN 키",
+"category": "key"
+},
+"113": {
+"en": "Dining Car Key",
+"ko": "식당차의 열쇠",
+"category": "key"
+},
+"114": {
+"en": "Invalid Message",
+"ko": "작은 열쇠",
+"category": "key"
+},
+"115": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"116": {
+"en": "Invalid Message",
+"ko": "Invalid Message",
+"category": "key"
+},
+"117": {
+"en": "Leech Capsule",
+"ko": "푸른 거머리 캡슐",
+"category": "key"
+},
+"118": {
+"en": "Dial",
+"ko": "다이얼",
+"category": "key"
+},
+"119": {
+"en": "Duralumin Case",
+"ko": "두랄라민 케이스",
+"category": "key"
+},
+"120": {
+"en": "Statue of Evil",
+"ko": "악의 조각상",
+"category": "key"
+},
+"121": {
+"en": "Statue of Good",
+"ko": "선의 조각상",
+"category": "key"
+},
+"122": {
+"en": "Jewelry Box",
+"ko": "보석 상자",
+"category": "key"
+},
+"123": {
+"en": "Mixing Set",
+"ko": "조합 기구",
+"category": "key"
+},
+"124": {
+"en": "MO Disk",
+"ko": "시스템 디스크",
+"category": "key"
+},
+"125": {
+"en": "Ice Pick",
+"ko": "아이스 픽",
+"category": "key"
+},
+"126": {
+"en": "Iron Needle",
+"ko": "연철의 시계침",
+"category": "key"
+},
+"127": {
+"en": "Shaft Key",
+"ko": "파이롯 구덩이 열쇠",
+"category": "key"
+},
+"128": {
+"en": "Industrial Water",
+"ko": "공업용수",
+"category": "key"
+},
+"129": {
+"en": "Empty Battery",
+"ko": "고출력 배터리",
+"category": "key"
+},
+"130": {
+"en": "Angel Wings",
+"ko": "백의 날개",
+"category": "key"
+},
+"131": {
+"en": "Black Wing",
+"ko": "흑의 날개",
+"category": "key"
+},
+"132": {
+"en": "White Statue",
+"ko": "백의 조각상",
+"category": "key"
+},
+"133": {
+"en": "Black Statue",
+"ko": "흑의 조각상",
+"category": "key"
+},
+"134": {
+"en": "Red Chemical",
+"ko": "붉은 약품",
+"category": "key"
+},
+"135": {
+"en": "Blue Chemical",
+"ko": "푸른 약품",
+"category": "key"
+},
+"136": {
+"en": "Green Chemical",
+"ko": "녹색 약품",
+"category": "key"
+},
+"137": {
+"en": "Stripping Agent",
+"ko": "박리제",
+"category": "key"
+},
+"138": {
+"en": "Invalid Message",
+"ko": "보라색 박리제",
+"category": "key"
+},
+"139": {
+"en": "Sulfuric Acid",
+"ko": "황산",
+"category": "key"
+},
+"140": {
+"en": "Battery Fluid",
+"ko": "배터리 액",
+"category": "key"
+},
+"141": {
+"en": "Closet Key",
+"ko": "옷장 열쇠",
+"category": "key"
+},
+"142": {
+"en": "MA-NULL",
+"ko": "MA-NULL",
+"category": "key"
+},
+"143": {
+"en": "Train Map",
+"ko": "열차의 지도",
+"category": "file"
+},
+"144": {
+"en": "Training Facility Map",
+"ko": "양성소의 지도",
+"category": "file"
+},
+"145": {
+"en": "Training Facility Basement Map",
+"ko": "양성소의 지하지도",
+"category": "file"
+},
+"146": {
+"en": "Lab Map",
+"ko": "연구소의 지도",
+"category": "file"
+},
+"147": {
+"en": "Treatment Plant Map",
+"ko": "처리장의 지도",
+"category": "file"
+},
+"148": {
+"en": "Factory Map",
+"ko": "공장의 지도",
+"category": "file"
+},
+"149": {
+"en": "FA-NULL",
+"ko": "FA-NULL",
+"category": "key"
+},
+"150": {
+"en": "Player's Manual 1",
+"ko": "플레이 설명서 1",
+"category": "file"
+},
+"151": {
+"en": "Player's Manual 2",
+"ko": "플레이 설명서 2",
+"category": "file"
+},
+"152": {
+"en": "Court Order for Transportation",
+"ko": "이송 지침서",
+"category": "key"
+},
+"153": {
+"en": "Investigation Orders",
+"ko": "조사 명령서",
+"category": "file"
+},
+"154": {
+"en": "Notice to Supervisors",
+"ko": "관리자들에게 공고",
+"category": "file"
+},
+"155": {
+"en": "Passenger's Diary",
+"ko": "승객의 일기",
+"category": "file"
+},
+"156": {
+"en": "Brake Operation Manual",
+"ko": "브레이크 조작 메뉴얼",
+"category": "file"
+},
+"157": {
+"en": "Note from Conductor",
+"ko": "차장의 메모",
+"category": "file"
+},
+"158": {
+"en": "Regulations for Trainees",
+"ko": "간부후보 사원의 마음가짐",
+"category": "file"
+},
+"159": {
+"en": "Notice to All Staff",
+"ko": "전 사원 공고",
+"category": "file"
+},
+"160": {
+"en": "Marcus' Diary 1",
+"ko": "마커스의 일지 1",
+"category": "file"
+},
+"161": {
+"en": "Assistant Director's Diary",
+"ko": "부소장 일지",
+"category": "file"
+},
+"162": {
+"en": "About the Power Regulator",
+"ko": "전원 조절 장치에 대해",
+"category": "file"
+},
+"163": {
+"en": "A Verse of Poetry",
+"ko": "시의 한 구절",
+"category": "file"
+},
+"164": {
+"en": "Management Trainee's Diary",
+"ko": "간부후보 사원의 일기",
+"category": "file"
+},
+"165": {
+"en": "Invalid Message",
+"ko": "A · W",
+"category": "key"
+},
+"166": {
+"en": "Correctional Institute Inmates List",
+"ko": "교정시설 수감자 명부",
+"category": "file"
+},
+"167": {
+"en": "First Investigation Unit Notes",
+"ko": "1차 수사 요원 기록",
+"category": "file"
+},
+"168": {
+"en": "Marcus' Diary 2",
+"ko": "마커스의 일지 2",
+"category": "file"
+},
+"169": {
+"en": "Old Photograph",
+"ko": "낡은 사진",
+"category": "file"
+},
+"170": {
+"en": "Investigator's Report",
+"ko": "수사관의 보고 1",
+"category": "file"
+},
+"171": {
+"en": "Leech Growth Records",
+"ko": "거머리의 육성 기록",
+"category": "file"
+},
+"172": {
+"en": "Laboratory Manager's Diary",
+"ko": "연구소 관리인의 일기",
+"category": "file"
+},
+"173": {
+"en": "B.O.W. Report",
+"ko": "B.O.W.에 대한 레포트",
+"category": "file"
+},
+"174": {
+"en": "Microfilm Image",
+"ko": "마이크로 필름 사진",
+"category": "file"
+},
+"175": {
+"en": "Investigator's Report 2",
+"ko": "수사관의 보고 2",
+"category": "file"
+},
+"176": {
+"en": "Treatment Plant Manager's Diary",
+"ko": "처리장 관리자의 일지",
+"category": "file"
+},
+"177": {
+"en": "Gate Operation Manual",
+"ko": "게이트 개폐 메뉴얼",
+"category": "file"
+},
+"178": {
+"en": "About Battery Fluid",
+"ko": "배터리 용액에 대해",
+"category": "file"
+},
+"179": {
+"en": "Hookshot Operator's Manual",
+"ko": "갈고리 총 메뉴얼",
+"category": "file"
+},
+"180": {
+"en": "Suitcase",
+"ko": "가방",
+"category": "key"
+}
+}

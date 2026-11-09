@@ -1,0 +1,29 @@
+{
+  "font_name": "Pretendard-Medium.otf",
+  "font_sha256": "d39e50e4bb52b4993b6a4eeb821a171254745bd824446af01e1f616b89fface0",
+  "font_file_distributed": false,
+  "inputs_sha256": {
+    "data/native-map.json": "6970b9264cc123aeb84808be000a51cc101811f0e31bf40f669320e1714d5325",
+    "data/room-matches.json": "4b3a8bf80a6e7c7190a0dd3360be16466cf843e98183cc84df86a25fdd22f42d",
+    "data/external-locations.json": "aaa93f3104087a8d0bf009589ea1317516283a4e8ade935025dd5bb6aa25eb24",
+    "data/room-contents.json": "14a133edb956824db907d2e08c656a682e0fa65f88769d72beec038be3293d3a",
+    "data/names-ko.json": "e86f07d15ae2d77e03d1b414bae6f424376620870d0d4696c6d18307562546c7",
+    "data/item-uses.json": "017493839e3599d50e35fd6ac3eb95750039046ea02488adc6e22276b46fe8f7",
+    "data/placements.json": "4c61d5af757c3c8a6d69a2a44c3334a1e7654de1431de14c73bd84068f41536f",
+    "data/room-state.json": "8f240f9fd3c315c2e5e3c2c13329b328141b560c7005d8014eeb0173d51342e9",
+    "assets/icons/manifest.json": "eaab491de7ae6cb56991663912e5301749872f192617c9ae78fd991bc67488c7",
+    "data/item-names.json": "02895baf8cbbadeb9501fad64a163ebdb07f568d439c9b79bcb7aad985e6c742",
+    "data/room-projection.json": "fbf2ab624a1cc1c442f35aa5321165c4f98442af728995d0000d1af93014ab27"
+  },
+  "header_sha256": "832fbde9a90f9684e3b6d8d7a164fa7a4e8f5dea89869f3bcbd0498646f8222a",
+  "atlas_sha256": "91265bf98df891fe6c175c2b8ad33cf12e0e6e94b12360b6bfa14393ca4b6b4b",
+  "icons_sha256": "c110e4e46f1c26eb0c9a3b4035d70f6d7c4d9d8b31f9b5d9077e992ce22457ba",
+  "width": 4096,
+  "height": 4096,
+  "room_pieces": 138,
+  "mapped_pieces": 138,
+  "named_locations": 122,
+  "places": 122,
+  "content_rows": 472,
+  "links": 275
+}

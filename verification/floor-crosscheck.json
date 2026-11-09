@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "claims": [
+    {
+      "region": "tr",
+      "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train",
+      "locator": "h2 floor headings",
+      "checked_on": "2026-11-03",
+      "native_source": {
+        "member": "ui\\31_map_tr\\map_tr",
+        "sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b"
+      },
+      "claim": "floor-catalogue-only",
+      "edition": "HD applicability not independently confirmed",
+      "native": [
+        "1f",
+        "2f",
+        "roof"
+      ],
+      "external": [
+        "1f",
+        "2f",
+        "roof"
+      ],
+      "missing_from_native": [],
+      "missing_from_external": [],
+      "result": "match"
+    },
+    {
+      "region": "sh",
+      "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility",
+      "locator": "h2 floor headings",
+      "checked_on": "2026-11-03",
+      "native_source": {
+        "member": "ui\\32_map_sh\\map_sh",
+        "sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4"
+      },
+      "claim": "floor-catalogue-only",
+      "edition": "HD applicability not independently confirmed",
+      "native": [
+        "1f",
+        "2f",
+        "3f",
+        "b1"
+      ],
+      "external": [
+        "1f",
+        "2f",
+        "3f",
+        "b1"
+      ],
+      "missing_from_native": [],
+      "missing_from_external": [],
+      "result": "match"
+    },
+    {
+      "region": "dm",
+      "source_url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement",
+      "locator": "h2 floor headings",
+      "checked_on": "2026-11-03",
+      "native_source": {
+        "member": "ui\\33_map_dm\\map_dm",
+        "sha256": "b7cea8755169d15b7865ff79f920daa0e8bd7544a5fda2c6df7dc42e1655ef19"
+      },
+      "claim": "floor-catalogue-only",
+      "edition": "HD applicability not independently confirmed",
+      "native": [
+        "b1",
+        "b2",
+        "b3"
+      ],
+      "external": [
+        "b1",
+        "b2",
+        "b3"
+      ],
+      "missing_from_native": [],
+      "missing_from_external": [],
+      "result": "match"
+    },
+    {
+      "region": "ch",
+      "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory",
+      "locator": "h2 floor headings",
+      "checked_on": "2026-11-03",
+      "native_source": {
+        "member": "ui\\34_map_ch\\map_ch",
+        "sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f"
+      },
+      "claim": "floor-catalogue-only",
+      "edition": "HD applicability not independently confirmed",
+      "native": [
+        "1f",
+        "2f",
+        "b1",
+        "b2"
+      ],
+      "external": [
+        "1f",
+        "2f",
+        "b1",
+        "b2"
+      ],
+      "missing_from_native": [],
+      "missing_from_external": [],
+      "result": "match"
+    },
+    {
+      "region": "bt",
+      "source_url": "https://www.evilresource.com/resident-evil-zero/maps/factory",
+      "locator": "h2 floor headings",
+      "checked_on": "2026-11-03",
+      "native_source": {
+        "member": "ui\\35_map_bt\\map_bt",
+        "sha256": "ea18ac7d2f00c9349c9a1e8768d4c6956eef5ed62df38ce3ff876fba120001c6"
+      },
+      "claim": "floor-catalogue-only",
+      "edition": "HD applicability not independently confirmed",
+      "native": [
+        "1f",
+        "b1",
+        "b4"
+      ],
+      "external": [
+        "1f",
+        "b1",
+        "b4"
+      ],
+      "missing_from_native": [],
+      "missing_from_external": [],
+      "result": "match"
+    },
+    {
+      "region": "pl",
+      "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant",
+      "locator": "h2 floor headings",
+      "checked_on": "2026-11-03",
+      "native_source": {
+        "member": "ui\\36_map_pl\\map_pl",
+        "sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86"
+      },
+      "claim": "floor-catalogue-only",
+      "edition": "HD applicability not independently confirmed",
+      "native": [
+        "1f",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9"
+      ],
+      "external": [
+        "1f",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9"
+      ],
+      "missing_from_native": [],
+      "missing_from_external": [],
+      "result": "match"
+    }
+  ]
+}

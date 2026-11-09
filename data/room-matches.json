@@ -1,0 +1,3227 @@
+{
+ "schema_version": 1,
+ "scope": "room-name and floor geometry only",
+ "claims": [
+  {
+   "external_id": "train-1f/engine-cab",
+   "native_pieces": [
+    "i_tr0090"
+   ],
+   "name_en": "Engine Cab",
+   "name_ko": "운전실",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/engine-cab",
+    "source_map": "https://www.evilresource.com/maps/re0_train1f/map.gif",
+    "external_image_sha256": "cea1946c80db20151030486346dcb584076b6469608008e92e98f06d8ce48ec1",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-1f/engine-carriage",
+   "native_pieces": [
+    "i_tr0190"
+   ],
+   "name_en": "Engine Carriage",
+   "name_ko": "기관차",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/engine-carriage",
+    "source_map": "https://www.evilresource.com/maps/re0_train1f/map.gif",
+    "external_image_sha256": "cea1946c80db20151030486346dcb584076b6469608008e92e98f06d8ce48ec1",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-1f/officers-car",
+   "native_pieces": [
+    "i_tr0290"
+   ],
+   "name_en": "Officer's Car",
+   "name_ko": "승무원 객차",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/officers-car",
+    "source_map": "https://www.evilresource.com/maps/re0_train1f/map.gif",
+    "external_image_sha256": "cea1946c80db20151030486346dcb584076b6469608008e92e98f06d8ce48ec1",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-1f/conductors-office",
+   "native_pieces": [
+    "i_tr0390"
+   ],
+   "name_en": "Conductor's Office",
+   "name_ko": "차장실",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/conductors-office",
+    "source_map": "https://www.evilresource.com/maps/re0_train1f/map.gif",
+    "external_image_sha256": "cea1946c80db20151030486346dcb584076b6469608008e92e98f06d8ce48ec1",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-1f/cabin-201",
+   "native_pieces": [
+    "i_tr0490"
+   ],
+   "name_en": "Cabin 201",
+   "name_ko": "201호 객실",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/cabin-201",
+    "source_map": "https://www.evilresource.com/maps/re0_train1f/map.gif",
+    "external_image_sha256": "cea1946c80db20151030486346dcb584076b6469608008e92e98f06d8ce48ec1",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-1f/cabin-202",
+   "native_pieces": [
+    "i_tr0590"
+   ],
+   "name_en": "Cabin 202",
+   "name_ko": "202호 객실",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/cabin-202",
+    "source_map": "https://www.evilresource.com/maps/re0_train1f/map.gif",
+    "external_image_sha256": "cea1946c80db20151030486346dcb584076b6469608008e92e98f06d8ce48ec1",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-1f/passenger-car-2",
+   "native_pieces": [
+    "i_tr0690"
+   ],
+   "name_en": "Passenger Car 2",
+   "name_ko": "2번 객차",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/passenger-car-2",
+    "source_map": "https://www.evilresource.com/maps/re0_train1f/map.gif",
+    "external_image_sha256": "cea1946c80db20151030486346dcb584076b6469608008e92e98f06d8ce48ec1",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-1f/passenger-car-1",
+   "native_pieces": [
+    "i_tr0790"
+   ],
+   "name_en": "Passenger Car 1",
+   "name_ko": "1번 객차",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/passenger-car-1",
+    "source_map": "https://www.evilresource.com/maps/re0_train1f/map.gif",
+    "external_image_sha256": "cea1946c80db20151030486346dcb584076b6469608008e92e98f06d8ce48ec1",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-1f/dining-car",
+   "native_pieces": [
+    "i_tr0890"
+   ],
+   "name_en": "Dining Car",
+   "name_ko": "식당차",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/dining-car",
+    "source_map": "https://www.evilresource.com/maps/re0_train1f/map.gif",
+    "external_image_sha256": "cea1946c80db20151030486346dcb584076b6469608008e92e98f06d8ce48ec1",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-1f/freight-car",
+   "native_pieces": [
+    "i_tr0990"
+   ],
+   "name_en": "Freight Car",
+   "name_ko": "화물차",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/freight-car",
+    "source_map": "https://www.evilresource.com/maps/re0_train1f/map.gif",
+    "external_image_sha256": "cea1946c80db20151030486346dcb584076b6469608008e92e98f06d8ce48ec1",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-1f/rear-carriage",
+   "native_pieces": [
+    "i_tr0a90"
+   ],
+   "name_en": "Rear Carriage",
+   "name_ko": "후미차",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/rear-carriage",
+    "source_map": "https://www.evilresource.com/maps/re0_train1f/map.gif",
+    "external_image_sha256": "cea1946c80db20151030486346dcb584076b6469608008e92e98f06d8ce48ec1",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-2f/bar-lounge",
+   "native_pieces": [
+    "i_tr0ba0",
+    "i_tr0ba1"
+   ],
+   "name_en": "Bar Lounge",
+   "name_ko": "바 라운지",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/bar-lounge",
+    "source_map": "https://www.evilresource.com/maps/re0_train2f/map.gif",
+    "external_image_sha256": "0e9d9ed6dd02e43a79616e51b98cc25bffcbcc09636990e9173b8382291befd6",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-2f/upstairs-passenger-car",
+   "native_pieces": [
+    "i_tr0ca0",
+    "i_tr0ca1"
+   ],
+   "name_en": "Upstairs Passenger Car",
+   "name_ko": "2층 객차",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/upstairs-passenger-car",
+    "source_map": "https://www.evilresource.com/maps/re0_train2f/map.gif",
+    "external_image_sha256": "0e9d9ed6dd02e43a79616e51b98cc25bffcbcc09636990e9173b8382291befd6",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-2f/cabin-101",
+   "native_pieces": [
+    "i_tr0da0"
+   ],
+   "name_en": "Cabin 101",
+   "name_ko": "101호 객실",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/cabin-101",
+    "source_map": "https://www.evilresource.com/maps/re0_train2f/map.gif",
+    "external_image_sha256": "0e9d9ed6dd02e43a79616e51b98cc25bffcbcc09636990e9173b8382291befd6",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-2f/cabin-102",
+   "native_pieces": [
+    "i_tr0ea0"
+   ],
+   "name_en": "Cabin 102",
+   "name_ko": "102호 객실",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/cabin-102",
+    "source_map": "https://www.evilresource.com/maps/re0_train2f/map.gif",
+    "external_image_sha256": "0e9d9ed6dd02e43a79616e51b98cc25bffcbcc09636990e9173b8382291befd6",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-2f/restaurant-car",
+   "native_pieces": [
+    "i_tr0fa0"
+   ],
+   "name_en": "Restaurant Car",
+   "name_ko": "2층 식당차",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/restaurant-car",
+    "source_map": "https://www.evilresource.com/maps/re0_train2f/map.gif",
+    "external_image_sha256": "0e9d9ed6dd02e43a79616e51b98cc25bffcbcc09636990e9173b8382291befd6",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-2f/service-room",
+   "native_pieces": [
+    "i_tr11a0"
+   ],
+   "name_en": "Service Room",
+   "name_ko": "배식실",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/service-room",
+    "source_map": "https://www.evilresource.com/maps/re0_train2f/map.gif",
+    "external_image_sha256": "0e9d9ed6dd02e43a79616e51b98cc25bffcbcc09636990e9173b8382291befd6",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-roof/officers-car-roof",
+   "native_pieces": [
+    "i_tr0eb0"
+   ],
+   "name_en": "Officer's Car Roof",
+   "name_ko": "승무원 객차 지붕",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "roof",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-roof/officers-car-roof",
+    "source_map": "https://www.evilresource.com/maps/re0_trainroof/map.gif",
+    "external_image_sha256": "7bffb8f1ea3e087e143bf3eb3d62b0ff9c635fa013a40e0a6716c68ccc4dacfd",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "train-roof/dining-car-roof",
+   "native_pieces": [
+    "i_tr11b0"
+   ],
+   "name_en": "Dining Car Roof",
+   "name_ko": "식당차 지붕",
+   "korean_translation": "project translation; installed Korean terminology not checked",
+   "region": "tr",
+   "floor": "roof",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Codex",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-roof/dining-car-roof",
+    "source_map": "https://www.evilresource.com/maps/re0_trainroof/map.gif",
+    "external_image_sha256": "7bffb8f1ea3e087e143bf3eb3d62b0ff9c635fa013a40e0a6716c68ccc4dacfd",
+    "native_gui_sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+    "method": "visual comparison of native atlas/GUI layout, external room areas and source floor image"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door connections",
+    "item contents",
+    "difficulty/mode differences"
+   ]
+  },
+  {
+   "external_id": "training-facility-1f/main-hall",
+   "native_pieces": [
+    "i_sh0090",
+    "i_sh0091"
+   ],
+   "name_en": "Main Hall",
+   "name_ko": "대강당 1층",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/main-hall",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility1f/map.gif",
+    "external_image_sha256": "93b9895be8958acf41d2b6d67bfb9f9bcdd26a09939ad33ab241a13de402d412",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-1f/dining-room",
+   "native_pieces": [
+    "i_sh0190"
+   ],
+   "name_en": "Dining Room",
+   "name_ko": "식당",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/dining-room",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility1f/map.gif",
+    "external_image_sha256": "93b9895be8958acf41d2b6d67bfb9f9bcdd26a09939ad33ab241a13de402d412",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-1f/kitchen",
+   "native_pieces": [
+    "i_sh0290"
+   ],
+   "name_en": "Kitchen",
+   "name_ko": "주방",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/kitchen",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility1f/map.gif",
+    "external_image_sha256": "93b9895be8958acf41d2b6d67bfb9f9bcdd26a09939ad33ab241a13de402d412",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-1f/projection-room",
+   "native_pieces": [
+    "i_sh0390"
+   ],
+   "name_en": "Projection Room",
+   "name_ko": "영사실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/projection-room",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility1f/map.gif",
+    "external_image_sha256": "93b9895be8958acf41d2b6d67bfb9f9bcdd26a09939ad33ab241a13de402d412",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-1f/west-wing-corridor",
+   "native_pieces": [
+    "i_sh0490"
+   ],
+   "name_en": "West Wing Corridor",
+   "name_ko": "서쪽 복도",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/west-wing-corridor",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility1f/map.gif",
+    "external_image_sha256": "93b9895be8958acf41d2b6d67bfb9f9bcdd26a09939ad33ab241a13de402d412",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-1f/bathroom",
+   "native_pieces": [
+    "i_sh0590"
+   ],
+   "name_en": "Bathroom",
+   "name_ko": "욕실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/bathroom",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility1f/map.gif",
+    "external_image_sha256": "93b9895be8958acf41d2b6d67bfb9f9bcdd26a09939ad33ab241a13de402d412",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-1f/boiler-room",
+   "native_pieces": [
+    "i_sh0690"
+   ],
+   "name_en": "Boiler Room",
+   "name_ko": "보일러실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/boiler-room",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility1f/map.gif",
+    "external_image_sha256": "93b9895be8958acf41d2b6d67bfb9f9bcdd26a09939ad33ab241a13de402d412",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-1f/storage-room",
+   "native_pieces": [
+    "i_sh0890"
+   ],
+   "name_en": "Storage Room",
+   "name_ko": "창고",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/storage-room",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility1f/map.gif",
+    "external_image_sha256": "93b9895be8958acf41d2b6d67bfb9f9bcdd26a09939ad33ab241a13de402d412",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-1f/training-facility-entrance",
+   "native_pieces": [
+    "i_sh0990"
+   ],
+   "name_en": "Training Facility Entrance",
+   "name_ko": "양성소 입구",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/training-facility-entrance",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility1f/map.gif",
+    "external_image_sha256": "93b9895be8958acf41d2b6d67bfb9f9bcdd26a09939ad33ab241a13de402d412",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/main-hall",
+   "native_pieces": [
+    "i_sh00a0"
+   ],
+   "name_en": "Main Hall",
+   "name_ko": "대강당 2층",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/main-hall",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/lecture-room",
+   "native_pieces": [
+    "i_sh0ba0"
+   ],
+   "name_en": "Lecture Room",
+   "name_ko": "강의실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/lecture-room",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/art-corridor",
+   "native_pieces": [
+    "i_sh0ca0"
+   ],
+   "name_en": "Art Corridor",
+   "name_ko": "미술 복도",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/art-corridor",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/medicine-room",
+   "native_pieces": [
+    "i_sh0da0"
+   ],
+   "name_en": "Medicine Room",
+   "name_ko": "약품실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/medicine-room",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/main-library",
+   "native_pieces": [
+    "i_sh0ea0"
+   ],
+   "name_en": "Main Library",
+   "name_ko": "중앙 도서실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/main-library",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/assistant-directors-office",
+   "native_pieces": [
+    "i_sh0fa0"
+   ],
+   "name_en": "Assistant Director's Office",
+   "name_ko": "부소장실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/assistant-directors-office",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/piano-bar",
+   "native_pieces": [
+    "i_sh1aa0",
+    "i_sh1aa1",
+    "i_sh1aa2"
+   ],
+   "name_en": "Piano Bar",
+   "name_ko": "피아노 바",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/piano-bar",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/broadcast-room",
+   "native_pieces": [
+    "i_sh1ba0"
+   ],
+   "name_en": "Broadcast Room",
+   "name_ko": "방송실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/broadcast-room",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/outside-balcony",
+   "native_pieces": [
+    "i_sh1ca0"
+   ],
+   "name_en": "Outside Balcony",
+   "name_ko": "옥외 발코니",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/outside-balcony",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/large-hall",
+   "native_pieces": [
+    "i_sh1da0"
+   ],
+   "name_en": "Large Hall",
+   "name_ko": "대형 홀",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/large-hall",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/small-library",
+   "native_pieces": [
+    "i_sh10a0"
+   ],
+   "name_en": "Small Library",
+   "name_ko": "소형 도서실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/small-library",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/private-corridor",
+   "native_pieces": [
+    "i_sh11a0"
+   ],
+   "name_en": "Private Corridor",
+   "name_ko": "전용 복도",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/private-corridor",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/living-room",
+   "native_pieces": [
+    "i_sh13a0"
+   ],
+   "name_en": "Living Room",
+   "name_ko": "거실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/living-room",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/marcus-office",
+   "native_pieces": [
+    "i_sh12a0"
+   ],
+   "name_en": "Marcus' Office",
+   "name_ko": "마커스의 집무실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/marcus-office",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/private-study-room",
+   "native_pieces": [
+    "i_sh14a0"
+   ],
+   "name_en": "Private Study Room",
+   "name_ko": "개인 서재",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/private-study-room",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/art-room",
+   "native_pieces": [
+    "i_sh15a0"
+   ],
+   "name_en": "Art Room",
+   "name_ko": "미술실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/art-room",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/narrow-corridor-a",
+   "native_pieces": [
+    "i_sh16a0"
+   ],
+   "name_en": "Narrow Corridor A",
+   "name_ko": "좁은 복도 A",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/narrow-corridor-a",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/narrow-corridor-b",
+   "native_pieces": [
+    "i_sh17a0"
+   ],
+   "name_en": "Narrow Corridor B",
+   "name_ko": "좁은 복도 B",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/narrow-corridor-b",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/old-laboratory",
+   "native_pieces": [
+    "i_sh18a0"
+   ],
+   "name_en": "Old Laboratory",
+   "name_ko": "옛 실험실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/old-laboratory",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-2f/maintenance-room",
+   "native_pieces": [
+    "i_sh19a0"
+   ],
+   "name_en": "Maintenance Room",
+   "name_ko": "관리실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/maintenance-room",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility2f/map.gif",
+    "external_image_sha256": "77069fe65e5e9f13a2683763df777f05dd7acc7a4a23b59eb149c8adcecf8b78",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-3f/observatory-tower",
+   "native_pieces": [
+    "i_sh07b0"
+   ],
+   "name_en": "Observatory Tower",
+   "name_ko": "전망탑",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "3f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-3f/observatory-tower",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility3f/map.gif",
+    "external_image_sha256": "3fadd494d20c713383c2df61edec27d504157c4124f5105fbc27cb429d111472",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ],
+   "alias_pieces": [
+    {
+     "piece": "i_sh07a0",
+     "reason": "same native room index drawn on another floor/map; no separate external place"
+    }
+   ]
+  },
+  {
+   "external_id": "training-facility-3f/fountain-area",
+   "native_pieces": [
+    "i_sh09b0"
+   ],
+   "name_en": "Fountain Area",
+   "name_ko": "분수 구역",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "3f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-3f/fountain-area",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility3f/map.gif",
+    "external_image_sha256": "3fadd494d20c713383c2df61edec27d504157c4124f5105fbc27cb429d111472",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-3f/clock-room",
+   "native_pieces": [
+    "i_sh0eb0"
+   ],
+   "name_en": "Clock Room",
+   "name_ko": "시계실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "3f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-3f/clock-room",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility3f/map.gif",
+    "external_image_sha256": "3fadd494d20c713383c2df61edec27d504157c4124f5105fbc27cb429d111472",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-3f/large-hall",
+   "native_pieces": [
+    "i_sh1db0"
+   ],
+   "name_en": "Large Hall",
+   "name_ko": "대형 홀 3층",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "3f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-3f/large-hall",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacility3f/map.gif",
+    "external_image_sha256": "3fadd494d20c713383c2df61edec27d504157c4124f5105fbc27cb429d111472",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-b1/elevator",
+   "native_pieces": [
+    "i_pl1981"
+   ],
+   "name_en": "Elevator",
+   "name_ko": "엘리베이터",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-b1/elevator",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacilityb1/map.gif",
+    "external_image_sha256": "ed8d7a4dc867591c0627597e2ad7f52906837a74d492e26445d7cc5c3dcd87a2",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-b1/train-passage",
+   "native_pieces": [
+    "i_sh1e80"
+   ],
+   "name_en": "Train Passage",
+   "name_ko": "열차 통로",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-b1/train-passage",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacilityb1/map.gif",
+    "external_image_sha256": "ed8d7a4dc867591c0627597e2ad7f52906837a74d492e26445d7cc5c3dcd87a2",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "training-facility-b1/sewer-passage",
+   "native_pieces": [
+    "i_sh1f80"
+   ],
+   "name_en": "Sewer Passage",
+   "name_ko": "하수 통로",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "sh",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-b1/sewer-passage",
+    "source_map": "https://www.evilresource.com/maps/re0_trainingfacilityb1/map.gif",
+    "external_image_sha256": "ed8d7a4dc867591c0627597e2ad7f52906837a74d492e26445d7cc5c3dcd87a2",
+    "native_gui_sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "facility-basement-b1/torture-room-a",
+   "native_pieces": [
+    "i_dm0b80"
+   ],
+   "name_en": "Torture Room A",
+   "name_ko": "고문실 A",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "dm",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b1/torture-room-a",
+    "source_map": "https://www.evilresource.com/maps/re0_facilitybasementb1/map.gif",
+    "external_image_sha256": "43fa6214a26a696f54a0da599ff7c01bca1b237250e895c45dca9293620a1568",
+    "native_gui_sha256": "b7cea8755169d15b7865ff79f920daa0e8bd7544a5fda2c6df7dc42e1655ef19",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "facility-basement-b1/observation-room",
+   "native_pieces": [
+    "i_dm0380"
+   ],
+   "name_en": "Observation Room",
+   "name_ko": "관찰실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "dm",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b1/observation-room",
+    "source_map": "https://www.evilresource.com/maps/re0_facilitybasementb1/map.gif",
+    "external_image_sha256": "43fa6214a26a696f54a0da599ff7c01bca1b237250e895c45dca9293620a1568",
+    "native_gui_sha256": "b7cea8755169d15b7865ff79f920daa0e8bd7544a5fda2c6df7dc42e1655ef19",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "facility-basement-b1/torture-room-b",
+   "native_pieces": [
+    "i_dm0280",
+    "i_dm0281"
+   ],
+   "name_en": "Torture Room B",
+   "name_ko": "고문실 B",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "dm",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b1/torture-room-b",
+    "source_map": "https://www.evilresource.com/maps/re0_facilitybasementb1/map.gif",
+    "external_image_sha256": "43fa6214a26a696f54a0da599ff7c01bca1b237250e895c45dca9293620a1568",
+    "native_gui_sha256": "b7cea8755169d15b7865ff79f920daa0e8bd7544a5fda2c6df7dc42e1655ef19",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "facility-basement-b1/monitor-room",
+   "native_pieces": [
+    "i_dm0180"
+   ],
+   "name_en": "Monitor Room",
+   "name_ko": "모니터실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "dm",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b1/monitor-room",
+    "source_map": "https://www.evilresource.com/maps/re0_facilitybasementb1/map.gif",
+    "external_image_sha256": "43fa6214a26a696f54a0da599ff7c01bca1b237250e895c45dca9293620a1568",
+    "native_gui_sha256": "b7cea8755169d15b7865ff79f920daa0e8bd7544a5fda2c6df7dc42e1655ef19",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "facility-basement-b1/basement-entrance",
+   "native_pieces": [
+    "i_dm0080"
+   ],
+   "name_en": "Basement Entrance",
+   "name_ko": "지하 입구",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "dm",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b1/basement-entrance",
+    "source_map": "https://www.evilresource.com/maps/re0_facilitybasementb1/map.gif",
+    "external_image_sha256": "43fa6214a26a696f54a0da599ff7c01bca1b237250e895c45dca9293620a1568",
+    "native_gui_sha256": "b7cea8755169d15b7865ff79f920daa0e8bd7544a5fda2c6df7dc42e1655ef19",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "facility-basement-b2/statue-room",
+   "native_pieces": [
+    "i_dm0470"
+   ],
+   "name_en": "Statue Room",
+   "name_ko": "석상실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "dm",
+   "floor": "b2",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b2/statue-room",
+    "source_map": "https://www.evilresource.com/maps/re0_facilitybasementb2/map.gif",
+    "external_image_sha256": "6ac4f75d8ae59c22da89ab8a34afcf72f8644bc21717493092c4e7eb6fe4a298",
+    "native_gui_sha256": "b7cea8755169d15b7865ff79f920daa0e8bd7544a5fda2c6df7dc42e1655ef19",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ],
+   "also_covers": [
+    "facility-basement-b2/cavernous-area",
+    "facility-basement-b2/boiler-room"
+   ]
+  },
+  {
+   "external_id": "facility-basement-b2/storage-room",
+   "native_pieces": [
+    "i_dm0570"
+   ],
+   "name_en": "Storage Room",
+   "name_ko": "지하 창고",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "dm",
+   "floor": "b2",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b2/storage-room",
+    "source_map": "https://www.evilresource.com/maps/re0_facilitybasementb2/map.gif",
+    "external_image_sha256": "6ac4f75d8ae59c22da89ab8a34afcf72f8644bc21717493092c4e7eb6fe4a298",
+    "native_gui_sha256": "b7cea8755169d15b7865ff79f920daa0e8bd7544a5fda2c6df7dc42e1655ef19",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "facility-basement-b2/bunk-room-b",
+   "native_pieces": [
+    "i_dm0670"
+   ],
+   "name_en": "Bunk Room B",
+   "name_ko": "침실 B",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "dm",
+   "floor": "b2",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b2/bunk-room-b",
+    "source_map": "https://www.evilresource.com/maps/re0_facilitybasementb2/map.gif",
+    "external_image_sha256": "6ac4f75d8ae59c22da89ab8a34afcf72f8644bc21717493092c4e7eb6fe4a298",
+    "native_gui_sha256": "b7cea8755169d15b7865ff79f920daa0e8bd7544a5fda2c6df7dc42e1655ef19",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "facility-basement-b2/bunk-room-a",
+   "native_pieces": [
+    "i_dm0770"
+   ],
+   "name_en": "Bunk Room A",
+   "name_ko": "침실 A",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "dm",
+   "floor": "b2",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b2/bunk-room-a",
+    "source_map": "https://www.evilresource.com/maps/re0_facilitybasementb2/map.gif",
+    "external_image_sha256": "6ac4f75d8ae59c22da89ab8a34afcf72f8644bc21717493092c4e7eb6fe4a298",
+    "native_gui_sha256": "b7cea8755169d15b7865ff79f920daa0e8bd7544a5fda2c6df7dc42e1655ef19",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "facility-basement-b3/training-room",
+   "native_pieces": [
+    "i_dm0a60"
+   ],
+   "name_en": "Training Room",
+   "name_ko": "훈련실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "dm",
+   "floor": "b3",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b3/training-room",
+    "source_map": "https://www.evilresource.com/maps/re0_facilitybasementb3/map.gif",
+    "external_image_sha256": "9ce378a18634a458bee85c5bb29550a001759a580c8afa6ac4aaa93889d1101f",
+    "native_gui_sha256": "b7cea8755169d15b7865ff79f920daa0e8bd7544a5fda2c6df7dc42e1655ef19",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "facility-basement-b3/waterfall-room",
+   "native_pieces": [
+    "i_dm0860"
+   ],
+   "name_en": "Waterfall Room",
+   "name_ko": "폭포실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "dm",
+   "floor": "b3",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b3/waterfall-room",
+    "source_map": "https://www.evilresource.com/maps/re0_facilitybasementb3/map.gif",
+    "external_image_sha256": "9ce378a18634a458bee85c5bb29550a001759a580c8afa6ac4aaa93889d1101f",
+    "native_gui_sha256": "b7cea8755169d15b7865ff79f920daa0e8bd7544a5fda2c6df7dc42e1655ef19",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "facility-basement-b3/cavernous-area",
+   "native_pieces": [
+    "i_dm0960"
+   ],
+   "name_en": "Cavernous Area",
+   "name_ko": "동굴 지대",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "dm",
+   "floor": "b3",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b3/cavernous-area",
+    "source_map": "https://www.evilresource.com/maps/re0_facilitybasementb3/map.gif",
+    "external_image_sha256": "9ce378a18634a458bee85c5bb29550a001759a580c8afa6ac4aaa93889d1101f",
+    "native_gui_sha256": "b7cea8755169d15b7865ff79f920daa0e8bd7544a5fda2c6df7dc42e1655ef19",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "laboratory-1f/outside-area",
+   "native_pieces": [
+    "i_ch0090",
+    "i_ch2090"
+   ],
+   "name_en": "Outside Area",
+   "name_ko": "옥외 구역",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "ch",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-1f/outside-area",
+    "source_map": "https://www.evilresource.com/maps/re0_laboratory1f/map.gif",
+    "external_image_sha256": "ab4e8891a535ddb84a9d0e6e491c0b37d6438a119bda873443071caae5e4b8b3",
+    "native_gui_sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "laboratory-1f/church",
+   "native_pieces": [
+    "i_ch0190"
+   ],
+   "name_en": "Church",
+   "name_ko": "교회",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "ch",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-1f/church",
+    "source_map": "https://www.evilresource.com/maps/re0_laboratory1f/map.gif",
+    "external_image_sha256": "ab4e8891a535ddb84a9d0e6e491c0b37d6438a119bda873443071caae5e4b8b3",
+    "native_gui_sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "laboratory-1f/church-back-room",
+   "native_pieces": [
+    "i_ch0f90"
+   ],
+   "name_en": "Church Back Room",
+   "name_ko": "교회 뒷방",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "ch",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-1f/church-back-room",
+    "source_map": "https://www.evilresource.com/maps/re0_laboratory1f/map.gif",
+    "external_image_sha256": "ab4e8891a535ddb84a9d0e6e491c0b37d6438a119bda873443071caae5e4b8b3",
+    "native_gui_sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "laboratory-2f/church-roof",
+   "native_pieces": [
+    "i_ch02a0"
+   ],
+   "name_en": "Church Roof",
+   "name_ko": "교회 지붕",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "ch",
+   "floor": "2f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-2f/church-roof",
+    "source_map": "https://www.evilresource.com/maps/re0_laboratory2f/map.gif",
+    "external_image_sha256": "fb7f925b13c542b5f4474120d54c1ef7cdfc007b7783ff1e23e27df7f4ee3f1b",
+    "native_gui_sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "laboratory-b1/breeding-room",
+   "native_pieces": [
+    "i_ch0a80"
+   ],
+   "name_en": "Breeding Room",
+   "name_ko": "사육실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "ch",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/breeding-room",
+    "source_map": "https://www.evilresource.com/maps/re0_laboratoryb1/map.gif",
+    "external_image_sha256": "30d4ea9254eedb8385244929e91d6bae6ff48f05bc224cd527ae692ee38073ea",
+    "native_gui_sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "laboratory-b1/leech-room",
+   "native_pieces": [
+    "i_ch0b80"
+   ],
+   "name_en": "Leech Room",
+   "name_ko": "거머리실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "ch",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/leech-room",
+    "source_map": "https://www.evilresource.com/maps/re0_laboratoryb1/map.gif",
+    "external_image_sha256": "30d4ea9254eedb8385244929e91d6bae6ff48f05bc224cd527ae692ee38073ea",
+    "native_gui_sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "laboratory-b1/corridor",
+   "native_pieces": [
+    "i_ch0480"
+   ],
+   "name_en": "Corridor",
+   "name_ko": "복도",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "ch",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/corridor",
+    "source_map": "https://www.evilresource.com/maps/re0_laboratoryb1/map.gif",
+    "external_image_sha256": "30d4ea9254eedb8385244929e91d6bae6ff48f05bc224cd527ae692ee38073ea",
+    "native_gui_sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "laboratory-b1/machine-room-2f",
+   "native_pieces": [
+    "i_ch0580",
+    "i_ch0581"
+   ],
+   "name_en": "Machine Room 2F",
+   "name_ko": "기계실 2층",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "ch",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/machine-room-2f",
+    "source_map": "https://www.evilresource.com/maps/re0_laboratoryb1/map.gif",
+    "external_image_sha256": "30d4ea9254eedb8385244929e91d6bae6ff48f05bc224cd527ae692ee38073ea",
+    "native_gui_sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "laboratory-b1/leech-laboratory",
+   "native_pieces": [
+    "i_ch0680"
+   ],
+   "name_en": "Leech Laboratory",
+   "name_ko": "거머리 실험실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "ch",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/leech-laboratory",
+    "source_map": "https://www.evilresource.com/maps/re0_laboratoryb1/map.gif",
+    "external_image_sha256": "30d4ea9254eedb8385244929e91d6bae6ff48f05bc224cd527ae692ee38073ea",
+    "native_gui_sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "laboratory-b1/operating-room",
+   "native_pieces": [
+    "i_ch0880"
+   ],
+   "name_en": "Operating Room",
+   "name_ko": "수술실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "ch",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/operating-room",
+    "source_map": "https://www.evilresource.com/maps/re0_laboratoryb1/map.gif",
+    "external_image_sha256": "30d4ea9254eedb8385244929e91d6bae6ff48f05bc224cd527ae692ee38073ea",
+    "native_gui_sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "laboratory-b1/morgue",
+   "native_pieces": [
+    "i_ch0980"
+   ],
+   "name_en": "Morgue",
+   "name_ko": "영안실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "ch",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/morgue",
+    "source_map": "https://www.evilresource.com/maps/re0_laboratoryb1/map.gif",
+    "external_image_sha256": "30d4ea9254eedb8385244929e91d6bae6ff48f05bc224cd527ae692ee38073ea",
+    "native_gui_sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "laboratory-b2/cable-car",
+   "native_pieces": [
+    "i_ch0c70"
+   ],
+   "name_en": "Cable Car",
+   "name_ko": "케이블카",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "ch",
+   "floor": "b2",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/cable-car",
+    "source_map": "https://www.evilresource.com/maps/re0_laboratoryb2/map.gif",
+    "external_image_sha256": "57ea6c19cee79f4bee93da454911aa29141023b93d8727a2fc5d7803e314c27a",
+    "native_gui_sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ],
+   "alias_pieces": [
+    {
+     "piece": "i_ch0c80",
+     "reason": "same native room index drawn on another floor/map; no separate external place"
+    }
+   ]
+  },
+  {
+   "external_id": "laboratory-b2/reference-room",
+   "native_pieces": [
+    "i_ch0d70"
+   ],
+   "name_en": "Reference Room",
+   "name_ko": "자료실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "ch",
+   "floor": "b2",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/reference-room",
+    "source_map": "https://www.evilresource.com/maps/re0_laboratoryb2/map.gif",
+    "external_image_sha256": "57ea6c19cee79f4bee93da454911aa29141023b93d8727a2fc5d7803e314c27a",
+    "native_gui_sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "laboratory-b2/marcuss-study",
+   "native_pieces": [
+    "i_ch0e70"
+   ],
+   "name_en": "Marcus's Study",
+   "name_ko": "마커스의 서재",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "ch",
+   "floor": "b2",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/marcuss-study",
+    "source_map": "https://www.evilresource.com/maps/re0_laboratoryb2/map.gif",
+    "external_image_sha256": "57ea6c19cee79f4bee93da454911aa29141023b93d8727a2fc5d7803e314c27a",
+    "native_gui_sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "laboratory-b2/machine-room-1f",
+   "native_pieces": [
+    "i_ch0370",
+    "i_ch0371"
+   ],
+   "name_en": "Machine Room 1F",
+   "name_ko": "기계실 1층",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "ch",
+   "floor": "b2",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/machine-room-1f",
+    "source_map": "https://www.evilresource.com/maps/re0_laboratoryb2/map.gif",
+    "external_image_sha256": "57ea6c19cee79f4bee93da454911aa29141023b93d8727a2fc5d7803e314c27a",
+    "native_gui_sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "laboratory-b2/elevator-passage",
+   "native_pieces": [
+    "i_ch0470"
+   ],
+   "name_en": "Elevator Passage",
+   "name_ko": "엘리베이터 통로",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "ch",
+   "floor": "b2",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/elevator-passage",
+    "source_map": "https://www.evilresource.com/maps/re0_laboratoryb2/map.gif",
+    "external_image_sha256": "57ea6c19cee79f4bee93da454911aa29141023b93d8727a2fc5d7803e314c27a",
+    "native_gui_sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "laboratory-b2/marcuss-private-room",
+   "native_pieces": [
+    "i_ch0770"
+   ],
+   "name_en": "Marcus's Private Room",
+   "name_ko": "마커스의 개인실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "ch",
+   "floor": "b2",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/marcuss-private-room",
+    "source_map": "https://www.evilresource.com/maps/re0_laboratoryb2/map.gif",
+    "external_image_sha256": "57ea6c19cee79f4bee93da454911aa29141023b93d8727a2fc5d7803e314c27a",
+    "native_gui_sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "factory-1f/turntable-control-room",
+   "native_pieces": [
+    "i_bt0490"
+   ],
+   "name_en": "Turntable Control Room",
+   "name_ko": "턴테이블 제어실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "bt",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-1f/turntable-control-room",
+    "source_map": "https://www.evilresource.com/maps/re0_factory1f/map.gif",
+    "external_image_sha256": "ff2016ad18e39af16cf22101811ea777c918c93e30695962a1a844da3676872c",
+    "native_gui_sha256": "ea18ac7d2f00c9349c9a1e8768d4c6956eef5ed62df38ce3ff876fba120001c6",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "factory-1f/turntable-yard",
+   "native_pieces": [
+    "i_bt0290",
+    "i_bt0291"
+   ],
+   "name_en": "Turntable Yard",
+   "name_ko": "턴테이블 야드",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "bt",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-1f/turntable-yard",
+    "source_map": "https://www.evilresource.com/maps/re0_factory1f/map.gif",
+    "external_image_sha256": "ff2016ad18e39af16cf22101811ea777c918c93e30695962a1a844da3676872c",
+    "native_gui_sha256": "ea18ac7d2f00c9349c9a1e8768d4c6956eef5ed62df38ce3ff876fba120001c6",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "factory-1f/platform",
+   "native_pieces": [
+    "i_bt0090"
+   ],
+   "name_en": "Platform",
+   "name_ko": "승강장",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "bt",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-1f/platform",
+    "source_map": "https://www.evilresource.com/maps/re0_factory1f/map.gif",
+    "external_image_sha256": "ff2016ad18e39af16cf22101811ea777c918c93e30695962a1a844da3676872c",
+    "native_gui_sha256": "ea18ac7d2f00c9349c9a1e8768d4c6956eef5ed62df38ce3ff876fba120001c6",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "factory-b1/elevator",
+   "native_pieces": [
+    "i_pl1980"
+   ],
+   "name_en": "Elevator",
+   "name_ko": "엘리베이터",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "bt",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b1/elevator",
+    "source_map": "https://www.evilresource.com/maps/re0_factoryb1/map.gif",
+    "external_image_sha256": "536104140091127ab100269c931caa4c045270e72250b4a3b689eb92d062e24a",
+    "native_gui_sha256": "ea18ac7d2f00c9349c9a1e8768d4c6956eef5ed62df38ce3ff876fba120001c6",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "factory-b1/turntable-monitor-room",
+   "native_pieces": [
+    "i_bt0380"
+   ],
+   "name_en": "Turntable Monitor Room",
+   "name_ko": "턴테이블 감시실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "bt",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b1/turntable-monitor-room",
+    "source_map": "https://www.evilresource.com/maps/re0_factoryb1/map.gif",
+    "external_image_sha256": "536104140091127ab100269c931caa4c045270e72250b4a3b689eb92d062e24a",
+    "native_gui_sha256": "ea18ac7d2f00c9349c9a1e8768d4c6956eef5ed62df38ce3ff876fba120001c6",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "factory-b1/turntable-yard",
+   "native_pieces": [
+    "i_bt0280"
+   ],
+   "name_en": "Turntable Yard",
+   "name_ko": "턴테이블 야드 지하",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "bt",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b1/turntable-yard",
+    "source_map": "https://www.evilresource.com/maps/re0_factoryb1/map.gif",
+    "external_image_sha256": "536104140091127ab100269c931caa4c045270e72250b4a3b689eb92d062e24a",
+    "native_gui_sha256": "ea18ac7d2f00c9349c9a1e8768d4c6956eef5ed62df38ce3ff876fba120001c6",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "factory-b1/maintenance-shaft",
+   "native_pieces": [
+    "i_bt0180"
+   ],
+   "name_en": "Maintenance Shaft",
+   "name_ko": "정비 통로",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "bt",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b1/maintenance-shaft",
+    "source_map": "https://www.evilresource.com/maps/re0_factoryb1/map.gif",
+    "external_image_sha256": "536104140091127ab100269c931caa4c045270e72250b4a3b689eb92d062e24a",
+    "native_gui_sha256": "ea18ac7d2f00c9349c9a1e8768d4c6956eef5ed62df38ce3ff876fba120001c6",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "factory-b1/platform",
+   "native_pieces": [
+    "i_bt0080"
+   ],
+   "name_en": "Platform",
+   "name_ko": "승강장 지하",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "bt",
+   "floor": "b1",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b1/platform",
+    "source_map": "https://www.evilresource.com/maps/re0_factoryb1/map.gif",
+    "external_image_sha256": "536104140091127ab100269c931caa4c045270e72250b4a3b689eb92d062e24a",
+    "native_gui_sha256": "ea18ac7d2f00c9349c9a1e8768d4c6956eef5ed62df38ce3ff876fba120001c6",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "factory-b4/elevator",
+   "native_pieces": [
+    "i_pl1950"
+   ],
+   "name_en": "Elevator",
+   "name_ko": "엘리베이터",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "bt",
+   "floor": "b4",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b4/elevator",
+    "source_map": "https://www.evilresource.com/maps/re0_factoryb4/map.gif",
+    "external_image_sha256": "57153179e6903b7b042cc82f07343101a2e4ed6371ade980de9c3857ee9de86d",
+    "native_gui_sha256": "ea18ac7d2f00c9349c9a1e8768d4c6956eef5ed62df38ce3ff876fba120001c6",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "factory-b4/turntable-platform",
+   "native_pieces": [
+    "i_bt0250",
+    "i_bt0251",
+    "i_bt0252",
+    "i_bt0253"
+   ],
+   "name_en": "Turntable Platform",
+   "name_ko": "턴테이블 승강장",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "bt",
+   "floor": "b4",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b4/turntable-platform",
+    "source_map": "https://www.evilresource.com/maps/re0_factoryb4/map.gif",
+    "external_image_sha256": "57153179e6903b7b042cc82f07343101a2e4ed6371ade980de9c3857ee9de86d",
+    "native_gui_sha256": "ea18ac7d2f00c9349c9a1e8768d4c6956eef5ed62df38ce3ff876fba120001c6",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-1f/cargo-room",
+   "native_pieces": [
+    "i_pl1890"
+   ],
+   "name_en": "Cargo Room",
+   "name_ko": "화물실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "1f",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-1f/cargo-room",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplant1f/map.gif",
+    "external_image_sha256": "85d0f789bc75bf52ad1d9d815e8db671e7d9cd2ad40f06ee77426def98386d28",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b5/generator-room-2f",
+   "native_pieces": [
+    "i_pl0240"
+   ],
+   "name_en": "Generator Room 2F",
+   "name_ko": "발전실 2층",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b5",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b5/generator-room-2f",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb5/map.gif",
+    "external_image_sha256": "e1290ecbcdc362c8dd8477591b846f10d13ea9a9a10a12536fdd5533b771fc31",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b5/control-room",
+   "native_pieces": [
+    "i_pl0140"
+   ],
+   "name_en": "Control Room",
+   "name_ko": "제어실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b5",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b5/control-room",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb5/map.gif",
+    "external_image_sha256": "e1290ecbcdc362c8dd8477591b846f10d13ea9a9a10a12536fdd5533b771fc31",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b5/elevator",
+   "native_pieces": [
+    "i_pl1940"
+   ],
+   "name_en": "Elevator",
+   "name_ko": "엘리베이터",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b5",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b5/elevator",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb5/map.gif",
+    "external_image_sha256": "e1290ecbcdc362c8dd8477591b846f10d13ea9a9a10a12536fdd5533b771fc31",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b5/bridge",
+   "native_pieces": [
+    "i_pl0040"
+   ],
+   "name_en": "Bridge",
+   "name_ko": "다리",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b5",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b5/bridge",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb5/map.gif",
+    "external_image_sha256": "e1290ecbcdc362c8dd8477591b846f10d13ea9a9a10a12536fdd5533b771fc31",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b6/purification-room",
+   "native_pieces": [
+    "i_pl0930"
+   ],
+   "name_en": "Purification Room",
+   "name_ko": "정화실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b6",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/purification-room",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb6/map.gif",
+    "external_image_sha256": "6d30cb0b1d5cd4c69dbce054af2e115fd27e3dcd9bf5cf85ae3ebd693e5dd185",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b6/lodgings",
+   "native_pieces": [
+    "i_pl0730"
+   ],
+   "name_en": "Lodgings",
+   "name_ko": "숙소",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b6",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/lodgings",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb6/map.gif",
+    "external_image_sha256": "6d30cb0b1d5cd4c69dbce054af2e115fd27e3dcd9bf5cf85ae3ebd693e5dd185",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b6/b6-walkway",
+   "native_pieces": [
+    "i_pl0630"
+   ],
+   "name_en": "B6 Walkway",
+   "name_ko": "B6 통로",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b6",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/b6-walkway",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb6/map.gif",
+    "external_image_sha256": "6d30cb0b1d5cd4c69dbce054af2e115fd27e3dcd9bf5cf85ae3ebd693e5dd185",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b6/rec-room",
+   "native_pieces": [
+    "i_pl0530"
+   ],
+   "name_en": "Rec Room",
+   "name_ko": "휴게실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b6",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/rec-room",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb6/map.gif",
+    "external_image_sha256": "6d30cb0b1d5cd4c69dbce054af2e115fd27e3dcd9bf5cf85ae3ebd693e5dd185",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b6/l-corridor",
+   "native_pieces": [
+    "i_pl0430"
+   ],
+   "name_en": "'L' Corridor",
+   "name_ko": "L자 복도",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b6",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/l-corridor",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb6/map.gif",
+    "external_image_sha256": "6d30cb0b1d5cd4c69dbce054af2e115fd27e3dcd9bf5cf85ae3ebd693e5dd185",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b6/generator-room",
+   "native_pieces": [
+    "i_pl0330"
+   ],
+   "name_en": "Generator Room",
+   "name_ko": "발전실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b6",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/generator-room",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb6/map.gif",
+    "external_image_sha256": "6d30cb0b1d5cd4c69dbce054af2e115fd27e3dcd9bf5cf85ae3ebd693e5dd185",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b6/air-regulator-room",
+   "native_pieces": [
+    "i_pl0130"
+   ],
+   "name_en": "Air Regulator Room",
+   "name_ko": "공기 조절실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b6",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/air-regulator-room",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb6/map.gif",
+    "external_image_sha256": "6d30cb0b1d5cd4c69dbce054af2e115fd27e3dcd9bf5cf85ae3ebd693e5dd185",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b7/stairway",
+   "native_pieces": [
+    "i_pl0e20"
+   ],
+   "name_en": "Stairway",
+   "name_ko": "계단",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b7",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b7/stairway",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb7/map.gif",
+    "external_image_sha256": "0e6e00f582efc0bee9f29c5a2c39d3d003624053c23f67dcdb481ffe2b0e951f",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b7/water-pool",
+   "native_pieces": [
+    "i_pl0d20"
+   ],
+   "name_en": "Water Pool",
+   "name_ko": "저수조",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b7",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b7/water-pool",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb7/map.gif",
+    "external_image_sha256": "0e6e00f582efc0bee9f29c5a2c39d3d003624053c23f67dcdb481ffe2b0e951f",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b7/maintenance-area",
+   "native_pieces": [
+    "i_pl0c20"
+   ],
+   "name_en": "Maintenance Area",
+   "name_ko": "정비 구역",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b7",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b7/maintenance-area",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb7/map.gif",
+    "external_image_sha256": "0e6e00f582efc0bee9f29c5a2c39d3d003624053c23f67dcdb481ffe2b0e951f",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b7/cargo-control-room",
+   "native_pieces": [
+    "i_pl0b20"
+   ],
+   "name_en": "Cargo Control Room",
+   "name_ko": "화물 제어실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b7",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b7/cargo-control-room",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb7/map.gif",
+    "external_image_sha256": "0e6e00f582efc0bee9f29c5a2c39d3d003624053c23f67dcdb481ffe2b0e951f",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b7/b7-walkway",
+   "native_pieces": [
+    "i_pl0a20"
+   ],
+   "name_en": "B7 Walkway",
+   "name_ko": "B7 통로",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b7",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b7/b7-walkway",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb7/map.gif",
+    "external_image_sha256": "0e6e00f582efc0bee9f29c5a2c39d3d003624053c23f67dcdb481ffe2b0e951f",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b8/water-treatment-walkway",
+   "native_pieces": [
+    "i_pl1210"
+   ],
+   "name_en": "Water Treatment Walkway",
+   "name_ko": "수처리 통로",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b8",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b8/water-treatment-walkway",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb8/map.gif",
+    "external_image_sha256": "5832ccd3e57bb3b7ba68d60816d308d9922ef21a9ee8d89176a19b502c7939cb",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b8/floodgate-control-room",
+   "native_pieces": [
+    "i_pl1110"
+   ],
+   "name_en": "Floodgate Control Room",
+   "name_ko": "수문 제어실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b8",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b8/floodgate-control-room",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb8/map.gif",
+    "external_image_sha256": "5832ccd3e57bb3b7ba68d60816d308d9922ef21a9ee8d89176a19b502c7939cb",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b8/laboratory",
+   "native_pieces": [
+    "i_pl1010"
+   ],
+   "name_en": "Laboratory",
+   "name_ko": "실험실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b8",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b8/laboratory",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb8/map.gif",
+    "external_image_sha256": "5832ccd3e57bb3b7ba68d60816d308d9922ef21a9ee8d89176a19b502c7939cb",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b8/dumping-area",
+   "native_pieces": [
+    "i_pl0f10"
+   ],
+   "name_en": "Dumping Area",
+   "name_ko": "폐기 구역",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b8",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b8/dumping-area",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb8/map.gif",
+    "external_image_sha256": "5832ccd3e57bb3b7ba68d60816d308d9922ef21a9ee8d89176a19b502c7939cb",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b9/fenced-area",
+   "native_pieces": [
+    "i_pl2100"
+   ],
+   "name_en": "Fenced Area",
+   "name_ko": "철책 구역",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b9",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/fenced-area",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb9/map.gif",
+    "external_image_sha256": "c2dffbc80a4da0b86dcac9cb83ee77fc3eb5b079d6762c0062902a832fd8857c",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b9/storage",
+   "native_pieces": [
+    "i_pl2000",
+    "i_pl2001"
+   ],
+   "name_en": "Storage",
+   "name_ko": "보관실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b9",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/storage",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb9/map.gif",
+    "external_image_sha256": "c2dffbc80a4da0b86dcac9cb83ee77fc3eb5b079d6762c0062902a832fd8857c",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b9/incinerator",
+   "native_pieces": [
+    "i_pl1700"
+   ],
+   "name_en": "Incinerator",
+   "name_ko": "소각로",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b9",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/incinerator",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb9/map.gif",
+    "external_image_sha256": "c2dffbc80a4da0b86dcac9cb83ee77fc3eb5b079d6762c0062902a832fd8857c",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b9/dam",
+   "native_pieces": [
+    "i_pl1600"
+   ],
+   "name_en": "Dam",
+   "name_ko": "댐",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b9",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/dam",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb9/map.gif",
+    "external_image_sha256": "c2dffbc80a4da0b86dcac9cb83ee77fc3eb5b079d6762c0062902a832fd8857c",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b9/engine-room",
+   "native_pieces": [
+    "i_pl1500"
+   ],
+   "name_en": "Engine Room",
+   "name_ko": "기관실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b9",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/engine-room",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb9/map.gif",
+    "external_image_sha256": "c2dffbc80a4da0b86dcac9cb83ee77fc3eb5b079d6762c0062902a832fd8857c",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b9/laboratory-cryo-room",
+   "native_pieces": [
+    "i_pl1400"
+   ],
+   "name_en": "Laboratory Cryo Room",
+   "name_ko": "실험실 냉동실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b9",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/laboratory-cryo-room",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb9/map.gif",
+    "external_image_sha256": "c2dffbc80a4da0b86dcac9cb83ee77fc3eb5b079d6762c0062902a832fd8857c",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  },
+  {
+   "external_id": "treatment-plant-b9/water-treatment-room",
+   "native_pieces": [
+    "i_pl1300"
+   ],
+   "name_en": "Water Treatment Room",
+   "name_ko": "수처리실",
+   "korean_translation": "project translation; installed Korean terminology has no room names",
+   "region": "pl",
+   "floor": "b9",
+   "result": "geometry-and-floor-reviewed",
+   "reviewed_by": "Claude",
+   "reviewed_on": "2026-11-03",
+   "evidence": {
+    "source_url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/water-treatment-room",
+    "source_map": "https://www.evilresource.com/maps/re0_treatmentplantb9/map.gif",
+    "external_image_sha256": "c2dffbc80a4da0b86dcac9cb83ee77fc3eb5b079d6762c0062902a832fd8857c",
+    "native_gui_sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+    "method": "fitted external room polygons over native sprite layout (tools/crosscheck/suggest_rooms.py), overlay inspected per floor"
+   },
+   "unverified": [
+    "native section/state eligibility",
+    "door lock state",
+    "difficulty/mode applicability of the HD build"
+   ]
+  }
+ ]
+}

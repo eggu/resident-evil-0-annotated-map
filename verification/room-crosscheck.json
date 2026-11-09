@@ -1,0 +1,10 @@
+{
+  "evidence": "curated-mapping-integrity-only",
+  "locations_total": 124,
+  "locations_reviewed": 124,
+  "native_pieces_total": 138,
+  "native_pieces_named": 138,
+  "remaining_external_ids": [],
+  "remaining_native_pieces": [],
+  "caveat": "Room names/floor geometry only; no item, door, mode or eligibility claim"
+}

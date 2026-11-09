@@ -1,0 +1,3050 @@
+{
+  "schema_version": 1,
+  "evidence": "static",
+  "exe": {
+    "file": "re0hd.exe",
+    "size": 10468384,
+    "sha256": "67418c3a307b49e9bde8123df4cad1fa910f3a29adc3e4c0ba64eb96524bc14b",
+    "architecture": "x86",
+    "image_base": 4194304,
+    "entry_rva": 10715920,
+    "sections": [
+      {
+        "name": ".text",
+        "rva": 4096,
+        "size": 9107968,
+        "raw_offset": 1024,
+        "raw_size": 9107968
+      },
+      {
+        "name": ".rdata",
+        "rva": 9113600,
+        "size": 756736,
+        "raw_offset": 9108992,
+        "raw_size": 756736
+      },
+      {
+        "name": ".data",
+        "rva": 9871360,
+        "size": 833400,
+        "raw_offset": 9865728,
+        "raw_size": 400896
+      },
+      {
+        "name": ".rsrc",
+        "rva": 10706944,
+        "size": 5120,
+        "raw_offset": 10266624,
+        "raw_size": 5120
+      },
+      {
+        "name": ".bind",
+        "rva": 10715136,
+        "size": 186320,
+        "raw_offset": 10271744,
+        "raw_size": 186320
+      }
+    ],
+    "imports": [
+      "KERNEL32.dll",
+      "USER32.dll",
+      "PSAPI.DLL",
+      "d3dx9_43.dll",
+      "d3d9.dll",
+      "DINPUT8.dll",
+      "XINPUT1_3.dll",
+      "steam_api.dll",
+      "WS2_32.dll",
+      "IPHLPAPI.DLL",
+      "MSVFW32.dll",
+      "AVIFIL32.dll",
+      "WINMM.dll",
+      "gdiplus.dll",
+      "IMM32.dll",
+      "GDI32.dll",
+      "ADVAPI32.dll",
+      "SHELL32.dll",
+      "ole32.dll",
+      "OLEAUT32.dll"
+    ],
+    "build_string": "MasterRelease Jan 28 2025 16:45:59",
+    "bind_present": true
+  },
+  "archives": [
+    {
+      "file": "nativePC/arc/map/maploc.arc",
+      "sha256": "b618c3e709f7c067de5a212e75c8ac4e5654845005ef9de75c65515acf8346cf",
+      "members": [
+        {
+          "name": "map\\tr00",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "a1b6f15d851bc8cbf5f7d4f3cdf09196f507714e7c70a79f1f32560b11826f9f",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr01",
+          "kind": "44c8ac26",
+          "size": 12,
+          "sha256": "da29c10567aebb68f13accf54db00924173102eb2e25fd9b9c21b8f55c142f03",
+          "location_bytes": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr02",
+          "kind": "44c8ac26",
+          "size": 16,
+          "sha256": "4cb0e95c39e0f6fbf455ca3acbcce79fcdbb291200f3c6db11f494232f68cde6",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr03",
+          "kind": "44c8ac26",
+          "size": 11,
+          "sha256": "102c08d5eb2159d6948ad390b5d628abb802c45e671a2d87ff51aca8f839265a",
+          "location_bytes": [
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr04",
+          "kind": "44c8ac26",
+          "size": 11,
+          "sha256": "102c08d5eb2159d6948ad390b5d628abb802c45e671a2d87ff51aca8f839265a",
+          "location_bytes": [
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr05",
+          "kind": "44c8ac26",
+          "size": 11,
+          "sha256": "102c08d5eb2159d6948ad390b5d628abb802c45e671a2d87ff51aca8f839265a",
+          "location_bytes": [
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr06",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "a1b6f15d851bc8cbf5f7d4f3cdf09196f507714e7c70a79f1f32560b11826f9f",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr07",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "a1b6f15d851bc8cbf5f7d4f3cdf09196f507714e7c70a79f1f32560b11826f9f",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr08",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "897ac8f629c6188cc3d466f3a224e8b9a367dffc6c4524711d377d2532e99ce2",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr09",
+          "kind": "44c8ac26",
+          "size": 12,
+          "sha256": "da29c10567aebb68f13accf54db00924173102eb2e25fd9b9c21b8f55c142f03",
+          "location_bytes": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr0a",
+          "kind": "44c8ac26",
+          "size": 11,
+          "sha256": "102c08d5eb2159d6948ad390b5d628abb802c45e671a2d87ff51aca8f839265a",
+          "location_bytes": [
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr0b",
+          "kind": "44c8ac26",
+          "size": 15,
+          "sha256": "48861147a7e5b9ef2c6bfb298b6680549532a26792a93c7812570671d4f80178",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\tr0c",
+          "kind": "44c8ac26",
+          "size": 15,
+          "sha256": "48861147a7e5b9ef2c6bfb298b6680549532a26792a93c7812570671d4f80178",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\tr0d",
+          "kind": "44c8ac26",
+          "size": 11,
+          "sha256": "4647bf353009f965cdf339da7d4f564c026e007dabd4878d8caab2243f04a45e",
+          "location_bytes": [
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\tr0e",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "80ae439f7601e4fd1736876a47f35463e6fd7e8f3bdbbd87b4c0bc5d0670c792",
+          "location_bytes": [
+            11,
+            11,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\tr0f",
+          "kind": "44c8ac26",
+          "size": 12,
+          "sha256": "306db78dbb77c91fb68fdfa8b53880dc4e5f8b94f2d4da25943c1b1d5eaaf971",
+          "location_bytes": [
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\tr10",
+          "kind": "44c8ac26",
+          "size": 16,
+          "sha256": "4cb0e95c39e0f6fbf455ca3acbcce79fcdbb291200f3c6db11f494232f68cde6",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr11",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "ef8a63f444c179b3e65643657a489e5407aebd6df4d658c97fb69be3d537ed52",
+          "location_bytes": [
+            11,
+            11,
+            11,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\tr12",
+          "kind": "44c8ac26",
+          "size": 9,
+          "sha256": "d9a703c9808972eb8e01f158823eb91bc24380093db836cc4e1795490cba04e1",
+          "location_bytes": []
+        },
+        {
+          "name": "map\\tr13",
+          "kind": "44c8ac26",
+          "size": 9,
+          "sha256": "d9a703c9808972eb8e01f158823eb91bc24380093db836cc4e1795490cba04e1",
+          "location_bytes": []
+        },
+        {
+          "name": "map\\tr14",
+          "kind": "44c8ac26",
+          "size": 9,
+          "sha256": "d9a703c9808972eb8e01f158823eb91bc24380093db836cc4e1795490cba04e1",
+          "location_bytes": []
+        },
+        {
+          "name": "map\\tr15",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "897ac8f629c6188cc3d466f3a224e8b9a367dffc6c4524711d377d2532e99ce2",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr16",
+          "kind": "44c8ac26",
+          "size": 15,
+          "sha256": "48861147a7e5b9ef2c6bfb298b6680549532a26792a93c7812570671d4f80178",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\tr17",
+          "kind": "44c8ac26",
+          "size": 9,
+          "sha256": "d9a703c9808972eb8e01f158823eb91bc24380093db836cc4e1795490cba04e1",
+          "location_bytes": []
+        },
+        {
+          "name": "map\\tr18",
+          "kind": "44c8ac26",
+          "size": 15,
+          "sha256": "48861147a7e5b9ef2c6bfb298b6680549532a26792a93c7812570671d4f80178",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\tr19",
+          "kind": "44c8ac26",
+          "size": 9,
+          "sha256": "d9a703c9808972eb8e01f158823eb91bc24380093db836cc4e1795490cba04e1",
+          "location_bytes": []
+        },
+        {
+          "name": "map\\tr1a",
+          "kind": "44c8ac26",
+          "size": 11,
+          "sha256": "102c08d5eb2159d6948ad390b5d628abb802c45e671a2d87ff51aca8f839265a",
+          "location_bytes": [
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr1b",
+          "kind": "44c8ac26",
+          "size": 16,
+          "sha256": "4cb0e95c39e0f6fbf455ca3acbcce79fcdbb291200f3c6db11f494232f68cde6",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr1c",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "897ac8f629c6188cc3d466f3a224e8b9a367dffc6c4524711d377d2532e99ce2",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr1d",
+          "kind": "44c8ac26",
+          "size": 11,
+          "sha256": "102c08d5eb2159d6948ad390b5d628abb802c45e671a2d87ff51aca8f839265a",
+          "location_bytes": [
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr1e",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "a1b6f15d851bc8cbf5f7d4f3cdf09196f507714e7c70a79f1f32560b11826f9f",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr1f",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "a1b6f15d851bc8cbf5f7d4f3cdf09196f507714e7c70a79f1f32560b11826f9f",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr20",
+          "kind": "44c8ac26",
+          "size": 16,
+          "sha256": "31526d35a36c5eab0d6de135ede8034c845e28e9414f52aedbfa73469b1beae1",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\tr21",
+          "kind": "44c8ac26",
+          "size": 12,
+          "sha256": "306db78dbb77c91fb68fdfa8b53880dc4e5f8b94f2d4da25943c1b1d5eaaf971",
+          "location_bytes": [
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\tr22",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "897ac8f629c6188cc3d466f3a224e8b9a367dffc6c4524711d377d2532e99ce2",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\tr23",
+          "kind": "44c8ac26",
+          "size": 9,
+          "sha256": "d9a703c9808972eb8e01f158823eb91bc24380093db836cc4e1795490cba04e1",
+          "location_bytes": []
+        },
+        {
+          "name": "map\\sh00",
+          "kind": "44c8ac26",
+          "size": 27,
+          "sha256": "815eb2e10b8c5966dae07f8857914ab72ef717bd61ba6380674469e22d4178ec",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\sh01",
+          "kind": "44c8ac26",
+          "size": 19,
+          "sha256": "da2c176f22ce9f736cfffb2bb9a882a5cc3ced1f5e15ff1208c14fd379c1088b",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\sh02",
+          "kind": "44c8ac26",
+          "size": 12,
+          "sha256": "da29c10567aebb68f13accf54db00924173102eb2e25fd9b9c21b8f55c142f03",
+          "location_bytes": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\sh03",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "897ac8f629c6188cc3d466f3a224e8b9a367dffc6c4524711d377d2532e99ce2",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\sh04",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "a1b6f15d851bc8cbf5f7d4f3cdf09196f507714e7c70a79f1f32560b11826f9f",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\sh05",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "a1b6f15d851bc8cbf5f7d4f3cdf09196f507714e7c70a79f1f32560b11826f9f",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\sh06",
+          "kind": "44c8ac26",
+          "size": 18,
+          "sha256": "4da98821fc546b1f868d1204cdd5a03c6040d773ce2eaadd6addb3300e7e0a1a",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\sh07",
+          "kind": "44c8ac26",
+          "size": 16,
+          "sha256": "38f0280c1a548c243ad470e7bc15aaa903204acd1a1c46a5beb690d56e9fa207",
+          "location_bytes": [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ]
+        },
+        {
+          "name": "map\\sh08",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "a1b6f15d851bc8cbf5f7d4f3cdf09196f507714e7c70a79f1f32560b11826f9f",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\sh09",
+          "kind": "44c8ac26",
+          "size": 23,
+          "sha256": "e3a39c1966b3e4f3c1c090509cc8e7a6e6557d19a096c76bcad9b7312dd7192e",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            11,
+            11,
+            11,
+            11,
+            11,
+            9
+          ]
+        },
+        {
+          "name": "map\\sh0a",
+          "kind": "44c8ac26",
+          "size": 27,
+          "sha256": "815eb2e10b8c5966dae07f8857914ab72ef717bd61ba6380674469e22d4178ec",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\sh0b",
+          "kind": "44c8ac26",
+          "size": 23,
+          "sha256": "e4e3df4bd087ceca6fd21059b07d2a62e0ff67167258e6f74d34bbb34abfcbc0",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh0c",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "766eb2ad728387c0da4bd3fbf2d7c3822dc647b48be0a6f3ac6187c57abdfb43",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh0d",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "d5b53fa250e2e051810cde588889e200d60bbfb9eac0615b4b4db3d42a38910d",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh0e",
+          "kind": "44c8ac26",
+          "size": 21,
+          "sha256": "e38b2dce183f4ba0bb46440bbb2defc336b1d534df5f1842e7be2f670a4316ae",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            11,
+            11,
+            11,
+            11,
+            11,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh0f",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "766eb2ad728387c0da4bd3fbf2d7c3822dc647b48be0a6f3ac6187c57abdfb43",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh10",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "766eb2ad728387c0da4bd3fbf2d7c3822dc647b48be0a6f3ac6187c57abdfb43",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh11",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "d5b53fa250e2e051810cde588889e200d60bbfb9eac0615b4b4db3d42a38910d",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh12",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "d5b53fa250e2e051810cde588889e200d60bbfb9eac0615b4b4db3d42a38910d",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh13",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "766eb2ad728387c0da4bd3fbf2d7c3822dc647b48be0a6f3ac6187c57abdfb43",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh14",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "766eb2ad728387c0da4bd3fbf2d7c3822dc647b48be0a6f3ac6187c57abdfb43",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh15",
+          "kind": "44c8ac26",
+          "size": 12,
+          "sha256": "306db78dbb77c91fb68fdfa8b53880dc4e5f8b94f2d4da25943c1b1d5eaaf971",
+          "location_bytes": [
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh16",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "766eb2ad728387c0da4bd3fbf2d7c3822dc647b48be0a6f3ac6187c57abdfb43",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh17",
+          "kind": "44c8ac26",
+          "size": 12,
+          "sha256": "306db78dbb77c91fb68fdfa8b53880dc4e5f8b94f2d4da25943c1b1d5eaaf971",
+          "location_bytes": [
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh18",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "d5b53fa250e2e051810cde588889e200d60bbfb9eac0615b4b4db3d42a38910d",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh19",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "d5b53fa250e2e051810cde588889e200d60bbfb9eac0615b4b4db3d42a38910d",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh1a",
+          "kind": "44c8ac26",
+          "size": 16,
+          "sha256": "31526d35a36c5eab0d6de135ede8034c845e28e9414f52aedbfa73469b1beae1",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh1b",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "d5b53fa250e2e051810cde588889e200d60bbfb9eac0615b4b4db3d42a38910d",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh1c",
+          "kind": "44c8ac26",
+          "size": 17,
+          "sha256": "606d4348c2a5ef58cdd00475e489b32635d9646eb78534ac928e5e0586d3228d",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh1d",
+          "kind": "44c8ac26",
+          "size": 23,
+          "sha256": "905e222cef31be6d8e8b8a8494fd8bd71f405a3040fb95e46435660f755107c0",
+          "location_bytes": [
+            10,
+            10,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ]
+        },
+        {
+          "name": "map\\sh1e",
+          "kind": "44c8ac26",
+          "size": 18,
+          "sha256": "41052e880efb598a1d4204637bafd43767766866d24cc0202bb12be09a265f43",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\sh1f",
+          "kind": "44c8ac26",
+          "size": 19,
+          "sha256": "9b0ce7d732b3e154d57187c14005fe85cf0cf30ef8c9231e63b373f805634f23",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\sh20",
+          "kind": "44c8ac26",
+          "size": 16,
+          "sha256": "31526d35a36c5eab0d6de135ede8034c845e28e9414f52aedbfa73469b1beae1",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh21",
+          "kind": "44c8ac26",
+          "size": 9,
+          "sha256": "d9a703c9808972eb8e01f158823eb91bc24380093db836cc4e1795490cba04e1",
+          "location_bytes": []
+        },
+        {
+          "name": "map\\sh22",
+          "kind": "44c8ac26",
+          "size": 23,
+          "sha256": "e4e3df4bd087ceca6fd21059b07d2a62e0ff67167258e6f74d34bbb34abfcbc0",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh23",
+          "kind": "44c8ac26",
+          "size": 23,
+          "sha256": "e4e3df4bd087ceca6fd21059b07d2a62e0ff67167258e6f74d34bbb34abfcbc0",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh24",
+          "kind": "44c8ac26",
+          "size": 23,
+          "sha256": "e4e3df4bd087ceca6fd21059b07d2a62e0ff67167258e6f74d34bbb34abfcbc0",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh25",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "766eb2ad728387c0da4bd3fbf2d7c3822dc647b48be0a6f3ac6187c57abdfb43",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh26",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "766eb2ad728387c0da4bd3fbf2d7c3822dc647b48be0a6f3ac6187c57abdfb43",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh27",
+          "kind": "44c8ac26",
+          "size": 17,
+          "sha256": "606d4348c2a5ef58cdd00475e489b32635d9646eb78534ac928e5e0586d3228d",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh28",
+          "kind": "44c8ac26",
+          "size": 18,
+          "sha256": "41052e880efb598a1d4204637bafd43767766866d24cc0202bb12be09a265f43",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\sh29",
+          "kind": "44c8ac26",
+          "size": 27,
+          "sha256": "815eb2e10b8c5966dae07f8857914ab72ef717bd61ba6380674469e22d4178ec",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\sh2a",
+          "kind": "44c8ac26",
+          "size": 22,
+          "sha256": "adfd6deab5e95f141fb012d8e493713d4ea6d535ffb53dfa4478b1b7ff9e9ae0",
+          "location_bytes": [
+            10,
+            10,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            255
+          ]
+        },
+        {
+          "name": "map\\sh2b",
+          "kind": "44c8ac26",
+          "size": 9,
+          "sha256": "d9a703c9808972eb8e01f158823eb91bc24380093db836cc4e1795490cba04e1",
+          "location_bytes": []
+        },
+        {
+          "name": "map\\sh2c",
+          "kind": "44c8ac26",
+          "size": 9,
+          "sha256": "d9a703c9808972eb8e01f158823eb91bc24380093db836cc4e1795490cba04e1",
+          "location_bytes": []
+        },
+        {
+          "name": "map\\sh2d",
+          "kind": "44c8ac26",
+          "size": 9,
+          "sha256": "d9a703c9808972eb8e01f158823eb91bc24380093db836cc4e1795490cba04e1",
+          "location_bytes": []
+        },
+        {
+          "name": "map\\sh2e",
+          "kind": "44c8ac26",
+          "size": 21,
+          "sha256": "e38b2dce183f4ba0bb46440bbb2defc336b1d534df5f1842e7be2f670a4316ae",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            11,
+            11,
+            11,
+            11,
+            11,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh2f",
+          "kind": "44c8ac26",
+          "size": 23,
+          "sha256": "905e222cef31be6d8e8b8a8494fd8bd71f405a3040fb95e46435660f755107c0",
+          "location_bytes": [
+            10,
+            10,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ]
+        },
+        {
+          "name": "map\\sh30",
+          "kind": "44c8ac26",
+          "size": 21,
+          "sha256": "e38b2dce183f4ba0bb46440bbb2defc336b1d534df5f1842e7be2f670a4316ae",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            11,
+            11,
+            11,
+            11,
+            11,
+            10
+          ]
+        },
+        {
+          "name": "map\\sh31",
+          "kind": "44c8ac26",
+          "size": 21,
+          "sha256": "e38b2dce183f4ba0bb46440bbb2defc336b1d534df5f1842e7be2f670a4316ae",
+          "location_bytes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            11,
+            11,
+            11,
+            11,
+            11,
+            10
+          ]
+        },
+        {
+          "name": "map\\dm00",
+          "kind": "44c8ac26",
+          "size": 17,
+          "sha256": "930d3017469c0838eeb035c739c70bfc9bd48c828b6284e0df7cc0763412dcec",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\dm01",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "03c01eac2931de7588cb718f1d1018f219a2cc860d3d0ade46aa5cd8359a4916",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\dm02",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "03c01eac2931de7588cb718f1d1018f219a2cc860d3d0ade46aa5cd8359a4916",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\dm03",
+          "kind": "44c8ac26",
+          "size": 12,
+          "sha256": "0ec23c1d11ce3f97fb4f26f3b4428c9f761f65d73fc08787fb3387fbf5ae0b42",
+          "location_bytes": [
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\dm04",
+          "kind": "44c8ac26",
+          "size": 23,
+          "sha256": "e6cea2ea8d4f906802b11157ffd03a0a7121e9aaddb937bad8994a74a826ba25",
+          "location_bytes": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "name": "map\\dm05",
+          "kind": "44c8ac26",
+          "size": 11,
+          "sha256": "f64528f0a7d0fee4be4f9f46787ddb4a28bdecd0e5ee53bda5dff8188059c492",
+          "location_bytes": [
+            7,
+            7
+          ]
+        },
+        {
+          "name": "map\\dm06",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "eb2473dc1491fbf443b447b3a11b209bf29694c5dbc5b8eb46a6a7ff884bd521",
+          "location_bytes": [
+            7,
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "name": "map\\dm07",
+          "kind": "44c8ac26",
+          "size": 11,
+          "sha256": "f64528f0a7d0fee4be4f9f46787ddb4a28bdecd0e5ee53bda5dff8188059c492",
+          "location_bytes": [
+            7,
+            7
+          ]
+        },
+        {
+          "name": "map\\dm08",
+          "kind": "44c8ac26",
+          "size": 12,
+          "sha256": "f161fd0c56bb957f8f97ce58fa7bf1a8d9b6435fcb9cf5eeddec0a12e2e3fa1e",
+          "location_bytes": [
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "name": "map\\dm09",
+          "kind": "44c8ac26",
+          "size": 15,
+          "sha256": "7430304396d4bcd54b24a12704906cc7b9c617f03f840c1b0150671b60697511",
+          "location_bytes": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "name": "map\\dm0a",
+          "kind": "44c8ac26",
+          "size": 25,
+          "sha256": "ee08cefebd85a35b6681e06741037f8846f4a0c3cd967e2591ca836951956623",
+          "location_bytes": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "name": "map\\dm0b",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "b0d97adf2a8ac04d6437f89429290fe2f8c956c6448ee5c865ccc3fb9d376305",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\dm0c",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "03c01eac2931de7588cb718f1d1018f219a2cc860d3d0ade46aa5cd8359a4916",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\ch00",
+          "kind": "44c8ac26",
+          "size": 25,
+          "sha256": "c00051e9ae7d5ef332e3e1f489875792b032a214bd6e0fb1d1e1cf5702d37937",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\ch01",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "897ac8f629c6188cc3d466f3a224e8b9a367dffc6c4524711d377d2532e99ce2",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\ch02",
+          "kind": "44c8ac26",
+          "size": 11,
+          "sha256": "4647bf353009f965cdf339da7d4f564c026e007dabd4878d8caab2243f04a45e",
+          "location_bytes": [
+            10,
+            10
+          ]
+        },
+        {
+          "name": "map\\ch03",
+          "kind": "44c8ac26",
+          "size": 18,
+          "sha256": "3843cd3758f879b21a820a995c5b6f6754a264a5ba2ff804b47f6dd97d8a5fef",
+          "location_bytes": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "name": "map\\ch04",
+          "kind": "44c8ac26",
+          "size": 19,
+          "sha256": "1ed3c0a9076cc309b6c2670c820b7ab5740429978fcc089b5b42ccb114aaf12f",
+          "location_bytes": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\ch05",
+          "kind": "44c8ac26",
+          "size": 18,
+          "sha256": "41052e880efb598a1d4204637bafd43767766866d24cc0202bb12be09a265f43",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\ch06",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "b0d97adf2a8ac04d6437f89429290fe2f8c956c6448ee5c865ccc3fb9d376305",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\ch07",
+          "kind": "44c8ac26",
+          "size": 12,
+          "sha256": "3a96947eeb6a3280171133d4a3292a9f1506440089102aedc90d4d855255705c",
+          "location_bytes": [
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "name": "map\\ch08",
+          "kind": "44c8ac26",
+          "size": 15,
+          "sha256": "9f8ed5fabf11efa748e749911508dec5ad75e2e81e95e6a64d9b5be2acba9863",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\ch09",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "03c01eac2931de7588cb718f1d1018f219a2cc860d3d0ade46aa5cd8359a4916",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\ch0a",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "b0d97adf2a8ac04d6437f89429290fe2f8c956c6448ee5c865ccc3fb9d376305",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\ch0b",
+          "kind": "44c8ac26",
+          "size": 15,
+          "sha256": "9f8ed5fabf11efa748e749911508dec5ad75e2e81e95e6a64d9b5be2acba9863",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\ch0c",
+          "kind": "44c8ac26",
+          "size": 11,
+          "sha256": "f64528f0a7d0fee4be4f9f46787ddb4a28bdecd0e5ee53bda5dff8188059c492",
+          "location_bytes": [
+            7,
+            7
+          ]
+        },
+        {
+          "name": "map\\ch0d",
+          "kind": "44c8ac26",
+          "size": 20,
+          "sha256": "760e41e13b29c1f83c2d92fc3e4e0a5beb63c20043d0d0c668715ad454b73892",
+          "location_bytes": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "name": "map\\ch0e",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "74cefbf45bad886fd9ed69afccd1999986e04f6b3e4290e62ca8cca24d2941ea",
+          "location_bytes": [
+            7,
+            7,
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "name": "map\\ch0f",
+          "kind": "44c8ac26",
+          "size": 11,
+          "sha256": "102c08d5eb2159d6948ad390b5d628abb802c45e671a2d87ff51aca8f839265a",
+          "location_bytes": [
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\ch10",
+          "kind": "44c8ac26",
+          "size": 25,
+          "sha256": "c00051e9ae7d5ef332e3e1f489875792b032a214bd6e0fb1d1e1cf5702d37937",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\ch11",
+          "kind": "44c8ac26",
+          "size": 15,
+          "sha256": "4f1515942db8714e36d95e6553bc27dc98b15b49a620926dac87f95623ea5bb1",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\ch12",
+          "kind": "44c8ac26",
+          "size": 9,
+          "sha256": "d9a703c9808972eb8e01f158823eb91bc24380093db836cc4e1795490cba04e1",
+          "location_bytes": []
+        },
+        {
+          "name": "map\\ch13",
+          "kind": "44c8ac26",
+          "size": 18,
+          "sha256": "3843cd3758f879b21a820a995c5b6f6754a264a5ba2ff804b47f6dd97d8a5fef",
+          "location_bytes": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "name": "map\\ch14",
+          "kind": "44c8ac26",
+          "size": 18,
+          "sha256": "3843cd3758f879b21a820a995c5b6f6754a264a5ba2ff804b47f6dd97d8a5fef",
+          "location_bytes": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "name": "map\\ch15",
+          "kind": "44c8ac26",
+          "size": 18,
+          "sha256": "3843cd3758f879b21a820a995c5b6f6754a264a5ba2ff804b47f6dd97d8a5fef",
+          "location_bytes": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "name": "map\\ch16",
+          "kind": "44c8ac26",
+          "size": 9,
+          "sha256": "d9a703c9808972eb8e01f158823eb91bc24380093db836cc4e1795490cba04e1",
+          "location_bytes": []
+        },
+        {
+          "name": "map\\ch17",
+          "kind": "44c8ac26",
+          "size": 18,
+          "sha256": "41052e880efb598a1d4204637bafd43767766866d24cc0202bb12be09a265f43",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\ch18",
+          "kind": "44c8ac26",
+          "size": 17,
+          "sha256": "930d3017469c0838eeb035c739c70bfc9bd48c828b6284e0df7cc0763412dcec",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\ch19",
+          "kind": "44c8ac26",
+          "size": 17,
+          "sha256": "930d3017469c0838eeb035c739c70bfc9bd48c828b6284e0df7cc0763412dcec",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\ch1a",
+          "kind": "44c8ac26",
+          "size": 9,
+          "sha256": "d9a703c9808972eb8e01f158823eb91bc24380093db836cc4e1795490cba04e1",
+          "location_bytes": []
+        },
+        {
+          "name": "map\\ch1b",
+          "kind": "44c8ac26",
+          "size": 16,
+          "sha256": "96d0d648075c9d5f25559389e952c0ac4ef6df8b2bac78b6bdaf85055389f7a2",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\ch1c",
+          "kind": "44c8ac26",
+          "size": 15,
+          "sha256": "b1a552ecb966c7bbc8310033dedf769ed5a4dff2b8ba9343744590fc22841335",
+          "location_bytes": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "name": "map\\ch1d",
+          "kind": "44c8ac26",
+          "size": 15,
+          "sha256": "b1a552ecb966c7bbc8310033dedf769ed5a4dff2b8ba9343744590fc22841335",
+          "location_bytes": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "name": "map\\ch1e",
+          "kind": "44c8ac26",
+          "size": 9,
+          "sha256": "d9a703c9808972eb8e01f158823eb91bc24380093db836cc4e1795490cba04e1",
+          "location_bytes": []
+        },
+        {
+          "name": "map\\ch1f",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "897ac8f629c6188cc3d466f3a224e8b9a367dffc6c4524711d377d2532e99ce2",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\ch20",
+          "kind": "44c8ac26",
+          "size": 10,
+          "sha256": "4fd5add597c857d833edc6df64710afd5d72796ca327fe7985c3db0460b65e11",
+          "location_bytes": [
+            9
+          ]
+        },
+        {
+          "name": "map\\bt00",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "534d825f638ac91cdf296ba4c5e8c50cc5d14ff3469654a2bf30af0ea8db41be",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            9
+          ]
+        },
+        {
+          "name": "map\\bt01",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "b0d97adf2a8ac04d6437f89429290fe2f8c956c6448ee5c865ccc3fb9d376305",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\bt02",
+          "kind": "44c8ac26",
+          "size": 25,
+          "sha256": "fbe9b5074ecbfca3e30b860f1463977c2f8aec7ee5c234533a596a3de4a26006",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            8,
+            8,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "map\\bt03",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "b0d97adf2a8ac04d6437f89429290fe2f8c956c6448ee5c865ccc3fb9d376305",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\bt04",
+          "kind": "44c8ac26",
+          "size": 22,
+          "sha256": "8d10508e5c2c69d571a6b8bfee04431d649a681197e88760106a4f7eedd1d4d7",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "name": "map\\bt05",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "534d825f638ac91cdf296ba4c5e8c50cc5d14ff3469654a2bf30af0ea8db41be",
+          "location_bytes": [
+            8,
+            8,
+            8,
+            8,
+            9
+          ]
+        },
+        {
+          "name": "map\\bt06",
+          "kind": "44c8ac26",
+          "size": 24,
+          "sha256": "60dc795d8662f52dc995fac38ef2fc0a8bfcfe8595cb3f153941ff6b4d92a0d6",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\bt07",
+          "kind": "44c8ac26",
+          "size": 11,
+          "sha256": "b884a3e82a98291facf57cea9950bf2e47468baa763adc83f03802714e631817",
+          "location_bytes": [
+            5,
+            5
+          ]
+        },
+        {
+          "name": "map\\bt08",
+          "kind": "44c8ac26",
+          "size": 25,
+          "sha256": "e15e81a1b94cf56646e77c6f50fc576e55c8747b8b0ca3ae9fcf309f114fd9f6",
+          "location_bytes": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            9,
+            9,
+            9,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "map\\pl00",
+          "kind": "44c8ac26",
+          "size": 11,
+          "sha256": "0c4087b7203341d5f85c67601a01b100cba128611d71787799d08c01efe8cffa",
+          "location_bytes": [
+            4,
+            4
+          ]
+        },
+        {
+          "name": "map\\pl01",
+          "kind": "44c8ac26",
+          "size": 21,
+          "sha256": "eca3c9285efc7e87d50bb9bd38889e23a910d06e97ea6f3e63a0f3279a80d7b9",
+          "location_bytes": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            3,
+            3,
+            3,
+            3,
+            4
+          ]
+        },
+        {
+          "name": "map\\pl02",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "982afe79b5c415de7edd411aa08f00fa37e2c606f02af5bc8e56920ec1562160",
+          "location_bytes": [
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "map\\pl03",
+          "kind": "44c8ac26",
+          "size": 15,
+          "sha256": "d4fc122b08c33897bb30b1c19f35e36ab8f420acb4bce459cffa9d88ff19a9d9",
+          "location_bytes": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "name": "map\\pl04",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "3018de0b68a33137d2311542149783d02f1a374a2988e1865191cd2848107a6b",
+          "location_bytes": [
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "name": "map\\pl05",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "99e3bd3f5dda36ea1b39ce1628beb720e9089e0fc85df35695a76aaf4db8e67a",
+          "location_bytes": [
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "name": "map\\pl06",
+          "kind": "44c8ac26",
+          "size": 11,
+          "sha256": "02d6748863866ce7f1bc9276e1cb09e1ab44f324578d0cdf6b9ad7142e2569aa",
+          "location_bytes": [
+            3,
+            3
+          ]
+        },
+        {
+          "name": "map\\pl07",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "99e3bd3f5dda36ea1b39ce1628beb720e9089e0fc85df35695a76aaf4db8e67a",
+          "location_bytes": [
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "name": "map\\pl08",
+          "kind": "44c8ac26",
+          "size": 9,
+          "sha256": "d9a703c9808972eb8e01f158823eb91bc24380093db836cc4e1795490cba04e1",
+          "location_bytes": []
+        },
+        {
+          "name": "map\\pl09",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "99e3bd3f5dda36ea1b39ce1628beb720e9089e0fc85df35695a76aaf4db8e67a",
+          "location_bytes": [
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "name": "map\\pl0a",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "04c11c379ad28d6cb66bf6df610399f0e0c87dbd9ffc2d7e7800e7a9ddd2a8bf",
+          "location_bytes": [
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "name": "map\\pl0b",
+          "kind": "44c8ac26",
+          "size": 18,
+          "sha256": "f986c3f592cdf03c60d5d79b4683131d53df65714a85382866de0fbed14c8783",
+          "location_bytes": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "name": "map\\pl0c",
+          "kind": "44c8ac26",
+          "size": 16,
+          "sha256": "9c052dbdfdba0fada4635afca50c4b3b6a3dce054644bfdc39596148e3a3ef6d",
+          "location_bytes": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "name": "map\\pl0d",
+          "kind": "44c8ac26",
+          "size": 22,
+          "sha256": "4ce178f72f3a0a4c51a574376a25c0b7e0ef6adb71f93fb767a53ad8b719399a",
+          "location_bytes": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "name": "map\\pl0e",
+          "kind": "44c8ac26",
+          "size": 11,
+          "sha256": "5f176d117601712d2cebdc556287d3ea582a58310e76e5c581c6380fb5d09197",
+          "location_bytes": [
+            2,
+            2
+          ]
+        },
+        {
+          "name": "map\\pl0f",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "8cc5955c87f9d3e07a88fa0ec5958901c746e6592c7a46820c6c6cb6eb2af112",
+          "location_bytes": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "map\\pl10",
+          "kind": "44c8ac26",
+          "size": 12,
+          "sha256": "10cc6ef673b218494cadb3c7d0466e7a1923de02e14265f0ca062752a96b2149",
+          "location_bytes": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "map\\pl11",
+          "kind": "44c8ac26",
+          "size": 17,
+          "sha256": "ab5f3964c0dac55500601e24c7eb7558bbcb504886a4dd9f29149316aedacaa6",
+          "location_bytes": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "map\\pl12",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "a4f304b6c2abe8dbc7c072dd4f097229c1035cd0d21a08a37dfe8940ba9df4e3",
+          "location_bytes": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "map\\pl13",
+          "kind": "44c8ac26",
+          "size": 16,
+          "sha256": "a16360747b09e6f3cd0c2dcfb6e4ed08594bcfffb63ac6a1dfd597b0f6488472",
+          "location_bytes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "map\\pl14",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "cc9890f8de1dca8f8b9339d87aa71af8478b56839519b8092c3dd4c2d655fb06",
+          "location_bytes": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "map\\pl15",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "cc9890f8de1dca8f8b9339d87aa71af8478b56839519b8092c3dd4c2d655fb06",
+          "location_bytes": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "map\\pl16",
+          "kind": "44c8ac26",
+          "size": 12,
+          "sha256": "c8f10171ca96a50ce5f9b3cc488d64ed082b3e2ea7f5496d0af0452d26bb27ab",
+          "location_bytes": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "map\\pl17",
+          "kind": "44c8ac26",
+          "size": 20,
+          "sha256": "89cf92ef4ac5e50dd6a839fb8e064650ebe157a1895a5e6320f9c2aa053e3301",
+          "location_bytes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "map\\pl18",
+          "kind": "44c8ac26",
+          "size": 28,
+          "sha256": "0d69b17aea0196857081d9737efbac83a52873da79feeb7b90300487986006b7",
+          "location_bytes": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "map\\pl19",
+          "kind": "44c8ac26",
+          "size": 11,
+          "sha256": "0c4087b7203341d5f85c67601a01b100cba128611d71787799d08c01efe8cffa",
+          "location_bytes": [
+            4,
+            4
+          ]
+        },
+        {
+          "name": "map\\pl1a",
+          "kind": "44c8ac26",
+          "size": 21,
+          "sha256": "eca3c9285efc7e87d50bb9bd38889e23a910d06e97ea6f3e63a0f3279a80d7b9",
+          "location_bytes": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            3,
+            3,
+            3,
+            3,
+            4
+          ]
+        },
+        {
+          "name": "map\\pl1b",
+          "kind": "44c8ac26",
+          "size": 22,
+          "sha256": "7040dcb16b8c3204f9961ee5c12dbba15189445a7ca3f8a6650b453781a7ad08",
+          "location_bytes": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            255,
+            255
+          ]
+        },
+        {
+          "name": "map\\pl1c",
+          "kind": "44c8ac26",
+          "size": 9,
+          "sha256": "d9a703c9808972eb8e01f158823eb91bc24380093db836cc4e1795490cba04e1",
+          "location_bytes": []
+        },
+        {
+          "name": "map\\pl1d",
+          "kind": "44c8ac26",
+          "size": 17,
+          "sha256": "ab5f3964c0dac55500601e24c7eb7558bbcb504886a4dd9f29149316aedacaa6",
+          "location_bytes": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "map\\pl1e",
+          "kind": "44c8ac26",
+          "size": 14,
+          "sha256": "cc9890f8de1dca8f8b9339d87aa71af8478b56839519b8092c3dd4c2d655fb06",
+          "location_bytes": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "map\\pl1f",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "faac12736b223e5fc271f2020bcd29bfdd21efab1a914d260832a1889837b2ec",
+          "location_bytes": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "map\\pl20",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "faac12736b223e5fc271f2020bcd29bfdd21efab1a914d260832a1889837b2ec",
+          "location_bytes": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "map\\pl21",
+          "kind": "44c8ac26",
+          "size": 13,
+          "sha256": "faac12736b223e5fc271f2020bcd29bfdd21efab1a914d260832a1889837b2ec",
+          "location_bytes": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "nativePC/arc/ui/map.arc",
+      "sha256": "9f266f55cd229e5a870ccdd99af1988e905ca32419f6be5bea35b219fe7f402a",
+      "members": [
+        {
+          "name": "ui\\30_map\\tex\\map_bg00_ID",
+          "kind": "241f5deb",
+          "size": 687380,
+          "sha256": "43e95978ca3bf29561f88182c691594792c0c8a6256d3e95fed09e0c4861d7fc",
+          "texture": {
+            "width": 1432,
+            "height": 960,
+            "mips": 1,
+            "faces": 1,
+            "format": 20,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\30_map\\map_bg00",
+          "kind": "22948394",
+          "size": 2336,
+          "sha256": "61ba749f3df2685b9581aba5c762e25112df4a475232e1d3fd66b48d0f7b7288",
+          "gui": {
+            "width": 1280,
+            "height": 720,
+            "objects": 2,
+            "instances": 2,
+            "animations": 1,
+            "textures": 1,
+            "floor_groups": [
+              "Null_map_bg"
+            ]
+          }
+        },
+        {
+          "name": "ui\\30_map\\tex\\map_bg01_ID",
+          "kind": "241f5deb",
+          "size": 161300,
+          "sha256": "a4e4f83b53e088d950ceb2e33fdae0fc7a35316554f7bfd7cf379666a4ed6521",
+          "texture": {
+            "width": 224,
+            "height": 720,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\30_map\\map_bg01",
+          "kind": "22948394",
+          "size": 2736,
+          "sha256": "7c69f01399adb4cd1bc6ff680c55ef2259b3ed9a937e143d3a36d08570c6edd8",
+          "gui": {
+            "width": 1280,
+            "height": 720,
+            "objects": 3,
+            "instances": 2,
+            "animations": 1,
+            "textures": 1,
+            "floor_groups": [
+              "Null_map_bg"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "nativePC/arc/ui/map_eng.arc",
+      "sha256": "acc78583af9baeaffae3d1b2c353bc7a542769a2790610e97084caa62ae71f57",
+      "members": [
+        {
+          "name": "ui\\30_map\\tex\\map_parts00_ID",
+          "kind": "241f5deb",
+          "size": 1048596,
+          "sha256": "d71074fd1403f708c44e6f458713c35ae8c3563b58f6d028f633f91d75f513a7",
+          "texture": {
+            "width": 1024,
+            "height": 1024,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\30_map\\tex\\map_text00_eng_ID",
+          "kind": "241f5deb",
+          "size": 524308,
+          "sha256": "848ec7b496e055be42601a1adfa28448c1d5fc8cd803f77d4d1649a0a4333594",
+          "texture": {
+            "width": 1024,
+            "height": 512,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\30_map\\map",
+          "kind": "22948394",
+          "size": 90144,
+          "sha256": "2e0e026804a9a9d2740b50b25827abfd2c69f0e5770ae8d3972e36fed7c12188",
+          "gui": {
+            "width": 1280,
+            "height": 720,
+            "objects": 151,
+            "instances": 41,
+            "animations": 33,
+            "textures": 10,
+            "floor_groups": [
+              "Null_icon",
+              "Null_item_window",
+              "Null_no_item",
+              "Null_item_pole",
+              "Null_map_window",
+              "Null_manual_window",
+              "Null_floor_arrow",
+              "Null_mapget_message"
+            ]
+          }
+        },
+        {
+          "name": "ui\\30_map\\tex\\map_winicon_ID",
+          "kind": "241f5deb",
+          "size": 32788,
+          "sha256": "7aceef229251ab5b74322ab12df46c19c83b0788ac99a00458b0a5ad59939d58",
+          "texture": {
+            "width": 256,
+            "height": 128,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\30_map\\map_win",
+          "kind": "22948394",
+          "size": 4288,
+          "sha256": "9ce9da8d3925dc6d2dc39e66c2e4f9e525bd0dececfc24d4bcad178b760774c4",
+          "gui": {
+            "width": 1280,
+            "height": 720,
+            "objects": 6,
+            "instances": 3,
+            "animations": 2,
+            "textures": 1,
+            "floor_groups": [
+              "Null_map_win"
+            ]
+          }
+        },
+        {
+          "name": "ui\\30_map\\tex\\map_door_ID_HQ",
+          "kind": "241f5deb",
+          "size": 2068,
+          "sha256": "1e9fb0ea254cbbfcb0882a85af28333fea5c53eb68b5a2a07d83d38e3c771770",
+          "texture": {
+            "width": 64,
+            "height": 32,
+            "mips": 1,
+            "faces": 1,
+            "format": 43,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\31_map_tr\\tex\\map_tr00_a_ID",
+          "kind": "241f5deb",
+          "size": 131092,
+          "sha256": "f04707e632e057d224fd1e59b827511610e384beccb0d7667e6f6207f76fff6e",
+          "texture": {
+            "width": 512,
+            "height": 256,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\31_map_tr\\tex\\map_tr00_b_ID",
+          "kind": "241f5deb",
+          "size": 131092,
+          "sha256": "4dcee009925051a9a19fbf4acf2320e8247300cc293a3230c785ee80e1caee29",
+          "texture": {
+            "width": 512,
+            "height": 256,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\31_map_tr\\map_tr",
+          "kind": "22948394",
+          "size": 41232,
+          "sha256": "df1a2ad2a58cf307024f9bd66c448e30eecee6bd5d23b1fd5d755dc32dc8667b",
+          "gui": {
+            "width": 1280,
+            "height": 720,
+            "objects": 72,
+            "instances": 41,
+            "animations": 25,
+            "textures": 4,
+            "floor_groups": [
+              "Null_tr1f",
+              "Null_tr2f",
+              "Null_trroof",
+              "Null_tr2f_door",
+              "Null_tr1f_door"
+            ]
+          }
+        },
+        {
+          "name": "ui\\32_map_sh\\tex\\map_sh00_a_ID",
+          "kind": "241f5deb",
+          "size": 524308,
+          "sha256": "fe73f57163804535dfa0ba8ca63c3733c7b157659eb544212dbf3fb292bfd9c0",
+          "texture": {
+            "width": 1024,
+            "height": 512,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\32_map_sh\\tex\\map_sh00_b_ID",
+          "kind": "241f5deb",
+          "size": 524308,
+          "sha256": "910237b25fc7017cd7f5eb9c9e40f677fb65a9d7561339ba48662bca08102f9e",
+          "texture": {
+            "width": 1024,
+            "height": 512,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\32_map_sh\\tex\\map_sh01_a_ID",
+          "kind": "241f5deb",
+          "size": 262164,
+          "sha256": "49e882e05a3c014a9abf609c94211495a3bdcd2d4c0c0c010e278257bade2f63",
+          "texture": {
+            "width": 512,
+            "height": 512,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\32_map_sh\\tex\\map_sh01_b_ID",
+          "kind": "241f5deb",
+          "size": 262164,
+          "sha256": "411225969f4967ed754319b6eb7ee13873089eddb7a54434892ec600c63e3882",
+          "texture": {
+            "width": 512,
+            "height": 512,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\32_map_sh\\map_sh",
+          "kind": "22948394",
+          "size": 95728,
+          "sha256": "c8a01a48915db3609a1caa96bb74ad6a8fcf6d962978bf541c02f3d7f3f7e7c4",
+          "gui": {
+            "width": 1280,
+            "height": 720,
+            "objects": 196,
+            "instances": 84,
+            "animations": 76,
+            "textures": 6,
+            "floor_groups": [
+              "Null_sh3f",
+              "Null_sh2f",
+              "Null_sh1f",
+              "Null_shb1",
+              "Null_shb1_door",
+              "Null_sh1f_door",
+              "Null_sh2f_door",
+              "Null_sh3f_door"
+            ]
+          }
+        },
+        {
+          "name": "ui\\33_map_dm\\tex\\map_d00_a_ID",
+          "kind": "241f5deb",
+          "size": 262164,
+          "sha256": "ce51adbfcfb32f161407499ba34b22c154dd1aae8363616c563bf0a686b73966",
+          "texture": {
+            "width": 512,
+            "height": 512,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\33_map_dm\\tex\\map_d00_b_ID",
+          "kind": "241f5deb",
+          "size": 262164,
+          "sha256": "56ed30a8b0b07a107ba4f25917b41558b409a384ebd7fc97c727ea09995fdccb",
+          "texture": {
+            "width": 512,
+            "height": 512,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\33_map_dm\\map_dm",
+          "kind": "22948394",
+          "size": 30896,
+          "sha256": "b7cea8755169d15b7865ff79f920daa0e8bd7544a5fda2c6df7dc42e1655ef19",
+          "gui": {
+            "width": 1280,
+            "height": 720,
+            "objects": 49,
+            "instances": 33,
+            "animations": 17,
+            "textures": 4,
+            "floor_groups": [
+              "Null_dmb1",
+              "Null_dmb1_door",
+              "Null_dmb2",
+              "Null_dmb3",
+              "Null_dmb2_door",
+              "Null_dmb3_door"
+            ]
+          }
+        },
+        {
+          "name": "ui\\34_map_ch\\tex\\map_ch00_a_ID",
+          "kind": "241f5deb",
+          "size": 524308,
+          "sha256": "3982b6f0657485ae78732ba759a829c3dd8ceb55ae5b3b24de8b421aa51e690c",
+          "texture": {
+            "width": 1024,
+            "height": 512,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\34_map_ch\\tex\\map_ch00_b_ID",
+          "kind": "241f5deb",
+          "size": 524308,
+          "sha256": "a539ae3d6721c473fa7d2f52755d8cfdd8486c6994a22e77eb1d2a42e0e9c36e",
+          "texture": {
+            "width": 1024,
+            "height": 512,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\34_map_ch\\map_ch",
+          "kind": "22948394",
+          "size": 44912,
+          "sha256": "ca5e101ae15613de8bf43ec4695a23b3d56bd866d83ec66c1e290c06d522822f",
+          "gui": {
+            "width": 1280,
+            "height": 720,
+            "objects": 74,
+            "instances": 47,
+            "animations": 25,
+            "textures": 4,
+            "floor_groups": [
+              "Null_chb1",
+              "Null_ch1f",
+              "Null_ch2f",
+              "Null_ch1f_door",
+              "Null_chb1_door",
+              "Null_chb2",
+              "Null_chb2_door"
+            ]
+          }
+        },
+        {
+          "name": "ui\\35_map_bt\\tex\\map_bt00_a_ID",
+          "kind": "241f5deb",
+          "size": 524308,
+          "sha256": "76574865100115dbe04c570c06aa6889325e56c64ec9b3014e9bf3fcfd5602cb",
+          "texture": {
+            "width": 1024,
+            "height": 512,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\35_map_bt\\tex\\map_bt00_b_ID",
+          "kind": "241f5deb",
+          "size": 524308,
+          "sha256": "97dce5d0b6a19807a5185c6093b5fdadc5f6bb3f30551858ddbfd96e824b2c65",
+          "texture": {
+            "width": 1024,
+            "height": 512,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\35_map_bt\\map_bt",
+          "kind": "22948394",
+          "size": 30432,
+          "sha256": "ea18ac7d2f00c9349c9a1e8768d4c6956eef5ed62df38ce3ff876fba120001c6",
+          "gui": {
+            "width": 1280,
+            "height": 720,
+            "objects": 56,
+            "instances": 28,
+            "animations": 20,
+            "textures": 4,
+            "floor_groups": [
+              "Null_btb1",
+              "Null_bt1f",
+              "Null_bt1f_door",
+              "Null_btb1_door",
+              "Null_btb4",
+              "Null_btb4_door"
+            ]
+          }
+        },
+        {
+          "name": "ui\\36_map_pl\\tex\\map_pl00_a_ID",
+          "kind": "241f5deb",
+          "size": 524308,
+          "sha256": "8c56b20498ba917c8a60fd688f0b1fb7c6055cd009bb7a5f6906eabe10c2f6ed",
+          "texture": {
+            "width": 1024,
+            "height": 512,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\36_map_pl\\tex\\map_pl00_b_ID",
+          "kind": "241f5deb",
+          "size": 524308,
+          "sha256": "23e8013a0bf513a7a3d0362365f0f320d03cf3850183730f7856cd656b8505ff",
+          "texture": {
+            "width": 1024,
+            "height": 512,
+            "mips": 1,
+            "faces": 1,
+            "format": 24,
+            "offset": 20
+          }
+        },
+        {
+          "name": "ui\\36_map_pl\\map_pl",
+          "kind": "22948394",
+          "size": 60176,
+          "sha256": "e0e3da3ca422a2494e38ddd5b011654bb0057163d5292223f908dc426a2bdb86",
+          "gui": {
+            "width": 1280,
+            "height": 720,
+            "objects": 101,
+            "instances": 63,
+            "animations": 34,
+            "textures": 4,
+            "floor_groups": [
+              "Null_plb6",
+              "Null_pl1f",
+              "Null_plb5_door",
+              "Null_plb6_door",
+              "Null_plb7",
+              "Null_plb5",
+              "Null_plb8",
+              "Null_plb9",
+              "Null_plb7_door",
+              "Null_plb8_door",
+              "Null_plb9_door"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "mods": [
+    {
+      "file": "scripts/ResidentEvil0.FusionFix.asi",
+      "sha256": "f47f2889d7cc16b0710be198e0f93167eac9f6e8a099fd4f3f4f3ad8cf4e55a4"
+    },
+    {
+      "file": "scripts/re0box.asi",
+      "sha256": "8a21a0d58db47a74f43b745988c12c02a561a6079f6431541cd434378f7757ea"
+    }
+  ]
+}

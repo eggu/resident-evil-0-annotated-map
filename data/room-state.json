@@ -1,0 +1,1597 @@
+{
+"schema_version": 1,
+"evidence": "Unicorn runs of native 0x5bac90 and 0x5bb420 over the floor lists at 0xd9eca0; no run of the game",
+"analysis_sha256": "ee00723d5dc55781e31d14977f77b1a7d6bbe68ace06b6eb455b3744e2e7e7a2",
+"rule": "What the map draws for each piece and which doors belong to it, evaluated by native code. Analysis only: Unicorn runs the game's own functions over its own tables.\n\nPiece state, 0x5b4afa-0x5b4b27: state = visited + 2*revealed, read as a colour index at 0xd9de40 (0x5b4cfc). State 0 skips the piece at 0x5b4b94, so the game draws no room in neither state.\nRevealed: flag 0x2c8+the piece's region, set by the map item (0x5d74a1, item id-0x8f with 4 and 5 swapped). One exception, 0x5b4b2d-0x5b4b9a: room 0x19 of region 5 also counts under the map of the region on screen.\nVisited: 0x5bac90(region on screen, global room, floor) through bit test 0x59b8d0. Mostly flag 0x200+room (written at 0x60ed84, 0x60ee53, 0x61e7df), some rooms a second flag per floor, room 0xa6 one flag per floor.\nIts result is checked here against the AND of the flags it asked for, on every combination, so a rule that is anything else stops the build.\nDoors: 0x5bb420(region on screen, floor, local room) as the show path 0x5b4d48 calls it: GUI instance indices whose door the piece turns on (0x5b4d79).\nNot exercised: the running game, real saves.\n",
+"pieces": {
+"i_tr0090": {
+"visited": [
+512
+],
+"revealed": [
+712
+]
+},
+"i_tr0190": {
+"visited": [
+513
+],
+"revealed": [
+712
+]
+},
+"i_tr0290": {
+"visited": [
+514
+],
+"revealed": [
+712
+]
+},
+"i_tr0390": {
+"visited": [
+515
+],
+"revealed": [
+712
+]
+},
+"i_tr0490": {
+"visited": [
+516
+],
+"revealed": [
+712
+]
+},
+"i_tr0590": {
+"visited": [
+517
+],
+"revealed": [
+712
+]
+},
+"i_tr0690": {
+"visited": [
+518
+],
+"revealed": [
+712
+]
+},
+"i_tr0790": {
+"visited": [
+519
+],
+"revealed": [
+712
+]
+},
+"i_tr0890": {
+"visited": [
+520
+],
+"revealed": [
+712
+]
+},
+"i_tr0990": {
+"visited": [
+521
+],
+"revealed": [
+712
+]
+},
+"i_tr0a90": {
+"visited": [
+522
+],
+"revealed": [
+712
+]
+},
+"i_tr0ba0": {
+"visited": [
+523
+],
+"revealed": [
+712
+]
+},
+"i_tr0ba1": {
+"visited": [
+523
+],
+"revealed": [
+712
+]
+},
+"i_tr0ca0": {
+"visited": [
+524
+],
+"revealed": [
+712
+]
+},
+"i_tr0ca1": {
+"visited": [
+524
+],
+"revealed": [
+712
+]
+},
+"i_tr0da0": {
+"visited": [
+525
+],
+"revealed": [
+712
+]
+},
+"i_tr0ea0": {
+"visited": [
+526,
+687
+],
+"revealed": [
+712
+]
+},
+"i_tr0fa0": {
+"visited": [
+527
+],
+"revealed": [
+712
+]
+},
+"i_tr11a0": {
+"visited": [
+529,
+689
+],
+"revealed": [
+712
+]
+},
+"i_tr0eb0": {
+"visited": [
+526,
+688
+],
+"revealed": [
+712
+]
+},
+"i_tr11b0": {
+"visited": [
+529,
+690
+],
+"revealed": [
+712
+]
+},
+"i_sh1e80": {
+"visited": [
+578
+],
+"revealed": [
+713
+]
+},
+"i_sh1f80": {
+"visited": [
+579
+],
+"revealed": [
+713
+]
+},
+"i_pl1981": {
+"visited": [
+706
+],
+"revealed": [
+717,
+713
+]
+},
+"i_sh0090": {
+"visited": [
+548,
+691
+],
+"revealed": [
+713
+]
+},
+"i_sh0091": {
+"visited": [
+548,
+691
+],
+"revealed": [
+713
+]
+},
+"i_sh0190": {
+"visited": [
+549
+],
+"revealed": [
+713
+]
+},
+"i_sh0290": {
+"visited": [
+550
+],
+"revealed": [
+713
+]
+},
+"i_sh0390": {
+"visited": [
+551
+],
+"revealed": [
+713
+]
+},
+"i_sh0490": {
+"visited": [
+552
+],
+"revealed": [
+713
+]
+},
+"i_sh0590": {
+"visited": [
+553
+],
+"revealed": [
+713
+]
+},
+"i_sh0690": {
+"visited": [
+554
+],
+"revealed": [
+713
+]
+},
+"i_sh0890": {
+"visited": [
+556
+],
+"revealed": [
+713
+]
+},
+"i_sh0990": {
+"visited": [
+557,
+693
+],
+"revealed": [
+713
+]
+},
+"i_sh00a0": {
+"visited": [
+548,
+692
+],
+"revealed": [
+713
+]
+},
+"i_sh07a0": {
+"visited": [
+555
+],
+"revealed": [
+713
+]
+},
+"i_sh0ba0": {
+"visited": [
+559
+],
+"revealed": [
+713
+]
+},
+"i_sh0ca0": {
+"visited": [
+560
+],
+"revealed": [
+713
+]
+},
+"i_sh0da0": {
+"visited": [
+561
+],
+"revealed": [
+713
+]
+},
+"i_sh0ea0": {
+"visited": [
+562,
+695
+],
+"revealed": [
+713
+]
+},
+"i_sh0fa0": {
+"visited": [
+563
+],
+"revealed": [
+713
+]
+},
+"i_sh10a0": {
+"visited": [
+564
+],
+"revealed": [
+713
+]
+},
+"i_sh11a0": {
+"visited": [
+565
+],
+"revealed": [
+713
+]
+},
+"i_sh12a0": {
+"visited": [
+566
+],
+"revealed": [
+713
+]
+},
+"i_sh13a0": {
+"visited": [
+567
+],
+"revealed": [
+713
+]
+},
+"i_sh14a0": {
+"visited": [
+568
+],
+"revealed": [
+713
+]
+},
+"i_sh15a0": {
+"visited": [
+569
+],
+"revealed": [
+713
+]
+},
+"i_sh16a0": {
+"visited": [
+570
+],
+"revealed": [
+713
+]
+},
+"i_sh17a0": {
+"visited": [
+571
+],
+"revealed": [
+713
+]
+},
+"i_sh18a0": {
+"visited": [
+572
+],
+"revealed": [
+713
+]
+},
+"i_sh19a0": {
+"visited": [
+573
+],
+"revealed": [
+713
+]
+},
+"i_sh1aa0": {
+"visited": [
+574
+],
+"revealed": [
+713
+]
+},
+"i_sh1aa1": {
+"visited": [
+574
+],
+"revealed": [
+713
+]
+},
+"i_sh1aa2": {
+"visited": [
+574
+],
+"revealed": [
+713
+]
+},
+"i_sh1ba0": {
+"visited": [
+575
+],
+"revealed": [
+713
+]
+},
+"i_sh1ca0": {
+"visited": [
+576
+],
+"revealed": [
+713
+]
+},
+"i_sh1da0": {
+"visited": [
+577
+],
+"revealed": [
+713
+]
+},
+"i_sh07b0": {
+"visited": [
+555
+],
+"revealed": [
+713
+]
+},
+"i_sh09b0": {
+"visited": [
+557,
+694
+],
+"revealed": [
+713
+]
+},
+"i_sh0eb0": {
+"visited": [
+562,
+696
+],
+"revealed": [
+713
+]
+},
+"i_sh1db0": {
+"visited": [
+577
+],
+"revealed": [
+713
+]
+},
+"i_dm0860": {
+"visited": [
+606
+],
+"revealed": [
+714
+]
+},
+"i_dm0960": {
+"visited": [
+607
+],
+"revealed": [
+714
+]
+},
+"i_dm0a60": {
+"visited": [
+608
+],
+"revealed": [
+714
+]
+},
+"i_dm0470": {
+"visited": [
+602
+],
+"revealed": [
+714
+]
+},
+"i_dm0570": {
+"visited": [
+603
+],
+"revealed": [
+714
+]
+},
+"i_dm0670": {
+"visited": [
+604
+],
+"revealed": [
+714
+]
+},
+"i_dm0770": {
+"visited": [
+605
+],
+"revealed": [
+714
+]
+},
+"i_dm0080": {
+"visited": [
+598
+],
+"revealed": [
+714
+]
+},
+"i_dm0180": {
+"visited": [
+599
+],
+"revealed": [
+714
+]
+},
+"i_dm0281": {
+"visited": [
+600
+],
+"revealed": [
+714
+]
+},
+"i_dm0280": {
+"visited": [
+600
+],
+"revealed": [
+714
+]
+},
+"i_dm0380": {
+"visited": [
+601
+],
+"revealed": [
+714
+]
+},
+"i_dm0b80": {
+"visited": [
+609
+],
+"revealed": [
+714
+]
+},
+"i_ch0370": {
+"visited": [
+614
+],
+"revealed": [
+715
+]
+},
+"i_ch0371": {
+"visited": [
+614
+],
+"revealed": [
+715
+]
+},
+"i_ch0470": {
+"visited": [
+615,
+698
+],
+"revealed": [
+715
+]
+},
+"i_ch0770": {
+"visited": [
+618
+],
+"revealed": [
+715
+]
+},
+"i_ch0c70": {
+"visited": [
+623
+],
+"revealed": [
+715
+]
+},
+"i_ch0d70": {
+"visited": [
+624
+],
+"revealed": [
+715
+]
+},
+"i_ch0e70": {
+"visited": [
+625
+],
+"revealed": [
+715
+]
+},
+"i_ch0480": {
+"visited": [
+615,
+697
+],
+"revealed": [
+715
+]
+},
+"i_ch0580": {
+"visited": [
+616
+],
+"revealed": [
+715
+]
+},
+"i_ch0581": {
+"visited": [
+616
+],
+"revealed": [
+715
+]
+},
+"i_ch0680": {
+"visited": [
+617
+],
+"revealed": [
+715
+]
+},
+"i_ch0880": {
+"visited": [
+619
+],
+"revealed": [
+715
+]
+},
+"i_ch0980": {
+"visited": [
+620
+],
+"revealed": [
+715
+]
+},
+"i_ch0a80": {
+"visited": [
+621
+],
+"revealed": [
+715
+]
+},
+"i_ch0b80": {
+"visited": [
+622
+],
+"revealed": [
+715
+]
+},
+"i_ch0090": {
+"visited": [
+611
+],
+"revealed": [
+715
+]
+},
+"i_ch0190": {
+"visited": [
+612
+],
+"revealed": [
+715
+]
+},
+"i_ch0f90": {
+"visited": [
+626
+],
+"revealed": [
+715
+]
+},
+"i_ch2090": {
+"visited": [
+643
+],
+"revealed": [
+715
+]
+},
+"i_ch02a0": {
+"visited": [
+613
+],
+"revealed": [
+715
+]
+},
+"i_bt0253": {
+"visited": [
+646,
+703
+],
+"revealed": [
+716
+]
+},
+"i_bt0252": {
+"visited": [
+646,
+703
+],
+"revealed": [
+716
+]
+},
+"i_bt0251": {
+"visited": [
+646,
+703
+],
+"revealed": [
+716
+]
+},
+"i_bt0250": {
+"visited": [
+646,
+703
+],
+"revealed": [
+716
+]
+},
+"i_pl1950": {
+"visited": [
+708
+],
+"revealed": [
+717,
+716
+]
+},
+"i_ch0c80": {
+"visited": [
+623,
+234
+],
+"revealed": [
+715
+]
+},
+"i_bt0080": {
+"visited": [
+644,
+700
+],
+"revealed": [
+716
+]
+},
+"i_bt0180": {
+"visited": [
+645
+],
+"revealed": [
+716
+]
+},
+"i_bt0280": {
+"visited": [
+646,
+702
+],
+"revealed": [
+716
+]
+},
+"i_bt0380": {
+"visited": [
+647
+],
+"revealed": [
+716
+]
+},
+"i_pl1980": {
+"visited": [
+707
+],
+"revealed": [
+717,
+716
+]
+},
+"i_bt0090": {
+"visited": [
+644,
+699
+],
+"revealed": [
+716
+]
+},
+"i_bt0291": {
+"visited": [
+646,
+701
+],
+"revealed": [
+716
+]
+},
+"i_bt0290": {
+"visited": [
+646,
+701
+],
+"revealed": [
+716
+]
+},
+"i_bt0490": {
+"visited": [
+648
+],
+"revealed": [
+716
+]
+},
+"i_pl1300": {
+"visited": [
+672
+],
+"revealed": [
+717
+]
+},
+"i_pl1400": {
+"visited": [
+673
+],
+"revealed": [
+717
+]
+},
+"i_pl1500": {
+"visited": [
+674
+],
+"revealed": [
+717
+]
+},
+"i_pl1600": {
+"visited": [
+675
+],
+"revealed": [
+717
+]
+},
+"i_pl1700": {
+"visited": [
+676
+],
+"revealed": [
+717
+]
+},
+"i_pl2001": {
+"visited": [
+685
+],
+"revealed": [
+717
+]
+},
+"i_pl2000": {
+"visited": [
+685
+],
+"revealed": [
+717
+]
+},
+"i_pl2100": {
+"visited": [
+686
+],
+"revealed": [
+717
+]
+},
+"i_pl0f10": {
+"visited": [
+668
+],
+"revealed": [
+717
+]
+},
+"i_pl1010": {
+"visited": [
+669
+],
+"revealed": [
+717
+]
+},
+"i_pl1110": {
+"visited": [
+670
+],
+"revealed": [
+717
+]
+},
+"i_pl1210": {
+"visited": [
+671
+],
+"revealed": [
+717
+]
+},
+"i_pl0a20": {
+"visited": [
+663
+],
+"revealed": [
+717
+]
+},
+"i_pl0b20": {
+"visited": [
+664
+],
+"revealed": [
+717
+]
+},
+"i_pl0c20": {
+"visited": [
+665
+],
+"revealed": [
+717
+]
+},
+"i_pl0d20": {
+"visited": [
+666
+],
+"revealed": [
+717
+]
+},
+"i_pl0e20": {
+"visited": [
+667
+],
+"revealed": [
+717
+]
+},
+"i_pl0130": {
+"visited": [
+654,
+705
+],
+"revealed": [
+717
+]
+},
+"i_pl0330": {
+"visited": [
+656
+],
+"revealed": [
+717
+]
+},
+"i_pl0430": {
+"visited": [
+657
+],
+"revealed": [
+717
+]
+},
+"i_pl0530": {
+"visited": [
+658
+],
+"revealed": [
+717
+]
+},
+"i_pl0630": {
+"visited": [
+659
+],
+"revealed": [
+717
+]
+},
+"i_pl0730": {
+"visited": [
+660
+],
+"revealed": [
+717
+]
+},
+"i_pl0930": {
+"visited": [
+662
+],
+"revealed": [
+717
+]
+},
+"i_pl0040": {
+"visited": [
+653
+],
+"revealed": [
+717
+]
+},
+"i_pl0140": {
+"visited": [
+654,
+704
+],
+"revealed": [
+717
+]
+},
+"i_pl0240": {
+"visited": [
+655
+],
+"revealed": [
+717
+]
+},
+"i_pl1940": {
+"visited": [
+709
+],
+"revealed": [
+717
+]
+},
+"i_pl1890": {
+"visited": [
+677
+],
+"revealed": [
+717
+]
+}
+},
+"doors": {
+"i_door_01": [
+"i_tr0090",
+"i_tr0190"
+],
+"i_door_07_00": [
+"i_tr0190",
+"i_tr0290"
+],
+"i_door_02_01": [
+"i_tr0290",
+"i_tr0390"
+],
+"i_door_03": [
+"i_tr0290",
+"i_tr0490"
+],
+"i_door_0c": [
+"i_tr0290",
+"i_tr0590"
+],
+"i_door_0d_x": [
+"i_tr0290",
+"i_tr0690"
+],
+"i_door_75": [
+"i_tr0690",
+"i_tr0790"
+],
+"i_door_08_02": [
+"i_tr0790",
+"i_tr0890"
+],
+"i_door_5e_5c": [
+"i_tr0890"
+],
+"i_door_0b_03": [
+"i_tr0890",
+"i_tr0990"
+],
+"i_door_0a": [
+"i_tr0990",
+"i_tr0a90"
+],
+"i_door_0d_xx": [
+"i_tr0ba0",
+"i_tr0ba1",
+"i_tr0ca0",
+"i_tr0ca1"
+],
+"i_door_04": [
+"i_tr0ca0",
+"i_tr0ca1",
+"i_tr0da0"
+],
+"i_door_06": [
+"i_tr0ca0",
+"i_tr0ca1",
+"i_tr0ea0"
+],
+"i_door_05_06": [
+"i_tr0fa0",
+"i_tr11a0"
+],
+"i_door_74_f7": [
+"i_sh1e80",
+"i_pl1981"
+],
+"i_door_1e": [
+"i_sh1e80",
+"i_sh1f80"
+],
+"i_door_18_xxxxx": [
+"i_sh0090",
+"i_sh0091",
+"i_sh0490"
+],
+"i_door_51_1a_1f": [
+"i_sh0090",
+"i_sh0091",
+"i_sh0990"
+],
+"i_door_4d_xx": [
+"i_sh0090",
+"i_sh0091",
+"i_sh0190"
+],
+"i_door_69": [
+"i_sh0190",
+"i_sh0690"
+],
+"i_door_15_1b": [
+"i_sh0190",
+"i_sh0290"
+],
+"i_door_0f_1d": [
+"i_sh0390",
+"i_sh0490"
+],
+"i_door_18_xxxx": [
+"i_sh0490",
+"i_sh0590"
+],
+"i_door_1b_xxx": [
+"i_sh0690"
+],
+"i_door_18_xxxxxx": [
+"i_sh0690",
+"i_sh0890"
+],
+"i_door_76": [
+"i_sh00a0",
+"i_sh13a0"
+],
+"i_door_4d_x": [
+"i_sh00a0",
+"i_sh0ba0"
+],
+"i_door_18_20": [
+"i_sh00a0",
+"i_sh1da0"
+],
+"i_door_0f_24": [
+"i_sh00a0",
+"i_sh14a0"
+],
+"i_door_68_81_2f": [
+"i_sh07a0"
+],
+"i_door_68_1a_2f": [
+"i_sh07a0"
+],
+"i_door_51_1a_2f": [
+"i_sh0ba0",
+"i_sh11a0"
+],
+"i_door_18_x": [
+"i_sh0ba0",
+"i_sh0ca0"
+],
+"i_door_16_22": [
+"i_sh0ba0",
+"i_sh1ca0"
+],
+"i_door_15_25": [
+"i_sh0ca0",
+"i_sh0fa0"
+],
+"i_door_4f": [
+"i_sh0ca0",
+"i_sh0ea0"
+],
+"i_door_18": [
+"i_sh0da0",
+"i_sh11a0"
+],
+"i_door_1d_21": [
+"i_sh0ea0",
+"i_sh10a0"
+],
+"i_door_50": [
+"i_sh11a0",
+"i_sh12a0"
+],
+"i_door_18_xx": [
+"i_sh15a0",
+"i_sh1da0"
+],
+"i_door_19_23": [
+"i_sh15a0",
+"i_sh16a0"
+],
+"i_door_18_xxx": [
+"i_sh16a0",
+"i_sh1ba0"
+],
+"i_door_12": [
+"i_sh16a0",
+"i_sh17a0"
+],
+"i_door_1a": [
+"i_sh16a0",
+"i_sh1aa0",
+"i_sh1aa1",
+"i_sh1aa2"
+],
+"i_door_13": [
+"i_sh17a0",
+"i_sh18a0"
+],
+"i_door_1b_xx": [
+"i_sh17a0",
+"i_sh19a0"
+],
+"i_door_68_81_3f": [
+"i_sh07b0"
+],
+"i_door_51_1a_3f": [
+"i_sh07b0",
+"i_sh1db0"
+],
+"i_door_16": [
+"i_sh09b0",
+"i_sh0eb0"
+],
+"i_door_1b_x": [
+"i_sh09b0",
+"i_sh1db0"
+],
+"i_door_24": [
+"i_dm0860",
+"i_dm0960"
+],
+"i_door_78_xx": [
+"i_dm0960"
+],
+"i_door_52": [
+"i_dm0960",
+"i_dm0a60"
+],
+"i_door_78_x": [
+"i_dm0470"
+],
+"i_door_25_x": [
+"i_dm0470",
+"i_dm0570"
+],
+"i_door_25_xx": [
+"i_dm0470",
+"i_dm0770"
+],
+"i_door_23": [
+"i_dm0470",
+"i_dm0670"
+],
+"i_door_1b": [
+"i_dm0470"
+],
+"i_door_00_0b": [
+"i_dm0470"
+],
+"i_door_20": [
+"i_dm0080",
+"i_dm0380"
+],
+"i_door_22_0a": [
+"i_dm0080",
+"i_dm0180"
+],
+"i_door_77_0a": [
+"i_dm0180",
+"i_dm0281",
+"i_dm0280"
+],
+"i_door_21": [
+"i_dm0380",
+"i_dm0b80"
+],
+"i_door_55_12": [
+"i_ch0370",
+"i_ch0371",
+"i_ch0470"
+],
+"i_door_2d_11": [
+"i_ch0470",
+"i_ch0e70"
+],
+"i_door_04_db": [
+"i_ch0470"
+],
+"i_door_2a": [
+"i_ch0470",
+"i_ch0d70"
+],
+"i_door_73": [
+"i_ch0470"
+],
+"i_door_2e": [
+"i_ch0770",
+"i_ch0e70"
+],
+"i_door_70_17": [
+"i_ch0c70"
+],
+"i_door_30": [
+"i_ch0480",
+"i_ch0680"
+],
+"i_door_2b": [
+"i_ch0480",
+"i_ch0580",
+"i_ch0581"
+],
+"i_door_30_x": [
+"i_ch0480",
+"i_ch0b80"
+],
+"i_door_2c_13": [
+"i_ch0480",
+"i_ch0a80"
+],
+"i_door_05_de": [
+"i_ch0580",
+"i_ch0581"
+],
+"i_door_54": [
+"i_ch0680",
+"i_ch0880"
+],
+"i_door_06_dd": [
+"i_ch0680"
+],
+"i_door_2f_14": [
+"i_ch0880",
+"i_ch0980"
+],
+"i_door_68": [
+"i_ch0090"
+],
+"i_door_53_15": [
+"i_ch0090",
+"i_ch0190"
+],
+"i_door_73_d4": [
+"i_ch0090",
+"i_ch2090"
+],
+"i_door_00_d3": [
+"i_ch0090"
+],
+"i_door_31": [
+"i_ch0190",
+"i_ch0f90"
+],
+"i_door_74_f7_b4": [
+"i_bt0253",
+"i_bt0252",
+"i_bt0251",
+"i_bt0250",
+"i_pl1950"
+],
+"i_door_70_x": [
+"i_ch0c80"
+],
+"i_door_35_27": [
+"i_bt0080",
+"i_bt0180"
+],
+"i_door_74_f7_b1": [
+"i_bt0180",
+"i_pl1980"
+],
+"i_door_32_x": [
+"i_bt0280",
+"i_bt0380"
+],
+"i_door_38": [
+"i_bt0090",
+"i_bt0291",
+"i_bt0290"
+],
+"i_door_34": [
+"i_bt0291",
+"i_bt0290",
+"i_bt0490",
+"i_pl0c20",
+"i_pl0d20"
+],
+"i_door_38_xxxxx": [
+"i_pl1300",
+"i_pl1600"
+],
+"i_door_3e_2a": [
+"i_pl1400",
+"i_pl1500"
+],
+"i_door_3d_2d": [
+"i_pl1500",
+"i_pl2100"
+],
+"i_door_3c": [
+"i_pl1500",
+"i_pl1600"
+],
+"i_door_79": [
+"i_pl1700",
+"i_pl2100"
+],
+"i_door_36_2c": [
+"i_pl1700",
+"i_pl2001",
+"i_pl2000"
+],
+"i_door_38_xxxx": [
+"i_pl0f10"
+],
+"i_door_3a_2e": [
+"i_pl0f10",
+"i_pl1010"
+],
+"i_door_6b": [
+"i_pl1010",
+"i_pl1110"
+],
+"i_door_3b_xx": [
+"i_pl0a20"
+],
+"i_door_3f": [
+"i_pl0a20",
+"i_pl0b20"
+],
+"i_door_3b_x": [
+"i_pl0d20",
+"i_pl0e20"
+],
+"i_door_38_xxx": [
+"i_pl0e20"
+],
+"i_door_38_x": [
+"i_pl0130",
+"i_pl0430"
+],
+"i_door_71_28": [
+"i_pl0330",
+"i_pl0430"
+],
+"i_door_38_xx": [
+"i_pl0330",
+"i_pl0630"
+],
+"i_door_39_x": [
+"i_pl0430",
+"i_pl0530"
+],
+"i_door_39_xx": [
+"i_pl0630",
+"i_pl0730"
+],
+"i_door_40": [
+"i_pl0730",
+"i_pl0930"
+],
+"i_door_3b": [
+"i_pl0930"
+],
+"i_door_74": [
+"i_pl0040",
+"i_pl1940"
+],
+"i_door_56": [
+"i_pl0040",
+"i_pl0140"
+]
+},
+"doors_without_room": [
+"i_door_72"
+]
+}

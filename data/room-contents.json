@@ -1,0 +1,8419 @@
+{
+ "schema_version": 1,
+ "evidence": "external-room-catalogue",
+ "source": "https://www.evilresource.com/resident-evil-zero/maps",
+ "checked_on": "2026-11-03",
+ "caveat": "Initial per-room listing by difficulty; not save state. Edition applicability to the HD build not independently established.",
+ "places": [
+  {
+   "id": "train-1f/engine-cab",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/engine-cab",
+   "linked": [
+    "train-1f/engine-carriage"
+   ],
+   "contents": [
+    {
+     "name": "Brake Operation Manual",
+     "kind": "files",
+     "slug": "brake-operation-manual",
+     "mode": "easy"
+    },
+    {
+     "name": "Brake Operation Manual",
+     "kind": "files",
+     "slug": "brake-operation-manual",
+     "mode": "normal"
+    },
+    {
+     "name": "Brake Operation Manual",
+     "kind": "files",
+     "slug": "brake-operation-manual",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Magnetic Card",
+     "kind": "items",
+     "slug": "magnetic-card",
+     "mode": "easy"
+    },
+    {
+     "name": "Magnetic Card",
+     "kind": "items",
+     "slug": "magnetic-card",
+     "mode": "normal"
+    },
+    {
+     "name": "Magnetic Card",
+     "kind": "items",
+     "slug": "magnetic-card",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    }
+   ]
+  },
+  {
+   "id": "train-1f/engine-carriage",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/engine-carriage",
+   "linked": [
+    "train-1f/engine-cab",
+    "train-1f/officers-car"
+   ],
+   "contents": [
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Machinegun Ammo (1×20%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "easy",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Machinegun Ammo (1×20%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "normal",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Machinegun Ammo (1×20%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "hard",
+     "reward_rank": "E"
+    }
+   ]
+  },
+  {
+   "id": "train-1f/officers-car",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/officers-car",
+   "linked": [
+    "train-1f/cabin-201",
+    "train-1f/cabin-202",
+    "train-1f/conductors-office",
+    "train-1f/engine-carriage",
+    "train-1f/passenger-car-2"
+   ],
+   "contents": [
+    {
+     "name": "Dining Car Key",
+     "kind": "items",
+     "slug": "dining-car-key",
+     "mode": "easy"
+    },
+    {
+     "name": "Dining Car Key",
+     "kind": "items",
+     "slug": "dining-car-key",
+     "mode": "normal"
+    },
+    {
+     "name": "Dining Car Key",
+     "kind": "items",
+     "slug": "dining-car-key",
+     "mode": "hard"
+    },
+    {
+     "name": "Billy Coen",
+     "kind": "characters",
+     "slug": "billy-coen",
+     "mode": "easy"
+    },
+    {
+     "name": "Billy Coen",
+     "kind": "characters",
+     "slug": "billy-coen",
+     "mode": "normal"
+    },
+    {
+     "name": "Billy Coen",
+     "kind": "characters",
+     "slug": "billy-coen",
+     "mode": "hard"
+    },
+    {
+     "name": "Edward Dewey",
+     "kind": "characters",
+     "slug": "edward-dewey",
+     "mode": "easy"
+    },
+    {
+     "name": "Edward Dewey",
+     "kind": "characters",
+     "slug": "edward-dewey",
+     "mode": "normal"
+    },
+    {
+     "name": "Edward Dewey",
+     "kind": "characters",
+     "slug": "edward-dewey",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Cerberuses",
+     "kind": "enemies",
+     "slug": "cerberus",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Cerberuses",
+     "kind": "enemies",
+     "slug": "cerberus",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Cerberuses",
+     "kind": "enemies",
+     "slug": "cerberus",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "train-1f/conductors-office",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/conductors-office",
+   "linked": [
+    "train-1f/officers-car",
+    "train-2f/bar-lounge"
+   ],
+   "contents": [
+    {
+     "name": "Train Map",
+     "kind": "miscellaneous-objects",
+     "slug": "train-map",
+     "mode": "easy"
+    },
+    {
+     "name": "Train Map",
+     "kind": "miscellaneous-objects",
+     "slug": "train-map",
+     "mode": "normal"
+    },
+    {
+     "name": "Train Map",
+     "kind": "miscellaneous-objects",
+     "slug": "train-map",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "Briefcase",
+     "kind": "items",
+     "slug": "briefcase",
+     "mode": "easy"
+    },
+    {
+     "name": "Briefcase",
+     "kind": "items",
+     "slug": "briefcase",
+     "mode": "normal"
+    },
+    {
+     "name": "Briefcase",
+     "kind": "items",
+     "slug": "briefcase",
+     "mode": "hard"
+    },
+    {
+     "name": "Blue Keycard",
+     "kind": "items",
+     "slug": "blue-keycard",
+     "mode": "easy"
+    },
+    {
+     "name": "Blue Keycard",
+     "kind": "items",
+     "slug": "blue-keycard",
+     "mode": "normal"
+    },
+    {
+     "name": "Blue Keycard",
+     "kind": "items",
+     "slug": "blue-keycard",
+     "mode": "hard"
+    },
+    {
+     "name": "Note from Conductor",
+     "kind": "files",
+     "slug": "note-from-conductor",
+     "mode": "easy"
+    },
+    {
+     "name": "Note from Conductor",
+     "kind": "files",
+     "slug": "note-from-conductor",
+     "mode": "normal"
+    },
+    {
+     "name": "Note from Conductor",
+     "kind": "files",
+     "slug": "note-from-conductor",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "train-1f/cabin-201",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/cabin-201",
+   "linked": [
+    "train-1f/officers-car"
+   ],
+   "contents": [
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "normal"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "hard"
+    },
+    {
+     "name": "Ink Ribbon (×6)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "normal"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "Investigation Orders",
+     "kind": "files",
+     "slug": "investigation-orders",
+     "mode": "easy"
+    },
+    {
+     "name": "Investigation Orders",
+     "kind": "files",
+     "slug": "investigation-orders",
+     "mode": "normal"
+    },
+    {
+     "name": "Investigation Orders",
+     "kind": "files",
+     "slug": "investigation-orders",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "train-1f/cabin-202",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/cabin-202",
+   "linked": [
+    "train-1f/officers-car"
+   ],
+   "contents": [
+    {
+     "name": "Ink Ribbon (×1)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Ink Ribbon (×1)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "normal"
+    },
+    {
+     "name": "Ink Ribbon (×1)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Passenger's Diary",
+     "kind": "files",
+     "slug": "passengers-diary",
+     "mode": "easy"
+    },
+    {
+     "name": "Passenger's Diary",
+     "kind": "files",
+     "slug": "passengers-diary",
+     "mode": "normal"
+    },
+    {
+     "name": "Passenger's Diary",
+     "kind": "files",
+     "slug": "passengers-diary",
+     "mode": "hard"
+    },
+    {
+     "name": "Machinegun Ammo (1×100%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "easy",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Machinegun Ammo (1×100%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "normal",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Machinegun Ammo (1×100%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "hard",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Magnum Revolver",
+     "kind": "weaponry",
+     "slug": "magnum-revolver",
+     "mode": "easy",
+     "reward_rank": "B"
+    },
+    {
+     "name": "Magnum Revolver",
+     "kind": "weaponry",
+     "slug": "magnum-revolver",
+     "mode": "normal",
+     "reward_rank": "B"
+    },
+    {
+     "name": "Magnum Revolver",
+     "kind": "weaponry",
+     "slug": "magnum-revolver",
+     "mode": "hard",
+     "reward_rank": "B"
+    }
+   ]
+  },
+  {
+   "id": "train-1f/passenger-car-2",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/passenger-car-2",
+   "linked": [
+    "train-1f/officers-car",
+    "train-1f/passenger-car-1",
+    "train-2f/upstairs-passenger-car",
+    "train-roof/officers-car-roof"
+   ],
+   "contents": [
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "4 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "4 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "4 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "train-1f/passenger-car-1",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/passenger-car-1",
+   "linked": [
+    "train-1f/dining-car",
+    "train-1f/passenger-car-2"
+   ],
+   "contents": [
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Edward Dewey",
+     "kind": "enemies",
+     "slug": "edward-dewey-zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "Edward Dewey",
+     "kind": "enemies",
+     "slug": "edward-dewey-zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "Edward Dewey",
+     "kind": "enemies",
+     "slug": "edward-dewey-zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "train-1f/dining-car",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/dining-car",
+   "linked": [
+    "train-1f/freight-car",
+    "train-1f/passenger-car-1",
+    "train-2f/restaurant-car"
+   ],
+   "contents": [
+    {
+     "name": "Billy Coen",
+     "kind": "characters",
+     "slug": "billy-coen",
+     "mode": "easy"
+    },
+    {
+     "name": "Billy Coen",
+     "kind": "characters",
+     "slug": "billy-coen",
+     "mode": "normal"
+    },
+    {
+     "name": "Billy Coen",
+     "kind": "characters",
+     "slug": "billy-coen",
+     "mode": "hard"
+    },
+    {
+     "name": "Notice to Supervisors",
+     "kind": "files",
+     "slug": "notice-to-supervisors",
+     "mode": "easy"
+    },
+    {
+     "name": "Notice to Supervisors",
+     "kind": "files",
+     "slug": "notice-to-supervisors",
+     "mode": "normal"
+    },
+    {
+     "name": "Notice to Supervisors",
+     "kind": "files",
+     "slug": "notice-to-supervisors",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "easy"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "normal"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "train-1f/freight-car",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/freight-car",
+   "linked": [
+    "train-1f/dining-car",
+    "train-1f/rear-carriage"
+   ],
+   "contents": [
+    {
+     "name": "2 Cerberuses",
+     "kind": "enemies",
+     "slug": "cerberus",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Cerberuses",
+     "kind": "enemies",
+     "slug": "cerberus",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Cerberuses",
+     "kind": "enemies",
+     "slug": "cerberus",
+     "mode": "hard"
+    },
+    {
+     "name": "Gold Ring",
+     "kind": "items",
+     "slug": "gold-ring",
+     "mode": "easy"
+    },
+    {
+     "name": "Gold Ring",
+     "kind": "items",
+     "slug": "gold-ring",
+     "mode": "normal"
+    },
+    {
+     "name": "Gold Ring",
+     "kind": "items",
+     "slug": "gold-ring",
+     "mode": "hard"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "easy"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "normal"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Gas Tank (×3)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "easy"
+    },
+    {
+     "name": "Gas Tank (×3)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "normal"
+    },
+    {
+     "name": "Gas Tank (×3)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "train-1f/rear-carriage",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-1f/rear-carriage",
+   "linked": [
+    "train-1f/freight-car"
+   ],
+   "contents": [
+    {
+     "name": "Hookshot",
+     "kind": "items",
+     "slug": "hookshot",
+     "mode": "easy"
+    },
+    {
+     "name": "Hookshot",
+     "kind": "items",
+     "slug": "hookshot",
+     "mode": "normal"
+    },
+    {
+     "name": "Hookshot",
+     "kind": "items",
+     "slug": "hookshot",
+     "mode": "hard"
+    },
+    {
+     "name": "Hookshot Operator's Manual",
+     "kind": "files",
+     "slug": "hookshot-operators-manual",
+     "mode": "easy"
+    },
+    {
+     "name": "Hookshot Operator's Manual",
+     "kind": "files",
+     "slug": "hookshot-operators-manual",
+     "mode": "normal"
+    },
+    {
+     "name": "Hookshot Operator's Manual",
+     "kind": "files",
+     "slug": "hookshot-operators-manual",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "train-2f/bar-lounge",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/bar-lounge",
+   "linked": [
+    "train-1f/conductors-office",
+    "train-2f/upstairs-passenger-car"
+   ],
+   "contents": [
+    {
+     "name": "Stinger",
+     "kind": "enemies",
+     "slug": "stinger",
+     "mode": "easy"
+    },
+    {
+     "name": "Stinger",
+     "kind": "enemies",
+     "slug": "stinger",
+     "mode": "normal"
+    },
+    {
+     "name": "Stinger",
+     "kind": "enemies",
+     "slug": "stinger",
+     "mode": "hard"
+    },
+    {
+     "name": "Panel Opener",
+     "kind": "items",
+     "slug": "panel-opener",
+     "mode": "easy"
+    },
+    {
+     "name": "Panel Opener",
+     "kind": "items",
+     "slug": "panel-opener",
+     "mode": "normal"
+    },
+    {
+     "name": "Panel Opener",
+     "kind": "items",
+     "slug": "panel-opener",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "train-2f/upstairs-passenger-car",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/upstairs-passenger-car",
+   "linked": [
+    "train-1f/passenger-car-2",
+    "train-2f/bar-lounge",
+    "train-2f/cabin-101",
+    "train-2f/cabin-102"
+   ],
+   "contents": [
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "Ice Pick",
+     "kind": "items",
+     "slug": "ice-pick",
+     "mode": "easy"
+    },
+    {
+     "name": "Ice Pick",
+     "kind": "items",
+     "slug": "ice-pick",
+     "mode": "normal"
+    },
+    {
+     "name": "Ice Pick",
+     "kind": "items",
+     "slug": "ice-pick",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "easy"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "normal"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "train-2f/cabin-101",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/cabin-101",
+   "linked": [
+    "train-2f/upstairs-passenger-car"
+   ],
+   "contents": [
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "easy"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "normal"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "hard"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "normal"
+    },
+    {
+     "name": "Ink Ribbon (×1)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Hunting Gun",
+     "kind": "weaponry",
+     "slug": "hunting-gun",
+     "mode": "easy"
+    },
+    {
+     "name": "Hunting Gun",
+     "kind": "weaponry",
+     "slug": "hunting-gun",
+     "mode": "normal"
+    },
+    {
+     "name": "Hunting Gun",
+     "kind": "weaponry",
+     "slug": "hunting-gun",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "train-2f/cabin-102",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/cabin-102",
+   "linked": [
+    "train-2f/upstairs-passenger-car"
+   ],
+   "contents": [
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Knife",
+     "kind": "weaponry",
+     "slug": "knife",
+     "mode": "easy"
+    },
+    {
+     "name": "Knife",
+     "kind": "weaponry",
+     "slug": "knife",
+     "mode": "normal"
+    },
+    {
+     "name": "Knife",
+     "kind": "weaponry",
+     "slug": "knife",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Jewelry Box",
+     "kind": "items",
+     "slug": "jewelry-box",
+     "mode": "easy"
+    },
+    {
+     "name": "Jewelry Box",
+     "kind": "items",
+     "slug": "jewelry-box",
+     "mode": "normal"
+    },
+    {
+     "name": "Jewelry Box",
+     "kind": "items",
+     "slug": "jewelry-box",
+     "mode": "hard"
+    },
+    {
+     "name": "Silver Ring",
+     "kind": "items",
+     "slug": "silver-ring",
+     "mode": "easy"
+    },
+    {
+     "name": "Silver Ring",
+     "kind": "items",
+     "slug": "silver-ring",
+     "mode": "normal"
+    },
+    {
+     "name": "Silver Ring",
+     "kind": "items",
+     "slug": "silver-ring",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "train-2f/restaurant-car",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/restaurant-car",
+   "linked": [
+    "train-1f/dining-car",
+    "train-2f/service-room",
+    "train-roof/dining-car-roof"
+   ],
+   "contents": [
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "hard"
+    },
+    {
+     "name": "Billy Coen",
+     "kind": "characters",
+     "slug": "billy-coen",
+     "mode": "easy"
+    },
+    {
+     "name": "Billy Coen",
+     "kind": "characters",
+     "slug": "billy-coen",
+     "mode": "normal"
+    },
+    {
+     "name": "Billy Coen",
+     "kind": "characters",
+     "slug": "billy-coen",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Player's Manual 2",
+     "kind": "files",
+     "slug": "players-manual-2",
+     "mode": "easy"
+    },
+    {
+     "name": "Player's Manual 2",
+     "kind": "files",
+     "slug": "players-manual-2",
+     "mode": "normal"
+    },
+    {
+     "name": "Player's Manual 2",
+     "kind": "files",
+     "slug": "players-manual-2",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "train-2f/service-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-2f/service-room",
+   "linked": [
+    "train-2f/restaurant-car"
+   ],
+   "contents": [
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (2×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "easy"
+    },
+    {
+     "name": "Conductor's Key",
+     "kind": "items",
+     "slug": "conductors-key",
+     "mode": "easy"
+    },
+    {
+     "name": "Conductor's Key",
+     "kind": "items",
+     "slug": "conductors-key",
+     "mode": "normal"
+    },
+    {
+     "name": "Conductor's Key",
+     "kind": "items",
+     "slug": "conductors-key",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "train-roof/officers-car-roof",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-roof/officers-car-roof",
+   "linked": [
+    "train-1f/passenger-car-2"
+   ],
+   "contents": []
+  },
+  {
+   "id": "train-roof/dining-car-roof",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/train/train-roof/dining-car-roof",
+   "linked": [
+    "train-2f/restaurant-car"
+   ],
+   "contents": []
+  },
+  {
+   "id": "training-facility-b1/train-passage",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-b1/train-passage",
+   "linked": [
+    "training-facility-b1/elevator",
+    "training-facility-b1/sewer-passage"
+   ],
+   "contents": [
+    {
+     "name": "4 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "4 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "4 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-b1/sewer-passage",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-b1/sewer-passage",
+   "linked": [
+    "training-facility-b1/train-passage",
+    "training-facility-2f/main-hall"
+   ],
+   "contents": []
+  },
+  {
+   "id": "training-facility-b1/elevator",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-b1/elevator",
+   "linked": [
+    "training-facility-b1/train-passage",
+    "factory-b1/maintenance-shaft",
+    "factory-b4/turntable-platform",
+    "treatment-plant-b5/bridge"
+   ],
+   "contents": []
+  },
+  {
+   "id": "training-facility-1f/projection-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/projection-room",
+   "linked": [
+    "training-facility-1f/west-wing-corridor"
+   ],
+   "contents": [
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "MO Disk",
+     "kind": "items",
+     "slug": "mo-disk",
+     "mode": "easy"
+    },
+    {
+     "name": "MO Disk",
+     "kind": "items",
+     "slug": "mo-disk",
+     "mode": "normal"
+    },
+    {
+     "name": "MO Disk",
+     "kind": "items",
+     "slug": "mo-disk",
+     "mode": "hard"
+    },
+    {
+     "name": "Microfilm Image",
+     "kind": "files",
+     "slug": "microfilm-image",
+     "mode": "easy"
+    },
+    {
+     "name": "Microfilm Image",
+     "kind": "files",
+     "slug": "microfilm-image",
+     "mode": "normal"
+    },
+    {
+     "name": "Microfilm Image",
+     "kind": "files",
+     "slug": "microfilm-image",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-1f/west-wing-corridor",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/west-wing-corridor",
+   "linked": [
+    "training-facility-1f/bathroom",
+    "training-facility-1f/main-hall",
+    "training-facility-1f/projection-room"
+   ],
+   "contents": [
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "hard"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "easy"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "normal"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-1f/bathroom",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/bathroom",
+   "linked": [
+    "training-facility-1f/west-wing-corridor"
+   ],
+   "contents": [
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "easy"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "normal"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "Gas Tank (×6)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "easy"
+    },
+    {
+     "name": "Gas Tank (×6)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "normal"
+    },
+    {
+     "name": "Gas Tank (×6)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "hard"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "easy"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "normal"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-1f/main-hall",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/main-hall",
+   "linked": [
+    "training-facility-b1/sewer-passage",
+    "training-facility-1f/dining-room",
+    "training-facility-1f/training-facility-entrance",
+    "training-facility-1f/west-wing-corridor",
+    "training-facility-2f/lecture-room",
+    "training-facility-2f/living-room",
+    "training-facility-2f/private-study-room",
+    "training-facility-2f/large-hall",
+    "facility-basement-b1/basement-entrance"
+   ],
+   "contents": [
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "normal"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "hard"
+    },
+    {
+     "name": "Ink Ribbon (×6)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "normal"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "Machinegun Ammo (1×34%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "easy",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Machinegun Ammo (1×34%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "normal",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Machinegun Ammo (1×34%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "hard",
+     "reward_rank": "E"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-1f/training-facility-entrance",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/training-facility-entrance",
+   "linked": [
+    "training-facility-1f/main-hall"
+   ],
+   "contents": [
+    {
+     "name": "Discipline Tablet",
+     "kind": "items",
+     "slug": "discipline-tablet",
+     "mode": "easy"
+    },
+    {
+     "name": "Discipline Tablet",
+     "kind": "items",
+     "slug": "discipline-tablet",
+     "mode": "normal"
+    },
+    {
+     "name": "Discipline Tablet",
+     "kind": "items",
+     "slug": "discipline-tablet",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-1f/dining-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/dining-room",
+   "linked": [
+    "training-facility-1f/boiler-room",
+    "training-facility-1f/kitchen",
+    "training-facility-1f/main-hall"
+   ],
+   "contents": [
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-1f/kitchen",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/kitchen",
+   "linked": [
+    "training-facility-1f/dining-room"
+   ],
+   "contents": [
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "easy"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "normal"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "hard"
+    },
+    {
+     "name": "Lighter Fluid",
+     "kind": "items",
+     "slug": "lighter-fluid",
+     "mode": "easy"
+    },
+    {
+     "name": "Lighter Fluid",
+     "kind": "items",
+     "slug": "lighter-fluid",
+     "mode": "normal"
+    },
+    {
+     "name": "Lighter Fluid",
+     "kind": "items",
+     "slug": "lighter-fluid",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-1f/boiler-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/boiler-room",
+   "linked": [
+    "training-facility-1f/dining-room",
+    "training-facility-1f/storage-room",
+    "facility-basement-b2/statue-room"
+   ],
+   "contents": [
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Blue Herb",
+     "kind": "items",
+     "slug": "blue-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Blue Herb",
+     "kind": "items",
+     "slug": "blue-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Blue Herb",
+     "kind": "items",
+     "slug": "blue-herb",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-1f/storage-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-1f/storage-room",
+   "linked": [
+    "training-facility-1f/boiler-room",
+    "training-facility-2f/outside-balcony"
+   ],
+   "contents": [
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Black Statue",
+     "kind": "items",
+     "slug": "black-statue",
+     "mode": "easy"
+    },
+    {
+     "name": "Black Statue",
+     "kind": "items",
+     "slug": "black-statue",
+     "mode": "normal"
+    },
+    {
+     "name": "Black Statue",
+     "kind": "items",
+     "slug": "black-statue",
+     "mode": "hard"
+    },
+    {
+     "name": "Shotgun",
+     "kind": "weaponry",
+     "slug": "shotgun",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun",
+     "kind": "weaponry",
+     "slug": "shotgun",
+     "mode": "normal"
+    },
+    {
+     "name": "Shotgun",
+     "kind": "weaponry",
+     "slug": "shotgun",
+     "mode": "hard"
+    },
+    {
+     "name": "Gas Tank (×6)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "easy"
+    },
+    {
+     "name": "Gas Tank (×6)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "normal"
+    },
+    {
+     "name": "Gas Tank (×6)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Hunter",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Hunter",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Hunter",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/assistant-directors-office",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/assistant-directors-office",
+   "linked": [
+    "training-facility-2f/art-corridor"
+   ],
+   "contents": [
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Assistant Director's Diary",
+     "kind": "files",
+     "slug": "assistant-directors-diary",
+     "mode": "easy"
+    },
+    {
+     "name": "Assistant Director's Diary",
+     "kind": "files",
+     "slug": "assistant-directors-diary",
+     "mode": "normal"
+    },
+    {
+     "name": "Assistant Director's Diary",
+     "kind": "files",
+     "slug": "assistant-directors-diary",
+     "mode": "hard"
+    },
+    {
+     "name": "Iron Needle",
+     "kind": "items",
+     "slug": "iron-needle",
+     "mode": "easy"
+    },
+    {
+     "name": "Iron Needle",
+     "kind": "items",
+     "slug": "iron-needle",
+     "mode": "normal"
+    },
+    {
+     "name": "Iron Needle",
+     "kind": "items",
+     "slug": "iron-needle",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/small-library",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/small-library",
+   "linked": [
+    "training-facility-2f/main-library"
+   ],
+   "contents": [
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "grenades",
+     "mode": "easy"
+    },
+    {
+     "name": "Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "grenades",
+     "mode": "normal"
+    },
+    {
+     "name": "Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "grenades",
+     "mode": "hard"
+    },
+    {
+     "name": "Book of Good",
+     "kind": "items",
+     "slug": "book-of-good",
+     "mode": "easy"
+    },
+    {
+     "name": "Book of Good",
+     "kind": "items",
+     "slug": "book-of-good",
+     "mode": "normal"
+    },
+    {
+     "name": "Book of Good",
+     "kind": "items",
+     "slug": "book-of-good",
+     "mode": "hard"
+    },
+    {
+     "name": "Angel Wings",
+     "kind": "items",
+     "slug": "angel-wings",
+     "mode": "easy"
+    },
+    {
+     "name": "Angel Wings",
+     "kind": "items",
+     "slug": "angel-wings",
+     "mode": "normal"
+    },
+    {
+     "name": "Angel Wings",
+     "kind": "items",
+     "slug": "angel-wings",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/main-library",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/main-library",
+   "linked": [
+    "training-facility-2f/art-corridor",
+    "training-facility-2f/small-library",
+    "training-facility-3f/clock-room"
+   ],
+   "contents": [
+    {
+     "name": "Training Facility Map",
+     "kind": "miscellaneous-objects",
+     "slug": "training-facility-map",
+     "mode": "easy"
+    },
+    {
+     "name": "Training Facility Map",
+     "kind": "miscellaneous-objects",
+     "slug": "training-facility-map",
+     "mode": "normal"
+    },
+    {
+     "name": "Training Facility Map",
+     "kind": "miscellaneous-objects",
+     "slug": "training-facility-map",
+     "mode": "hard"
+    },
+    {
+     "name": "Microfilm A",
+     "kind": "items",
+     "slug": "microfilm-a",
+     "mode": "easy"
+    },
+    {
+     "name": "Microfilm A",
+     "kind": "items",
+     "slug": "microfilm-a",
+     "mode": "normal"
+    },
+    {
+     "name": "Microfilm A",
+     "kind": "items",
+     "slug": "microfilm-a",
+     "mode": "hard"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "normal"
+    },
+    {
+     "name": "Ink Ribbon (×1)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/art-corridor",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/art-corridor",
+   "linked": [
+    "training-facility-2f/assistant-directors-office",
+    "training-facility-2f/lecture-room",
+    "training-facility-2f/main-library"
+   ],
+   "contents": [
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/medicine-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/medicine-room",
+   "linked": [
+    "training-facility-2f/private-corridor"
+   ],
+   "contents": [
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "2 First-Aid Sprays",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "easy"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "normal"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Blue Herbs",
+     "kind": "items",
+     "slug": "blue-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Blue Herbs",
+     "kind": "items",
+     "slug": "blue-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Blue Herbs",
+     "kind": "items",
+     "slug": "blue-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "Green Chemical",
+     "kind": "items",
+     "slug": "green-chemical",
+     "mode": "easy"
+    },
+    {
+     "name": "Green Chemical",
+     "kind": "items",
+     "slug": "green-chemical",
+     "mode": "normal"
+    },
+    {
+     "name": "Green Chemical",
+     "kind": "items",
+     "slug": "green-chemical",
+     "mode": "hard"
+    },
+    {
+     "name": "1st Investigation Unit Notes",
+     "kind": "files",
+     "slug": "1st-investigation-unit-notes",
+     "mode": "easy"
+    },
+    {
+     "name": "1st Investigation Unit Notes",
+     "kind": "files",
+     "slug": "1st-investigation-unit-notes",
+     "mode": "normal"
+    },
+    {
+     "name": "1st Investigation Unit Notes",
+     "kind": "files",
+     "slug": "1st-investigation-unit-notes",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/private-corridor",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/private-corridor",
+   "linked": [
+    "training-facility-2f/lecture-room",
+    "training-facility-2f/marcus-office",
+    "training-facility-2f/medicine-room"
+   ],
+   "contents": [
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Hunter",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Hunter",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Hunter",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/marcus-office",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/marcus-office",
+   "linked": [
+    "training-facility-2f/private-corridor"
+   ],
+   "contents": [
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Napalm Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "napalm-grenades",
+     "mode": "easy"
+    },
+    {
+     "name": "Napalm Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "napalm-grenades",
+     "mode": "normal"
+    },
+    {
+     "name": "Napalm Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "napalm-grenades",
+     "mode": "hard"
+    },
+    {
+     "name": "Ink Ribbon (×6)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "normal"
+    },
+    {
+     "name": "Ink Ribbon (×1)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "hard"
+    },
+    {
+     "name": "Book of Evil",
+     "kind": "items",
+     "slug": "book-of-evil",
+     "mode": "easy"
+    },
+    {
+     "name": "Book of Evil",
+     "kind": "items",
+     "slug": "book-of-evil",
+     "mode": "normal"
+    },
+    {
+     "name": "Book of Evil",
+     "kind": "items",
+     "slug": "book-of-evil",
+     "mode": "hard"
+    },
+    {
+     "name": "Marcus' Diary 1",
+     "kind": "files",
+     "slug": "marcus-diary-1",
+     "mode": "easy"
+    },
+    {
+     "name": "Marcus' Diary 1",
+     "kind": "files",
+     "slug": "marcus-diary-1",
+     "mode": "normal"
+    },
+    {
+     "name": "Marcus' Diary 1",
+     "kind": "files",
+     "slug": "marcus-diary-1",
+     "mode": "hard"
+    },
+    {
+     "name": "Black Wing",
+     "kind": "items",
+     "slug": "black-wing",
+     "mode": "easy"
+    },
+    {
+     "name": "Black Wing",
+     "kind": "items",
+     "slug": "black-wing",
+     "mode": "normal"
+    },
+    {
+     "name": "Black Wing",
+     "kind": "items",
+     "slug": "black-wing",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/lecture-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/lecture-room",
+   "linked": [
+    "training-facility-2f/main-hall",
+    "training-facility-2f/art-corridor",
+    "training-facility-2f/outside-balcony",
+    "training-facility-2f/private-corridor"
+   ],
+   "contents": [
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "normal"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "hard"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "normal"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Regulations for Trainees",
+     "kind": "files",
+     "slug": "regulations-for-trainees",
+     "mode": "easy"
+    },
+    {
+     "name": "Regulations for Trainees",
+     "kind": "files",
+     "slug": "regulations-for-trainees",
+     "mode": "normal"
+    },
+    {
+     "name": "Regulations for Trainees",
+     "kind": "files",
+     "slug": "regulations-for-trainees",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/outside-balcony",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/outside-balcony",
+   "linked": [
+    "training-facility-1f/storage-room",
+    "training-facility-2f/lecture-room",
+    "training-facility-3f/observatory-tower"
+   ],
+   "contents": [
+    {
+     "name": "4 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "4 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "4 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "3 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Hunters",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Hunters",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Hunters",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/main-hall",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/main-hall",
+   "linked": [
+    "training-facility-b1/sewer-passage",
+    "training-facility-1f/dining-room",
+    "training-facility-1f/training-facility-entrance",
+    "training-facility-1f/west-wing-corridor",
+    "training-facility-2f/lecture-room",
+    "training-facility-2f/living-room",
+    "training-facility-2f/private-study-room",
+    "training-facility-2f/large-hall",
+    "facility-basement-b1/basement-entrance"
+   ],
+   "contents": [
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "normal"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "hard"
+    },
+    {
+     "name": "Ink Ribbon (×6)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "normal"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "Machinegun Ammo (1×34%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "easy",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Machinegun Ammo (1×34%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "normal",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Machinegun Ammo (1×34%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "hard",
+     "reward_rank": "E"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/living-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/living-room",
+   "linked": [
+    "training-facility-2f/main-hall"
+   ],
+   "contents": [
+    {
+     "name": "Notice to All Staff",
+     "kind": "files",
+     "slug": "notice-to-all-staff",
+     "mode": "easy"
+    },
+    {
+     "name": "Notice to All Staff",
+     "kind": "files",
+     "slug": "notice-to-all-staff",
+     "mode": "normal"
+    },
+    {
+     "name": "Notice to All Staff",
+     "kind": "files",
+     "slug": "notice-to-all-staff",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Crank Handle",
+     "kind": "items",
+     "slug": "crank-handle",
+     "mode": "easy"
+    },
+    {
+     "name": "Crank Handle",
+     "kind": "items",
+     "slug": "crank-handle",
+     "mode": "normal"
+    },
+    {
+     "name": "Crank Handle",
+     "kind": "items",
+     "slug": "crank-handle",
+     "mode": "hard"
+    },
+    {
+     "name": "4 Crows",
+     "kind": "enemies",
+     "slug": "crow",
+     "mode": "easy"
+    },
+    {
+     "name": "4 Crows",
+     "kind": "enemies",
+     "slug": "crow",
+     "mode": "normal"
+    },
+    {
+     "name": "4 Crows",
+     "kind": "enemies",
+     "slug": "crow",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/large-hall",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/large-hall",
+   "linked": [
+    "training-facility-2f/main-hall",
+    "training-facility-2f/art-room",
+    "training-facility-3f/fountain-area",
+    "training-facility-3f/observatory-tower"
+   ],
+   "contents": [
+    {
+     "name": "Fire Key",
+     "kind": "items",
+     "slug": "fire-key",
+     "mode": "easy"
+    },
+    {
+     "name": "Fire Key",
+     "kind": "items",
+     "slug": "fire-key",
+     "mode": "normal"
+    },
+    {
+     "name": "Fire Key",
+     "kind": "items",
+     "slug": "fire-key",
+     "mode": "hard"
+    },
+    {
+     "name": "Centurion",
+     "kind": "enemies",
+     "slug": "centurion",
+     "mode": "easy"
+    },
+    {
+     "name": "Centurion",
+     "kind": "enemies",
+     "slug": "centurion",
+     "mode": "normal"
+    },
+    {
+     "name": "Centurion",
+     "kind": "enemies",
+     "slug": "centurion",
+     "mode": "hard"
+    },
+    {
+     "name": "4 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "easy"
+    },
+    {
+     "name": "4 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "normal"
+    },
+    {
+     "name": "4 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/art-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/art-room",
+   "linked": [
+    "training-facility-2f/narrow-corridor-a",
+    "training-facility-2f/large-hall"
+   ],
+   "contents": [
+    {
+     "name": "2 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "hard"
+    },
+    {
+     "name": "Grenade Launcher",
+     "kind": "weaponry",
+     "slug": "grenade-launcher",
+     "mode": "easy"
+    },
+    {
+     "name": "Grenade Launcher",
+     "kind": "weaponry",
+     "slug": "grenade-launcher",
+     "mode": "normal"
+    },
+    {
+     "name": "Grenade Launcher",
+     "kind": "weaponry",
+     "slug": "grenade-launcher",
+     "mode": "hard"
+    },
+    {
+     "name": "Napalm Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "napalm-grenades",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "White Statue",
+     "kind": "items",
+     "slug": "white-statue",
+     "mode": "easy"
+    },
+    {
+     "name": "White Statue",
+     "kind": "items",
+     "slug": "white-statue",
+     "mode": "normal"
+    },
+    {
+     "name": "White Statue",
+     "kind": "items",
+     "slug": "white-statue",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/narrow-corridor-a",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/narrow-corridor-a",
+   "linked": [
+    "training-facility-2f/art-room",
+    "training-facility-2f/broadcast-room",
+    "training-facility-2f/narrow-corridor-b",
+    "training-facility-2f/piano-bar"
+   ],
+   "contents": [
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "hard"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "easy"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "normal"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/narrow-corridor-b",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/narrow-corridor-b",
+   "linked": [
+    "training-facility-2f/maintenance-room",
+    "training-facility-2f/narrow-corridor-a",
+    "training-facility-2f/old-laboratory"
+   ],
+   "contents": [
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "hard"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "easy"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "normal"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/old-laboratory",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/old-laboratory",
+   "linked": [
+    "training-facility-2f/narrow-corridor-b"
+   ],
+   "contents": [
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "easy"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "normal"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "easy"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "normal"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/maintenance-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/maintenance-room",
+   "linked": [
+    "training-facility-2f/narrow-corridor-b"
+   ],
+   "contents": [
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Obedience Tablet",
+     "kind": "items",
+     "slug": "obedience-tablet",
+     "mode": "easy"
+    },
+    {
+     "name": "Obedience Tablet",
+     "kind": "items",
+     "slug": "obedience-tablet",
+     "mode": "normal"
+    },
+    {
+     "name": "Obedience Tablet",
+     "kind": "items",
+     "slug": "obedience-tablet",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/piano-bar",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/piano-bar",
+   "linked": [
+    "training-facility-2f/narrow-corridor-a"
+   ],
+   "contents": [
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "easy"
+    },
+    {
+     "name": "Magnum Ammo (1×8)",
+     "kind": "weaponry",
+     "slug": "magnum-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Magnum Ammo (1×8)",
+     "kind": "weaponry",
+     "slug": "magnum-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Magnum Ammo (1×8)",
+     "kind": "weaponry",
+     "slug": "magnum-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "easy"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "normal"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "hard"
+    },
+    {
+     "name": "Battery",
+     "kind": "items",
+     "slug": "battery",
+     "mode": "easy"
+    },
+    {
+     "name": "Battery",
+     "kind": "items",
+     "slug": "battery",
+     "mode": "normal"
+    },
+    {
+     "name": "Battery",
+     "kind": "items",
+     "slug": "battery",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/broadcast-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/broadcast-room",
+   "linked": [
+    "training-facility-2f/narrow-corridor-a"
+   ],
+   "contents": [
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "hard"
+    },
+    {
+     "name": "Vise Handle",
+     "kind": "items",
+     "slug": "vise-handle",
+     "mode": "easy"
+    },
+    {
+     "name": "Vise Handle",
+     "kind": "items",
+     "slug": "vise-handle",
+     "mode": "normal"
+    },
+    {
+     "name": "Vise Handle",
+     "kind": "items",
+     "slug": "vise-handle",
+     "mode": "hard"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-2f/private-study-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-2f/private-study-room",
+   "linked": [
+    "training-facility-2f/main-hall"
+   ],
+   "contents": [
+    {
+     "name": "4 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "4 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "4 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "A Verse of Poetry",
+     "kind": "files",
+     "slug": "a-verse-of-poetry",
+     "mode": "easy"
+    },
+    {
+     "name": "A Verse of Poetry",
+     "kind": "files",
+     "slug": "a-verse-of-poetry",
+     "mode": "normal"
+    },
+    {
+     "name": "A Verse of Poetry",
+     "kind": "files",
+     "slug": "a-verse-of-poetry",
+     "mode": "hard"
+    },
+    {
+     "name": "Microfilm B",
+     "kind": "items",
+     "slug": "microfilm-b",
+     "mode": "easy"
+    },
+    {
+     "name": "Microfilm B",
+     "kind": "items",
+     "slug": "microfilm-b",
+     "mode": "normal"
+    },
+    {
+     "name": "Microfilm B",
+     "kind": "items",
+     "slug": "microfilm-b",
+     "mode": "hard"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-3f/clock-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-3f/clock-room",
+   "linked": [
+    "training-facility-2f/main-library",
+    "training-facility-3f/fountain-area"
+   ],
+   "contents": [
+    {
+     "name": "2 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "hard"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "easy"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-3f/fountain-area",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-3f/fountain-area",
+   "linked": [
+    "training-facility-3f/clock-room",
+    "training-facility-3f/large-hall"
+   ],
+   "contents": [
+    {
+     "name": "5 Crows",
+     "kind": "enemies",
+     "slug": "crow",
+     "mode": "easy"
+    },
+    {
+     "name": "5 Crows",
+     "kind": "enemies",
+     "slug": "crow",
+     "mode": "normal"
+    },
+    {
+     "name": "5 Crows",
+     "kind": "enemies",
+     "slug": "crow",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-3f/large-hall",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-3f/large-hall",
+   "linked": [
+    "training-facility-2f/main-hall",
+    "training-facility-2f/art-room",
+    "training-facility-3f/fountain-area",
+    "training-facility-3f/observatory-tower"
+   ],
+   "contents": [
+    {
+     "name": "Fire Key",
+     "kind": "items",
+     "slug": "fire-key",
+     "mode": "easy"
+    },
+    {
+     "name": "Fire Key",
+     "kind": "items",
+     "slug": "fire-key",
+     "mode": "normal"
+    },
+    {
+     "name": "Fire Key",
+     "kind": "items",
+     "slug": "fire-key",
+     "mode": "hard"
+    },
+    {
+     "name": "Centurion",
+     "kind": "enemies",
+     "slug": "centurion",
+     "mode": "easy"
+    },
+    {
+     "name": "Centurion",
+     "kind": "enemies",
+     "slug": "centurion",
+     "mode": "normal"
+    },
+    {
+     "name": "Centurion",
+     "kind": "enemies",
+     "slug": "centurion",
+     "mode": "hard"
+    },
+    {
+     "name": "4 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "easy"
+    },
+    {
+     "name": "4 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "normal"
+    },
+    {
+     "name": "4 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "training-facility-3f/observatory-tower",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/training-facility/training-facility-3f/observatory-tower",
+   "linked": [
+    "training-facility-2f/outside-balcony",
+    "training-facility-3f/large-hall",
+    "laboratory-1f/outside-area"
+   ],
+   "contents": [
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    }
+   ]
+  },
+  {
+   "id": "facility-basement-b1/torture-room-a",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b1/torture-room-a",
+   "linked": [
+    "facility-basement-b1/observation-room",
+    "facility-basement-b1/torture-room-b"
+   ],
+   "contents": [
+    {
+     "name": "2 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "facility-basement-b1/observation-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b1/observation-room",
+   "linked": [
+    "facility-basement-b1/basement-entrance",
+    "facility-basement-b1/torture-room-a"
+   ],
+   "contents": [
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Inmates List",
+     "kind": "files",
+     "slug": "inmates-list",
+     "mode": "easy"
+    },
+    {
+     "name": "Inmates List",
+     "kind": "files",
+     "slug": "inmates-list",
+     "mode": "normal"
+    },
+    {
+     "name": "Inmates List",
+     "kind": "files",
+     "slug": "inmates-list",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Blue Herb",
+     "kind": "items",
+     "slug": "blue-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Blue Herb",
+     "kind": "items",
+     "slug": "blue-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Blue Herb",
+     "kind": "items",
+     "slug": "blue-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "normal"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "hard"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "normal"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "hard"
+    },
+    {
+     "name": "Training Facility Basement Map",
+     "kind": "miscellaneous-objects",
+     "slug": "training-facility-basement-map",
+     "mode": "easy"
+    },
+    {
+     "name": "Training Facility Basement Map",
+     "kind": "miscellaneous-objects",
+     "slug": "training-facility-basement-map",
+     "mode": "normal"
+    },
+    {
+     "name": "Training Facility Basement Map",
+     "kind": "miscellaneous-objects",
+     "slug": "training-facility-basement-map",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Eliminator",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Eliminator",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Eliminator",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "facility-basement-b1/basement-entrance",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b1/basement-entrance",
+   "linked": [
+    "training-facility-2f/main-hall",
+    "facility-basement-b1/monitor-room",
+    "facility-basement-b1/observation-room"
+   ],
+   "contents": [
+    {
+     "name": "3 Giant Spiders",
+     "kind": "enemies",
+     "slug": "giant-spider",
+     "mode": "easy"
+    },
+    {
+     "name": "3 Giant Spiders",
+     "kind": "enemies",
+     "slug": "giant-spider",
+     "mode": "normal"
+    },
+    {
+     "name": "3 Giant Spiders",
+     "kind": "enemies",
+     "slug": "giant-spider",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "facility-basement-b1/monitor-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b1/monitor-room",
+   "linked": [
+    "facility-basement-b1/basement-entrance",
+    "facility-basement-b1/torture-room-b"
+   ],
+   "contents": [
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Gas Tank (×6)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "easy"
+    },
+    {
+     "name": "Gas Tank (×6)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "normal"
+    },
+    {
+     "name": "Gas Tank (×6)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (3×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (3×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (3×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Machinegun Ammo (1×17%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "easy",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Machinegun Ammo (1×17%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "normal",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Machinegun Ammo (1×17%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "hard",
+     "reward_rank": "E"
+    }
+   ]
+  },
+  {
+   "id": "facility-basement-b1/torture-room-b",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b1/torture-room-b",
+   "linked": [
+    "facility-basement-b1/monitor-room",
+    "facility-basement-b1/torture-room-a"
+   ],
+   "contents": [
+    {
+     "name": "About the Power Regulator",
+     "kind": "files",
+     "slug": "about-the-power-regulator",
+     "mode": "easy"
+    },
+    {
+     "name": "About the Power Regulator",
+     "kind": "files",
+     "slug": "about-the-power-regulator",
+     "mode": "normal"
+    },
+    {
+     "name": "About the Power Regulator",
+     "kind": "files",
+     "slug": "about-the-power-regulator",
+     "mode": "hard"
+    },
+    {
+     "name": "3 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "easy"
+    },
+    {
+     "name": "3 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "normal"
+    },
+    {
+     "name": "3 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "facility-basement-b2/cavernous-area",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b2/cavernous-area",
+   "linked": [
+    "facility-basement-b2/statue-room",
+    "facility-basement-b3/training-room",
+    "facility-basement-b3/waterfall-room"
+   ],
+   "contents": [
+    {
+     "name": "2 Giant Spiders",
+     "kind": "enemies",
+     "slug": "giant-spider",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Giant Spiders",
+     "kind": "enemies",
+     "slug": "giant-spider",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Giant Spiders",
+     "kind": "enemies",
+     "slug": "giant-spider",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "facility-basement-b2/statue-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b2/statue-room",
+   "linked": [
+    "facility-basement-b2/boiler-room",
+    "facility-basement-b2/bunk-room-a",
+    "facility-basement-b2/bunk-room-b",
+    "facility-basement-b2/storage-room",
+    "facility-basement-b2/cavernous-area"
+   ],
+   "contents": [
+    {
+     "name": "3 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "easy"
+    },
+    {
+     "name": "3 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "normal"
+    },
+    {
+     "name": "3 Eliminators",
+     "kind": "enemies",
+     "slug": "eliminator",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×5)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×5)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×5)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "facility-basement-b2/storage-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b2/storage-room",
+   "linked": [
+    "facility-basement-b2/statue-room"
+   ],
+   "contents": [
+    {
+     "name": "Rebecca Chambers",
+     "kind": "characters",
+     "slug": "rebecca-chambers",
+     "mode": "easy"
+    },
+    {
+     "name": "Rebecca Chambers",
+     "kind": "characters",
+     "slug": "rebecca-chambers",
+     "mode": "normal"
+    },
+    {
+     "name": "Rebecca Chambers",
+     "kind": "characters",
+     "slug": "rebecca-chambers",
+     "mode": "hard"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "normal"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "hard"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "normal"
+    },
+    {
+     "name": "Ink Ribbon (×1)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "facility-basement-b2/boiler-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b2/boiler-room",
+   "linked": [
+    "training-facility-1f/dining-room",
+    "training-facility-1f/storage-room",
+    "facility-basement-b2/statue-room"
+   ],
+   "contents": [
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Blue Herb",
+     "kind": "items",
+     "slug": "blue-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Blue Herb",
+     "kind": "items",
+     "slug": "blue-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Blue Herb",
+     "kind": "items",
+     "slug": "blue-herb",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "facility-basement-b2/bunk-room-a",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b2/bunk-room-a",
+   "linked": [
+    "facility-basement-b2/statue-room"
+   ],
+   "contents": [
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "easy"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "normal"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "hard"
+    },
+    {
+     "name": "Unity Tablet",
+     "kind": "items",
+     "slug": "unity-tablet",
+     "mode": "easy"
+    },
+    {
+     "name": "Unity Tablet",
+     "kind": "items",
+     "slug": "unity-tablet",
+     "mode": "normal"
+    },
+    {
+     "name": "Unity Tablet",
+     "kind": "items",
+     "slug": "unity-tablet",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "facility-basement-b2/bunk-room-b",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b2/bunk-room-b",
+   "linked": [
+    "facility-basement-b2/statue-room"
+   ],
+   "contents": [
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Management Trainee's Diary",
+     "kind": "files",
+     "slug": "management-trainees-diary",
+     "mode": "easy"
+    },
+    {
+     "name": "Management Trainee's Diary",
+     "kind": "files",
+     "slug": "management-trainees-diary",
+     "mode": "normal"
+    },
+    {
+     "name": "Management Trainee's Diary",
+     "kind": "files",
+     "slug": "management-trainees-diary",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    }
+   ]
+  },
+  {
+   "id": "facility-basement-b3/training-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b3/training-room",
+   "linked": [
+    "facility-basement-b3/cavernous-area"
+   ],
+   "contents": [
+    {
+     "name": "Handgun Ammo (3×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (2×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Machinegun Ammo (1×17%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "easy",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Machinegun Ammo (1×17%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "normal",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Machinegun Ammo (1×17%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "hard",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Magnum Ammo (1×8)",
+     "kind": "weaponry",
+     "slug": "magnum-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Magnum Ammo (1×1)",
+     "kind": "weaponry",
+     "slug": "magnum-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Magnum Ammo (1×1)",
+     "kind": "weaponry",
+     "slug": "magnum-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Duralumin Case",
+     "kind": "items",
+     "slug": "duralumin-case",
+     "mode": "easy"
+    },
+    {
+     "name": "Duralumin Case",
+     "kind": "items",
+     "slug": "duralumin-case",
+     "mode": "normal"
+    },
+    {
+     "name": "Duralumin Case",
+     "kind": "items",
+     "slug": "duralumin-case",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Parts",
+     "kind": "weaponry",
+     "slug": "handgun-parts",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Parts",
+     "kind": "weaponry",
+     "slug": "handgun-parts",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Parts",
+     "kind": "weaponry",
+     "slug": "handgun-parts",
+     "mode": "hard"
+    },
+    {
+     "name": "Acid Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "acid-grenades",
+     "mode": "easy"
+    },
+    {
+     "name": "Acid Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "acid-grenades",
+     "mode": "normal"
+    },
+    {
+     "name": "Acid Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "acid-grenades",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Hunters",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Hunters",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Hunters",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "hard"
+    },
+    {
+     "name": "Water Key",
+     "kind": "items",
+     "slug": "water-key",
+     "mode": "easy"
+    },
+    {
+     "name": "Water Key",
+     "kind": "items",
+     "slug": "water-key",
+     "mode": "normal"
+    },
+    {
+     "name": "Water Key",
+     "kind": "items",
+     "slug": "water-key",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "facility-basement-b3/cavernous-area",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b3/cavernous-area",
+   "linked": [
+    "facility-basement-b2/statue-room",
+    "facility-basement-b3/training-room",
+    "facility-basement-b3/waterfall-room"
+   ],
+   "contents": [
+    {
+     "name": "2 Giant Spiders",
+     "kind": "enemies",
+     "slug": "giant-spider",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Giant Spiders",
+     "kind": "enemies",
+     "slug": "giant-spider",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Giant Spiders",
+     "kind": "enemies",
+     "slug": "giant-spider",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "facility-basement-b3/waterfall-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/facility-basement/facility-basement-b3/waterfall-room",
+   "linked": [
+    "facility-basement-b3/cavernous-area"
+   ],
+   "contents": [
+    {
+     "name": "2 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "hard"
+    },
+    {
+     "name": "Locker Key",
+     "kind": "items",
+     "slug": "locker-key",
+     "mode": "easy"
+    },
+    {
+     "name": "Locker Key",
+     "kind": "items",
+     "slug": "locker-key",
+     "mode": "normal"
+    },
+    {
+     "name": "Locker Key",
+     "kind": "items",
+     "slug": "locker-key",
+     "mode": "hard"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "easy"
+    }
+   ]
+  },
+  {
+   "id": "laboratory-1f/outside-area",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-1f/outside-area",
+   "linked": [
+    "training-facility-3f/observatory-tower",
+    "laboratory-1f/church",
+    "laboratory-2f/church-roof",
+    "laboratory-b2/elevator-passage"
+   ],
+   "contents": [
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "laboratory-1f/church",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-1f/church",
+   "linked": [
+    "laboratory-1f/church-back-room",
+    "laboratory-1f/outside-area",
+    "laboratory-2f/church-roof"
+   ],
+   "contents": [
+    {
+     "name": "Giant Bat",
+     "kind": "enemies",
+     "slug": "giant-bat",
+     "mode": "easy"
+    },
+    {
+     "name": "Giant Bat",
+     "kind": "enemies",
+     "slug": "giant-bat",
+     "mode": "normal"
+    },
+    {
+     "name": "Giant Bat",
+     "kind": "enemies",
+     "slug": "giant-bat",
+     "mode": "hard"
+    },
+    {
+     "name": "∞ Bats",
+     "kind": "enemies",
+     "slug": "bat",
+     "mode": "easy"
+    },
+    {
+     "name": "∞ Bats",
+     "kind": "enemies",
+     "slug": "bat",
+     "mode": "normal"
+    },
+    {
+     "name": "∞ Bats",
+     "kind": "enemies",
+     "slug": "bat",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "laboratory-1f/church-back-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-1f/church-back-room",
+   "linked": [
+    "laboratory-1f/church"
+   ],
+   "contents": [
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "normal"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "hard"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "normal"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "hard"
+    },
+    {
+     "name": "Napalm Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "napalm-grenades",
+     "mode": "easy"
+    },
+    {
+     "name": "Napalm Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "napalm-grenades",
+     "mode": "normal"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "laboratory-2f/church-roof",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-2f/church-roof",
+   "linked": [
+    "laboratory-1f/church",
+    "laboratory-1f/outside-area"
+   ],
+   "contents": []
+  },
+  {
+   "id": "laboratory-b1/machine-room-2f",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/machine-room-2f",
+   "linked": [
+    "laboratory-b1/corridor",
+    "laboratory-b2/machine-room-1f"
+   ],
+   "contents": [
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "normal"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "hard"
+    },
+    {
+     "name": "Ink Ribbon (×6)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "normal"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "hard"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "easy"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "normal"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "Gas Tank (×3)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "easy"
+    },
+    {
+     "name": "Gas Tank (×3)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "normal"
+    },
+    {
+     "name": "Gas Tank (×3)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "hard"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "easy"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "normal"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "hard"
+    },
+    {
+     "name": "Output Regulator Coil",
+     "kind": "items",
+     "slug": "output-regulator-coil",
+     "mode": "easy"
+    },
+    {
+     "name": "Output Regulator Coil",
+     "kind": "items",
+     "slug": "output-regulator-coil",
+     "mode": "normal"
+    },
+    {
+     "name": "Output Regulator Coil",
+     "kind": "items",
+     "slug": "output-regulator-coil",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "laboratory-b1/breeding-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/breeding-room",
+   "linked": [
+    "laboratory-b1/corridor"
+   ],
+   "contents": [
+    {
+     "name": "2 Hunters",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Hunters",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Hunters",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "hard"
+    },
+    {
+     "name": "B.O.W. Report",
+     "kind": "files",
+     "slug": "bow-report",
+     "mode": "easy"
+    },
+    {
+     "name": "B.O.W. Report",
+     "kind": "files",
+     "slug": "bow-report",
+     "mode": "normal"
+    },
+    {
+     "name": "B.O.W. Report",
+     "kind": "files",
+     "slug": "bow-report",
+     "mode": "hard"
+    },
+    {
+     "name": "Dial",
+     "kind": "items",
+     "slug": "dial",
+     "mode": "easy"
+    },
+    {
+     "name": "Dial",
+     "kind": "items",
+     "slug": "dial",
+     "mode": "normal"
+    },
+    {
+     "name": "Dial",
+     "kind": "items",
+     "slug": "dial",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "laboratory-b1/corridor",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/corridor",
+   "linked": [
+    "laboratory-b1/breeding-room",
+    "laboratory-b1/leech-laboratory",
+    "laboratory-b1/leech-room",
+    "laboratory-b1/machine-room-2f"
+   ],
+   "contents": []
+  },
+  {
+   "id": "laboratory-b1/leech-laboratory",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/leech-laboratory",
+   "linked": [
+    "laboratory-b1/corridor",
+    "laboratory-b1/operating-room"
+   ],
+   "contents": [
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Leech Growth Records",
+     "kind": "files",
+     "slug": "leech-growth-records",
+     "mode": "easy"
+    },
+    {
+     "name": "Leech Growth Records",
+     "kind": "files",
+     "slug": "leech-growth-records",
+     "mode": "normal"
+    },
+    {
+     "name": "Leech Growth Records",
+     "kind": "files",
+     "slug": "leech-growth-records",
+     "mode": "hard"
+    },
+    {
+     "name": "Red Chemical",
+     "kind": "items",
+     "slug": "red-chemical",
+     "mode": "easy"
+    },
+    {
+     "name": "Red Chemical",
+     "kind": "items",
+     "slug": "red-chemical",
+     "mode": "normal"
+    },
+    {
+     "name": "Red Chemical",
+     "kind": "items",
+     "slug": "red-chemical",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Breeding Room Key",
+     "kind": "items",
+     "slug": "breeding-room-key",
+     "mode": "easy"
+    },
+    {
+     "name": "Breeding Room Key",
+     "kind": "items",
+     "slug": "breeding-room-key",
+     "mode": "normal"
+    },
+    {
+     "name": "Breeding Room Key",
+     "kind": "items",
+     "slug": "breeding-room-key",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "laboratory-b1/operating-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/operating-room",
+   "linked": [
+    "laboratory-b1/leech-laboratory",
+    "laboratory-b1/morgue"
+   ],
+   "contents": [
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "easy"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "normal"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "hard"
+    },
+    {
+     "name": "Investigator's Report",
+     "kind": "files",
+     "slug": "investigators-report",
+     "mode": "easy"
+    },
+    {
+     "name": "Investigator's Report",
+     "kind": "files",
+     "slug": "investigators-report",
+     "mode": "normal"
+    },
+    {
+     "name": "Investigator's Report",
+     "kind": "files",
+     "slug": "investigators-report",
+     "mode": "hard"
+    },
+    {
+     "name": "Green Chemical",
+     "kind": "items",
+     "slug": "green-chemical",
+     "mode": "easy"
+    },
+    {
+     "name": "Green Chemical",
+     "kind": "items",
+     "slug": "green-chemical",
+     "mode": "normal"
+    },
+    {
+     "name": "Green Chemical",
+     "kind": "items",
+     "slug": "green-chemical",
+     "mode": "hard"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "easy"
+    }
+   ]
+  },
+  {
+   "id": "laboratory-b1/morgue",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/morgue",
+   "linked": [
+    "laboratory-b1/operating-room"
+   ],
+   "contents": [
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Sterilizing Agent",
+     "kind": "items",
+     "slug": "sterilizing-agent",
+     "mode": "easy"
+    },
+    {
+     "name": "Sterilizing Agent",
+     "kind": "items",
+     "slug": "sterilizing-agent",
+     "mode": "normal"
+    },
+    {
+     "name": "Sterilizing Agent",
+     "kind": "items",
+     "slug": "sterilizing-agent",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (2×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (2×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    }
+   ]
+  },
+  {
+   "id": "laboratory-b1/leech-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b1/leech-room",
+   "linked": [
+    "laboratory-b1/corridor"
+   ],
+   "contents": [
+    {
+     "name": "Laboratory Manager's Diary",
+     "kind": "files",
+     "slug": "laboratory-managers-diary",
+     "mode": "easy"
+    },
+    {
+     "name": "Laboratory Manager's Diary",
+     "kind": "files",
+     "slug": "laboratory-managers-diary",
+     "mode": "normal"
+    },
+    {
+     "name": "Laboratory Manager's Diary",
+     "kind": "files",
+     "slug": "laboratory-managers-diary",
+     "mode": "hard"
+    },
+    {
+     "name": "Gas Tank (×6)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "easy"
+    },
+    {
+     "name": "Gas Tank (×6)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "normal"
+    },
+    {
+     "name": "Gas Tank (×6)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "hard"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "easy"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "normal"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "hard"
+    },
+    {
+     "name": "Leech Capsule",
+     "kind": "items",
+     "slug": "leech-capsule",
+     "mode": "easy"
+    },
+    {
+     "name": "Leech Capsule",
+     "kind": "items",
+     "slug": "leech-capsule",
+     "mode": "normal"
+    },
+    {
+     "name": "Leech Capsule",
+     "kind": "items",
+     "slug": "leech-capsule",
+     "mode": "hard"
+    },
+    {
+     "name": "Blue Leech Charm",
+     "kind": "items",
+     "slug": "blue-leech-charm",
+     "mode": "easy"
+    },
+    {
+     "name": "Blue Leech Charm",
+     "kind": "items",
+     "slug": "blue-leech-charm",
+     "mode": "normal"
+    },
+    {
+     "name": "Blue Leech Charm",
+     "kind": "items",
+     "slug": "blue-leech-charm",
+     "mode": "hard"
+    },
+    {
+     "name": "Lab Map",
+     "kind": "miscellaneous-objects",
+     "slug": "lab-map",
+     "mode": "easy"
+    },
+    {
+     "name": "Lab Map",
+     "kind": "miscellaneous-objects",
+     "slug": "lab-map",
+     "mode": "normal"
+    },
+    {
+     "name": "Lab Map",
+     "kind": "miscellaneous-objects",
+     "slug": "lab-map",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "laboratory-b2/cable-car",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/cable-car",
+   "linked": [
+    "laboratory-b2/machine-room-1f",
+    "factory-1f/platform"
+   ],
+   "contents": [
+    {
+     "name": "Magnum",
+     "kind": "weaponry",
+     "slug": "magnum",
+     "mode": "easy"
+    },
+    {
+     "name": "Magnum",
+     "kind": "weaponry",
+     "slug": "magnum",
+     "mode": "normal"
+    },
+    {
+     "name": "Magnum",
+     "kind": "weaponry",
+     "slug": "magnum",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "laboratory-b2/machine-room-1f",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/machine-room-1f",
+   "linked": [
+    "laboratory-b1/machine-room-2f",
+    "laboratory-b2/cable-car",
+    "laboratory-b2/elevator-passage"
+   ],
+   "contents": [
+    {
+     "name": "Output Regulator Coil",
+     "kind": "items",
+     "slug": "output-regulator-coil",
+     "mode": "easy"
+    },
+    {
+     "name": "Output Regulator Coil",
+     "kind": "items",
+     "slug": "output-regulator-coil",
+     "mode": "normal"
+    },
+    {
+     "name": "Output Regulator Coil",
+     "kind": "items",
+     "slug": "output-regulator-coil",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "laboratory-b2/elevator-passage",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/elevator-passage",
+   "linked": [
+    "laboratory-1f/outside-area",
+    "laboratory-b2/machine-room-1f",
+    "laboratory-b2/marcuss-study",
+    "laboratory-b2/reference-room"
+   ],
+   "contents": [
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "hard"
+    },
+    {
+     "name": "Red Chemical",
+     "kind": "items",
+     "slug": "red-chemical",
+     "mode": "easy"
+    },
+    {
+     "name": "Red Chemical",
+     "kind": "items",
+     "slug": "red-chemical",
+     "mode": "normal"
+    },
+    {
+     "name": "Red Chemical",
+     "kind": "items",
+     "slug": "red-chemical",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "laboratory-b2/marcuss-study",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/marcuss-study",
+   "linked": [
+    "laboratory-b2/elevator-passage",
+    "laboratory-b2/marcuss-private-room"
+   ],
+   "contents": [
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Input Regulator Coil",
+     "kind": "items",
+     "slug": "input-regulator-coil",
+     "mode": "easy"
+    },
+    {
+     "name": "Input Regulator Coil",
+     "kind": "items",
+     "slug": "input-regulator-coil",
+     "mode": "normal"
+    },
+    {
+     "name": "Input Regulator Coil",
+     "kind": "items",
+     "slug": "input-regulator-coil",
+     "mode": "hard"
+    },
+    {
+     "name": "Old Photograph",
+     "kind": "files",
+     "slug": "old-photograph",
+     "mode": "easy"
+    },
+    {
+     "name": "Old Photograph",
+     "kind": "files",
+     "slug": "old-photograph",
+     "mode": "normal"
+    },
+    {
+     "name": "Old Photograph",
+     "kind": "files",
+     "slug": "old-photograph",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "laboratory-b2/marcuss-private-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/marcuss-private-room",
+   "linked": [
+    "laboratory-b2/marcuss-study"
+   ],
+   "contents": [
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Green Leech Charm",
+     "kind": "items",
+     "slug": "green-leech-charm",
+     "mode": "easy"
+    },
+    {
+     "name": "Green Leech Charm",
+     "kind": "items",
+     "slug": "green-leech-charm",
+     "mode": "normal"
+    },
+    {
+     "name": "Green Leech Charm",
+     "kind": "items",
+     "slug": "green-leech-charm",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "laboratory-b2/reference-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/laboratory/laboratory-b2/reference-room",
+   "linked": [
+    "laboratory-b2/elevator-passage"
+   ],
+   "contents": [
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "normal"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "hard"
+    },
+    {
+     "name": "Ink Ribbon (×6)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "normal"
+    },
+    {
+     "name": "Ink Ribbon (×1)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "hard"
+    },
+    {
+     "name": "Marcus' Diary 2",
+     "kind": "files",
+     "slug": "marcus-diary-2",
+     "mode": "easy"
+    },
+    {
+     "name": "Marcus' Diary 2",
+     "kind": "files",
+     "slug": "marcus-diary-2",
+     "mode": "normal"
+    },
+    {
+     "name": "Marcus' Diary 2",
+     "kind": "files",
+     "slug": "marcus-diary-2",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "factory-1f/platform",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-1f/platform",
+   "linked": [
+    "laboratory-b2/cable-car",
+    "factory-1f/turntable-yard",
+    "factory-b1/maintenance-shaft"
+   ],
+   "contents": [
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "factory-1f/turntable-yard",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-1f/turntable-yard",
+   "linked": [
+    "factory-1f/turntable-control-room",
+    "factory-1f/platform",
+    "factory-b1/turntable-monitor-room"
+   ],
+   "contents": [
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    }
+   ]
+  },
+  {
+   "id": "factory-1f/turntable-control-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-1f/turntable-control-room",
+   "linked": [
+    "factory-1f/turntable-yard"
+   ],
+   "contents": [
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "normal"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "hard"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "normal"
+    },
+    {
+     "name": "Ink Ribbon (×1)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "hard"
+    },
+    {
+     "name": "Factory Map",
+     "kind": "miscellaneous-objects",
+     "slug": "factory-map",
+     "mode": "easy"
+    },
+    {
+     "name": "Factory Map",
+     "kind": "miscellaneous-objects",
+     "slug": "factory-map",
+     "mode": "normal"
+    },
+    {
+     "name": "Factory Map",
+     "kind": "miscellaneous-objects",
+     "slug": "factory-map",
+     "mode": "hard"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "easy"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "normal"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Machinegun Ammo (1×34%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "easy",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Machinegun Ammo (1×34%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "normal",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Machinegun Ammo (1×34%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "hard",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "grenades",
+     "mode": "easy"
+    },
+    {
+     "name": "Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "grenades",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    }
+   ]
+  },
+  {
+   "id": "factory-b1/platform",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b1/platform",
+   "linked": [
+    "laboratory-b2/cable-car",
+    "factory-b1/turntable-yard",
+    "factory-b1/maintenance-shaft"
+   ],
+   "contents": [
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "factory-b1/maintenance-shaft",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b1/maintenance-shaft",
+   "linked": [
+    "factory-b1/elevator",
+    "factory-b1/platform"
+   ],
+   "contents": [
+    {
+     "name": "1 Hunter",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Hunter",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Hunter",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "hard"
+    },
+    {
+     "name": "Magnum Ammo (1×8)",
+     "kind": "weaponry",
+     "slug": "magnum-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Magnum Ammo (1×8)",
+     "kind": "weaponry",
+     "slug": "magnum-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Magnum Ammo (1×8)",
+     "kind": "weaponry",
+     "slug": "magnum-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "factory-b1/turntable-yard",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b1/turntable-yard",
+   "linked": [
+    "factory-1f/turntable-control-room",
+    "factory-b1/platform",
+    "factory-b1/turntable-monitor-room"
+   ],
+   "contents": [
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    }
+   ]
+  },
+  {
+   "id": "factory-b1/turntable-monitor-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b1/turntable-monitor-room",
+   "linked": [
+    "factory-b1/turntable-yard"
+   ],
+   "contents": [
+    {
+     "name": "Up Key",
+     "kind": "items",
+     "slug": "up-key",
+     "mode": "easy"
+    },
+    {
+     "name": "Up Key",
+     "kind": "items",
+     "slug": "up-key",
+     "mode": "normal"
+    },
+    {
+     "name": "Up Key",
+     "kind": "items",
+     "slug": "up-key",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Hunters",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Hunters",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Hunters",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "factory-b1/elevator",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b1/elevator",
+   "linked": [
+    "training-facility-b1/train-passage",
+    "factory-b1/maintenance-shaft",
+    "factory-b4/turntable-platform",
+    "treatment-plant-b5/bridge"
+   ],
+   "contents": []
+  },
+  {
+   "id": "factory-b4/turntable-platform",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b4/turntable-platform",
+   "linked": [
+    "factory-b4/elevator"
+   ],
+   "contents": [
+    {
+     "name": "Enrico Marini",
+     "kind": "characters",
+     "slug": "enrico-marini",
+     "mode": "easy"
+    },
+    {
+     "name": "Enrico Marini",
+     "kind": "characters",
+     "slug": "enrico-marini",
+     "mode": "normal"
+    },
+    {
+     "name": "Enrico Marini",
+     "kind": "characters",
+     "slug": "enrico-marini",
+     "mode": "hard"
+    },
+    {
+     "name": "Elevator Key",
+     "kind": "items",
+     "slug": "elevator-key",
+     "mode": "easy"
+    },
+    {
+     "name": "Elevator Key",
+     "kind": "items",
+     "slug": "elevator-key",
+     "mode": "normal"
+    },
+    {
+     "name": "Elevator Key",
+     "kind": "items",
+     "slug": "elevator-key",
+     "mode": "hard"
+    },
+    {
+     "name": "Proto-Tyrant",
+     "kind": "enemies",
+     "slug": "proto-tyrant",
+     "mode": "easy"
+    },
+    {
+     "name": "Proto-Tyrant",
+     "kind": "enemies",
+     "slug": "proto-tyrant",
+     "mode": "normal"
+    },
+    {
+     "name": "Proto-Tyrant",
+     "kind": "enemies",
+     "slug": "proto-tyrant",
+     "mode": "hard"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "factory-b4/elevator",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/factory/factory-b4/elevator",
+   "linked": [
+    "training-facility-b1/train-passage",
+    "factory-b1/maintenance-shaft",
+    "factory-b4/turntable-platform",
+    "treatment-plant-b5/bridge"
+   ],
+   "contents": []
+  },
+  {
+   "id": "treatment-plant-b5/generator-room-2f",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b5/generator-room-2f",
+   "linked": [
+    "treatment-plant-b6/generator-room"
+   ],
+   "contents": [
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "Investigator's Report 2",
+     "kind": "files",
+     "slug": "investigators-report-2",
+     "mode": "easy"
+    },
+    {
+     "name": "Investigator's Report 2",
+     "kind": "files",
+     "slug": "investigators-report-2",
+     "mode": "normal"
+    },
+    {
+     "name": "Investigator's Report 2",
+     "kind": "files",
+     "slug": "investigators-report-2",
+     "mode": "hard"
+    },
+    {
+     "name": "Red Chemical",
+     "kind": "items",
+     "slug": "red-chemical",
+     "mode": "easy"
+    },
+    {
+     "name": "Red Chemical",
+     "kind": "items",
+     "slug": "red-chemical",
+     "mode": "normal"
+    },
+    {
+     "name": "Red Chemical",
+     "kind": "items",
+     "slug": "red-chemical",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b5/control-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b5/control-room",
+   "linked": [
+    "treatment-plant-b5/bridge",
+    "treatment-plant-b6/air-regulator-room"
+   ],
+   "contents": [
+    {
+     "name": "Gas Tank (×6)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "easy"
+    },
+    {
+     "name": "Gas Tank (×6)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "normal"
+    },
+    {
+     "name": "Gas Tank (×6)",
+     "kind": "items",
+     "slug": "gas-tank",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "normal"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "hard"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "normal"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b5/bridge",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b5/bridge",
+   "linked": [
+    "treatment-plant-b5/elevator",
+    "treatment-plant-b5/control-room"
+   ],
+   "contents": []
+  },
+  {
+   "id": "treatment-plant-b5/elevator",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b5/elevator",
+   "linked": [
+    "training-facility-b1/train-passage",
+    "factory-b1/maintenance-shaft",
+    "factory-b4/turntable-platform",
+    "treatment-plant-b5/bridge"
+   ],
+   "contents": []
+  },
+  {
+   "id": "treatment-plant-b6/rec-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/rec-room",
+   "linked": [
+    "treatment-plant-b6/l-corridor",
+    "treatment-plant-b7/maintenance-area"
+   ],
+   "contents": [
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Treatment Plant Map",
+     "kind": "miscellaneous-objects",
+     "slug": "treatment-plant-map",
+     "mode": "easy"
+    },
+    {
+     "name": "Treatment Plant Map",
+     "kind": "miscellaneous-objects",
+     "slug": "treatment-plant-map",
+     "mode": "normal"
+    },
+    {
+     "name": "Treatment Plant Map",
+     "kind": "miscellaneous-objects",
+     "slug": "treatment-plant-map",
+     "mode": "hard"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "easy"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "normal"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b6/l-corridor",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/l-corridor",
+   "linked": [
+    "treatment-plant-b6/air-regulator-room",
+    "treatment-plant-b6/generator-room",
+    "treatment-plant-b6/rec-room"
+   ],
+   "contents": [
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Mimicry Marcus",
+     "kind": "enemies",
+     "slug": "mimicry-marcus",
+     "mode": "hard"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b6/generator-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/generator-room",
+   "linked": [
+    "treatment-plant-b5/generator-room-2f",
+    "treatment-plant-b6/l-corridor",
+    "treatment-plant-b6/b6-walkway"
+   ],
+   "contents": [
+    {
+     "name": "6 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "6 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "6 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b6/air-regulator-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/air-regulator-room",
+   "linked": [
+    "treatment-plant-b5/control-room",
+    "treatment-plant-b6/l-corridor"
+   ],
+   "contents": [
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "easy"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "normal"
+    },
+    {
+     "name": "Empty Bottle (×3)",
+     "kind": "items",
+     "slug": "empty-bottle",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b6/b6-walkway",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/b6-walkway",
+   "linked": [
+    "treatment-plant-b6/generator-room",
+    "treatment-plant-b6/lodgings"
+   ],
+   "contents": [
+    {
+     "name": "2 Hunters",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Hunters",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Hunters",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b6/lodgings",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/lodgings",
+   "linked": [
+    "treatment-plant-b6/b6-walkway",
+    "treatment-plant-b6/purification-room"
+   ],
+   "contents": [
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "normal"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "hard"
+    },
+    {
+     "name": "Ink Ribbon (×6)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "normal"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "hard"
+    },
+    {
+     "name": "Napalm Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "napalm-grenades",
+     "mode": "easy"
+    },
+    {
+     "name": "Napalm Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "napalm-grenades",
+     "mode": "normal"
+    },
+    {
+     "name": "Napalm Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "napalm-grenades",
+     "mode": "hard"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "easy"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "normal"
+    },
+    {
+     "name": "1 First-Aid Spray",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "About Battery Fluid",
+     "kind": "files",
+     "slug": "about-battery-fluid",
+     "mode": "easy"
+    },
+    {
+     "name": "About Battery Fluid",
+     "kind": "files",
+     "slug": "about-battery-fluid",
+     "mode": "normal"
+    },
+    {
+     "name": "About Battery Fluid",
+     "kind": "files",
+     "slug": "about-battery-fluid",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b6/purification-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b6/purification-room",
+   "linked": [
+    "treatment-plant-b6/lodgings",
+    "treatment-plant-b7/b7-walkway"
+   ],
+   "contents": [
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "easy"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "normal"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b7/maintenance-area",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b7/maintenance-area",
+   "linked": [
+    "treatment-plant-b6/rec-room",
+    "treatment-plant-b7/water-pool"
+   ],
+   "contents": [
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "Keycard",
+     "kind": "items",
+     "slug": "keycard",
+     "mode": "easy"
+    },
+    {
+     "name": "Keycard",
+     "kind": "items",
+     "slug": "keycard",
+     "mode": "normal"
+    },
+    {
+     "name": "Keycard",
+     "kind": "items",
+     "slug": "keycard",
+     "mode": "hard"
+    },
+    {
+     "name": "Lurker",
+     "kind": "enemies",
+     "slug": "lurker",
+     "mode": "easy"
+    },
+    {
+     "name": "Lurker",
+     "kind": "enemies",
+     "slug": "lurker",
+     "mode": "normal"
+    },
+    {
+     "name": "Lurker",
+     "kind": "enemies",
+     "slug": "lurker",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b7/water-pool",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b7/water-pool",
+   "linked": [
+    "treatment-plant-b7/maintenance-area",
+    "treatment-plant-b7/stairway"
+   ],
+   "contents": [
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Handle",
+     "kind": "items",
+     "slug": "handle",
+     "mode": "easy"
+    },
+    {
+     "name": "Handle",
+     "kind": "items",
+     "slug": "handle",
+     "mode": "normal"
+    },
+    {
+     "name": "Handle",
+     "kind": "items",
+     "slug": "handle",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b7/stairway",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b7/stairway",
+   "linked": [
+    "treatment-plant-b7/water-pool",
+    "treatment-plant-b8/dumping-area"
+   ],
+   "contents": [
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "easy"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "normal"
+    },
+    {
+     "name": "Leeches",
+     "kind": "enemies",
+     "slug": "leech",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b7/b7-walkway",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b7/b7-walkway",
+   "linked": [
+    "treatment-plant-b6/purification-room",
+    "treatment-plant-b7/cargo-control-room"
+   ],
+   "contents": [
+    {
+     "name": "Lurker",
+     "kind": "enemies",
+     "slug": "lurker",
+     "mode": "easy"
+    },
+    {
+     "name": "Lurker",
+     "kind": "enemies",
+     "slug": "lurker",
+     "mode": "normal"
+    },
+    {
+     "name": "Lurker",
+     "kind": "enemies",
+     "slug": "lurker",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Zombie",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b7/cargo-control-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b7/cargo-control-room",
+   "linked": [
+    "treatment-plant-b7/b7-walkway",
+    "treatment-plant-b8/floodgate-control-room"
+   ],
+   "contents": [
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Napalm Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "napalm-grenades",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Treatment Plant Manager's Diary",
+     "kind": "files",
+     "slug": "treatment-plant-managers-diary",
+     "mode": "easy"
+    },
+    {
+     "name": "Treatment Plant Manager's Diary",
+     "kind": "files",
+     "slug": "treatment-plant-managers-diary",
+     "mode": "normal"
+    },
+    {
+     "name": "Treatment Plant Manager's Diary",
+     "kind": "files",
+     "slug": "treatment-plant-managers-diary",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b8/dumping-area",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b8/dumping-area",
+   "linked": [
+    "treatment-plant-b7/stairway",
+    "treatment-plant-b8/laboratory"
+   ],
+   "contents": [
+    {
+     "name": "Billy Coen",
+     "kind": "characters",
+     "slug": "billy-coen",
+     "mode": "easy"
+    },
+    {
+     "name": "Billy Coen",
+     "kind": "characters",
+     "slug": "billy-coen",
+     "mode": "normal"
+    },
+    {
+     "name": "Billy Coen",
+     "kind": "characters",
+     "slug": "billy-coen",
+     "mode": "hard"
+    },
+    {
+     "name": "Lurker",
+     "kind": "enemies",
+     "slug": "lurker",
+     "mode": "easy"
+    },
+    {
+     "name": "Lurker",
+     "kind": "enemies",
+     "slug": "lurker",
+     "mode": "normal"
+    },
+    {
+     "name": "Lurker",
+     "kind": "enemies",
+     "slug": "lurker",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Hunter",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Hunter",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Hunter",
+     "kind": "enemies",
+     "slug": "hunter",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b8/laboratory",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b8/laboratory",
+   "linked": [
+    "treatment-plant-b8/dumping-area",
+    "treatment-plant-b8/floodgate-control-room",
+    "treatment-plant-b9/laboratory-cryo-room"
+   ],
+   "contents": [
+    {
+     "name": "1 Plague Crawler",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Plague Crawler",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Plague Crawler",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "hard"
+    },
+    {
+     "name": "Acid Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "acid-grenades",
+     "mode": "easy"
+    },
+    {
+     "name": "Acid Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "acid-grenades",
+     "mode": "normal"
+    },
+    {
+     "name": "Industrial Water",
+     "kind": "items",
+     "slug": "industrial-water",
+     "mode": "easy"
+    },
+    {
+     "name": "Industrial Water",
+     "kind": "items",
+     "slug": "industrial-water",
+     "mode": "normal"
+    },
+    {
+     "name": "Industrial Water",
+     "kind": "items",
+     "slug": "industrial-water",
+     "mode": "hard"
+    },
+    {
+     "name": "Blue Chemical",
+     "kind": "items",
+     "slug": "blue-chemical",
+     "mode": "easy"
+    },
+    {
+     "name": "Blue Chemical",
+     "kind": "items",
+     "slug": "blue-chemical",
+     "mode": "normal"
+    },
+    {
+     "name": "Blue Chemical",
+     "kind": "items",
+     "slug": "blue-chemical",
+     "mode": "hard"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "3 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b8/floodgate-control-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b8/floodgate-control-room",
+   "linked": [
+    "treatment-plant-b7/cargo-control-room",
+    "treatment-plant-b8/laboratory"
+   ],
+   "contents": [
+    {
+     "name": "Acid Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "acid-grenades",
+     "mode": "easy"
+    },
+    {
+     "name": "Acid Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "acid-grenades",
+     "mode": "normal"
+    },
+    {
+     "name": "Acid Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "acid-grenades",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b8/water-treatment-walkway",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b8/water-treatment-walkway",
+   "linked": [
+    "treatment-plant-b9/water-treatment-room"
+   ],
+   "contents": [
+    {
+     "name": "Motherboard",
+     "kind": "items",
+     "slug": "motherboard",
+     "mode": "easy"
+    },
+    {
+     "name": "Motherboard",
+     "kind": "items",
+     "slug": "motherboard",
+     "mode": "normal"
+    },
+    {
+     "name": "Motherboard",
+     "kind": "items",
+     "slug": "motherboard",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b9/storage",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/storage",
+   "linked": [
+    "treatment-plant-b9/incinerator",
+    "treatment-plant-1f/cargo-room"
+   ],
+   "contents": [
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "easy"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "normal"
+    },
+    {
+     "name": "Typewriter",
+     "kind": "miscellaneous-objects",
+     "slug": "typewriter",
+     "mode": "hard"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "easy"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "normal"
+    },
+    {
+     "name": "Ink Ribbon (×3)",
+     "kind": "items",
+     "slug": "ink-ribbon",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Machinegun Ammo (1×34%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "easy",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Machinegun Ammo (1×34%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "normal",
+     "reward_rank": "E"
+    },
+    {
+     "name": "Machinegun Ammo (1×34%)",
+     "kind": "weaponry",
+     "slug": "machinegun-ammo",
+     "mode": "hard",
+     "reward_rank": "E"
+    },
+    {
+     "name": "2 First-Aid Sprays",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "easy"
+    },
+    {
+     "name": "2 First-Aid Sprays",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "normal"
+    },
+    {
+     "name": "2 First-Aid Sprays",
+     "kind": "items",
+     "slug": "first-aid-spray",
+     "mode": "hard"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "grenades",
+     "mode": "easy"
+    },
+    {
+     "name": "Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "grenades",
+     "mode": "normal"
+    },
+    {
+     "name": "Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "grenades",
+     "mode": "hard"
+    },
+    {
+     "name": "Napalm Grenades (1×6)",
+     "kind": "weaponry",
+     "slug": "napalm-grenades",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "1 Green Herb",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "1 Red Herb",
+     "kind": "items",
+     "slug": "red-herb",
+     "mode": "easy"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b9/incinerator",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/incinerator",
+   "linked": [
+    "treatment-plant-b9/fenced-area",
+    "treatment-plant-b9/storage"
+   ],
+   "contents": [
+    {
+     "name": "Queen Leech",
+     "kind": "enemies",
+     "slug": "queen-leech",
+     "mode": "easy"
+    },
+    {
+     "name": "Queen Leech",
+     "kind": "enemies",
+     "slug": "queen-leech",
+     "mode": "normal"
+    },
+    {
+     "name": "Queen Leech",
+     "kind": "enemies",
+     "slug": "queen-leech",
+     "mode": "hard"
+    },
+    {
+     "name": "Magnum Ammo (1×8)",
+     "kind": "weaponry",
+     "slug": "magnum-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Magnum Ammo (1×8)",
+     "kind": "weaponry",
+     "slug": "magnum-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Shaft Key (L)",
+     "kind": "items",
+     "slug": "shaft-key-l",
+     "mode": "easy"
+    },
+    {
+     "name": "Shaft Key (L)",
+     "kind": "items",
+     "slug": "shaft-key-l",
+     "mode": "normal"
+    },
+    {
+     "name": "Shaft Key (L)",
+     "kind": "items",
+     "slug": "shaft-key-l",
+     "mode": "hard"
+    },
+    {
+     "name": "Shaft Key (R)",
+     "kind": "items",
+     "slug": "shaft-key-r",
+     "mode": "easy"
+    },
+    {
+     "name": "Shaft Key (R)",
+     "kind": "items",
+     "slug": "shaft-key-r",
+     "mode": "normal"
+    },
+    {
+     "name": "Shaft Key (R)",
+     "kind": "items",
+     "slug": "shaft-key-r",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b9/fenced-area",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/fenced-area",
+   "linked": [
+    "treatment-plant-b9/engine-room",
+    "treatment-plant-b9/incinerator"
+   ],
+   "contents": [
+    {
+     "name": "Magnum Ammo (1×8)",
+     "kind": "weaponry",
+     "slug": "magnum-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Magnum Ammo (1×8)",
+     "kind": "weaponry",
+     "slug": "magnum-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Magnum Ammo (1×8)",
+     "kind": "weaponry",
+     "slug": "magnum-ammo",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b9/engine-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/engine-room",
+   "linked": [
+    "treatment-plant-b9/dam",
+    "treatment-plant-b9/fenced-area",
+    "treatment-plant-b9/laboratory-cryo-room"
+   ],
+   "contents": [
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Zombies",
+     "kind": "enemies",
+     "slug": "zombie",
+     "mode": "hard"
+    },
+    {
+     "name": "Shotgun Ammo (2×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Shotgun Ammo (1×7)",
+     "kind": "weaponry",
+     "slug": "shotgun-ammo",
+     "mode": "hard"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "easy"
+    },
+    {
+     "name": "Handgun Ammo (1×15)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "normal"
+    },
+    {
+     "name": "Handgun Ammo (1×30)",
+     "kind": "weaponry",
+     "slug": "handgun-ammo",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b9/laboratory-cryo-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/laboratory-cryo-room",
+   "linked": [
+    "treatment-plant-b8/laboratory",
+    "treatment-plant-b9/engine-room"
+   ],
+   "contents": [
+    {
+     "name": "Empty Battery",
+     "kind": "items",
+     "slug": "empty-battery",
+     "mode": "easy"
+    },
+    {
+     "name": "Empty Battery",
+     "kind": "items",
+     "slug": "empty-battery",
+     "mode": "normal"
+    },
+    {
+     "name": "Empty Battery",
+     "kind": "items",
+     "slug": "empty-battery",
+     "mode": "hard"
+    },
+    {
+     "name": "2 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Plague Crawlers",
+     "kind": "enemies",
+     "slug": "plague-crawler",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b9/dam",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/dam",
+   "linked": [
+    "treatment-plant-b9/engine-room",
+    "treatment-plant-b9/water-treatment-room"
+   ],
+   "contents": [
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "easy"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "normal"
+    },
+    {
+     "name": "2 Green Herbs",
+     "kind": "items",
+     "slug": "green-herb",
+     "mode": "hard"
+    },
+    {
+     "name": "Lurker",
+     "kind": "enemies",
+     "slug": "lurker",
+     "mode": "easy"
+    },
+    {
+     "name": "Lurker",
+     "kind": "enemies",
+     "slug": "lurker",
+     "mode": "normal"
+    },
+    {
+     "name": "Lurker",
+     "kind": "enemies",
+     "slug": "lurker",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-b9/water-treatment-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-b9/water-treatment-room",
+   "linked": [
+    "treatment-plant-b8/water-treatment-walkway",
+    "treatment-plant-b9/dam"
+   ],
+   "contents": [
+    {
+     "name": "Proto-Tyrant",
+     "kind": "enemies",
+     "slug": "proto-tyrant",
+     "mode": "easy"
+    },
+    {
+     "name": "Proto-Tyrant",
+     "kind": "enemies",
+     "slug": "proto-tyrant",
+     "mode": "normal"
+    },
+    {
+     "name": "Proto-Tyrant",
+     "kind": "enemies",
+     "slug": "proto-tyrant",
+     "mode": "hard"
+    }
+   ]
+  },
+  {
+   "id": "treatment-plant-1f/cargo-room",
+   "url": "https://www.evilresource.com/resident-evil-zero/maps/treatment-plant/treatment-plant-1f/cargo-room",
+   "linked": [
+    "treatment-plant-b9/storage"
+   ],
+   "contents": [
+    {
+     "name": "Queen Leech (Second Form)",
+     "kind": "enemies",
+     "slug": "queen-leech-second-form",
+     "mode": "easy"
+    },
+    {
+     "name": "Queen Leech (Second Form)",
+     "kind": "enemies",
+     "slug": "queen-leech-second-form",
+     "mode": "normal"
+    },
+    {
+     "name": "Queen Leech (Second Form)",
+     "kind": "enemies",
+     "slug": "queen-leech-second-form",
+     "mode": "hard"
+    },
+    {
+     "name": "Gate Operation Manual",
+     "kind": "files",
+     "slug": "gate-operation-manual",
+     "mode": "easy"
+    },
+    {
+     "name": "Gate Operation Manual",
+     "kind": "files",
+     "slug": "gate-operation-manual",
+     "mode": "normal"
+    },
+    {
+     "name": "Gate Operation Manual",
+     "kind": "files",
+     "slug": "gate-operation-manual",
+     "mode": "hard"
+    }
+   ]
+  }
+ ]
+}

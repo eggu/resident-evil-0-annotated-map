@@ -1,0 +1,2 @@
+# Native texture previews. Inspection and metadata export use the standard library.
+Pillow==13.0.0

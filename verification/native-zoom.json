@@ -1,0 +1,514 @@
+{
+  "evidence": "bounded-original-x86-vs-shared-C",
+  "original_sha256": "67418c3a307b49e9bde8123df4cad1fa910f3a29adc3e4c0ba64eb96524bc14b",
+  "analysis_sha256": "ee00723d5dc55781e31d14977f77b1a7d6bbe68ace06b6eb455b3744e2e7e7a2",
+  "function": "0x005b5320",
+  "comparisons": "bit-exact float32 setter values",
+  "cases": [
+    {
+      "progress": 0,
+      "focus": [
+        640,
+        360
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0,
+      "focus": [
+        640,
+        360
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0,
+      "focus": [
+        240,
+        363
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0,
+      "focus": [
+        240,
+        363
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0,
+      "focus": [
+        1050,
+        355
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0,
+      "focus": [
+        1050,
+        355
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0,
+      "focus": [
+        -120,
+        960
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0,
+      "focus": [
+        -120,
+        960
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 1e-09,
+      "focus": [
+        640,
+        360
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 1e-09,
+      "focus": [
+        640,
+        360
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 1e-09,
+      "focus": [
+        240,
+        363
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 1e-09,
+      "focus": [
+        240,
+        363
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 1e-09,
+      "focus": [
+        1050,
+        355
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 1e-09,
+      "focus": [
+        1050,
+        355
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 1e-09,
+      "focus": [
+        -120,
+        960
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 1e-09,
+      "focus": [
+        -120,
+        960
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0.125,
+      "focus": [
+        640,
+        360
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0.125,
+      "focus": [
+        640,
+        360
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0.125,
+      "focus": [
+        240,
+        363
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0.125,
+      "focus": [
+        240,
+        363
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0.125,
+      "focus": [
+        1050,
+        355
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0.125,
+      "focus": [
+        1050,
+        355
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0.125,
+      "focus": [
+        -120,
+        960
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0.125,
+      "focus": [
+        -120,
+        960
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0.25,
+      "focus": [
+        640,
+        360
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0.25,
+      "focus": [
+        640,
+        360
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0.25,
+      "focus": [
+        240,
+        363
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0.25,
+      "focus": [
+        240,
+        363
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0.25,
+      "focus": [
+        1050,
+        355
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0.25,
+      "focus": [
+        1050,
+        355
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0.25,
+      "focus": [
+        -120,
+        960
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0.25,
+      "focus": [
+        -120,
+        960
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0.5,
+      "focus": [
+        640,
+        360
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0.5,
+      "focus": [
+        640,
+        360
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0.5,
+      "focus": [
+        240,
+        363
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0.5,
+      "focus": [
+        240,
+        363
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0.5,
+      "focus": [
+        1050,
+        355
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0.5,
+      "focus": [
+        1050,
+        355
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0.5,
+      "focus": [
+        -120,
+        960
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0.5,
+      "focus": [
+        -120,
+        960
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0.75,
+      "focus": [
+        640,
+        360
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0.75,
+      "focus": [
+        640,
+        360
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0.75,
+      "focus": [
+        240,
+        363
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0.75,
+      "focus": [
+        240,
+        363
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0.75,
+      "focus": [
+        1050,
+        355
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0.75,
+      "focus": [
+        1050,
+        355
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 0.75,
+      "focus": [
+        -120,
+        960
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 0.75,
+      "focus": [
+        -120,
+        960
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 1,
+      "focus": [
+        640,
+        360
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 1,
+      "focus": [
+        640,
+        360
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 1,
+      "focus": [
+        240,
+        363
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 1,
+      "focus": [
+        240,
+        363
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 1,
+      "focus": [
+        1050,
+        355
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 1,
+      "focus": [
+        1050,
+        355
+      ],
+      "sparse": true,
+      "instances": 16
+    },
+    {
+      "progress": 1,
+      "focus": [
+        -120,
+        960
+      ],
+      "sparse": false,
+      "instances": 24
+    },
+    {
+      "progress": 1,
+      "focus": [
+        -120,
+        960
+      ],
+      "sparse": true,
+      "instances": 16
+    }
+  ],
+  "scope": "native GUI scale/translation setters only; viewport, clipping, input and GPU are excluded"
+}

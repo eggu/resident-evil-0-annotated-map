@@ -1,0 +1,2347 @@
+{
+  "evidence": "bounded-original-x86-vs-shared-C",
+  "original_sha256": "67418c3a307b49e9bde8123df4cad1fa910f3a29adc3e4c0ba64eb96524bc14b",
+  "analysis_sha256": "ee00723d5dc55781e31d14977f77b1a7d6bbe68ace06b6eb455b3744e2e7e7a2",
+  "functions": [
+    "0x00889300",
+    "0x00892680",
+    "0x008918d0"
+  ],
+  "comparisons": "bit-exact float32 quad xyz0",
+  "scope": "unit expansion; supplied affine matrix; no native parent-matrix construction or GPU",
+  "cases": [
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 0,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 0,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 0,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 0,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 0,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 0,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 1,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 1,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 1,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 1,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 1,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 1,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 2,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 2,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 2,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 2,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 2,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 2,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 4,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 4,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 4,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 4,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 4,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 4,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 5,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 5,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 5,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 5,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 5,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 5,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 6,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 6,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 6,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 6,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 6,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 6,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 8,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 8,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 8,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 8,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 8,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 8,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 9,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 9,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 9,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 9,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 9,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 9,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 10,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 10,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 10,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 10,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 10,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 10,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 4085,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 4085,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 4085,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 4085,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 4085,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        60,
+        48
+      ],
+      "anchor": 4085,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 0,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 0,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 0,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 0,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 0,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 0,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 1,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 1,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 1,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 1,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 1,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 1,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 2,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 2,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 2,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 2,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 2,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 2,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 4,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 4,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 4,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 4,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 4,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 4,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 5,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 5,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 5,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 5,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 5,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 5,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 6,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 6,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 6,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 6,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 6,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 6,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 8,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 8,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 8,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 8,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 8,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 8,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 9,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 9,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 9,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 9,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 9,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 9,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 10,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 10,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 10,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 10,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 10,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 10,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 4085,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 4085,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 4085,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 4085,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 4085,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        122,
+        48
+      ],
+      "anchor": 4085,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 0,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 0,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 0,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 0,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 0,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 0,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 1,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 1,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 1,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 1,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 1,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 1,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 2,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 2,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 2,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 2,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 2,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 2,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 4,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 4,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 4,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 4,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 4,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 4,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 5,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 5,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 5,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 5,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 5,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 5,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 6,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 6,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 6,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 6,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 6,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 6,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 8,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 8,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 8,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 8,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 8,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 8,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 9,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 9,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 9,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 9,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 9,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 9,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 10,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 10,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 10,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 10,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 10,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 10,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 4085,
+      "flip_y": 0,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 4085,
+      "flip_y": 0,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 4085,
+      "flip_y": 0,
+      "matrix": 2
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 4085,
+      "flip_y": 1,
+      "matrix": 0
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 4085,
+      "flip_y": 1,
+      "matrix": 1
+    },
+    {
+      "size": [
+        1.25,
+        10.5
+      ],
+      "anchor": 4085,
+      "flip_y": 1,
+      "matrix": 2
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 3169363865,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 4219216746,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 3759560245,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 3801253745,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 3507221461,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 546495953,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 4191645689,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 3929789065,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 406965653,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 577945410,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 1382152084,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 1507048388,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 1026609074,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 2130451913,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 3970823142,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 352049914,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 1043367013,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 2612914448,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 1282239140,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 1830119222,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 69307384,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 312276773,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 3282846073,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 416195378,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 2276003552,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 1628091108,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 3707939094,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 3389936532,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 1533921328,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 1677392570,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 265179125,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 2097130454,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 2931330678,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 787139589,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 3004539920,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 2659716928,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 2519512169,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 2348537298,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 1113665748,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 2389181881,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 2233615840,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 3885284641,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 20846628,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 1212533513,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 2466239562,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 4069193956,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 3839616608,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 1523813898,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 2677921094,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 1476344817,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 2696147648,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 3541898454,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 1644426769,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 551080357,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 631824018,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 2651001928,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 444335796,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 410640314,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 100350886,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 2739547061,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 4203748073,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 3337653682,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 3273480066,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    },
+    {
+      "size": [
+        172,
+        48
+      ],
+      "anchor": 3612960800,
+      "flip_y": 0,
+      "matrix": "packed-field-sample"
+    }
+  ],
+  "uv_cases": [
+    {
+      "rect": [
+        0,
+        0,
+        60,
+        48
+      ],
+      "sampler": 0
+    },
+    {
+      "rect": [
+        0,
+        0,
+        60,
+        48
+      ],
+      "sampler": 1
+    },
+    {
+      "rect": [
+        0,
+        0,
+        60,
+        48
+      ],
+      "sampler": 2
+    },
+    {
+      "rect": [
+        170,
+        192,
+        336,
+        240
+      ],
+      "sampler": 0
+    },
+    {
+      "rect": [
+        170,
+        192,
+        336,
+        240
+      ],
+      "sampler": 1
+    },
+    {
+      "rect": [
+        170,
+        192,
+        336,
+        240
+      ],
+      "sampler": 2
+    },
+    {
+      "rect": [
+        10.25,
+        20.5,
+        40.75,
+        50.5
+      ],
+      "sampler": 0
+    },
+    {
+      "rect": [
+        10.25,
+        20.5,
+        40.75,
+        50.5
+      ],
+      "sampler": 1
+    },
+    {
+      "rect": [
+        10.25,
+        20.5,
+        40.75,
+        50.5
+      ],
+      "sampler": 2
+    },
+    {
+      "rect": [
+        60,
+        0,
+        0,
+        48
+      ],
+      "sampler": 0
+    },
+    {
+      "rect": [
+        60,
+        0,
+        0,
+        48
+      ],
+      "sampler": 1
+    },
+    {
+      "rect": [
+        60,
+        0,
+        0,
+        48
+      ],
+      "sampler": 2
+    },
+    {
+      "rect": [
+        0,
+        48,
+        60,
+        0
+      ],
+      "sampler": 0
+    },
+    {
+      "rect": [
+        0,
+        48,
+        60,
+        0
+      ],
+      "sampler": 1
+    },
+    {
+      "rect": [
+        0,
+        48,
+        60,
+        0
+      ],
+      "sampler": 2
+    }
+  ]
+}

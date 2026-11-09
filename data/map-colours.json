@@ -1,0 +1,48 @@
+{
+ "schema_version": 1,
+ "as_of": "2026-11-05",
+ "evidence": "EXE table and candidate 18 F8 sprite capture; no colour chosen by eye",
+ "face_table": {
+  "va": "0xd9de40",
+  "read_at": "0x5b4cfc, lea eax,[edi*4+0xd9de40], passed to the fill object vtable +0x58",
+  "source": "local/research/re0hd.analysis.bin",
+  "format": "RGBA bytes",
+  "states": {
+   "0": "00000000",
+   "1": "0a5d24ff",
+   "2": "2b2b2bff",
+   "3": "0a5d24ff",
+   "4": "003854ff",
+   "5": "580d06ff",
+   "6": "a01e00ff",
+   "7": "969613ff"
+  }
+ },
+ "fill": {
+  "texture": "_b sheet of each region, white, alpha about 93",
+  "priority": 0,
+  "tinted_by": "face_table",
+  "captured": "0a5d24ff visited, 003854ff current"
+ },
+ "outline": {
+  "texture": "_a sheet of each region, near-black RGB 18-21",
+  "priority": 10,
+  "vertex_color": "ffffffff",
+  "source": "captured white vertex colour; pixels from the game texture"
+ },
+ "background": {
+  "texture": "ui\\30_map\\tex\\map_bg00_ID",
+  "archive": "map.arc",
+  "size": [
+   1432,
+   960
+  ],
+  "decoded_rgba_sha256": "4b2d61c18d0383b6851f903f99cc5cff46e212b09f6bd5f076331fe7dceda59c",
+  "vertex_color": "ffffffff",
+  "canvas_xy": [
+   -142.0,
+   -160.0
+  ],
+  "source": "candidate 18 capture, relative to the captured room i_tr0290 at 3x"
+ }
+}

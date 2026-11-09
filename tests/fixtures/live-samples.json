@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "evidence": "observed in the user's game via RE0.AnnotatedMap.log; add values here whenever a live run reveals a field",
+  "profile_sha256": "67418c3a307b49e9bde8123df4cad1fa910f3a29adc3e4c0ba64eb96524bc14b",
+  "samples": [
+    {
+      "source": "candidate 3 Diag, 2026-11-03",
+      "sprite_a0": 4085,
+      "sprite_e8": 0,
+      "sprite_f54": 33816577,
+      "sprite_b0": 4280573194,
+      "size": [
+        172.0,
+        48.0
+      ],
+      "instance_vtable": 13784136,
+      "back_buffer": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "source": "candidate 6 Diag and user screenshot, 2026-11-03",
+      "sprite_a0": 4085,
+      "sprite_e8": 0,
+      "sprite_f54": 33816577,
+      "sprite_b0": 4280573194,
+      "size": [
+        172.0,
+        48.0
+      ],
+      "instance_vtable": 13784136,
+      "back_buffer": [
+        1920,
+        1080
+      ],
+      "room_sprites_per_map": 11,
+      "other_sprites_per_map": 7,
+      "room_ids_per_map": 5,
+      "user_confirmed": "names display; zoomed labels sit on the right rooms"
+    }
+  ],
+  "frame_shot": {
+    "target": [
+      2560,
+      1440
+    ],
+    "source": "user screenshot 2026-11-05, candidate 29, display 2000 wide",
+    "under_frame_gui": [
+      [
+        664,
+        494
+      ],
+      [
+        640,
+        492
+      ]
+    ],
+    "clear_of_frame_gui": [
+      [
+        1138,
+        237
+      ],
+      [
+        640,
+        330
+      ]
+    ],
+    "frame_on_sprites": 39,
+    "frame_off_sprites": 25,
+    "help_panel": {
+      "size": [
+        176,
+        152
+      ],
+      "at_2560": [
+        1846,
+        86
+      ]
+    },
+    "list_closed": {
+      "source": "user shot 5, candidate 31, list closed, 2560x1440; display/1.5625",
+      "clear_gui": [
+        [
+          637,
+          464
+        ],
+        [
+          640,
+          600
+        ],
+        [
+          500,
+          560
+        ]
+      ],
+      "opaque_gui": [
+        [
+          100,
+          600
+        ],
+        [
+          1200,
+          600
+        ],
+        [
+          300,
+          700
+        ],
+        [
+          1000,
+          700
+        ],
+        [
+          900,
+          100
+        ]
+      ],
+      "dump_list_open_sprites": 76,
+      "dump_list_closed_sprites": 39,
+      "list_strip": [
+        744,
+        93
+      ]
+    }
+  },
+  "icon_rim": {
+    "source": "user screenshot 2026-11-05, candidate 29, measured from candidate 29 data",
+    "cause": "double un-premultiply in mip chain",
+    "soft_edge_luma_alpha_1_64": {
+      "source_green_herb": 43.0,
+      "level0": 174.3,
+      "level1": 207.5,
+      "level2": 234.1,
+      "level3": 243.4,
+      "level4": 248.5
+    }
+  },
+  "drop_row": {
+    "source": "rows-01, rows-02 candidate 33, Ink Ribbon dropped in 대강당 1층",
+    "slot": 589,
+    "count": 589,
+    "slot_room_at_2c": 36,
+    "kind": 113,
+    "item": 55,
+    "row_room_at_0": 0,
+    "current_amount_at_3c": 2,
+    "position": [
+      1096.29,
+      -1.0,
+      955.42
+    ],
+    "canvas": [
+      672.61,
+      455.82
+    ],
+    "freed_slot_link": 4294967295
+  },
+  "map_colours_live": {
+    "source": "shot 6 with same-view dump, 2560x1440",
+    "floor_green": [
+      44,
+      72,
+      47
+    ],
+    "floor_blue": [
+      48,
+      64,
+      69
+    ],
+    "background": [
+      68,
+      66,
+      61
+    ]
+  },
+  "drop_dots": {
+    "source": "drop3-20261105 rows-04 and sprite dump, one F8, 2560x1440; dot sprite centres",
+    "view": [
+      6.0,
+      -2538.081909,
+      -2124.986572
+    ],
+    "dots": [
+      {
+        "item": 55,
+        "pos": [
+          1250.6,
+          -1.0,
+          909.9
+        ],
+        "dot": [
+          1595,
+          581
+        ]
+      },
+      {
+        "item": 48,
+        "pos": [
+          1282.3,
+          -2.0,
+          980.3
+        ],
+        "dot": [
+          1615,
+          626
+        ]
+      },
+      {
+        "item": 32,
+        "pos": [
+          1309.4,
+          4.0,
+          1084.3
+        ],
+        "dot": [
+          1632,
+          691
+        ]
+      },
+      {
+        "item": 4,
+        "pos": [
+          1193.8,
+          -1.2,
+          1075.1
+        ],
+        "dot": [
+          1559,
+          685
+        ]
+      }
+    ]
+  },
+  "display_gradient_report": {
+    "reported_on": "2026-11-08",
+    "reported_behavior": "Map annotations render over the left/right black gradient bars.",
+    "live_mode": null,
+    "live_pixel_bounds": null,
+    "native_resource": "ui\\30_map\\map_bg01",
+    "evidence": "User report; resource dimensions are static evidence, not measured live coordinates."
+  }
+}
