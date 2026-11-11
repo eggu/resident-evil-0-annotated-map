@@ -200,11 +200,13 @@ def place_floor(rows,marks,legend,size_of):
   cs=r['cells'];x0,x1=min(c[0] for c in cs),max(c[0] for c in cs);y0,y1=min(c[1] for c in cs),max(c[1] for c in cs);bw,bh=x1-x0+1,y1-y0+1
   text=r['name'];lw,lh=size_of(text)
   if lw>1.5*bw and split(text):text=split(text);lw,lh=size_of(text)
-  sat=Sat(cs);centre=pole(cs)[0];ideal=interior_spot(cs,sat,centre,lw,lh,[])
-  corridor=min(bw,bh)<lh*2 and ideal[2]<.5
   spot=None
-  if not corridor:
-   spot=interior_spot(cs,sat,centre,lw,lh,placed) or fit_inside(r['image'],cs,lw,lh,placed)
+  # A room drawn by state as one of several pieces: the name goes where every piece has floor first, so it stays on whichever piece is drawn (user 2026-11-11, Turntable Yard).
+  for part in ([r['core']] if r.get('core') and r['core']!=cs else [])+[cs]:
+   sat=Sat(part);centre=pole(part)[0];ideal=interior_spot(part,sat,centre,lw,lh,[])
+   corridor=min(bw,bh)<lh*2 and ideal[2]<.5
+   if not corridor:spot=interior_spot(part,sat,centre,lw,lh,placed) or (fit_inside(r['image'],part,lw,lh,placed) if part is cs else None)
+   if spot:break
   if spot:out[id(r)]=dict(text=text,x=spot[0],y=spot[1],line=None);placed.append((spot[0]-lw//2,spot[1]-lh//2,lw,lh));continue
   later.append((r,text))
  for r,text in sorted(later,key=lambda q:(min(c[1] for c in q[0]['cells']),min(c[0] for c in q[0]['cells']))):
@@ -262,7 +264,8 @@ def layout_floor(job):
    image=Image.new('L',(W,H))
    opaque=Image.new('L',(W,H))
    for i in group:image=ImageChops.lighter(ImageChops.lighter(image,silhouette(masks[i])),fills.get(i,image));opaque=ImageChops.lighter(opaque,masks[i])
-   claim=owner[group[0]];rows.append(dict(image=image,floor=ImageChops.subtract(image,opaque),cells=cells(image),name=claim[key],anchor=max(group,key=lambda i:(boxes[i][2]-boxes[i][0])*(boxes[i][3]-boxes[i][1]))))
+   core=set.intersection(*[cells(ImageChops.lighter(silhouette(masks[i]),fills.get(i,Image.new('L',(W,H))))) for i in group])
+   claim=owner[group[0]];rows.append(dict(image=image,floor=ImageChops.subtract(image,opaque),cells=cells(image),core=core,name=claim[key],anchor=max(group,key=lambda i:(boxes[i][2]-boxes[i][0])*(boxes[i][3]-boxes[i][1]))))
   if not rows:continue
   size_of=ink_size
   out=place_floor(rows,[],legends[lang],size_of);check_floor(rows,out,[],legends[lang],size_of) # names no longer avoid marks

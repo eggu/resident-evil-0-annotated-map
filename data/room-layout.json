@@ -2,7 +2,7 @@
 "schema_version": 1,
 "evidence": "generated from game sprite alpha and project placements; rule source RE2 tools/mapgen/generate_room_names.py",
 "inputs_sha256": {
-"data/placements.json": "4c61d5af757c3c8a6d69a2a44c3334a1e7654de1431de14c73bd84068f41536f",
+"data/placements.json": "03d902fb04e1a392db4bdf5bca97fe880f33bda39e51f4cbe1d2fbfd97a2dbbf",
 "data/room-matches.json": "4b3a8bf80a6e7c7190a0dd3360be16466cf843e98183cc84df86a25fdd22f42d",
 "data/native-map.json": "6970b9264cc123aeb84808be000a51cc101811f0e31bf40f669320e1714d5325"
 },
@@ -29022,8 +29022,8 @@
 "piece": "i_sh1aa0",
 "lang": 0,
 "text": "피아노 바",
-"x": 908,
-"y": 380,
+"x": 894,
+"y": 382,
 "line": null
 },
 {
@@ -29190,8 +29190,8 @@
 "piece": "i_sh1aa0",
 "lang": 1,
 "text": "Piano Bar",
-"x": 908,
-"y": 380,
+"x": 894,
+"y": 382,
 "line": null
 },
 {
@@ -29718,7 +29718,7 @@
 "piece": "i_ch0580",
 "lang": 0,
 "text": "기계실 2층",
-"x": 622,
+"x": 630,
 "y": 260,
 "line": null
 },
@@ -29774,8 +29774,8 @@
 "piece": "i_ch0580",
 "lang": 1,
 "text": "Machine Room 2F",
-"x": 622,
-"y": 260,
+"x": 630,
+"y": 250,
 "line": null
 },
 {
@@ -29806,8 +29806,8 @@
 "piece": "i_ch0090",
 "lang": 0,
 "text": "옥외 구역",
-"x": 616,
-"y": 192,
+"x": 558,
+"y": 248,
 "line": null
 },
 {
@@ -29830,8 +29830,8 @@
 "piece": "i_ch0090",
 "lang": 1,
 "text": "Outside Area",
-"x": 616,
-"y": 192,
+"x": 558,
+"y": 248,
 "line": null
 },
 {
@@ -30070,7 +30070,7 @@
 "piece": "i_bt0291",
 "lang": 0,
 "text": "턴테이블 야드",
-"x": 618,
+"x": 494,
 "y": 306,
 "line": null
 },
@@ -30094,7 +30094,7 @@
 "piece": "i_bt0291",
 "lang": 1,
 "text": "Turntable Yard",
-"x": 618,
+"x": 494,
 "y": 306,
 "line": null
 },
@@ -30486,8 +30486,8 @@
 "piece": "i_pl2001",
 "lang": 0,
 "text": "보관실",
-"x": 324,
-"y": 622,
+"x": 340,
+"y": 620,
 "line": null
 },
 {
@@ -30542,8 +30542,8 @@
 "piece": "i_pl2001",
 "lang": 1,
 "text": "Storage",
-"x": 324,
-"y": 622,
+"x": 340,
+"y": 620,
 "line": null
 },
 {

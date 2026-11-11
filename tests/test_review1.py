@@ -41,6 +41,18 @@ class Review(unittest.TestCase):
      a=[o['box'] for o in ops if o['glyph']==icons[j]];b=[o['box'] for o in ops if o['glyph']==define('EVENT_MARK_ID')]
      if a and b:found+=1;self.assertLess(max(a[0][0]+1,b[0][0]+1),min(a[0][2],b[0][2])+9,'stacked');self.assertGreater(abs((a[0][0]+a[0][2])-(b[0][0]+b[0][2]))/2,10,'stacked')
   self.assertTrue(found,'no event on a key in the data: use a synthetic pair')
+ def test_1_event_stands_beside_a_puzzle_it_overlaps(self):
+  # User 2026-11-10: puzzle and event marks shown together, e.g. Power Regulator, Torture Room B.
+  core=Core();ms=tables_markers();found=0
+  for i,e in enumerate(ms):
+   if not e[11]:continue
+   for j,k in enumerate(ms):
+    if k[5]==3 and not k[11] and k[2]==e[2] and abs(k[0]-e[0])<4 and abs(k[1]-e[1])<4:
+     off=[0 if n in(i,j) else 1 for n in range(len(ms))];s=core.default_settings();rooms={e[2]:[300,200,420,300]}
+     ops=core.frame(s,1920,1080,rooms,(),(1.5,960-e[0]*1.5,540-e[1]*1.5),off,word_bits(RULE[NATIVE[e[2]]['id']]['visited']))[0]
+     a=[o['box'] for o in ops if o['glyph']==define('PUZZLE_MARK_ID')];b=[o['box'] for o in ops if o['glyph']==define('EVENT_MARK_ID')]
+     if a and b:found+=1;self.assertGreater(abs((a[0][0]+a[0][2])-(b[0][0]+b[0][2]))/2,10,('stacked',e[3]))
+  self.assertGreaterEqual(found,10)
  def test_2_lock_shows_its_key(self):
   n=MANIFEST['names'];self.assertEqual(icon_for(dict(category='lock',name_en='Iron Needle'),n),'Iron Needle');self.assertEqual(icon_for(dict(category='lock',name_en='Shaft Key (L)'),n),'Shaft Key');self.assertEqual(icon_for(dict(category='lock',name_en='No Such Key'),n),'Padlock')
  def test_3_no_leader_past_the_limit_unless_listed(self):

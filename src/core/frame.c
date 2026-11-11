@@ -572,8 +572,8 @@ static void marker_ops(const RE0Settings *s,const RE0View *view,const unsigned c
   occ[no++]=(Occupied){mark[count],top_tier(markers[i].category)?8u:1u};count++;
  }
  const unsigned marks_end=no;
- /* User: an event on a key item stands beside it, so both can be seen. */
- for(unsigned i=0;i<count;i++)if(markers[shown[i]].event)for(unsigned j=0;j<count;j++)if(markers[shown[j]].category==CAT_KEY&&boxes_hit(mark[i],mark[j])) {
+ /* User: an event on a key item or a puzzle stands beside it, so both can be seen. */
+ for(unsigned i=0;i<count;i++)if(markers[shown[i]].event)for(unsigned j=0;j<count;j++)if((markers[shown[j]].category==CAT_KEY||(markers[shown[j]].category==CAT_PUZZLE&&!markers[shown[j]].event))&&boxes_hit(mark[i],mark[j])) {
   const float ew=mark[i].r-mark[i].l,left=mark[j].r+ew<=area.r?mark[j].r:mark[j].l-ew;mark[i]=(RE0Box){left,mark[j].t,left+ew,mark[j].b};occ[marks_end-count+i].box=mark[i];break;
  }
  /* Names by tier: key items, puzzles, then locks and documents. */

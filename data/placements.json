@@ -1,11 +1,6 @@
 {
 "schema_version": 1,
-"locks_without_door": [
-{
-"name_en": "Keycard",
-"room": 174
-}
-],
+"locks_without_door": [],
 "puzzles_without_position": [],
 "canvas": [
 1280,
@@ -60,7 +55,8 @@
 },
 "skipped_kinds": {
 "0x2": 2,
-"0x5": 4
+"0x5": 4,
+"under the world": 1
 },
 "rows": [
 {
@@ -2577,12 +2573,13 @@
 "name_en": "Train Key",
 "name_ko": "열차의 열쇠",
 "evidence": "arrange table",
-"x": 912.415,
-"y": 363.24,
+"x": 911.0,
+"y": 363.0,
 "piece": "i_tr11a0",
 "floor": "2f",
 "region": "tr",
-"distance": 0.0
+"distance": 0.0,
+"moved_into_room": 1
 },
 {
 "room": 17,
@@ -2651,12 +2648,13 @@
 "name_en": "First-Aid Spray",
 "name_ko": "구급 스프레이",
 "evidence": "arrange table",
-"x": 914.2,
-"y": 365.235,
+"x": 911.0,
+"y": 365.0,
 "piece": "i_tr11a0",
 "floor": "2f",
 "region": "tr",
-"distance": 0.0
+"distance": 0.0,
+"moved_into_room": 1
 },
 {
 "room": 17,
@@ -12553,14 +12551,15 @@
 "name_en": "Zombie",
 "name_ko": "좀비",
 "evidence": "arrange table",
-"x": 668.98,
-"y": 259.68000000000006,
+"x": 665.0,
+"y": 263.0,
 "piece": "i_bt0291",
 "floor": "1f",
 "region": "bt",
 "distance": 0.0,
 "model": "em15",
-"name_support": 6
+"name_support": 6,
+"moved_into_room": 1
 },
 {
 "room": 134,
@@ -12611,37 +12610,10 @@
 "evidence": "arrange table",
 "x": 489.22,
 "y": 327.82500000000005,
-"piece": "i_bt0290",
-"floor": "1f",
+"piece": "i_bt0250",
+"floor": "b4",
 "region": "bt",
 "distance": 0.0
-},
-{
-"room": 134,
-"kind": 113,
-"item": 118,
-"world": [
-0.0,
--50000.0,
-0.0
-],
-"condition": 0,
-"amount": {
-"easy": 1,
-"normal": 1,
-"hard": 1
-},
-"category": "key",
-"name_en": "Dial",
-"name_ko": "다이얼",
-"evidence": "arrange table; placeholder position, room centre",
-"x": 623.0,
-"y": 309.0,
-"piece": "i_bt0291",
-"floor": "1f",
-"region": "bt",
-"distance": 0.0,
-"placeholder_position": 1
 },
 {
 "room": 134,
@@ -12974,8 +12946,8 @@
 "evidence": "arrange table",
 "x": 684.0999999999999,
 "y": 311.41499359130853,
-"piece": "i_pl0140",
-"floor": "b5",
+"piece": "i_pl0130",
+"floor": "b6",
 "region": "pl",
 "distance": 0.0,
 "model": "em5b",
@@ -13002,8 +12974,8 @@
 "evidence": "arrange table",
 "x": 664.675,
 "y": 260.28,
-"piece": "i_pl0140",
-"floor": "b5",
+"piece": "i_pl0130",
+"floor": "b6",
 "region": "pl",
 "distance": 0.0,
 "model": "em5a",
@@ -13030,8 +13002,8 @@
 "evidence": "arrange table",
 "x": 718.12,
 "y": 241.485,
-"piece": "i_pl0140",
-"floor": "b5",
+"piece": "i_pl0130",
+"floor": "b6",
 "region": "pl",
 "distance": 0.0,
 "model": "em5b",
@@ -13084,8 +13056,8 @@
 "evidence": "arrange table",
 "x": 686.41,
 "y": 305.32500000000005,
-"piece": "i_pl0140",
-"floor": "b5",
+"piece": "i_pl0130",
+"floor": "b6",
 "region": "pl",
 "distance": 0.0
 },
@@ -13110,8 +13082,8 @@
 "evidence": "arrange table",
 "x": 686.41,
 "y": 301.6500000000001,
-"piece": "i_pl0140",
-"floor": "b5",
+"piece": "i_pl0130",
+"floor": "b6",
 "region": "pl",
 "distance": 0.0
 },
@@ -13188,8 +13160,8 @@
 "evidence": "arrange table",
 "x": 656.38,
 "y": 270.78,
-"piece": "i_pl0140",
-"floor": "b5",
+"piece": "i_pl0130",
+"floor": "b6",
 "region": "pl",
 "distance": 0.0
 },
@@ -17581,18 +17553,19 @@
 "room": 174,
 "name_en": "Keycard",
 "name_ko": "카드 키",
-"x": 443.0,
-"y": 475.0,
+"x": 553.0,
+"y": 480.0,
 "region": "pl",
 "floor": "b9",
-"piece": "i_pl2100",
+"piece": "i_door_3d_2d",
 "distance": 0,
-"evidence": "external item page; room centre, exact position unresolved",
+"evidence": "done flag 0x2d is this GUI door's Flag, map door instance",
 "amount": {
 "easy": 1,
 "normal": 1,
 "hard": 1
-}
+},
+"door_flag": 45
 },
 {
 "category": "lock",
@@ -17743,8 +17716,8 @@
 "room": 50,
 "name_en": "Crank Handle",
 "name_ko": "크랭크 핸들",
-"x": 507.48015350341797,
-"y": 440.0172903442383,
+"x": 507.0,
+"y": 439.0,
 "region": "sh",
 "floor": "2f",
 "piece": "i_sh0ea0",
@@ -17766,7 +17739,8 @@
 ],
 "volume": 5,
 "item": 86
-}
+},
+"moved_into_room": 1
 },
 {
 "category": "puzzle",
@@ -18008,6 +17982,48 @@
 ],
 "volume": 7,
 "item": 126
+}
+},
+{
+"category": "puzzle",
+"room": 90,
+"name_en": "Lighter",
+"name_ko": "라이터",
+"x": 638.9353002929688,
+"y": 368.5140850067139,
+"region": "dm",
+"floor": "b2",
+"piece": "i_dm0470",
+"distance": 0.0,
+"evidence": "script dm04 item-use groups [16, 17, 18, 19, 20, 21], trigger volume [7, 8, 9, 12, 10, 11]",
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"trigger": [
+961.29,
+695.37
+],
+"script": {
+"scene": "dm04",
+"groups": [
+16,
+17,
+18,
+19,
+20,
+21
+],
+"volume": [
+7,
+8,
+9,
+12,
+10,
+11
+],
+"item": 106
 }
 },
 {
@@ -18399,6 +18415,96 @@
 ],
 "volume": 1,
 "item": 83
+}
+},
+{
+"category": "puzzle",
+"room": 50,
+"name_en": "Lighter",
+"name_ko": "라이터",
+"x": 435.6553935480118,
+"y": 392.237172203064,
+"region": "sh",
+"floor": "2f",
+"piece": "i_sh0ea0",
+"distance": 0.0,
+"evidence": "script sh0e item-use groups [8], trigger volume 3",
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"trigger": [
+-3.28,
+249.88
+],
+"script": {
+"scene": "sh0e",
+"groups": [
+8
+],
+"volume": 3,
+"item": 106
+}
+},
+{
+"category": "puzzle",
+"room": 136,
+"name_en": "Factory Key",
+"name_ko": "공장의 열쇠",
+"x": 543.2460842895507,
+"y": 345.47993239402774,
+"region": "bt",
+"floor": "1f",
+"piece": "i_bt0490",
+"distance": 0.0,
+"evidence": "script bt04 item-use groups [4], trigger volume 2",
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"trigger": [
+549.96,
+90.29
+],
+"script": {
+"scene": "bt04",
+"groups": [
+4
+],
+"volume": 2,
+"item": 73
+}
+},
+{
+"category": "puzzle",
+"room": 153,
+"name_en": "Hi-Power Battery",
+"name_ko": "고출력 배터리",
+"x": 590.5806428527832,
+"y": 86.70428970336911,
+"region": "pl",
+"floor": "b7",
+"piece": "i_pl0c20",
+"distance": 0.0,
+"evidence": "script pl0c item-use groups [5], trigger volume 2",
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"trigger": [
+715.05,
+354.33
+],
+"script": {
+"scene": "pl0c",
+"groups": [
+5
+],
+"volume": 2,
+"item": 95
 }
 },
 {
@@ -19134,6 +19240,34 @@
 },
 {
 "category": "puzzle",
+"event": 0,
+"room": 111,
+"name_en": "Cable Car",
+"name_ko": "케이블카",
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"condition": 0,
+"done_flag": null,
+"need_flag": null,
+"script": {
+"scene": "ch0c",
+"group": 2,
+"tag": 2,
+"x": 1
+},
+"evidence": "script ch0c g2 tag 2 cutscene; trigger volume 1",
+"x": 477.7174845123291,
+"y": 251.93735160827646,
+"piece": "i_ch0c70",
+"floor": "b2",
+"region": "ch",
+"distance": 0.0
+},
+{
+"category": "puzzle",
 "event": 1,
 "room": 113,
 "name_en": "Event",
@@ -19191,6 +19325,35 @@
 },
 {
 "category": "puzzle",
+"event": 0,
+"room": 88,
+"name_en": "Power Regulator",
+"name_ko": "전원 조절 장치",
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"condition": 0,
+"done_flag": 10,
+"need_flag": null,
+"script": {
+"scene": "dm02",
+"group": 5,
+"tag": 2,
+"x": 1
+},
+"evidence": "script dm02 g5 tag 2 cutscene; trigger volume 1",
+"x": 607.0,
+"y": 265.0,
+"piece": "i_dm0280",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"moved_into_room": 1
+},
+{
+"category": "puzzle",
 "event": 1,
 "room": 91,
 "name_en": "Event (room)",
@@ -19219,31 +19382,31 @@
 },
 {
 "category": "puzzle",
-"event": 1,
+"event": 0,
 "room": 96,
-"name_en": "Event",
-"name_ko": "이벤트",
+"name_en": "Control Panel",
+"name_ko": "제어 패널",
 "amount": {
 "easy": 1,
 "normal": 1,
 "hard": 1
 },
 "condition": 0,
-"done_flag": 205,
-"need_flag": null,
 "script": {
 "scene": "dm0a",
 "group": 8,
 "tag": 2,
 "x": 3
 },
-"evidence": "script dm0a g8 tag 2 enemy on; trigger volume 3",
 "x": 604.3375000000001,
 "y": 122.625,
 "piece": "i_dm0a60",
 "floor": "b3",
 "region": "dm",
-"distance": 0.0
+"distance": 0.0,
+"done_flag": 205,
+"need_flag": null,
+"evidence": "script dm0a g8 tag 2; trigger volume 3; done flag 0xcd"
 },
 {
 "category": "puzzle",
@@ -19331,6 +19494,34 @@
 },
 {
 "category": "puzzle",
+"event": 0,
+"room": 142,
+"name_en": "Power Supply Panel",
+"name_ko": "전원 공급 패널",
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"condition": 0,
+"done_flag": 250,
+"need_flag": null,
+"script": {
+"scene": "pl01",
+"group": 6,
+"tag": 2,
+"x": 4
+},
+"evidence": "script pl01 g6 tag 2 cutscene; trigger volume 4",
+"x": 658.369712228775,
+"y": 258.5959649276733,
+"piece": "i_pl0140",
+"floor": "b5",
+"region": "pl",
+"distance": 0.0
+},
+{
+"category": "puzzle",
 "event": 1,
 "room": 152,
 "name_en": "Event",
@@ -19356,6 +19547,35 @@
 "floor": "b7",
 "region": "pl",
 "distance": 0.0
+},
+{
+"category": "puzzle",
+"event": 0,
+"room": 154,
+"name_en": "Crates",
+"name_ko": "상자 퍼즐",
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"condition": 0,
+"script": {
+"scene": "pl0d",
+"group": 6,
+"tag": 2,
+"x": 4
+},
+"x": 551.5744648742676,
+"y": 177.33469619750986,
+"piece": "i_pl0d20",
+"floor": "b7",
+"region": "pl",
+"distance": 0.0,
+"kind": 113,
+"item": 87,
+"puzzle_row": 567,
+"evidence": "script pl0d g6 tag 2; trigger volume 4; done with pickup row 567"
 },
 {
 "category": "puzzle",
@@ -19556,6 +19776,34 @@
 },
 {
 "category": "puzzle",
+"event": 0,
+"room": 173,
+"name_en": "Elevator",
+"name_ko": "승강기",
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"condition": 0,
+"done_flag": null,
+"need_flag": null,
+"script": {
+"scene": "pl20",
+"group": 4,
+"tag": 2,
+"x": 2
+},
+"evidence": "script pl20 g4 tag 2 cutscene; trigger volume 2",
+"x": 313.2216186141968,
+"y": 610.7515689468385,
+"piece": "i_pl2000",
+"floor": "b9",
+"region": "pl",
+"distance": 0.0
+},
+{
+"category": "puzzle",
 "event": 1,
 "room": 36,
 "name_en": "Event (room)",
@@ -19588,6 +19836,34 @@
 "room": 36,
 "name_en": "Event",
 "name_ko": "이벤트",
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"condition": 0,
+"done_flag": 144,
+"need_flag": null,
+"script": {
+"scene": "sh00",
+"group": 15,
+"tag": 2,
+"x": 11
+},
+"evidence": "script sh00 g15 tag 2 enemy on; trigger volume 11",
+"x": 641.4960650634766,
+"y": 392.5216275787353,
+"piece": "i_sh0090",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"category": "puzzle",
+"event": 0,
+"room": 36,
+"name_en": "Scales",
+"name_ko": "천칭",
 "amount": {
 "easy": 1,
 "normal": 1,
@@ -19715,41 +19991,41 @@
 "x": 5
 },
 "evidence": "script sh0e g10 tag 2 cutscene; trigger volume 5",
-"x": 507.48015350341797,
-"y": 440.0172903442383,
+"x": 507.0,
+"y": 439.0,
 "piece": "i_sh0ea0",
 "floor": "2f",
 "region": "sh",
-"distance": 0.0
+"distance": 0.0,
+"moved_into_room": 1
 },
 {
 "category": "puzzle",
-"event": 1,
+"event": 0,
 "room": 54,
-"name_en": "Event (room)",
-"name_ko": "이벤트(방)",
+"name_en": "Chessboard",
+"name_ko": "체스판",
 "amount": {
 "easy": 1,
 "normal": 1,
 "hard": 1
 },
 "condition": 0,
-"done_flag": 169,
-"need_flag": null,
 "script": {
 "scene": "sh12",
 "group": 7,
 "tag": 4,
 "x": 6
 },
-"evidence": "script sh12 g7 tag 4 enemy on; room level, corner of its first piece, exact position unresolved",
-"x": 475.0,
-"y": 205.0,
-"region": "sh",
-"floor": "2f",
+"x": 524.6154859924317,
+"y": 232.53328834533693,
 "piece": "i_sh12a0",
-"distance": 0,
-"moved_into_room": 1
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"done_flag": 169,
+"need_flag": null,
+"evidence": "script sh12 g7 tag 4; trigger volume 6; done flag 0xa9"
 },
 {
 "category": "puzzle",
@@ -19778,6 +20054,35 @@
 "floor": "2f",
 "region": "sh",
 "distance": 0.0
+},
+{
+"category": "puzzle",
+"event": 0,
+"room": 62,
+"name_en": "Piano",
+"name_ko": "피아노",
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"condition": 0,
+"script": {
+"scene": "sh1a",
+"group": 5,
+"tag": 2,
+"x": 1
+},
+"x": 914.0549745178223,
+"y": 400.1114721679687,
+"piece": "i_sh1aa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"kind": 113,
+"item": 94,
+"puzzle_row": 275,
+"evidence": "script sh1a g5 tag 2; trigger volume 1; done with pickup row 275"
 },
 {
 "category": "puzzle",
@@ -19897,6 +20202,34 @@
 "room": 0,
 "name_en": "Event",
 "name_ko": "이벤트",
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"condition": 0,
+"done_flag": 108,
+"need_flag": 113,
+"script": {
+"scene": "tr00",
+"group": 2,
+"tag": 2,
+"x": 1
+},
+"evidence": "script tr00 g2 tag 2 cutscene; trigger volume 1",
+"x": 246.34646090507508,
+"y": 349.091100847721,
+"piece": "i_tr0090",
+"floor": "1f",
+"region": "tr",
+"distance": 0.0
+},
+{
+"category": "puzzle",
+"event": 0,
+"room": 0,
+"name_en": "Brake Controls",
+"name_ko": "브레이크 장치",
 "amount": {
 "easy": 1,
 "normal": 1,
@@ -20479,6 +20812,360 @@
 "floor": "2f",
 "region": "tr",
 "distance": 0.0
+},
+{
+"category": "puzzle",
+"room": 43,
+"name_en": "Event",
+"name_ko": "이벤트",
+"x": 671.3892971801758,
+"y": 113.8636143493652,
+"region": "sh",
+"floor": "3f",
+"piece": "i_sh07b0",
+"distance": 0.0,
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"trigger": [
+484.66,
+584.42
+],
+"event": 1,
+"puzzle_row": 663,
+"script": {
+"scene": "sh07",
+"groups": [
+9
+],
+"volume": 2,
+"item": 81
+},
+"evidence": "cutscene in the use group of puzzle row 663; script sh07 item-use groups [9], trigger volume 2"
+},
+{
+"category": "puzzle",
+"room": 134,
+"name_en": "Event",
+"name_ko": "이벤트",
+"x": 723.0,
+"y": 279.0,
+"region": "bt",
+"floor": "b4",
+"piece": "i_bt0250",
+"distance": 0.0,
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"trigger": [
+2582.92,
+270.11
+],
+"event": 1,
+"puzzle_row": 664,
+"script": {
+"scene": "bt02",
+"groups": [
+12
+],
+"volume": 11,
+"item": 67
+},
+"evidence": "cutscene in the use group of puzzle row 664; script bt02 item-use groups [12], trigger volume 11",
+"moved_into_room": 1
+},
+{
+"category": "puzzle",
+"room": 104,
+"name_en": "Event",
+"name_ko": "이벤트",
+"x": 630.2226000976563,
+"y": 253.1624999999999,
+"region": "ch",
+"floor": "b1",
+"piece": "i_ch0580",
+"distance": 0.0,
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"trigger": [
+892.6,
+282.5
+],
+"event": 1,
+"puzzle_row": 669,
+"script": {
+"scene": "ch05",
+"groups": [
+9
+],
+"volume": 6,
+"item": 92
+},
+"evidence": "cutscene in the use group of puzzle row 669; script ch05 item-use groups [9], trigger volume 6"
+},
+{
+"category": "puzzle",
+"room": 10,
+"name_en": "Event",
+"name_ko": "이벤트",
+"x": 1031.0,
+"y": 377.0,
+"region": "tr",
+"floor": "1f",
+"piece": "i_tr0a90",
+"distance": 0.0,
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"trigger": [
+13.59,
+328.13
+],
+"event": 1,
+"puzzle_row": 674,
+"script": {
+"scene": "tr0a",
+"groups": [
+5
+],
+"volume": 3,
+"item": 77
+},
+"evidence": "cutscene in the use group of puzzle row 674; script tr0a item-use groups [5], trigger volume 3",
+"moved_into_room": 1
+},
+{
+"category": "puzzle",
+"room": 43,
+"name_en": "Event",
+"name_ko": "이벤트",
+"x": 671.3892971801758,
+"y": 113.8636143493652,
+"region": "sh",
+"floor": "3f",
+"piece": "i_sh07b0",
+"distance": 0.0,
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"trigger": [
+484.66,
+584.42
+],
+"event": 1,
+"puzzle_row": 678,
+"script": {
+"scene": "sh07",
+"groups": [
+8
+],
+"volume": 2,
+"item": 80
+},
+"evidence": "cutscene in the use group of puzzle row 678; script sh07 item-use groups [8], trigger volume 2"
+},
+{
+"category": "puzzle",
+"room": 104,
+"name_en": "Event",
+"name_ko": "이벤트",
+"x": 630.2226000976563,
+"y": 253.1624999999999,
+"region": "ch",
+"floor": "b1",
+"piece": "i_ch0580",
+"distance": 0.0,
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"trigger": [
+892.6,
+282.5
+],
+"event": 1,
+"puzzle_row": 679,
+"script": {
+"scene": "ch05",
+"groups": [
+10
+],
+"volume": 6,
+"item": 93
+},
+"evidence": "cutscene in the use group of puzzle row 679; script ch05 item-use groups [10], trigger volume 6"
+},
+{
+"category": "puzzle",
+"room": 8,
+"name_en": "Event",
+"name_ko": "이벤트",
+"x": 949.091796722412,
+"y": 377.4883522796631,
+"region": "tr",
+"floor": "1f",
+"piece": "i_tr0890",
+"distance": 0.0,
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"trigger": [
+772.3,
+323.7
+],
+"event": 1,
+"puzzle_row": 680,
+"script": {
+"scene": "tr08",
+"groups": [
+5
+],
+"volume": 2,
+"item": 82
+},
+"evidence": "cutscene in the use group of puzzle row 680; script tr08 item-use groups [5], trigger volume 2"
+},
+{
+"category": "puzzle",
+"room": 43,
+"name_en": "Event",
+"name_ko": "이벤트",
+"x": 671.3892971801758,
+"y": 113.8636143493652,
+"region": "sh",
+"floor": "3f",
+"piece": "i_sh07b0",
+"distance": 0.0,
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"trigger": [
+484.66,
+584.42
+],
+"event": 1,
+"puzzle_row": 682,
+"script": {
+"scene": "sh07",
+"groups": [
+7
+],
+"volume": 2,
+"item": 79
+},
+"evidence": "cutscene in the use group of puzzle row 682; script sh07 item-use groups [7], trigger volume 2"
+},
+{
+"category": "puzzle",
+"room": 136,
+"name_en": "Event",
+"name_ko": "이벤트",
+"x": 543.2460842895507,
+"y": 345.47993239402774,
+"region": "bt",
+"floor": "1f",
+"piece": "i_bt0490",
+"distance": 0.0,
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"trigger": [
+549.96,
+90.29
+],
+"event": 1,
+"puzzle_row": 683,
+"script": {
+"scene": "bt04",
+"groups": [
+5
+],
+"volume": 2,
+"item": 111
+},
+"evidence": "cutscene in the use group of puzzle row 683; script bt04 item-use groups [5], trigger volume 2"
+},
+{
+"category": "puzzle",
+"room": 61,
+"name_en": "Event",
+"name_ko": "이벤트",
+"x": 888.8920611572266,
+"y": 350.755280456543,
+"region": "sh",
+"floor": "2f",
+"piece": "i_sh19a0",
+"distance": 0.0,
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"trigger": [
+756.11,
+654.81
+],
+"event": 1,
+"puzzle_row": 684,
+"script": {
+"scene": "sh19",
+"groups": [
+6
+],
+"volume": 1,
+"item": 83
+},
+"evidence": "cutscene in the use group of puzzle row 684; script sh19 item-use groups [6], trigger volume 1"
+},
+{
+"category": "puzzle",
+"room": 136,
+"name_en": "Event",
+"name_ko": "이벤트",
+"x": 543.2460842895507,
+"y": 345.47993239402774,
+"region": "bt",
+"floor": "1f",
+"piece": "i_bt0490",
+"distance": 0.0,
+"amount": {
+"easy": 1,
+"normal": 1,
+"hard": 1
+},
+"trigger": [
+549.96,
+90.29
+],
+"event": 1,
+"puzzle_row": 686,
+"script": {
+"scene": "bt04",
+"groups": [
+4
+],
+"volume": 2,
+"item": 73
+},
+"evidence": "cutscene in the use group of puzzle row 686; script bt04 item-use groups [4], trigger volume 2"
 }
 ]
 }

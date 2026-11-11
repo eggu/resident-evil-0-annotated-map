@@ -24,7 +24,7 @@ CLAIMS={
  (L,'Fire Key',48):('door','sh0c',51,0x25),(L,"Conductor's Key",2):('door','tr02',3,0x1),(L,'Dining Car Key',7):('door','tr07',8,0x2),
  (L,'Blue Keycard',1):('door','tr02',1,0x0),(L,'Blue Leech Charm',113):('door','ch04',113,0x11),(L,'Breeding Room Key',109):('door','ch04',109,0x13),(L,'Dial',102):('door','ch04',102,0x12),
  (L,'Fire Key',38):('door','sh01',38,0x1b),(L,'Green Leech Charm',108):('door','ch08',108,0x14),(L,'Handle',145):('door','pl03',145,0x28),(L,'Ice Pick',17):('door','tr11',15,0x6),
- (L,'Iron Needle',56):('door','sh00',56,0x24),(L,'Iron Needle',40):('door','sh04',39,0x1d),(L,'Keycard',174):('door','pl15',174,0x11f),
+ (L,'Iron Needle',56):('door','sh00',56,0x24),(L,'Iron Needle',40):('door','sh04',39,0x1d),(L,'Keycard',174):('use','pl15',76,0x2d,False),
  (L,'MO Disk',45):('door','sh00',45,0x1a),(L,'MO Disk',53):('door','sh0b',53,0x1a),(L,'MO Disk',43):('door','sh1d',43,0x1a),
  (L,'Shaft Key (L)',173):('door','pl17',173,0x2c),(L,'Shaft Key (R)',173):('door','pl17',173,0x2c),(L,'Water Key',58):('door','sh15',58,0x23),
  (P,'Battery',45):('use','sh09',94,0x8c,True),(P,'Crank Handle',50):('use','sh0e',86,0x91,True),(P,'Discipline Tablet',43):('use','sh07',81,0x8a,False),(P,'Elevator Key',134):('use','bt02',67,0x19c,False),
@@ -35,14 +35,14 @@ CLAIMS={
  (P,'Input Regulator Coil',104):('use','ch05',92,0xdf,True),(P,'Iron Needle',50):('use','sh0e',126,0xb4,True),(P,'Locker Key',96):('use','dm0a',78,0xca,True),(P,'MO Disk',47):('use','sh0b',124,0xa3,True),
  (P,'Magnetic Card',10):('use','tr0a',77,0x70,True),(P,'Microfilm A',39):('use','sh03',99,0xb5,True),(P,'Microfilm B',39):('use','sh03',100,0xbd,True),(P,'Motherboard',152):('use','pl0b',97,0xfd,True),
  (P,'Obedience Tablet',43):('use','sh07',80,0x89,False),(P,'Output Regulator Coil',104):('use','ch05',93,0xe0,True),(P,'Panel Opener',8):('use','tr08',82,0x8,True),(P,'Sterilizing Agent',105):('use','ch06',96,0xdd,True),
- (P,'Unity Tablet',43):('use','sh07',79,0x88,False),(P,'Up Key',136):('use','bt04',111,0xf8,True),(P,'Vise Handle',61):('use','sh19',83,0x99,True),
+ (P,'Unity Tablet',43):('use','sh07',79,0x88,False),(P,'Up Key',136):('use','bt04',111,0xf8,True),(P,'Vise Handle',61):('use','sh19',83,0x99,True),(P,'Lighter',90):('use','dm04',106,0xb,False),(P,'Lighter',50):('use','sh0e',106,33,False),(P,'Factory Key',136):('use','bt04',73,248,False),(P,'Hi-Power Battery',153):('use','pl0c',95,254,False),
 }
 # Kind 0x78 rows never spawn (0x410c08): the item comes from a script group. (room, item): scene, flag.
 GRANTS={(2,103):('tr02',0x4c),(3,59):('tr03',0x4f),(8,38):('tr08',0x53),(10,104):('tr0a',0x6e),(39,124):('sh03',0x184),(45,81):('sh09',0xba),(51,126):('sh0f',0x96),(52,88):('sh10',0x97),(54,89):('sh12',0xb0),(55,86):('sh13',0x98),
- (62,94):('sh1a',0x9c),(96,70):('dm0a',0xcf),(96,119):('dm0a',0xcb),(106,72):('ch07',0xe2),(110,117):('ch0b',0xe8),(113,92):('ch0e',0xeb),(153,76):('pl0c',0xff),(161,129):('pl14',0x105)}
-NOTES={ (P,'Output Regulator Coil',104):'0xe0 is cleared again by ch03 g2 (with 0xd8, 0x17); that path also sets 0xef, never cleared. Use 0xe0 or 0xef.',(L,'Shaft Key (L)',173):'0x2c is door open. Per key 0x11d is set by the L use but cleared when both turn.',(L,'Shaft Key (R)',173):'0x2c is door open. Per key 0x11e is set by the R use but cleared when both turn.'}
+ (62,94):('sh1a',0x9b),(96,70):('dm0a',0xcf),(96,119):('dm0a',0xcb),(106,72):('ch07',0xe2),(110,117):('ch0b',0xe8),(113,92):('ch0e',0xeb),(153,76):('pl0c',0xff),(161,129):('pl14',0x105)}
+NOTES={ (P,'Factory Key',136):'0xf8 is set by this use and by the Up Key (bt04 g5), never cleared; 0xf2 (turntable up) is cleared when it is lowered (bt02 g5).',(P,'Output Regulator Coil',104):'0xe0 is cleared again by ch03 g2 (with 0xd8, 0x17); that path also sets 0xef, never cleared. Use 0xe0 or 0xef.',(L,'Shaft Key (L)',173):'0x2c is door open. Per key 0x11d is set by the L use but cleared when both turn.',(L,'Keycard',174):'The Engine Room reader sets 0x2d, the GUI door Flag, with 0x11f that door g4 tests; neither is cleared (user 2026-11-11).',(L,'Shaft Key (R)',173):'0x2c is door open. Per key 0x11e is set by the R use but cleared when both turn.'}
 ANY_OF={(P,'Output Regulator Coil',104):[0xe0,0xef]}
-GRANT_NOTES={(62,94):'sh1a g6: 0x9c is written the first time the battery is taken, past a retry loop, so the taken path was read by hand and not checked here. 0x9b also toggles when it goes back (sh1a g7), so it is not the flag.'}
+GRANT_NOTES={(62,94):'sh1a g6 sets 0x9b when the battery is taken off its stand, g7 clears it when it is put back, so the mark shows whenever the battery is on the stand (user 2026-11-10: put back, it had no mark). 0x9c is only the first take.'}
 BRANCH={'je','jl','jg','SubItemJp','loop','loopReg'}
 # Table kind: class vtable, DTI, class name, as registered by the static initialisers 0xc85d78..0xc8a475. Kinds with table rows only.
 ENEMY_CLASSES={0x10:(0xcbdcd8,'uEnemy10'),0x11:(0xcc4f28,'uEnemy11'),0x12:(0xcc50a0,'uEnemy12'),0x14:(0xcc5218,'uEnemy14'),0x15:(0xcc5390,'uEnemy15'),0x16:(0xcc5508,'uEnemy16'),0x17:(0xcc5680,'uEnemy17'),0x19:(0xcc57f8,'uEnemy19'),0x1a:(0xcc5970,'uEnemy1a'),
@@ -322,6 +322,8 @@ def build(game,image,rows):
  for i,r in enumerate(rows):
   cat=r['category']
   row=dict(index=i,category=cat,name_en=r['name_en'],room=r['room'],done_flag=None,done_when=None,evidence='',status='unresolved')
+  if 'puzzle_row' in r: # the cutscene of an item-use puzzle runs when it is solved
+   out.append(dict(out[r['puzzle_row']],index=i,name_en=r['name_en'],evidence=f"state of puzzle row {r['puzzle_row']}: "+out[r['puzzle_row']]['evidence']));continue
   if cat=='enemy' or r.get('kind')==113:
    sl={m:where.get((m,*spot(r['room'],r['kind'],r['item'],r['world'],r['condition'],r.get('nth',0)))) for m in r['amount']}
    if None in sl.values():problems.append(i)
@@ -331,7 +333,7 @@ def build(game,image,rows):
     row.update(kind=r['kind'],done_when='row_gone_or_actor_hp',evidence=f"{ENEMY_CLASSES[r['kind']][1]}: save virtual {how.get('save')} returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.")
     if how.get('at_hp_zero')!=1:row.update(status='live-only',evidence=f"{ENEMY_CLASSES[r['kind']][1]}: save virtual {how.get('save')} returns {how.get('at_hp_zero')} at HP 0, so the row is never marked. Only actor HP +0x1030 while its room is loaded.")
    else:row.update(done_when='row_kind_zero_or_unlinked',evidence='spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10')
-  elif r.get('event'):
+  elif 'done_flag' in r: # event marks, and script puzzles that were event groups
    row.update(store='flag',done_flag=r['done_flag'],need_flag=r.get('need_flag'),done_when='set',evidence=r['evidence']+'; see verification/event-audit.json',status='script_read')
   elif 'group' in r.get('script',{}):script_row(s,W,r,row)
   elif r.get('kind')==120:

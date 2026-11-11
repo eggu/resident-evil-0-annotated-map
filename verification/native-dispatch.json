@@ -39,7 +39,7 @@
   ]
  },
  "lock_gate": {
-  "on_door": 19,
+  "on_door": 20,
   "moved": [],
   "wrong_flag": [],
   "wrong_rooms": []
@@ -284,7 +284,7 @@
   "game ignores the condition flags": "overlay gate wrong: {'second_piece_mark': 1, 'second_piece_name': 1, 'door_from_other_room': 1, 'visited_scope_visited_room': 1, 'visited_scope_map_room': 1, 'v",
   "placement manager at the wrong global": "rows dump unreadable: Expecting value: line 1 column 1 (char 0)",
   "row stride wrong": "arrange gate wrong: {'before': 0, 'kind_after_pickup': 0, 'after_pickup': 0, 'loaded_save_mode_zero': 0, 'wrong_count': 0, 'other_item': 0, 'unlinked': 0, 'hard",
-  "taken state ignored": "game and emulator differ: {'game_ops': 147, 'emulator_ops': 120, 'same_ops': False, 'worst_px': 1000000000.0, 'marks': 71, 'same_ops_restored': False, 'marks_re",
+  "taken state ignored": "game and emulator differ: {'game_ops': 148, 'emulator_ops': 120, 'same_ops': False, 'worst_px': 1000000000.0, 'marks': 74, 'same_ops_restored': False, 'marks_re",
   "taken rows stay shown": "arrange gate wrong: {'before': 0, 'kind_after_pickup': 0, 'after_pickup': 0, 'loaded_save_mode_zero': 0, 'wrong_count': 0, 'other_item': 0, 'unlinked': 1, 'hard",
   "difficulty stays manual": "arrange gate wrong: {'before': 0, 'kind_after_pickup': 0, 'after_pickup': 1, 'loaded_save_mode_zero': 1, 'wrong_count': 0, 'other_item': 0, 'unlinked': 1, 'hard",
   "table told by the mode field (candidate 21, save load)": "arrange gate wrong: {'before': 0, 'kind_after_pickup': 0, 'after_pickup': 1, 'loaded_save_mode_zero': 0, 'wrong_count': 0, 'other_item': 0, 'unlinked': 1, 'hard",
@@ -335,7 +335,7 @@
   "ItemNames not migrated by Version": "INI gate wrong: {'visited': 0, 'revealed': 1, 'all': 2, 'too_big': 0, 'absent': 0, 'item_names_absent': 0, 'item_names_old_on': 1, 'item_names_old_two': 2, 'ite",
   "ItemNames 2 not kept": "INI gate wrong: {'visited': 0, 'revealed': 1, 'all': 2, 'too_big': 0, 'absent': 0, 'item_names_absent': 0, 'item_names_old_on': 1, 'item_names_old_two': 1, 'ite",
   "unknown table keeps the last difficulty, not the INI value": "arrange gate wrong: {'before': 0, 'kind_after_pickup': 0, 'after_pickup': 1, 'loaded_save_mode_zero': 1, 'wrong_count': 0, 'other_item': 0, 'unlinked': 1, 'hard",
-  "Conductor's Key on the Cabin 201 door (live report)": "lock on the wrong door: {'on_door': 19, 'moved': [\"Conductor's Key\"], 'wrong_flag': [], 'wrong_rooms': []}"
+  "Conductor's Key on the Cabin 201 door (live report)": "lock on the wrong door: {'on_door': 20, 'moved': [\"Conductor's Key\"], 'wrong_flag': [], 'wrong_rooms': []}"
  },
  "scope": "map draw -> root walk -> instance -> animation -> sprite with native vtables and constructors. Stubbed: sprite emission and per-node preparation. Not covered: D3D/GPU, Present target, native matrix construction, real resource loading."
 }

@@ -553,7 +553,7 @@ def verdict(result):
  got={k:result['enemy_gate'].get(k) for k in want_enemy}
  if got!=want_enemy:raise AssertionError(f'enemy gate wrong: {[(k,got[k],want_enemy[k]) for k in want_enemy if got[k]!=want_enemy[k]]}')
  lock=result['lock_gate']
- if lock!=dict(on_door=19,moved=[],wrong_flag=[],wrong_rooms=[]):raise AssertionError(f'lock on the wrong door: {lock}')
+ if lock!=dict(on_door=20,moved=[],wrong_flag=[],wrong_rooms=[]):raise AssertionError(f'lock on the wrong door: {lock}')
  want_overlay=dict(second_piece_mark=1,second_piece_name=1,door_from_other_room=1,visited_scope_visited_room=1,visited_scope_map_room=0,visited_scope_with_map=0,revealed_scope_map_room=1,revealed_scope_without_map=0,all_scope_map_room=1,all_scope_undrawn_room=1,undrawn_room_in_visited=0,same_as_emulator=1)
  got={k:result['overlay_gate'].get(k) for k in want_overlay}
  if got!=want_overlay or result['overlay_gate']['worst_px']>.01:raise AssertionError(f"overlay gate wrong: {result['overlay_gate']}")

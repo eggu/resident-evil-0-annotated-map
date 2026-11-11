@@ -14,8 +14,46 @@ class ParserTests(unittest.TestCase):
   self.assertEqual({r['name_en'] for r in rows if r.get('kind')==0x2f},{'Hunter'})
  def test_every_puzzle_at_its_trigger(self):
   d=json.loads((ROOT/'data/placements.json').read_text());rows=[r for r in d['rows'] if r['category']=='puzzle' and not r.get('event')]
-  self.assertEqual(d['puzzles_without_position'],[]);self.assertEqual(len(rows),23)
+  self.assertEqual(d['puzzles_without_position'],[]);self.assertEqual(len(rows),37)
   for r in rows:self.assertIn('trigger volume',r['evidence'],r['name_en']);self.assertLessEqual(r['distance'],2,r['name_en'])
+ def test_statue_room_lighter_is_placed(self):
+  # User report 2026-11-10: no puzzle in the Statue Room, B2. Six statues, one mark between them; filled Lighter 106, not 105.
+  r=next(r for r in json.loads((ROOT/'data/placements.json').read_text())['rows'] if r['category']=='puzzle' and r['name_en']=='Lighter')
+  self.assertEqual((r['room'],r['script']['item'],r['script']['groups'],r['distance']),(90,106,[16,17,18,19,20,21],0.0))
+ def test_cable_car_puzzle_is_always_shown(self):
+  # User 2026-11-11: Cable Car, Laboratory B2, showed only the Magnum. A repeatable ride, so a puzzle mark with no done flag.
+  rows=json.loads((ROOT/'data/placements.json').read_text())['rows'];states=json.loads((ROOT/'verification/state-flags.json').read_text())['rows']
+  i=next(i for i,r in enumerate(rows) if r['category']=='puzzle' and r['room']==111)
+  self.assertEqual((rows[i]['name_en'],rows[i]['event'],states[i]['done_flag']),('Cable Car',0,None))
+ def test_storage_lift_is_always_shown(self):
+  # User 2026-11-11: the Storage lift, Treatment Plant B9, marked because it matters, not as a puzzle.
+  rows=json.loads((ROOT/'data/placements.json').read_text())['rows'];states=json.loads((ROOT/'verification/state-flags.json').read_text())['rows']
+  i=next(i for i,r in enumerate(rows) if r['category']=='puzzle' and r['room']==173)
+  self.assertEqual((rows[i]['name_en'],rows[i]['event'],rows[i]['piece'][:7],states[i]['done_flag']),('Elevator',0,'i_pl200',None))
+ def test_turntable_yard_name_on_either_piece(self):
+  # User 2026-11-11, Factory 1F: the game drew the small yard piece i_bt0290 and the name sat off it, on i_bt0291.
+  L=json.loads((ROOT/'data/room-layout.json').read_text());b=L['pieces']['i_bt0290']
+  for r in L['rows']:
+   if r['piece']=='i_bt0291':self.assertTrue(b[0]<=r['x']<=b[2] and b[1]<=r['y']<=b[3],(r['x'],r['y']))
+ def test_factory_dial_and_elevator_key(self):
+  # User 2026-11-11: the yard's Dial is a row under the world that is only ever deleted; the Elevator Key was picked up on B4.
+  rows=json.loads((ROOT/'data/placements.json').read_text())['rows']
+  self.assertEqual([(r['room'],r['floor']) for r in rows if r['name_en']=='Dial' and r['category']=='key'],[(109,'b1')])
+  k=next(r for r in rows if r['name_en']=='Elevator Key' and r['category']=='key');self.assertEqual((k['room'],k['floor'],k['piece']),(134,'b4','i_bt0250'))
+ def test_keycard_lock_on_engine_room_door(self):
+  # User report 2026-11-11: no lock in the Engine Room, B9. The reader sets 0x2d, this door's Flag.
+  d=json.loads((ROOT/'data/placements.json').read_text());self.assertEqual(d['locks_without_door'],[])
+  self.assertEqual([(r['piece'],r['door_flag']) for r in d['rows'] if r['category']=='lock' and r['name_en']=='Keycard'],[('i_door_3d_2d',0x2d)])
+ def test_air_regulator_room_rows_on_b6(self):
+  # User 2026-11-11: the herbs shown at the B5 Control Room entrance are on B6, with the zombies and the Empty Bottle.
+  rows=[r for r in json.loads((ROOT/'data/placements.json').read_text())['rows'] if r['room']==142 and r.get('world')]
+  self.assertEqual(sorted((r['name_en'],r['floor']) for r in rows if r['world'][1]<200),[('Empty Bottle','b6'),('Green Herb','b6'),('Red Herb','b6'),('Zombie','b6'),('Zombie','b6'),('Zombie','b6')])
+  self.assertEqual({r['floor'] for r in rows if r['world'][1]>=200},{'b5'})
+ def test_piano_bar_battery_follows_its_stand(self):
+  # User 2026-11-10: put back on its stand, the Battery had no key mark. 0x9b: set by taking it (sh1a g6), cleared by putting it back (g7).
+  rows=json.loads((ROOT/'data/placements.json').read_text())['rows'];states=json.loads((ROOT/'verification/state-flags.json').read_text())['rows']
+  i=next(i for i,r in enumerate(rows) if r['name_en']=='Battery' and r['room']==62 and r.get('kind')==120)
+  self.assertEqual(states[i]['done_flag'],0x9b);self.assertFalse(any(r['name_en']=='Battery' and r['room']==62 and r['category']=='puzzle' for r in rows))
  def test_door_form_item_use_binds_its_volume(self):
   # ch01 g2 shape: tag 30, x = volume, y = item; a door script behind SubItemJp. tag 8 stays bound.
   import placements as P
@@ -162,7 +200,7 @@ class LockDoorTests(unittest.TestCase):
   cls.locks=[r for r in cls.d['rows'] if r['category']=='lock']
  def test_door_flag_equals_the_done_flag_for_every_placed_lock(self):
   from state_flags import CLAIMS
-  placed=[r for r in self.locks if r['piece'] in self.doors];self.assertEqual(len(placed),19)
+  placed=[r for r in self.locks if r['piece'] in self.doors];self.assertEqual(len(placed),20)
   for r in placed:self.assertEqual(self.doors[r['piece']]['properties']['Flag'],CLAIMS[('lock',r['name_en'],r['room'])][3],(r['name_en'],r['room']))
  def test_state_flags_report_agrees(self):
   states={r['index']:r for r in json.loads((ROOT/'verification/state-flags.json').read_text())['rows']}
@@ -170,9 +208,7 @@ class LockDoorTests(unittest.TestCase):
    if r in self.locks and r['piece'] in self.doors:self.assertEqual(states[i]['done_flag'],self.doors[r['piece']]['properties']['Flag'],r['name_en'])
  def test_doors_the_user_verified(self):
   want={("Conductor's Key",2):'i_door_02_01',('Dining Car Key',7):'i_door_08_02',('Blue Keycard',1):'i_door_07_00',('Fire Key',48):'i_door_15_25',('Fire Key',38):'i_door_15_1b',('Iron Needle',56):'i_door_0f_24',('Iron Needle',40):'i_door_0f_1d',('Water Key',58):'i_door_19_23',('Ice Pick',17):'i_door_05_06',('Blue Leech Charm',113):'i_door_2d_11',('Breeding Room Key',109):'i_door_2c_13',('Dial',102):'i_door_55_12',('Green Leech Charm',108):'i_door_2f_14',('Handle',145):'i_door_71_28',('Shaft Key (L)',173):'i_door_36_2c',('Shaft Key (R)',173):'i_door_36_2c',('MO Disk',45):'i_door_51_1a_1f',('MO Disk',53):'i_door_51_1a_2f',('MO Disk',43):'i_door_51_1a_3f'}
-  self.assertEqual({(r['name_en'],r['room']):r['piece'] for r in self.locks if r['piece'] in self.doors},want)
- def test_keycard_has_no_door_and_stays_room_level(self):
-  r=next(r for r in self.locks if r['name_en']=='Keycard');self.assertNotIn(r['piece'],self.doors);self.assertIn('room centre',r['evidence']);self.assertEqual(self.d['locks_without_door'],[dict(name_en='Keycard',room=174)])
+  self.assertEqual({(r['name_en'],r['room']):r['piece'] for r in self.locks if r['piece'] in self.doors and r['name_en']!='Keycard'},want) # Keycard: not yet checked in game, see test_keycard_lock_on_engine_room_door
  def test_placed_locks_are_not_hollow_and_carry_the_door_floor(self):
   from build_labels import marker_defs
   for m in marker_defs(self.d,self.native):

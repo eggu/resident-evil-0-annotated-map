@@ -668,7 +668,7 @@
   },
   {
    "index": 21,
-   "category": "item",
+   "category": "key",
    "name_en": "Magnum Revolver",
    "room": 5,
    "done_flag": null,
@@ -700,7 +700,7 @@
   },
   {
    "index": 23,
-   "category": "item",
+   "category": "key",
    "name_en": "Molotov Cocktail",
    "room": 5,
    "done_flag": null,
@@ -1630,7 +1630,7 @@
   },
   {
    "index": 80,
-   "category": "item",
+   "category": "key",
    "name_en": "Hunting Gun",
    "room": 13,
    "done_flag": null,
@@ -1743,7 +1743,7 @@
   },
   {
    "index": 87,
-   "category": "item",
+   "category": "key",
    "name_en": "Knife",
    "room": 14,
    "done_flag": null,
@@ -2807,7 +2807,7 @@
   },
   {
    "index": 153,
-   "category": "item",
+   "category": "key",
    "name_en": "Shotgun",
    "room": 44,
    "done_flag": null,
@@ -4022,7 +4022,7 @@
   },
   {
    "index": 230,
-   "category": "item",
+   "category": "key",
    "name_en": "Grenade Launcher",
    "room": 57,
    "done_flag": null,
@@ -4824,9 +4824,9 @@
    "category": "key",
    "name_en": "Battery",
    "room": 62,
-   "done_flag": 156,
+   "done_flag": 155,
    "done_when": "set",
-   "evidence": "sh1a g6: 0x9c is written the first time the battery is taken, past a retry loop, so the taken path was read by hand and not checked here. 0x9b also toggles when it goes back (sh1a g7), so it is not the flag.; kind 0x78 never spawns (0x410c08)",
+   "evidence": "sh1a g6 tag 2: Sub_ReadyGet(94) then FlagSet(0x9b,1); flag set blocks the grant; kind 0x78 never spawns (0x410c08); cleared by ['sh1a:g7']",
    "status": "inferred",
    "store": "flag"
   },
@@ -7469,7 +7469,7 @@
   },
   {
    "index": 442,
-   "category": "item",
+   "category": "key",
    "name_en": "Magnum",
    "room": 111,
    "done_flag": null,
@@ -7881,22 +7881,6 @@
   },
   {
    "index": 468,
-   "category": "key",
-   "name_en": "Dial",
-   "room": 134,
-   "done_flag": null,
-   "done_when": "row_kind_zero_or_unlinked",
-   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
-   "status": "proven",
-   "store": "arrange_row",
-   "slot": {
-    "easy": 473,
-    "normal": 426,
-    "hard": 410
-   }
-  },
-  {
-   "index": 469,
    "category": "item",
    "name_en": "Handgun Ammo",
    "room": 134,
@@ -7910,7 +7894,7 @@
    }
   },
   {
-   "index": 470,
+   "index": 469,
    "category": "enemy",
    "name_en": "Hunter",
    "room": 135,
@@ -7927,7 +7911,7 @@
    "kind": 47
   },
   {
-   "index": 471,
+   "index": 470,
    "category": "enemy",
    "name_en": "Hunter",
    "room": 135,
@@ -7944,7 +7928,7 @@
    "kind": 47
   },
   {
-   "index": 472,
+   "index": 471,
    "category": "key",
    "name_en": "Factory Key",
    "room": 135,
@@ -7960,7 +7944,7 @@
    }
   },
   {
-   "index": 473,
+   "index": 472,
    "category": "item",
    "name_en": "Ink Ribbon",
    "room": 136,
@@ -7976,7 +7960,7 @@
    }
   },
   {
-   "index": 474,
+   "index": 473,
    "category": "item",
    "name_en": "Grenades",
    "room": 136,
@@ -7991,7 +7975,7 @@
    }
   },
   {
-   "index": 475,
+   "index": 474,
    "category": "item",
    "name_en": "First-Aid Spray",
    "room": 136,
@@ -8007,7 +7991,7 @@
    }
   },
   {
-   "index": 476,
+   "index": 475,
    "category": "file",
    "name_en": "Factory Map",
    "room": 136,
@@ -8023,7 +8007,7 @@
    }
   },
   {
-   "index": 477,
+   "index": 476,
    "category": "item",
    "name_en": "Handgun Ammo",
    "room": 136,
@@ -8039,7 +8023,7 @@
    }
   },
   {
-   "index": 478,
+   "index": 477,
    "category": "item",
    "name_en": "Machinegun Ammo",
    "room": 136,
@@ -8055,7 +8039,7 @@
    }
   },
   {
-   "index": 479,
+   "index": 478,
    "category": "item",
    "name_en": "Green Herb",
    "room": 136,
@@ -8069,7 +8053,7 @@
    }
   },
   {
-   "index": 480,
+   "index": 479,
    "category": "item",
    "name_en": "Red Herb",
    "room": 136,
@@ -8083,7 +8067,7 @@
    }
   },
   {
-   "index": 481,
+   "index": 480,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 142,
@@ -8100,7 +8084,7 @@
    "kind": 91
   },
   {
-   "index": 482,
+   "index": 481,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 142,
@@ -8117,7 +8101,7 @@
    "kind": 90
   },
   {
-   "index": 483,
+   "index": 482,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 142,
@@ -8134,7 +8118,7 @@
    "kind": 91
   },
   {
-   "index": 484,
+   "index": 483,
    "category": "item",
    "name_en": "Ink Ribbon",
    "room": 142,
@@ -8150,7 +8134,7 @@
    }
   },
   {
-   "index": 485,
+   "index": 484,
    "category": "item",
    "name_en": "Green Herb",
    "room": 142,
@@ -8166,7 +8150,7 @@
    }
   },
   {
-   "index": 486,
+   "index": 485,
    "category": "item",
    "name_en": "Red Herb",
    "room": 142,
@@ -8182,7 +8166,7 @@
    }
   },
   {
-   "index": 487,
+   "index": 486,
    "category": "item",
    "name_en": "Handgun Ammo",
    "room": 142,
@@ -8198,7 +8182,7 @@
    }
   },
   {
-   "index": 488,
+   "index": 487,
    "category": "item",
    "name_en": "Gas Tank",
    "room": 142,
@@ -8214,7 +8198,7 @@
    }
   },
   {
-   "index": 489,
+   "index": 488,
    "category": "item",
    "name_en": "Empty Bottle",
    "room": 142,
@@ -8230,7 +8214,7 @@
    }
   },
   {
-   "index": 490,
+   "index": 489,
    "category": "item",
    "name_en": "Green Herb",
    "room": 142,
@@ -8244,7 +8228,7 @@
    }
   },
   {
-   "index": 491,
+   "index": 490,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 143,
@@ -8261,7 +8245,7 @@
    "kind": 90
   },
   {
-   "index": 492,
+   "index": 491,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 143,
@@ -8278,7 +8262,7 @@
    "kind": 90
   },
   {
-   "index": 493,
+   "index": 492,
    "category": "item",
    "name_en": "Green Herb",
    "room": 143,
@@ -8294,7 +8278,7 @@
    }
   },
   {
-   "index": 494,
+   "index": 493,
    "category": "item",
    "name_en": "Green Herb",
    "room": 143,
@@ -8310,7 +8294,7 @@
    }
   },
   {
-   "index": 495,
+   "index": 494,
    "category": "file",
    "name_en": "Investigator's Report 2",
    "room": 143,
@@ -8326,7 +8310,7 @@
    }
   },
   {
-   "index": 496,
+   "index": 495,
    "category": "item",
    "name_en": "Red Herb",
    "room": 143,
@@ -8340,7 +8324,7 @@
    }
   },
   {
-   "index": 497,
+   "index": 496,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 144,
@@ -8357,7 +8341,7 @@
    "kind": 21
   },
   {
-   "index": 498,
+   "index": 497,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 144,
@@ -8374,7 +8358,7 @@
    "kind": 21
   },
   {
-   "index": 499,
+   "index": 498,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 144,
@@ -8391,7 +8375,7 @@
    "kind": 21
   },
   {
-   "index": 500,
+   "index": 499,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 144,
@@ -8408,7 +8392,7 @@
    "kind": 21
   },
   {
-   "index": 501,
+   "index": 500,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 144,
@@ -8425,7 +8409,7 @@
    "kind": 21
   },
   {
-   "index": 502,
+   "index": 501,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 144,
@@ -8442,7 +8426,7 @@
    "kind": 90
   },
   {
-   "index": 503,
+   "index": 502,
    "category": "item",
    "name_en": "Handgun Ammo",
    "room": 144,
@@ -8458,7 +8442,7 @@
    }
   },
   {
-   "index": 504,
+   "index": 503,
    "category": "enemy",
    "name_en": "Mimicry Marcus",
    "room": 145,
@@ -8475,7 +8459,7 @@
    "kind": 67
   },
   {
-   "index": 505,
+   "index": 504,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 145,
@@ -8492,7 +8476,7 @@
    "kind": 91
   },
   {
-   "index": 506,
+   "index": 505,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 145,
@@ -8509,7 +8493,7 @@
    "kind": 90
   },
   {
-   "index": 507,
+   "index": 506,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 145,
@@ -8526,7 +8510,7 @@
    "kind": 91
   },
   {
-   "index": 508,
+   "index": 507,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 146,
@@ -8543,7 +8527,7 @@
    "kind": 91
   },
   {
-   "index": 509,
+   "index": 508,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 146,
@@ -8560,7 +8544,7 @@
    "kind": 21
   },
   {
-   "index": 510,
+   "index": 509,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 146,
@@ -8577,7 +8561,7 @@
    "kind": 21
   },
   {
-   "index": 511,
+   "index": 510,
    "category": "item",
    "name_en": "Empty Bottle",
    "room": 146,
@@ -8593,7 +8577,7 @@
    }
   },
   {
-   "index": 512,
+   "index": 511,
    "category": "file",
    "name_en": "Treatment Plant Map",
    "room": 146,
@@ -8609,7 +8593,7 @@
    }
   },
   {
-   "index": 513,
+   "index": 512,
    "category": "enemy",
    "name_en": "Hunter",
    "room": 147,
@@ -8626,7 +8610,7 @@
    "kind": 47
   },
   {
-   "index": 514,
+   "index": 513,
    "category": "enemy",
    "name_en": "Hunter",
    "room": 147,
@@ -8643,7 +8627,7 @@
    "kind": 47
   },
   {
-   "index": 515,
+   "index": 514,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 147,
@@ -8660,7 +8644,7 @@
    "kind": 91
   },
   {
-   "index": 516,
+   "index": 515,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 147,
@@ -8677,7 +8661,7 @@
    "kind": 90
   },
   {
-   "index": 517,
+   "index": 516,
    "category": "item",
    "name_en": "Ink Ribbon",
    "room": 148,
@@ -8693,7 +8677,7 @@
    }
   },
   {
-   "index": 518,
+   "index": 517,
    "category": "item",
    "name_en": "First-Aid Spray",
    "room": 148,
@@ -8709,7 +8693,7 @@
    }
   },
   {
-   "index": 519,
+   "index": 518,
    "category": "item",
    "name_en": "Handgun Ammo",
    "room": 148,
@@ -8724,7 +8708,7 @@
    }
   },
   {
-   "index": 520,
+   "index": 519,
    "category": "item",
    "name_en": "Napalm Grenades",
    "room": 148,
@@ -8740,7 +8724,7 @@
    }
   },
   {
-   "index": 521,
+   "index": 520,
    "category": "file",
    "name_en": "About Battery Fluid",
    "room": 148,
@@ -8756,7 +8740,7 @@
    }
   },
   {
-   "index": 522,
+   "index": 521,
    "category": "item",
    "name_en": "Green Herb",
    "room": 148,
@@ -8772,7 +8756,7 @@
    }
   },
   {
-   "index": 523,
+   "index": 522,
    "category": "item",
    "name_en": "Red Herb",
    "room": 148,
@@ -8788,7 +8772,7 @@
    }
   },
   {
-   "index": 524,
+   "index": 523,
    "category": "item",
    "name_en": "Handgun Ammo",
    "room": 148,
@@ -8803,7 +8787,7 @@
    }
   },
   {
-   "index": 525,
+   "index": 524,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -8820,7 +8804,7 @@
    "kind": 64
   },
   {
-   "index": 526,
+   "index": 525,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -8837,7 +8821,7 @@
    "kind": 64
   },
   {
-   "index": 527,
+   "index": 526,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -8854,7 +8838,7 @@
    "kind": 64
   },
   {
-   "index": 528,
+   "index": 527,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -8871,7 +8855,7 @@
    "kind": 64
   },
   {
-   "index": 529,
+   "index": 528,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -8888,7 +8872,7 @@
    "kind": 64
   },
   {
-   "index": 530,
+   "index": 529,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -8905,7 +8889,7 @@
    "kind": 64
   },
   {
-   "index": 531,
+   "index": 530,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -8922,7 +8906,7 @@
    "kind": 64
   },
   {
-   "index": 532,
+   "index": 531,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -8939,7 +8923,7 @@
    "kind": 64
   },
   {
-   "index": 533,
+   "index": 532,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -8956,7 +8940,7 @@
    "kind": 64
   },
   {
-   "index": 534,
+   "index": 533,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -8973,7 +8957,7 @@
    "kind": 64
   },
   {
-   "index": 535,
+   "index": 534,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -8990,7 +8974,7 @@
    "kind": 64
   },
   {
-   "index": 536,
+   "index": 535,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9007,7 +8991,7 @@
    "kind": 64
   },
   {
-   "index": 537,
+   "index": 536,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9024,7 +9008,7 @@
    "kind": 64
   },
   {
-   "index": 538,
+   "index": 537,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9041,7 +9025,7 @@
    "kind": 64
   },
   {
-   "index": 539,
+   "index": 538,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9058,7 +9042,7 @@
    "kind": 64
   },
   {
-   "index": 540,
+   "index": 539,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9075,7 +9059,7 @@
    "kind": 64
   },
   {
-   "index": 541,
+   "index": 540,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9092,7 +9076,7 @@
    "kind": 64
   },
   {
-   "index": 542,
+   "index": 541,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9109,7 +9093,7 @@
    "kind": 64
   },
   {
-   "index": 543,
+   "index": 542,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9126,7 +9110,7 @@
    "kind": 64
   },
   {
-   "index": 544,
+   "index": 543,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9143,7 +9127,7 @@
    "kind": 64
   },
   {
-   "index": 545,
+   "index": 544,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9160,7 +9144,7 @@
    "kind": 64
   },
   {
-   "index": 546,
+   "index": 545,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9177,7 +9161,7 @@
    "kind": 64
   },
   {
-   "index": 547,
+   "index": 546,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9194,7 +9178,7 @@
    "kind": 64
   },
   {
-   "index": 548,
+   "index": 547,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9211,7 +9195,7 @@
    "kind": 64
   },
   {
-   "index": 549,
+   "index": 548,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9228,7 +9212,7 @@
    "kind": 64
   },
   {
-   "index": 550,
+   "index": 549,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9245,7 +9229,7 @@
    "kind": 64
   },
   {
-   "index": 551,
+   "index": 550,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9262,7 +9246,7 @@
    "kind": 64
   },
   {
-   "index": 552,
+   "index": 551,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9279,7 +9263,7 @@
    "kind": 64
   },
   {
-   "index": 553,
+   "index": 552,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9296,7 +9280,7 @@
    "kind": 64
   },
   {
-   "index": 554,
+   "index": 553,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 150,
@@ -9313,7 +9297,7 @@
    "kind": 64
   },
   {
-   "index": 555,
+   "index": 554,
    "category": "enemy",
    "name_en": "Lurker",
    "room": 151,
@@ -9330,7 +9314,7 @@
    "kind": 48
   },
   {
-   "index": 556,
+   "index": 555,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 151,
@@ -9347,7 +9331,7 @@
    "kind": 21
   },
   {
-   "index": 557,
+   "index": 556,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 152,
@@ -9364,7 +9348,7 @@
    "kind": 21
   },
   {
-   "index": 558,
+   "index": 557,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 152,
@@ -9381,7 +9365,7 @@
    "kind": 21
   },
   {
-   "index": 559,
+   "index": 558,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 152,
@@ -9398,7 +9382,7 @@
    "kind": 21
   },
   {
-   "index": 560,
+   "index": 559,
    "category": "file",
    "name_en": "Treatment Plant Manager's Diary",
    "room": 152,
@@ -9414,7 +9398,7 @@
    }
   },
   {
-   "index": 561,
+   "index": 560,
    "category": "item",
    "name_en": "Shotgun Ammo",
    "room": 152,
@@ -9430,7 +9414,7 @@
    }
   },
   {
-   "index": 562,
+   "index": 561,
    "category": "item",
    "name_en": "Napalm Grenades",
    "room": 152,
@@ -9444,7 +9428,7 @@
    }
   },
   {
-   "index": 563,
+   "index": 562,
    "category": "enemy",
    "name_en": "Lurker",
    "room": 153,
@@ -9461,7 +9445,7 @@
    "kind": 48
   },
   {
-   "index": 564,
+   "index": 563,
    "category": "key",
    "name_en": "Keycard",
    "room": 153,
@@ -9477,7 +9461,7 @@
    }
   },
   {
-   "index": 565,
+   "index": 564,
    "category": "item",
    "name_en": "Green Herb",
    "room": 153,
@@ -9492,7 +9476,7 @@
    }
   },
   {
-   "index": 566,
+   "index": 565,
    "category": "item",
    "name_en": "Red Herb",
    "room": 153,
@@ -9507,7 +9491,7 @@
    }
   },
   {
-   "index": 567,
+   "index": 566,
    "category": "key",
    "name_en": "Keycard",
    "room": 153,
@@ -9518,7 +9502,7 @@
    "store": "flag"
   },
   {
-   "index": 568,
+   "index": 567,
    "category": "key",
    "name_en": "Handle",
    "room": 154,
@@ -9534,7 +9518,7 @@
    }
   },
   {
-   "index": 569,
+   "index": 568,
    "category": "item",
    "name_en": "Shotgun Ammo",
    "room": 154,
@@ -9550,7 +9534,7 @@
    }
   },
   {
-   "index": 570,
+   "index": 569,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9567,7 +9551,7 @@
    "kind": 64
   },
   {
-   "index": 571,
+   "index": 570,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9584,7 +9568,7 @@
    "kind": 64
   },
   {
-   "index": 572,
+   "index": 571,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9601,7 +9585,7 @@
    "kind": 64
   },
   {
-   "index": 573,
+   "index": 572,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9618,7 +9602,7 @@
    "kind": 64
   },
   {
-   "index": 574,
+   "index": 573,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9635,7 +9619,7 @@
    "kind": 64
   },
   {
-   "index": 575,
+   "index": 574,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9652,7 +9636,7 @@
    "kind": 64
   },
   {
-   "index": 576,
+   "index": 575,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9669,7 +9653,7 @@
    "kind": 64
   },
   {
-   "index": 577,
+   "index": 576,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9686,7 +9670,7 @@
    "kind": 64
   },
   {
-   "index": 578,
+   "index": 577,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9703,7 +9687,7 @@
    "kind": 64
   },
   {
-   "index": 579,
+   "index": 578,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9720,7 +9704,7 @@
    "kind": 64
   },
   {
-   "index": 580,
+   "index": 579,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9737,7 +9721,7 @@
    "kind": 64
   },
   {
-   "index": 581,
+   "index": 580,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9754,7 +9738,7 @@
    "kind": 64
   },
   {
-   "index": 582,
+   "index": 581,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9771,7 +9755,7 @@
    "kind": 64
   },
   {
-   "index": 583,
+   "index": 582,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9788,7 +9772,7 @@
    "kind": 64
   },
   {
-   "index": 584,
+   "index": 583,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9805,7 +9789,7 @@
    "kind": 64
   },
   {
-   "index": 585,
+   "index": 584,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9822,7 +9806,7 @@
    "kind": 64
   },
   {
-   "index": 586,
+   "index": 585,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9839,7 +9823,7 @@
    "kind": 64
   },
   {
-   "index": 587,
+   "index": 586,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9856,7 +9840,7 @@
    "kind": 64
   },
   {
-   "index": 588,
+   "index": 587,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9873,7 +9857,7 @@
    "kind": 64
   },
   {
-   "index": 589,
+   "index": 588,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9890,7 +9874,7 @@
    "kind": 64
   },
   {
-   "index": 590,
+   "index": 589,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9907,7 +9891,7 @@
    "kind": 64
   },
   {
-   "index": 591,
+   "index": 590,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9924,7 +9908,7 @@
    "kind": 64
   },
   {
-   "index": 592,
+   "index": 591,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9941,7 +9925,7 @@
    "kind": 64
   },
   {
-   "index": 593,
+   "index": 592,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9958,7 +9942,7 @@
    "kind": 64
   },
   {
-   "index": 594,
+   "index": 593,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9975,7 +9959,7 @@
    "kind": 64
   },
   {
-   "index": 595,
+   "index": 594,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -9992,7 +9976,7 @@
    "kind": 64
   },
   {
-   "index": 596,
+   "index": 595,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -10009,7 +9993,7 @@
    "kind": 64
   },
   {
-   "index": 597,
+   "index": 596,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -10026,7 +10010,7 @@
    "kind": 64
   },
   {
-   "index": 598,
+   "index": 597,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -10043,7 +10027,7 @@
    "kind": 64
   },
   {
-   "index": 599,
+   "index": 598,
    "category": "enemy",
    "name_en": "Leeches",
    "room": 155,
@@ -10060,7 +10044,7 @@
    "kind": 64
   },
   {
-   "index": 600,
+   "index": 599,
    "category": "enemy",
    "name_en": "Lurker",
    "room": 156,
@@ -10077,7 +10061,7 @@
    "kind": 48
   },
   {
-   "index": 601,
+   "index": 600,
    "category": "enemy",
    "name_en": "Hunter",
    "room": 156,
@@ -10094,7 +10078,7 @@
    "kind": 47
   },
   {
-   "index": 602,
+   "index": 601,
    "category": "enemy",
    "name_en": "Plague Crawler",
    "room": 157,
@@ -10111,7 +10095,7 @@
    "kind": 44
   },
   {
-   "index": 603,
+   "index": 602,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 157,
@@ -10128,7 +10112,7 @@
    "kind": 90
   },
   {
-   "index": 604,
+   "index": 603,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 157,
@@ -10145,7 +10129,7 @@
    "kind": 90
   },
   {
-   "index": 605,
+   "index": 604,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 157,
@@ -10162,7 +10146,7 @@
    "kind": 91
   },
   {
-   "index": 606,
+   "index": 605,
    "category": "key",
    "name_en": "Industrial Water",
    "room": 157,
@@ -10178,7 +10162,7 @@
    }
   },
   {
-   "index": 607,
+   "index": 606,
    "category": "item",
    "name_en": "Acid Grenades",
    "room": 157,
@@ -10193,7 +10177,7 @@
    }
   },
   {
-   "index": 608,
+   "index": 607,
    "category": "item",
    "name_en": "Acid Grenades",
    "room": 158,
@@ -10209,7 +10193,7 @@
    }
   },
   {
-   "index": 609,
+   "index": 608,
    "category": "key",
    "name_en": "Motherboard",
    "room": 159,
@@ -10225,7 +10209,7 @@
    }
   },
   {
-   "index": 610,
+   "index": 609,
    "category": "enemy",
    "name_en": "Proto-Tyrant",
    "room": 160,
@@ -10242,7 +10226,7 @@
    "kind": 56
   },
   {
-   "index": 611,
+   "index": 610,
    "category": "enemy",
    "name_en": "Plague Crawler",
    "room": 161,
@@ -10259,7 +10243,7 @@
    "kind": 44
   },
   {
-   "index": 612,
+   "index": 611,
    "category": "enemy",
    "name_en": "Plague Crawler",
    "room": 161,
@@ -10276,7 +10260,7 @@
    "kind": 44
   },
   {
-   "index": 613,
+   "index": 612,
    "category": "key",
    "name_en": "Empty Battery",
    "room": 161,
@@ -10292,7 +10276,7 @@
    }
   },
   {
-   "index": 614,
+   "index": 613,
    "category": "key",
    "name_en": "Empty Battery",
    "room": 161,
@@ -10303,7 +10287,7 @@
    "store": "flag"
   },
   {
-   "index": 615,
+   "index": 614,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 162,
@@ -10320,7 +10304,7 @@
    "kind": 21
   },
   {
-   "index": 616,
+   "index": 615,
    "category": "enemy",
    "name_en": "Zombie",
    "room": 162,
@@ -10337,7 +10321,7 @@
    "kind": 21
   },
   {
-   "index": 617,
+   "index": 616,
    "category": "item",
    "name_en": "Shotgun Ammo",
    "room": 162,
@@ -10353,7 +10337,7 @@
    }
   },
   {
-   "index": 618,
+   "index": 617,
    "category": "item",
    "name_en": "Handgun Ammo",
    "room": 162,
@@ -10369,7 +10353,7 @@
    }
   },
   {
-   "index": 619,
+   "index": 618,
    "category": "item",
    "name_en": "Shotgun Ammo",
    "room": 162,
@@ -10383,7 +10367,7 @@
    }
   },
   {
-   "index": 620,
+   "index": 619,
    "category": "enemy",
    "name_en": "Lurker",
    "room": 163,
@@ -10400,7 +10384,7 @@
    "kind": 48
   },
   {
-   "index": 621,
+   "index": 620,
    "category": "item",
    "name_en": "Green Herb",
    "room": 163,
@@ -10416,7 +10400,7 @@
    }
   },
   {
-   "index": 622,
+   "index": 621,
    "category": "item",
    "name_en": "Green Herb",
    "room": 163,
@@ -10432,7 +10416,7 @@
    }
   },
   {
-   "index": 623,
+   "index": 622,
    "category": "enemy",
    "name_en": "Queen Leech",
    "room": 164,
@@ -10449,7 +10433,7 @@
    "kind": 70
   },
   {
-   "index": 624,
+   "index": 623,
    "category": "key",
    "name_en": "Shaft Key",
    "room": 164,
@@ -10465,7 +10449,7 @@
    }
   },
   {
-   "index": 625,
+   "index": 624,
    "category": "key",
    "name_en": "Shaft Key",
    "room": 164,
@@ -10481,7 +10465,7 @@
    }
   },
   {
-   "index": 626,
+   "index": 625,
    "category": "item",
    "name_en": "Magnum Ammo",
    "room": 164,
@@ -10496,7 +10480,7 @@
    }
   },
   {
-   "index": 627,
+   "index": 626,
    "category": "enemy",
    "name_en": "Queen Leech (Second Form)",
    "room": 165,
@@ -10513,7 +10497,7 @@
    "kind": 71
   },
   {
-   "index": 628,
+   "index": 627,
    "category": "item",
    "name_en": "Ink Ribbon",
    "room": 173,
@@ -10529,7 +10513,7 @@
    }
   },
   {
-   "index": 629,
+   "index": 628,
    "category": "item",
    "name_en": "Green Herb",
    "room": 173,
@@ -10545,7 +10529,7 @@
    }
   },
   {
-   "index": 630,
+   "index": 629,
    "category": "item",
    "name_en": "Red Herb",
    "room": 173,
@@ -10561,7 +10545,7 @@
    }
   },
   {
-   "index": 631,
+   "index": 630,
    "category": "item",
    "name_en": "Handgun Ammo",
    "room": 173,
@@ -10577,7 +10561,7 @@
    }
   },
   {
-   "index": 632,
+   "index": 631,
    "category": "item",
    "name_en": "Shotgun Ammo",
    "room": 173,
@@ -10593,7 +10577,7 @@
    }
   },
   {
-   "index": 633,
+   "index": 632,
    "category": "item",
    "name_en": "Grenades",
    "room": 173,
@@ -10609,7 +10593,7 @@
    }
   },
   {
-   "index": 634,
+   "index": 633,
    "category": "item",
    "name_en": "First-Aid Spray",
    "room": 173,
@@ -10625,7 +10609,7 @@
    }
   },
   {
-   "index": 635,
+   "index": 634,
    "category": "item",
    "name_en": "First-Aid Spray",
    "room": 173,
@@ -10641,7 +10625,7 @@
    }
   },
   {
-   "index": 636,
+   "index": 635,
    "category": "item",
    "name_en": "Machinegun Ammo",
    "room": 173,
@@ -10657,7 +10641,7 @@
    }
   },
   {
-   "index": 637,
+   "index": 636,
    "category": "item",
    "name_en": "Green Herb",
    "room": 173,
@@ -10671,7 +10655,7 @@
    }
   },
   {
-   "index": 638,
+   "index": 637,
    "category": "item",
    "name_en": "Red Herb",
    "room": 173,
@@ -10685,7 +10669,7 @@
    }
   },
   {
-   "index": 639,
+   "index": 638,
    "category": "item",
    "name_en": "Napalm Grenades",
    "room": 173,
@@ -10699,7 +10683,7 @@
    }
   },
   {
-   "index": 640,
+   "index": 639,
    "category": "item",
    "name_en": "Magnum Ammo",
    "room": 174,
@@ -10715,7 +10699,7 @@
    }
   },
   {
-   "index": 641,
+   "index": 640,
    "category": "item",
    "name_en": "Handgun Ammo",
    "room": 17,
@@ -10730,7 +10714,7 @@
    }
   },
   {
-   "index": 642,
+   "index": 641,
    "category": "lock",
    "name_en": "Fire Key",
    "room": 48,
@@ -10741,7 +10725,7 @@
    "store": "flag"
   },
   {
-   "index": 643,
+   "index": 642,
    "category": "lock",
    "name_en": "Conductor's Key",
    "room": 2,
@@ -10752,7 +10736,7 @@
    "store": "flag"
   },
   {
-   "index": 644,
+   "index": 643,
    "category": "lock",
    "name_en": "Dining Car Key",
    "room": 7,
@@ -10763,7 +10747,7 @@
    "store": "flag"
   },
   {
-   "index": 645,
+   "index": 644,
    "category": "lock",
    "name_en": "Blue Keycard",
    "room": 1,
@@ -10774,7 +10758,7 @@
    "store": "flag"
   },
   {
-   "index": 646,
+   "index": 645,
    "category": "lock",
    "name_en": "Blue Leech Charm",
    "room": 113,
@@ -10785,7 +10769,7 @@
    "store": "flag"
   },
   {
-   "index": 647,
+   "index": 646,
    "category": "lock",
    "name_en": "Breeding Room Key",
    "room": 109,
@@ -10796,7 +10780,7 @@
    "store": "flag"
   },
   {
-   "index": 648,
+   "index": 647,
    "category": "lock",
    "name_en": "Dial",
    "room": 102,
@@ -10807,7 +10791,7 @@
    "store": "flag"
   },
   {
-   "index": 649,
+   "index": 648,
    "category": "lock",
    "name_en": "Fire Key",
    "room": 38,
@@ -10818,7 +10802,7 @@
    "store": "flag"
   },
   {
-   "index": 650,
+   "index": 649,
    "category": "lock",
    "name_en": "Green Leech Charm",
    "room": 108,
@@ -10829,7 +10813,7 @@
    "store": "flag"
   },
   {
-   "index": 651,
+   "index": 650,
    "category": "lock",
    "name_en": "Handle",
    "room": 145,
@@ -10840,7 +10824,7 @@
    "store": "flag"
   },
   {
-   "index": 652,
+   "index": 651,
    "category": "lock",
    "name_en": "Ice Pick",
    "room": 17,
@@ -10851,7 +10835,7 @@
    "store": "flag"
   },
   {
-   "index": 653,
+   "index": 652,
    "category": "lock",
    "name_en": "Iron Needle",
    "room": 56,
@@ -10862,7 +10846,7 @@
    "store": "flag"
   },
   {
-   "index": 654,
+   "index": 653,
    "category": "lock",
    "name_en": "Iron Needle",
    "room": 40,
@@ -10873,18 +10857,18 @@
    "store": "flag"
   },
   {
-   "index": 655,
+   "index": 654,
    "category": "lock",
    "name_en": "Keycard",
    "room": 174,
-   "done_flag": 287,
+   "done_flag": 45,
    "done_when": "set",
-   "evidence": "pl15 g4 tag 31: door(174) needs flag set; clear path only sets it first",
+   "evidence": "pl15 g7 tag 8 y=76: FlagSet(0x2d,1); The Engine Room reader sets 0x2d, the GUI door Flag, with 0x11f that door g4 tests; neither is cleared (user 2026-11-11).",
    "status": "proven",
    "store": "flag"
   },
   {
-   "index": 656,
+   "index": 655,
    "category": "lock",
    "name_en": "MO Disk",
    "room": 45,
@@ -10895,7 +10879,7 @@
    "store": "flag"
   },
   {
-   "index": 657,
+   "index": 656,
    "category": "lock",
    "name_en": "MO Disk",
    "room": 53,
@@ -10906,7 +10890,7 @@
    "store": "flag"
   },
   {
-   "index": 658,
+   "index": 657,
    "category": "lock",
    "name_en": "MO Disk",
    "room": 43,
@@ -10917,7 +10901,7 @@
    "store": "flag"
   },
   {
-   "index": 659,
+   "index": 658,
    "category": "lock",
    "name_en": "Shaft Key (L)",
    "room": 173,
@@ -10928,7 +10912,7 @@
    "store": "flag"
   },
   {
-   "index": 660,
+   "index": 659,
    "category": "lock",
    "name_en": "Shaft Key (R)",
    "room": 173,
@@ -10939,7 +10923,7 @@
    "store": "flag"
   },
   {
-   "index": 661,
+   "index": 660,
    "category": "lock",
    "name_en": "Water Key",
    "room": 58,
@@ -10950,7 +10934,7 @@
    "store": "flag"
   },
   {
-   "index": 662,
+   "index": 661,
    "category": "puzzle",
    "name_en": "Battery",
    "room": 45,
@@ -10961,7 +10945,7 @@
    "store": "flag"
   },
   {
-   "index": 663,
+   "index": 662,
    "category": "puzzle",
    "name_en": "Crank Handle",
    "room": 50,
@@ -10972,7 +10956,7 @@
    "store": "flag"
   },
   {
-   "index": 664,
+   "index": 663,
    "category": "puzzle",
    "name_en": "Discipline Tablet",
    "room": 43,
@@ -10983,7 +10967,7 @@
    "store": "flag"
   },
   {
-   "index": 665,
+   "index": 664,
    "category": "puzzle",
    "name_en": "Elevator Key",
    "room": 134,
@@ -10994,7 +10978,7 @@
    "store": "flag"
   },
   {
-   "index": 666,
+   "index": 665,
    "category": "puzzle",
    "name_en": "Hookshot",
    "room": 6,
@@ -11005,7 +10989,7 @@
    "store": "none"
   },
   {
-   "index": 667,
+   "index": 666,
    "category": "puzzle",
    "name_en": "Hookshot",
    "room": 100,
@@ -11016,7 +11000,7 @@
    "store": "none"
   },
   {
-   "index": 668,
+   "index": 667,
    "category": "puzzle",
    "name_en": "Hookshot",
    "room": 112,
@@ -11027,7 +11011,7 @@
    "store": "none"
   },
   {
-   "index": 669,
+   "index": 668,
    "category": "puzzle",
    "name_en": "Hookshot",
    "room": 102,
@@ -11038,7 +11022,7 @@
    "store": "none"
   },
   {
-   "index": 670,
+   "index": 669,
    "category": "puzzle",
    "name_en": "Input Regulator Coil",
    "room": 104,
@@ -11049,13 +11033,24 @@
    "store": "flag"
   },
   {
-   "index": 671,
+   "index": 670,
    "category": "puzzle",
    "name_en": "Iron Needle",
    "room": 50,
    "done_flag": 180,
    "done_when": "set",
    "evidence": "sh0e g16 tag 8 y=126: FlagSet(0xb4,1) with item_sub",
+   "status": "proven",
+   "store": "flag"
+  },
+  {
+   "index": 671,
+   "category": "puzzle",
+   "name_en": "Lighter",
+   "room": 90,
+   "done_flag": 11,
+   "done_when": "set",
+   "evidence": "dm04 g16 tag 8 y=106: FlagSet(0xb,1)",
    "status": "proven",
    "store": "flag"
   },
@@ -11208,6 +11203,39 @@
   },
   {
    "index": 685,
+   "category": "puzzle",
+   "name_en": "Lighter",
+   "room": 50,
+   "done_flag": 33,
+   "done_when": "set",
+   "evidence": "sh0e g8 tag 8 y=106: FlagSet(0x21,1)",
+   "status": "proven",
+   "store": "flag"
+  },
+  {
+   "index": 686,
+   "category": "puzzle",
+   "name_en": "Factory Key",
+   "room": 136,
+   "done_flag": 248,
+   "done_when": "set",
+   "evidence": "bt04 g4 tag 8 y=73: FlagSet(0xf8,1); 0xf8 is set by this use and by the Up Key (bt04 g5), never cleared; 0xf2 (turntable up) is cleared when it is lowered (bt02 g5).",
+   "status": "proven",
+   "store": "flag"
+  },
+  {
+   "index": 687,
+   "category": "puzzle",
+   "name_en": "Hi-Power Battery",
+   "room": 153,
+   "done_flag": 254,
+   "done_when": "set",
+   "evidence": "pl0c g5 tag 8 y=95: FlagSet(0xfe,1)",
+   "status": "proven",
+   "store": "flag"
+  },
+  {
+   "index": 688,
    "category": "item",
    "name_en": "Handgun Ammo",
    "room": 2,
@@ -11222,7 +11250,7 @@
    ]
   },
   {
-   "index": 686,
+   "index": 689,
    "category": "file",
    "name_en": "Brake Operation Manual",
    "room": 0,
@@ -11233,7 +11261,7 @@
    "store": "flag"
   },
   {
-   "index": 687,
+   "index": 690,
    "category": "file",
    "name_en": "Hookshot Operator's Manual",
    "room": 10,
@@ -11244,7 +11272,7 @@
    "store": "flag"
   },
   {
-   "index": 688,
+   "index": 691,
    "category": "item",
    "name_en": "Handgun Ammo",
    "room": 15,
@@ -11255,7 +11283,7 @@
    "store": "flag"
   },
   {
-   "index": 689,
+   "index": 692,
    "category": "file",
    "name_en": "Player's Manual 2",
    "room": 15,
@@ -11266,7 +11294,7 @@
    "store": "flag"
   },
   {
-   "index": 690,
+   "index": 693,
    "category": "file",
    "name_en": "Microfilm Image",
    "room": 39,
@@ -11277,7 +11305,7 @@
    "store": "flag"
   },
   {
-   "index": 691,
+   "index": 694,
    "category": "file",
    "name_en": "Marcus' Diary 1",
    "room": 54,
@@ -11288,7 +11316,7 @@
    "store": "flag"
   },
   {
-   "index": 692,
+   "index": 695,
    "category": "item",
    "name_en": "Handgun Ammo",
    "room": 113,
@@ -11299,7 +11327,7 @@
    "store": "flag"
   },
   {
-   "index": 693,
+   "index": 696,
    "category": "file",
    "name_en": "Old Photograph",
    "room": 113,
@@ -11310,7 +11338,7 @@
    "store": "flag"
   },
   {
-   "index": 694,
+   "index": 697,
    "category": "file",
    "name_en": "Gate Operation Manual",
    "room": 165,
@@ -11321,7 +11349,7 @@
    "store": "flag"
   },
   {
-   "index": 695,
+   "index": 698,
    "category": "key",
    "name_en": "Green Chemical",
    "room": 49,
@@ -11332,7 +11360,7 @@
    "store": "none"
   },
   {
-   "index": 696,
+   "index": 699,
    "category": "key",
    "name_en": "Red Chemical",
    "room": 105,
@@ -11343,7 +11371,7 @@
    "store": "none"
   },
   {
-   "index": 697,
+   "index": 700,
    "category": "key",
    "name_en": "Green Chemical",
    "room": 107,
@@ -11354,7 +11382,7 @@
    "store": "none"
   },
   {
-   "index": 698,
+   "index": 701,
    "category": "key",
    "name_en": "Red Chemical",
    "room": 103,
@@ -11365,7 +11393,7 @@
    "store": "none"
   },
   {
-   "index": 699,
+   "index": 702,
    "category": "key",
    "name_en": "Red Chemical",
    "room": 143,
@@ -11376,7 +11404,7 @@
    "store": "none"
   },
   {
-   "index": 700,
+   "index": 703,
    "category": "key",
    "name_en": "Blue Chemical",
    "room": 157,
@@ -11387,7 +11415,7 @@
    "store": "none"
   },
   {
-   "index": 701,
+   "index": 704,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 132,
@@ -11399,7 +11427,7 @@
    "need_flag": null
   },
   {
-   "index": 702,
+   "index": 705,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 134,
@@ -11411,7 +11439,7 @@
    "need_flag": null
   },
   {
-   "index": 703,
+   "index": 706,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 134,
@@ -11423,7 +11451,7 @@
    "need_flag": null
   },
   {
-   "index": 704,
+   "index": 707,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 100,
@@ -11435,7 +11463,7 @@
    "need_flag": 403
   },
   {
-   "index": 705,
+   "index": 708,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 100,
@@ -11447,7 +11475,7 @@
    "need_flag": null
   },
   {
-   "index": 706,
+   "index": 709,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 102,
@@ -11459,7 +11487,7 @@
    "need_flag": 216
   },
   {
-   "index": 707,
+   "index": 710,
    "category": "puzzle",
    "name_en": "Event",
    "room": 102,
@@ -11471,7 +11499,7 @@
    "need_flag": null
   },
   {
-   "index": 708,
+   "index": 711,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 102,
@@ -11483,7 +11511,7 @@
    "need_flag": null
   },
   {
-   "index": 709,
+   "index": 712,
    "category": "puzzle",
    "name_en": "Event",
    "room": 106,
@@ -11495,7 +11523,19 @@
    "need_flag": null
   },
   {
-   "index": 710,
+   "index": 713,
+   "category": "puzzle",
+   "name_en": "Cable Car",
+   "room": 111,
+   "done_flag": null,
+   "done_when": "set",
+   "evidence": "script ch0c g2 tag 2 cutscene; trigger volume 1; see verification/event-audit.json",
+   "status": "script_read",
+   "store": "flag",
+   "need_flag": null
+  },
+  {
+   "index": 714,
    "category": "puzzle",
    "name_en": "Event",
    "room": 113,
@@ -11507,7 +11547,7 @@
    "need_flag": null
   },
   {
-   "index": 711,
+   "index": 715,
    "category": "puzzle",
    "name_en": "Event",
    "room": 88,
@@ -11519,7 +11559,19 @@
    "need_flag": null
   },
   {
-   "index": 712,
+   "index": 716,
+   "category": "puzzle",
+   "name_en": "Power Regulator",
+   "room": 88,
+   "done_flag": 10,
+   "done_when": "set",
+   "evidence": "script dm02 g5 tag 2 cutscene; trigger volume 1; see verification/event-audit.json",
+   "status": "script_read",
+   "store": "flag",
+   "need_flag": null
+  },
+  {
+   "index": 717,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 91,
@@ -11531,19 +11583,19 @@
    "need_flag": null
   },
   {
-   "index": 713,
+   "index": 718,
    "category": "puzzle",
-   "name_en": "Event",
+   "name_en": "Control Panel",
    "room": 96,
    "done_flag": 205,
    "done_when": "set",
-   "evidence": "script dm0a g8 tag 2 enemy on; trigger volume 3; see verification/event-audit.json",
+   "evidence": "script dm0a g8 tag 2; trigger volume 3; done flag 0xcd; see verification/event-audit.json",
    "status": "script_read",
    "store": "flag",
    "need_flag": null
   },
   {
-   "index": 714,
+   "index": 719,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 97,
@@ -11555,7 +11607,7 @@
    "need_flag": 391
   },
   {
-   "index": 715,
+   "index": 720,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 141,
@@ -11567,7 +11619,7 @@
    "need_flag": null
   },
   {
-   "index": 716,
+   "index": 721,
    "category": "puzzle",
    "name_en": "Event",
    "room": 142,
@@ -11579,7 +11631,19 @@
    "need_flag": null
   },
   {
-   "index": 717,
+   "index": 722,
+   "category": "puzzle",
+   "name_en": "Power Supply Panel",
+   "room": 142,
+   "done_flag": 250,
+   "done_when": "set",
+   "evidence": "script pl01 g6 tag 2 cutscene; trigger volume 4; see verification/event-audit.json",
+   "status": "script_read",
+   "store": "flag",
+   "need_flag": null
+  },
+  {
+   "index": 723,
    "category": "puzzle",
    "name_en": "Event",
    "room": 152,
@@ -11591,7 +11655,23 @@
    "need_flag": null
   },
   {
-   "index": 718,
+   "index": 724,
+   "category": "key",
+   "name_en": "Crates",
+   "room": 154,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "state of puzzle row 567: spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "easy": 573,
+    "normal": 519,
+    "hard": 500
+   }
+  },
+  {
+   "index": 725,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 156,
@@ -11603,7 +11683,7 @@
    "need_flag": null
   },
   {
-   "index": 719,
+   "index": 726,
    "category": "puzzle",
    "name_en": "Event",
    "room": 158,
@@ -11615,7 +11695,7 @@
    "need_flag": null
   },
   {
-   "index": 720,
+   "index": 727,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 160,
@@ -11627,7 +11707,7 @@
    "need_flag": null
   },
   {
-   "index": 721,
+   "index": 728,
    "category": "puzzle",
    "name_en": "Event",
    "room": 161,
@@ -11639,7 +11719,7 @@
    "need_flag": null
   },
   {
-   "index": 722,
+   "index": 729,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 164,
@@ -11651,7 +11731,7 @@
    "need_flag": null
   },
   {
-   "index": 723,
+   "index": 730,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 164,
@@ -11663,7 +11743,7 @@
    "need_flag": null
   },
   {
-   "index": 724,
+   "index": 731,
    "category": "puzzle",
    "name_en": "Event",
    "room": 166,
@@ -11675,7 +11755,19 @@
    "need_flag": 268
   },
   {
-   "index": 725,
+   "index": 732,
+   "category": "puzzle",
+   "name_en": "Elevator",
+   "room": 173,
+   "done_flag": null,
+   "done_when": "set",
+   "evidence": "script pl20 g4 tag 2 cutscene; trigger volume 2; see verification/event-audit.json",
+   "status": "script_read",
+   "store": "flag",
+   "need_flag": null
+  },
+  {
+   "index": 733,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 36,
@@ -11687,7 +11779,7 @@
    "need_flag": null
   },
   {
-   "index": 726,
+   "index": 734,
    "category": "puzzle",
    "name_en": "Event",
    "room": 36,
@@ -11699,7 +11791,19 @@
    "need_flag": null
   },
   {
-   "index": 727,
+   "index": 735,
+   "category": "puzzle",
+   "name_en": "Scales",
+   "room": 36,
+   "done_flag": 144,
+   "done_when": "set",
+   "evidence": "script sh00 g15 tag 2 enemy on; trigger volume 11; see verification/event-audit.json",
+   "status": "script_read",
+   "store": "flag",
+   "need_flag": null
+  },
+  {
+   "index": 736,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 40,
@@ -11711,7 +11815,7 @@
    "need_flag": null
   },
   {
-   "index": 728,
+   "index": 737,
    "category": "puzzle",
    "name_en": "Event",
    "room": 47,
@@ -11723,7 +11827,7 @@
    "need_flag": 163
   },
   {
-   "index": 729,
+   "index": 738,
    "category": "puzzle",
    "name_en": "Event",
    "room": 47,
@@ -11735,7 +11839,7 @@
    "need_flag": 163
   },
   {
-   "index": 730,
+   "index": 739,
    "category": "puzzle",
    "name_en": "Event",
    "room": 50,
@@ -11747,19 +11851,19 @@
    "need_flag": 145
   },
   {
-   "index": 731,
+   "index": 740,
    "category": "puzzle",
-   "name_en": "Event (room)",
+   "name_en": "Chessboard",
    "room": 54,
    "done_flag": 169,
    "done_when": "set",
-   "evidence": "script sh12 g7 tag 4 enemy on; room level, corner of its first piece, exact position unresolved; see verification/event-audit.json",
+   "evidence": "script sh12 g7 tag 4; trigger volume 6; done flag 0xa9; see verification/event-audit.json",
    "status": "script_read",
    "store": "flag",
    "need_flag": null
   },
   {
-   "index": 732,
+   "index": 741,
    "category": "puzzle",
    "name_en": "Event",
    "room": 55,
@@ -11771,7 +11875,23 @@
    "need_flag": null
   },
   {
-   "index": 733,
+   "index": 742,
+   "category": "key",
+   "name_en": "Piano",
+   "room": 62,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "state of puzzle row 275: spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "easy": 279,
+    "normal": 252,
+    "hard": 242
+   }
+  },
+  {
+   "index": 743,
    "category": "puzzle",
    "name_en": "Event",
    "room": 65,
@@ -11783,7 +11903,7 @@
    "need_flag": null
   },
   {
-   "index": 734,
+   "index": 744,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 65,
@@ -11795,7 +11915,7 @@
    "need_flag": 178
   },
   {
-   "index": 735,
+   "index": 745,
    "category": "puzzle",
    "name_en": "Event",
    "room": 65,
@@ -11807,7 +11927,7 @@
    "need_flag": null
   },
   {
-   "index": 736,
+   "index": 746,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 66,
@@ -11819,7 +11939,7 @@
    "need_flag": null
   },
   {
-   "index": 737,
+   "index": 747,
    "category": "puzzle",
    "name_en": "Event",
    "room": 0,
@@ -11831,7 +11951,19 @@
    "need_flag": 113
   },
   {
-   "index": 738,
+   "index": 748,
+   "category": "puzzle",
+   "name_en": "Brake Controls",
+   "room": 0,
+   "done_flag": 108,
+   "done_when": "set",
+   "evidence": "script tr00 g2 tag 2 cutscene; trigger volume 1; see verification/event-audit.json",
+   "status": "script_read",
+   "store": "flag",
+   "need_flag": 113
+  },
+  {
+   "index": 749,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 0,
@@ -11843,7 +11975,7 @@
    "need_flag": null
   },
   {
-   "index": 739,
+   "index": 750,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 1,
@@ -11855,7 +11987,7 @@
    "need_flag": null
   },
   {
-   "index": 740,
+   "index": 751,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 2,
@@ -11867,7 +11999,7 @@
    "need_flag": 0
   },
   {
-   "index": 741,
+   "index": 752,
    "category": "puzzle",
    "name_en": "Event",
    "room": 2,
@@ -11879,7 +12011,7 @@
    "need_flag": null
   },
   {
-   "index": 742,
+   "index": 753,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 6,
@@ -11891,7 +12023,7 @@
    "need_flag": null
   },
   {
-   "index": 743,
+   "index": 754,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 6,
@@ -11903,7 +12035,7 @@
    "need_flag": 115
   },
   {
-   "index": 744,
+   "index": 755,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 6,
@@ -11915,7 +12047,7 @@
    "need_flag": 68
   },
   {
-   "index": 745,
+   "index": 756,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 6,
@@ -11927,7 +12059,7 @@
    "need_flag": 68
   },
   {
-   "index": 746,
+   "index": 757,
    "category": "puzzle",
    "name_en": "Event",
    "room": 7,
@@ -11939,7 +12071,7 @@
    "need_flag": 76
   },
   {
-   "index": 747,
+   "index": 758,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 7,
@@ -11951,7 +12083,7 @@
    "need_flag": null
   },
   {
-   "index": 748,
+   "index": 759,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 8,
@@ -11963,7 +12095,7 @@
    "need_flag": null
   },
   {
-   "index": 749,
+   "index": 760,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 8,
@@ -11975,7 +12107,7 @@
    "need_flag": null
   },
   {
-   "index": 750,
+   "index": 761,
    "category": "puzzle",
    "name_en": "Event",
    "room": 10,
@@ -11987,7 +12119,7 @@
    "need_flag": null
   },
   {
-   "index": 751,
+   "index": 762,
    "category": "puzzle",
    "name_en": "Event",
    "room": 11,
@@ -11999,7 +12131,7 @@
    "need_flag": 120
   },
   {
-   "index": 752,
+   "index": 763,
    "category": "puzzle",
    "name_en": "Event",
    "room": 11,
@@ -12011,7 +12143,7 @@
    "need_flag": null
   },
   {
-   "index": 753,
+   "index": 764,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 14,
@@ -12023,7 +12155,7 @@
    "need_flag": 87
   },
   {
-   "index": 754,
+   "index": 765,
    "category": "puzzle",
    "name_en": "Event",
    "room": 15,
@@ -12035,7 +12167,7 @@
    "need_flag": null
   },
   {
-   "index": 755,
+   "index": 766,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 15,
@@ -12047,7 +12179,7 @@
    "need_flag": null
   },
   {
-   "index": 756,
+   "index": 767,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 15,
@@ -12059,7 +12191,7 @@
    "need_flag": 98
   },
   {
-   "index": 757,
+   "index": 768,
    "category": "puzzle",
    "name_en": "Event",
    "room": 17,
@@ -12069,6 +12201,131 @@
    "status": "script_read",
    "store": "flag",
    "need_flag": null
+  },
+  {
+   "index": 769,
+   "category": "puzzle",
+   "name_en": "Event",
+   "room": 43,
+   "done_flag": 138,
+   "done_when": "set",
+   "evidence": "state of puzzle row 663: sh07 g9 tag 8 y=81: FlagSet(0x8a,1)",
+   "status": "proven",
+   "store": "flag"
+  },
+  {
+   "index": 770,
+   "category": "puzzle",
+   "name_en": "Event",
+   "room": 134,
+   "done_flag": 412,
+   "done_when": "set",
+   "evidence": "state of puzzle row 664: bt02 g12 tag 8 y=67: FlagSet(0x19c,1)",
+   "status": "proven",
+   "store": "flag"
+  },
+  {
+   "index": 771,
+   "category": "puzzle",
+   "name_en": "Event",
+   "room": 104,
+   "done_flag": 223,
+   "done_when": "set",
+   "evidence": "state of puzzle row 669: ch05 g9 tag 8 y=92: FlagSet(0xdf,1) with item_sub",
+   "status": "proven",
+   "store": "flag"
+  },
+  {
+   "index": 772,
+   "category": "puzzle",
+   "name_en": "Event",
+   "room": 10,
+   "done_flag": 112,
+   "done_when": "set",
+   "evidence": "state of puzzle row 674: tr0a g5 tag 8 y=77: FlagSet(0x70,1) with item_sub",
+   "status": "proven",
+   "store": "flag"
+  },
+  {
+   "index": 773,
+   "category": "puzzle",
+   "name_en": "Event",
+   "room": 43,
+   "done_flag": 137,
+   "done_when": "set",
+   "evidence": "state of puzzle row 678: sh07 g8 tag 8 y=80: FlagSet(0x89,1)",
+   "status": "proven",
+   "store": "flag"
+  },
+  {
+   "index": 774,
+   "category": "puzzle",
+   "name_en": "Event",
+   "room": 104,
+   "done_flag": 224,
+   "done_when": "set",
+   "evidence": "state of puzzle row 679: ch05 g10 tag 8 y=93: FlagSet(0xe0,1) with item_sub; cleared by ['ch03:g2', 'ch13:g2', 'ch14:g2', 'ch15:g2']; 0xe0 is cleared again by ch03 g2 (with 0xd8, 0x17); that path also sets 0xef, never cleared. Use 0xe0 or 0xef.",
+   "status": "inferred",
+   "store": "flag",
+   "done_any_of": [
+    224,
+    239
+   ]
+  },
+  {
+   "index": 775,
+   "category": "puzzle",
+   "name_en": "Event",
+   "room": 8,
+   "done_flag": 8,
+   "done_when": "set",
+   "evidence": "state of puzzle row 680: tr08 g5 tag 8 y=82: FlagSet(0x8,1) with item_sub",
+   "status": "proven",
+   "store": "flag"
+  },
+  {
+   "index": 776,
+   "category": "puzzle",
+   "name_en": "Event",
+   "room": 43,
+   "done_flag": 136,
+   "done_when": "set",
+   "evidence": "state of puzzle row 682: sh07 g7 tag 8 y=79: FlagSet(0x88,1)",
+   "status": "proven",
+   "store": "flag"
+  },
+  {
+   "index": 777,
+   "category": "puzzle",
+   "name_en": "Event",
+   "room": 136,
+   "done_flag": 248,
+   "done_when": "set",
+   "evidence": "state of puzzle row 683: bt04 g5 tag 8 y=111: FlagSet(0xf8,1) with item_sub",
+   "status": "proven",
+   "store": "flag"
+  },
+  {
+   "index": 778,
+   "category": "puzzle",
+   "name_en": "Event",
+   "room": 61,
+   "done_flag": 153,
+   "done_when": "set",
+   "evidence": "state of puzzle row 684: sh19 g6 tag 8 y=83: FlagSet(0x99,1) with item_sub",
+   "status": "proven",
+   "store": "flag"
+  },
+  {
+   "index": 779,
+   "category": "puzzle",
+   "name_en": "Event",
+   "room": 136,
+   "done_flag": 248,
+   "done_when": "set",
+   "evidence": "state of puzzle row 686: bt04 g4 tag 8 y=73: FlagSet(0xf8,1); 0xf8 is set by this use and by the Up Key (bt04 g5), never cleared; 0xf2 (turntable up) is cleared when it is lowered (bt02 g5).",
+   "status": "proven",
+   "store": "flag"
   }
  ]
 }

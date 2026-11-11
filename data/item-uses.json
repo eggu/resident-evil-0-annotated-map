@@ -216,6 +216,14 @@
    "inferred_from_text": false
   },
   {
+   "item": "Lighter",
+   "slug": "lighter",
+   "kind": "puzzle",
+   "place": "facility-basement-b2/statue-room",
+   "inferred_from_text": false,
+   "source": "script dm04 g16-g21: tag 8 item 106 on six statue volumes, FlagSet 11; inscription \"Six souls, imprisoned within the chains of death\" (user report 2026-11-10)"
+  },
+  {
    "item": "Locker Key",
    "slug": "locker-key",
    "kind": "puzzle",
@@ -305,6 +313,30 @@
    "kind": "puzzle",
    "place": "training-facility-2f/maintenance-room",
    "inferred_from_text": true
+  },
+  {
+   "item": "Lighter",
+   "slug": "lighter",
+   "kind": "puzzle",
+   "place": "training-facility-2f/main-library",
+   "inferred_from_text": false,
+   "source": "script sh0e g8: tag 8 item 106, volume 3 (user 2026-11-10: looks like a puzzle in game)"
+  },
+  {
+   "item": "Factory Key",
+   "slug": "factory-key",
+   "kind": "puzzle",
+   "place": "factory-1f/turntable-control-room",
+   "inferred_from_text": false,
+   "source": "script bt04 g4: tag 8 item 73, volume 2, PlayMovie 27 (user 2026-11-10: looks like a puzzle in game)"
+  },
+  {
+   "item": "Hi-Power Battery",
+   "slug": "hi-power-battery",
+   "kind": "puzzle",
+   "place": "treatment-plant-b7/maintenance-area",
+   "inferred_from_text": false,
+   "source": "script pl0c g5: tag 8 item 95, volume 2, forklift (user 2026-11-10: looks like a puzzle in game)"
   }
  ]
 }

@@ -632,10 +632,11 @@
 "enemy_flags": [],
 "done_candidates": [],
 "need": [],
-"status": "unresolved",
-"reason": "no flag decides it has happened",
+"status": "script_read",
+"reason": "repeatable, always-shown puzzle mark",
 "done": null,
-"room": 111
+"room": 111,
+"position": "trigger volume 1"
 },
 {
 "scene": "ch0e",
@@ -1407,11 +1408,10 @@
 205
 ],
 "need": [],
-"status": "script_read",
-"reason": "done flag 0xcd",
+"status": "named_puzzle",
+"reason": "one puzzle mark, see NAMED_PUZZLES",
 "done": 205,
-"room": 96,
-"position": "trigger volume 3"
+"room": 96
 },
 {
 "scene": "dm0b",
@@ -2536,10 +2536,11 @@
 "enemy_flags": [],
 "done_candidates": [],
 "need": [],
-"status": "unresolved",
-"reason": "no flag decides it has happened",
+"status": "script_read",
+"reason": "repeatable, always-shown puzzle mark",
 "done": null,
-"room": 173
+"room": 173,
+"position": "trigger volume 2"
 },
 {
 "scene": "pl21",
@@ -3456,11 +3457,10 @@
 169
 ],
 "need": [],
-"status": "script_read",
-"reason": "done flag 0xa9",
+"status": "named_puzzle",
+"reason": "one puzzle mark, see NAMED_PUZZLES",
 "done": 169,
-"room": 54,
-"position": "room level, corner of its first piece, exact position unresolved"
+"room": 54
 },
 {
 "scene": "sh13",
@@ -3740,8 +3740,8 @@
 154
 ],
 "need": [],
-"status": "unresolved",
-"reason": "done flag 0x9a cleared again by ['sh1a:g6']",
+"status": "named_puzzle",
+"reason": "one puzzle mark, see NAMED_PUZZLES",
 "done": 154,
 "room": 62
 },

@@ -10,7 +10,7 @@ ROOT=Path(__file__).resolve().parents[2]
 for folder in ('tools','tools/extract','tools/inspect','emulator','tools/crosscheck'):sys.path.insert(0,str(ROOT/folder))
 from arrange import parse as parse_arrange
 from event_disasm import Commands,decode,groups
-from events import analyse,is_room_script,__doc__ as events_rule
+from events import analyse,is_room_script,ITEM_USE,__doc__ as events_rule
 from event_collision import parse as parse_collision
 from resources import Arc
 from render import render
@@ -89,8 +89,8 @@ def places(native,matches):
   for pid in [*c['native_pieces'],*[a['piece'] for a in c.get('alias_pieces',[])]]:
    by_room.setdefault(pieces[pid]['native_room_id'],[]).append((pid,c['external_id'],c['name_ko'],c['name_en']))
  return pieces,by_room
-def locate_record(nat,room,x,z,by_room,pieces,boxes,locations,k=SCALE):
- """Choose the floor whose piece contains the point; report the nearest when none does, never hide it."""
+def locate_record(nat,room,x,z,by_room,pieces,boxes,locations,k=SCALE,only=None):
+ """Choose the floor whose piece contains the point; report the nearest when none does, never hide it. only: the one floor to consider."""
  reg,local,_=locate(room);best=None
  for floor in sorted(set(locations.get(room,[]))):
   if floor==255:continue
@@ -99,10 +99,20 @@ def locate_record(nat,room,x,z,by_room,pieces,boxes,locations,k=SCALE):
   cx,cy=to_canvas(base,x,z,k)
   for pid,*_ in by_room.get(room,[]):
    b=boxes.get(pid)
-   if not b:continue
+   if not b or (only and pieces[pid]['floor']!=only):continue
    dx=max(b[0]-cx,0,cx-b[2]);dy=max(b[1]-cy,0,cy-b[3]);d=(dx*dx+dy*dy)**.5
    if best is None or d<best['distance']:best=dict(x=cx,y=cy,piece=pid,floor=pieces[pid]['floor'],region=pieces[pid]['region'],distance=d)
  return best
+# Table rows of a room on several floors whose x/z fit more than one; (room, item): floor. Elevator Key: Turntable Yard and Platform share scene bt02, the key lies on the B4 platform
+# (Evil Resource factory-b4/turntable-platform; the user picked it up on B4, 2026-11-11), and x/z alone put it on the 1F yard.
+FLOOR_OF={(134,67):'b4'}
+# Rooms whose two floors share x/z, told apart by world y: room: (y below which, floor; otherwise floor). 142: B6 Air Regulator Room rows lie at y 0 (3 Zombies, the herbs,
+# Empty Bottle, as Evil Resource and the user, 2026-11-11), B5 Control Room rows at y 470-557.
+FLOOR_BY_Y={142:(200,'b6','b5')}
+def floor_of(row):
+ f=FLOOR_OF.get((row['room'],row['item']))
+ if f or row['room'] not in FLOOR_BY_Y:return f
+ y,low,high=FLOOR_BY_Y[row['room']];return low if row['world'][1]<y else high
 # Group 3 of these three scenes of one room runs door(13) with no key check reachable; item 64 has no name, and Evil Resource lists no locked door here.
 NOT_LOCKS={('tr0c',13),('tr18',13),('tr20',13)}
 # Solving the Lecture Room puzzle sets flag 0x1a, which door scripts sh00, sh0b and sh1d test. Evil Resource names the same three doors, and the GUI's door instances carry 1a.
@@ -124,19 +134,14 @@ TAG_INVESTIGATE=2
 def snap_room_level(rows,game,native,by_room):
  """A room-level mark is a guess at the bounding box's centre, which an L-shaped room can leave outside. Nearest cell of the room's real shape. Every other row: real 3D positions can overshoot walls drawn thin on the map (up to 16 px once the floor sheet counts as room), so nearest cell too, flagged moved_into_room."""
  from room_layout import piece_masks,silhouette,textures,cells,GRID
- get=textures(game);shapes={}
+ get=textures(game);shapes={};floor_of={p['id']:p['floor'] for p in native['map_pieces']}
  for f in native['floors']:
   known={p['id'] for p in native['map_pieces']}
   masks,_=piece_masks(game,f['region'],f['floor'],get,known);fills,_=piece_masks(game,f['region'],f['floor'],get,known,fill=True)
   for pid,m in masks.items():shapes[pid]=cells(silhouette(m))|cells(fills[pid]) if pid in fills else cells(silhouette(m))
  for r in rows:
   if r.get('x') is None or r['category']=='lock':continue
-  # A table row at y -50000 (Dial) waits under the world for a script to move it: x and z say nothing, so its position is the room's.
-  if r.get('world') and r['world'][1]<-1000:
-   own=set().union(*[shapes.get(p,set()) for p,*_ in by_room.get(r['room'],[]) if p in shapes],set())
-   if own:mx=sum(a for a,_ in own)/len(own);my=sum(b for _,b in own)/len(own);n=min(own,key=lambda a:(a[0]-mx)**2+(a[1]-my)**2);r['x'],r['y'],r['placeholder_position'],r['evidence']=n[0]*GRID+1.0,n[1]*GRID+1.0,1,r['evidence']+'; placeholder position, room centre'
-   continue
-  own=set().union(*[shapes.get(p,set()) for p,*_ in by_room.get(r['room'],[]) if p in shapes],set())
+  own=set().union(*[shapes[p] for p,*_ in by_room.get(r['room'],[]) if p in shapes and floor_of.get(p)==r['floor']],set()) # its own floor: pieces of other floors share the canvas
   c=(int(r['x']//GRID),int(r['y']//GRID))
   if own and c not in own:
    n=min(own,key=lambda a:(a[0]-c[0])**2+(a[1]-c[1])**2);r['x'],r['y'],r['moved_into_room']=n[0]*GRID+1.0,n[1]*GRID+1.0,1
@@ -185,17 +190,23 @@ def puzzle_trigger(data,item,commands):
  volumes={v for _,v in hits}
  if len(volumes)!=1:return None
  return sorted({i for i,_ in hits}),volumes.pop()
+SPREAD=('Lighter',) # puzzles placed at the middle of all their use volumes
 def place_puzzles(rows,game,nat,en,commands,by_room,pieces,boxes,locations):
  aliases={'Input Regulator Coil':'Input Reg. Coil','Output Regulator Coil':'Output Reg. Coil'}
+ ids={'Lighter':106} # 105 is the empty Lighter, 106 the filled one the statues take (dm04 g16-g21)
  unresolved=[]
  for row in rows:
   if row['category']!='puzzle':continue
-  item=next((k for k,v in en.items() if v==aliases.get(row['name_en'],row['name_en'])),None)
+  item=ids.get(row['name_en']) or next((k for k,v in en.items() if v==aliases.get(row['name_en'],row['name_en'])),None)
   _,local,region=locate(row['room']);scene=f'{region}{local:02x}'
   arc=Arc((game/f'nativePC/arc/scene/{scene}.arc').read_bytes())
   member=next(m for m in arc.members if m.kind==0x714ec77c and m.name.split('\\')[-1]==scene)
   binding=puzzle_trigger(arc.read(member),item,commands) if item is not None else None
   volume=trigger_box(arc,scene,binding[1]) if binding else None
+  if not binding and item is not None and row['name_en'] in SPREAD:
+   # One item on several objects, each its own volume (six statues, dm04): one mark at the middle of all of them.
+   uses=[(i,g[2]) for i,(g,_) in enumerate(groups(arc.read(member))) if g[0] in (8,30) and g[3]==item];boxes_=[trigger_box(arc,scene,v) for _,v in uses]
+   if boxes_ and all(boxes_):binding=([i for i,_ in uses],[v for _,v in uses]);volume=tuple(f(b[k] for b in boxes_) for k,f in enumerate((min,max,min,max)))
   hit=None
   if volume:
    x,z=(volume[0]+volume[1])/2,(volume[2]+volume[3])/2
@@ -207,6 +218,27 @@ def place_puzzles(rows,game,nat,en,commands,by_room,pieces,boxes,locations):
    row.update(x=None,y=None,evidence='puzzle interaction position unresolved; no point marker')
    unresolved.append(dict(room=row['room'],name_en=row['name_en']))
  return unresolved
+# Event groups that are a puzzle with no item use, so they get a named puzzle mark beside the event mark (user 2026-11-10). (scene, group): (en, ko).
+# dm02 g5: UpCut panel adding 30/20/40/10/50, CmpRegImm 70 then FlagSet 10. pl01 g6: message "Dam Area Power Supply Panel".
+# sh00 g15: messages "The scales are balanced", "Remove a statue?". tr00 g2: UpCutProc panel in the Engine Cab, which gives the Brake Operation Manual (external page).
+# Not puzzles, by their messages: levers ch03 g5 and pl11 g5, gondola pl0b g4, elevator floors pl19 g3, power cable tr11 g3.
+# ch0c g2: "Use the cable car?", a repeatable ride that toggles 0xea, so no flag ever hides it. Puzzle mark only, always shown (user 2026-11-11).
+# pl20 g4: the Storage lift down to the Queen Leech (Demo_Start 123), no flag ends it. Not a puzzle, marked because it matters (user 2026-11-11).
+ALWAYS_PUZZLES={('ch0c',2):('Cable Car','케이블카'),('pl20',4):('Elevator','승강기')}
+# Puzzles without an item use, one named puzzle mark in place of their event mark (user 2026-11-11, checked against Gamepressure's walkthrough).
+# (scene, group): (en, ko, hide), hide a done flag or (room, item) of the pickup the puzzle gives.
+# pl0d g6: crate room panel (FenceRot, Fill/Drain); no script sets 400, so it goes with the Handle. sh1a g5: piano, g6 clears 0x9a on a replay, so it goes with the Battery.
+# sh12 g7: chessboard, the King entering volume 6 sets 169. dm0a g8: testing area panel, its red button lets the hunters in (205).
+NAMED_PUZZLES={('pl0d',6):('Crates','상자 퍼즐',(154,87)),('sh1a',5):('Piano','피아노',(62,94)),('sh12',7):('Chessboard','체스판',169),('dm0a',8):('Control Panel','제어 패널',205)}
+SCRIPT_PUZZLES={('dm02',5):('Power Regulator','전원 조절 장치'),('pl01',6):('Power Supply Panel','전원 공급 패널'),('sh00',15):('Scales','천칭'),('tr00',2):('Brake Controls','브레이크 장치')}
+def puzzle_events(rows,audit):
+ """An event mark beside each item-use puzzle whose use group runs a cutscene. It is done when the puzzle is (puzzle_row)."""
+ scenes={(a['scene'],a['group']) for a in audit if a['tag'] in ITEM_USE and a['scenes']};out=[]
+ for i,r in enumerate(rows):
+  s=r.get('script') or {}
+  if r['category']!='puzzle' or r.get('x') is None or not any((s.get('scene'),g) in scenes for g in s.get('groups',())):continue
+  out.append(dict({k:v for k,v in r.items() if k not in('script','evidence')},event=1,name_en='Event',name_ko='이벤트',puzzle_row=i,script=s,evidence=f"cutscene in the use group of puzzle row {i}; {r['evidence']}"))
+ return out
 def place_events(rows,game,nat,image,by_room,pieces,boxes,locations):
  """Marks for readable events (tools/extract/events.py) and the audit of all of them. Appended after every other row so row indexes stay."""
  from state_flags import Scripts
@@ -217,7 +249,9 @@ def place_events(rows,game,nat,image,by_room,pieces,boxes,locations):
   arc=Arc((game/f'nativePC/arc/scene/{scene}.arc').read_bytes());room=bases[region]+int(scene[2:],16)
   for g in analyse(s,scene,written):
    a=dict(g,room=room);audit.append(a)
-   if g['status']!='script_read':continue
+   if (scene,g['group']) in NAMED_PUZZLES:a.update(status='named_puzzle',reason='one puzzle mark, see NAMED_PUZZLES');continue
+   always=ALWAYS_PUZZLES.get((scene,g['group']))
+   if g['status']!='script_read' and not always:continue
    hit=None;how=None
    if g['tag'] in (2,14):
     v=trigger_box(arc,scene,g['x'])
@@ -231,8 +265,29 @@ def place_events(rows,game,nat,image,by_room,pieces,boxes,locations):
     if not b:a.update(status='unresolved',reason='no map piece for its room');continue
     p=pieces[pid];hit=dict(x=b[0]+9,y=b[1]+9,region=p['region'],floor=p['floor'],piece=pid,distance=0);how='room level, corner of its first piece, exact position unresolved'
    a['position']=how
-   marks.append(dict(category='puzzle',event=1,room=room,name_en='Event (room)' if room_level else 'Event',name_ko='이벤트(방)' if room_level else '이벤트',amount=dict(easy=1,normal=1,hard=1),condition=0,done_flag=g['done'],need_flag=g['need'][0] if g['need'] else None,script=dict(scene=scene,group=g['group'],tag=g['tag'],x=g['x']),evidence=f"script {scene} g{g['group']} tag {g['tag']} {g['basis']}; {how}",**hit))
+   en,ko=always or (('Event (room)','이벤트(방)') if room_level else ('Event','이벤트'))
+   if always:a.update(status='script_read',reason='repeatable, always-shown puzzle mark')
+   marks.append(dict(category='puzzle',event=0 if always else 1,room=room,name_en=en,name_ko=ko,amount=dict(easy=1,normal=1,hard=1),condition=0,done_flag=g['done'],need_flag=g['need'][0] if g['need'] else None,script=dict(scene=scene,group=g['group'],tag=g['tag'],x=g['x']),evidence=f"script {scene} g{g['group']} tag {g['tag']} {g['basis']}; {how}",**hit))
+   if (scene,g['group']) in SCRIPT_PUZZLES: # the puzzle beside its event (user 2026-11-10); same flag, same spot
+    en,ko=SCRIPT_PUZZLES[(scene,g['group'])];marks.append(dict(marks[-1],event=0,name_en=en,name_ko=ko))
+  marks+=named_puzzles(rows,scene,room,arc,s,audit,nat,by_room,pieces,boxes,locations)
  return marks,audit
+def named_puzzles(rows,scene,room,arc,s,audit,nat,by_room,pieces,boxes,locations):
+ """NAMED_PUZZLES of one scene: a puzzle mark at the group's trigger volume, done by a flag or with the pickup row it gives."""
+ heads={h[0]:h for h in s.heads(scene)};out=[]
+ for (sc,grp),(en,ko,hide) in NAMED_PUZZLES.items():
+  if sc!=scene:continue
+  _,tag,_,x,_=heads[grp];v=trigger_box(arc,scene,x)
+  hit=v and locate_record(nat,room,(v[0]+v[1])/2,(v[2]+v[3])/2,by_room,pieces,boxes,locations)
+  if not hit or hit['distance']>2:raise ValueError(f'{scene} g{grp}: trigger volume {x} not on its room')
+  a=next((a for a in audit if a['scene']==scene and a['group']==grp),{})
+  m=dict(category='puzzle',event=0,room=room,name_en=en,name_ko=ko,amount=dict(easy=1,normal=1,hard=1),condition=0,script=dict(scene=scene,group=grp,tag=tag,x=x),**hit)
+  if isinstance(hide,int):m.update(done_flag=hide,need_flag=a['need'][0] if a.get('need') else None,evidence=f'script {scene} g{grp} tag {tag}; trigger volume {x}; done flag {hide:#x}')
+  else:
+   i=next(i for i,r in enumerate(rows) if r['room']==hide[0] and r.get('item')==hide[1] and r.get('kind')==113)
+   m.update(kind=113,item=hide[1],puzzle_row=i,evidence=f'script {scene} g{grp} tag {tag}; trigger volume {x}; done with pickup row {i}')
+  out.append(m)
+ return out
 def door_paint(game,native):
  """Each door's painted part in canvas space, by the same render the page's doors use, with the floor it is on."""
  out={}
@@ -348,7 +403,9 @@ def build(game,image,out):
   name=en.get(row['item'],'') if row['kind'] in (0x71,0x78) else f"em{row['kind']:02x}"
   cat=category(row['kind'],name)
   if cat is None:skipped[f"{row['kind']:#x}"]=skipped.get(f"{row['kind']:#x}",0)+1;continue
-  hit=locate_record(nat,row['room'],row['world'][0],row['world'][2],by_room,pieces,boxes,locations)
+  # Dial, room 134 at y -50000: never placed (bt02 g5 only deletes it, ObjDeleteType 113 118); the real Dial is the Breeding Room's row (user 2026-11-11).
+  if row['world'][1]<-1000:skipped['under the world']=skipped.get('under the world',0)+1;continue
+  hit=locate_record(nat,row['room'],row['world'][0],row['world'][2],by_room,pieces,boxes,locations,only=floor_of(row))
   rows.append(dict(row,category=cat,name_en=name,name_ko=ko.get(row['item'],name) if cat!='enemy' else name,evidence='arrange table',**(hit or dict(x=None,y=None,piece=None,floor=None,region=None,distance=None))))
  contents=json.loads((ROOT/'data/room-contents.json').read_text());ko_names=json.loads((ROOT/'data/names-ko.json').read_text())['names'];names=enemy_names(rows,by_room,contents)
  single={'Zombies':'Zombie','Hunters':'Hunter','Eliminators':'Eliminator','Plague Crawlers':'Plague Crawler','Cerberuses':'Cerberus','Giant Spiders':'Giant Spider','Crows':'Crow','Bats':'Bat'}
@@ -396,6 +453,7 @@ def build(game,image,out):
  puzzles_without_position=place_puzzles(extra,game,nat,en,commands,by_room,pieces,boxes,locations)
  all_rows=rows+lock_out+extra+script_rows(game,nat,en,ko,by_room,pieces,boxes,locations)
  event_marks,event_audit=place_events(all_rows,game,nat,image,by_room,pieces,boxes,locations)
+ event_marks+=puzzle_events(all_rows,event_audit)
  snap_room_level([*all_rows,*event_marks],game,native,by_room)
  (ROOT/'verification/event-audit.json').write_text(json.dumps(dict(schema_version=1,evidence=events_rule,rows=event_audit),ensure_ascii=False,indent=0)+'\n')
  result=dict(schema_version=1,locks_without_door=locks_without_door,puzzles_without_position=puzzles_without_position,canvas=[1280,720],sensitivity=sensitivity(nat,merged,by_room,pieces,boxes,locations),wall_fit=wall_fit(game,nat,by_room,boxes,locations),sources=dict(items_enemies='nativePC/arc/arrange/loctbl.arc',locks='event scripts and map door instances',puzzles='data/item-uses.json',script_items='SCRIPT_GRANTS in tools/extract/placements.py'),skipped_kinds=skipped,rows=all_rows+event_marks)
