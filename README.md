@@ -9,6 +9,7 @@ An ASI mod for the Steam and GOG PC versions of Resident Evil 0 / biohazard 0 HD
 - Annotations are drawn on the game's map screen and follow its zoom, scrolling and floor selection.
 - Taken items, solved puzzles, opened doors and defeated enemies disappear from the map. Items that appear later in the story and Leech Hunter rewards are shown when they become available.
 - The difficulty is read from the game, so the items and enemies shown match the difficulty you are playing.
+- In the Leech Hunter extra game, the items, Leech Charms and enemies of the layout you are playing are shown.
 - Each category has its own icon and colour, listed in a legend at the lower left.
 
 ## Screenshots

@@ -1,10 +1,12 @@
-# RE0 Annotated Map - Survivor's Notes 1.0.1
+# RE0 Annotated Map - Survivor's Notes 1.1.0
 
 An ASI mod for Resident Evil 0 / biohazard 0 HD REMASTER (Steam or GOG) that adds annotations to the game's own map screen.
 
 ## English
 
-- New in 1.0.1: also works with the GOG version; the mod no longer checks the EXE hash or build string.
+- New in 1.1.0: Leech Hunter support. Items, Leech Charms and enemies are shown for the Leech Hunter layout you are playing (the game picks one of five), and enemies that appear after 90 charms are shown once they appear. The room list panel is not shown in Leech Hunter.
+- Also new: puzzle marks for the crates, piano, chessboard and control panel, an Elevator mark for the storage lift, and the keycard lock moved onto the engine room door.
+- Also works with the GOG version; the mod no longer checks the EXE hash or build string.
 - Shows room names, locked doors, key items, files and maps, puzzles, events, common items and enemies, each with its own icon and colour.
 - Annotations follow your progress: taken items, solved puzzles, opened doors and defeated enemies disappear, and items that appear later in the story or as Leech Hunter rewards are shown when they become available.
 - The difficulty is read from the game, so the items and enemies shown match the difficulty you are playing.
@@ -22,7 +24,9 @@ Known limits: marks show the room, not the exact spot inside it; on crowded room
 
 Steam·GOG판 Resident Evil 0 / biohazard 0 HD REMASTER의 지도 화면에 주석을 더하는 ASI 모드입니다.
 
-- 1.0.1 변경: GOG판에서도 작동합니다. 모드가 더 이상 EXE 해시와 빌드 문자열을 확인하지 않습니다.
+- 1.1.0 변경: Leech Hunter를 지원합니다. 게임이 다섯 가지 중 하나를 고르는 Leech Hunter 배치에 맞춰 아이템, 거머리 부적, 적을 표시하며, 부적 90개 뒤에 나타나는 적은 나타난 뒤에 표시됩니다. Leech Hunter에서는 방 목록 패널을 표시하지 않습니다.
+- 또한 상자, 피아노, 체스판, 제어판 퍼즐 표시와 창고 승강기의 엘리베이터 표시를 추가하고, 카드키 잠금을 기관실 문으로 옮겼습니다.
+- GOG판에서도 작동합니다. 모드가 더 이상 EXE 해시와 빌드 문자열을 확인하지 않습니다.
 
 - 방 이름, 잠긴 문, 핵심 아이템, 문서·지도, 퍼즐, 이벤트, 일반 아이템, 적을 분류별 아이콘과 색으로 표시합니다.
 - 진행에 따라 표시가 바뀝니다. 주운 아이템, 푼 퍼즐, 연 문, 처치한 적은 사라지고, 이야기 진행에 따라 나타나는 아이템과 Leech Hunter 보상은 얻을 수 있게 되면 표시됩니다.

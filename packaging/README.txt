@@ -24,7 +24,7 @@ RE0 Annotated Map - Survivor's Notes - Resident Evil 0 HD REMASTER
 - 아이콘 크기: Ctrl + - · +, 불투명도: Ctrl + [ · ]
 - 아이템 이름: H (모두 → 일반 아이템 제외 → 끔, 처음에는 끔). 범례 접기: ~ (1 왼쪽 키)
 - 기본값: 한국어, 이름 100%, 불투명도 60%, 아이콘 100%, 아이콘 불투명도 80%, 방문한 방만 표시.
-- 표시는 게임 진행을 따릅니다. 주운 아이템, 푼 퍼즐, 연 문, 처치한 적은 사라지고, 난이도는 게임에서 읽습니다.
+- 표시는 게임 진행을 따릅니다. 주운 아이템, 푼 퍼즐, 연 문, 처치한 적은 사라지고, 난이도와 Leech Hunter 배치는 게임에서 읽습니다.
 - 설정은 scripts/RE0.AnnotatedMap.ini에 저장됩니다. [Colors]에서 분류별 색을 #RRGGBB로 바꿀 수 있습니다(저장해도 그대로 남습니다).
 
 제거
@@ -65,7 +65,7 @@ Controls (on the map screen only)
 - Item names: H (all -> all except common items -> off; off at first). Fold the legend: ~ (key left of 1)
 - Defaults: Korean, name size 100%, opacity 60%, icon size 100%, icon opacity 80%, visited rooms.
 - Marks follow your progress: taken items, solved puzzles, opened doors and defeated enemies disappear,
-  and the difficulty is read from the game.
+  and the difficulty and Leech Hunter layout are read from the game.
 - Settings are saved in scripts/RE0.AnnotatedMap.ini. [Colors] sets a colour per category as #RRGGBB (saving keeps it).
 
 Uninstall

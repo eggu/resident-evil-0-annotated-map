@@ -1,9 +1,13 @@
 # Changelog
 
-## 1.0.1
+## 1.1.0
 
+- Leech Hunter: the items, Leech Charms and enemies of the game's five Leech Hunter layouts are shown, matching the layout you are playing. Enemies that appear after 90 charms are shown once they appear. The room list panel is not shown in Leech Hunter.
+- Added puzzle marks for the crates, piano, chessboard and control panel, an Elevator mark for the storage lift, and moved the keycard lock onto the engine room door.
 - Also works with the GOG version; the mod no longer checks the EXE hash or build string.
 
+- Leech Hunter: 게임의 Leech Hunter 배치 다섯 가지 중 플레이 중인 배치에 맞춰 아이템, 거머리 부적, 적을 표시합니다. 부적 90개 뒤에 나타나는 적은 나타난 뒤에 표시됩니다. Leech Hunter에서는 방 목록 패널을 표시하지 않습니다.
+- 상자, 피아노, 체스판, 제어판 퍼즐 표시와 창고 승강기의 엘리베이터 표시를 추가하고, 카드키 잠금을 기관실 문으로 옮겼습니다.
 - GOG판에서도 작동합니다. 모드가 더 이상 EXE 해시와 빌드 문자열을 확인하지 않습니다.
 
 ## 1.0.0
