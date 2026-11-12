@@ -70,11 +70,24 @@ int re0_condition_met(unsigned condition,const unsigned *flags) {
 }
 static unsigned read_u32(const unsigned char *p){unsigned v;memcpy(&v,p,4);return v;}
 static const unsigned table_rows[3]={647,589,568}; /* loctbl0000, 0100, 0200: [mgr+0x24fac] */
-int re0_arrange_difficulty(const RE0ArrangeView *a) {
-    if(a&&a->rows)for(int i=0;i<3;i++)if(a->count==table_rows[i]) return i;
-    return -1;
-}
 enum {ROW_BASE=0x30,ROW_LINK=0x2c,STRIDE=0x5c,KIND=4,ITEM=8,GONE=0x39};
+/* Leech Hunter: 0x4111cc loads loctbl030<rand()%5> (263, 263, 264, 264, 264 rows) and keeps the pick at +0x24ff4, which a save restore may not bring back, as with the mode.
+ * Told apart by item ids at slots where the tables of one size differ; pickup clears only the kind (0x4de816), so a taken row still votes. tests/test_placements.py checks these against the game. */
+static const unsigned short leech_slots[2][8]={{2,3,4,5,6,12,13,17},{52,55,56,77,118,176,185,186}};
+static const unsigned short leech_items[5][8]={{90,90,90,91,91,91,91,90},{91,91,91,90,90,90,90,91},{91,90,2,17,4,90,91,43},{43,91,91,53,90,91,108,90},{90,43,90,91,3,34,43,6}};
+static unsigned read_row_u32(const RE0ArrangeView *a,unsigned slot,unsigned at){unsigned v;memcpy(&v,a->rows+ROW_BASE+slot*STRIDE+at,4);return v;}
+int re0_arrange_difficulty(const RE0ArrangeView *a) {
+    if(!a||!a->rows) return -1;
+    for(int i=0;i<3;i++)if(a->count==table_rows[i]) return i;
+    if(a->count!=263&&a->count!=264) return -1;
+    const unsigned group=a->count==264,first=group?2:0,last=group?5:2;int best=-1;unsigned best_votes=0;
+    for(unsigned t=first;t<last;t++){
+        unsigned votes=0;
+        for(unsigned k=0;k<8;k++)votes+=read_row_u32(a,leech_slots[group][k],ITEM)==leech_items[t][k];
+        if(votes>best_votes){best_votes=votes;best=(int)t;}
+    }
+    return best_votes>4?3+best:-1; /* a clear majority, else unknown */
+}
 int re0_kind_is_enemy(unsigned kind) {return kind>=0x10&&kind<=0x6f&&kind!=0x3b;}
 void re0_arrange_note_actor(const RE0ArrangeView *a,unsigned *killed,int slot,int hp) {
     if(!a||!a->rows||!killed||slot<0||(unsigned)slot>=a->count||(unsigned)slot>=RE0_ROW_SLOTS||hp>0) return;
@@ -88,7 +101,8 @@ int re0_marker_state_done(const RE0MarkerState *m,const unsigned *flags,RE0Arran
     }
     const int table=re0_arrange_difficulty(a);
     if(table<0) return 0;
-    const unsigned slot=table==0?m->slot0:table==1?m->slot1:m->slot2;
+    const unsigned short slots[8]={m->slot0,m->slot1,m->slot2,m->leech0,m->leech1,m->leech2,m->leech3,m->leech4};
+    const unsigned slot=slots[table];
     if(slot==0xffff) return 0;
     const unsigned char *row=a->rows+ROW_BASE+slot*STRIDE;
     const unsigned kind=read_u32(row+KIND);

@@ -8,16 +8,16 @@
 ],
 "sensitivity": {
 "native 0.07": [
-646,
-648
+1022,
+1024
 ],
 "wrong 0.05": [
-648,
-648
+1024,
+1024
 ],
 "wrong 0.09": [
-477,
-648
+765,
+1024
 ]
 },
 "wall_fit": {
@@ -54,8 +54,8 @@
 "script_items": "SCRIPT_GRANTS in tools/extract/placements.py"
 },
 "skipped_kinds": {
-"0x2": 2,
-"0x5": 4,
+"0x2": 3,
+"0x5": 5,
 "under the world": 1
 },
 "rows": [
@@ -213,7 +213,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em12",
-"name_support": 5
+"name_support": 9
 },
 {
 "room": 1,
@@ -241,7 +241,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em16",
-"name_support": 11
+"name_support": 14
 },
 {
 "room": 1,
@@ -295,7 +295,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em11",
-"name_support": 4
+"name_support": 5
 },
 {
 "room": 2,
@@ -817,7 +817,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em10",
-"name_support": 2
+"name_support": 4
 },
 {
 "room": 6,
@@ -845,7 +845,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em50",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 6,
@@ -873,7 +873,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em51",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 6,
@@ -901,7 +901,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em50",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 6,
@@ -929,7 +929,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em51",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 6,
@@ -957,7 +957,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em50",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 6,
@@ -985,7 +985,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em51",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 6,
@@ -1013,7 +1013,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em51",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 6,
@@ -1041,7 +1041,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em50",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 6,
@@ -1069,7 +1069,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em51",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 6,
@@ -1097,7 +1097,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em50",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 6,
@@ -1125,7 +1125,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em51",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 7,
@@ -1153,7 +1153,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em10",
-"name_support": 2
+"name_support": 4
 },
 {
 "room": 7,
@@ -1181,7 +1181,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em51",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 7,
@@ -1237,7 +1237,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em50",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 7,
@@ -1265,7 +1265,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em51",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 7,
@@ -1293,7 +1293,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em50",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 7,
@@ -1321,7 +1321,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em50",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 8,
@@ -1349,7 +1349,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em11",
-"name_support": 4
+"name_support": 5
 },
 {
 "room": 8,
@@ -2368,7 +2368,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em51",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 14,
@@ -2500,7 +2500,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em50",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 15,
@@ -2528,7 +2528,7 @@
 "region": "tr",
 "distance": 0.0,
 "model": "em11",
-"name_support": 4
+"name_support": 5
 },
 {
 "room": 15,
@@ -2884,7 +2884,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em16",
-"name_support": 11
+"name_support": 14
 },
 {
 "room": 37,
@@ -2899,7 +2899,12 @@
 "amount": {
 "easy": 0,
 "normal": 0,
-"hard": 0
+"hard": 0,
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
 },
 "category": "enemy",
 "name_en": "Zombie",
@@ -2912,7 +2917,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em11",
-"name_support": 4
+"name_support": 5
 },
 {
 "room": 37,
@@ -2940,7 +2945,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em12",
-"name_support": 5
+"name_support": 9
 },
 {
 "room": 37,
@@ -2968,7 +2973,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em16",
-"name_support": 11
+"name_support": 14
 },
 {
 "room": 37,
@@ -2996,7 +3001,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em12",
-"name_support": 5
+"name_support": 9
 },
 {
 "room": 37,
@@ -3149,7 +3154,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em16",
-"name_support": 11
+"name_support": 14
 },
 {
 "room": 39,
@@ -4020,7 +4025,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em16",
-"name_support": 11
+"name_support": 14
 },
 {
 "room": 44,
@@ -4048,7 +4053,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em16",
-"name_support": 11
+"name_support": 14
 },
 {
 "room": 44,
@@ -4711,7 +4716,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em16",
-"name_support": 11
+"name_support": 14
 },
 {
 "room": 48,
@@ -4894,7 +4899,10 @@
 "amount": {
 "easy": 1,
 "normal": 1,
-"hard": 1
+"hard": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
 },
 "category": "item",
 "name_en": "First-Aid Spray",
@@ -5965,7 +5973,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em12",
-"name_support": 5
+"name_support": 9
 },
 {
 "room": 56,
@@ -5993,7 +6001,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em16",
-"name_support": 11
+"name_support": 14
 },
 {
 "room": 56,
@@ -6193,7 +6201,12 @@
 "amount": {
 "easy": 0,
 "normal": 0,
-"hard": 0
+"hard": 0,
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
 },
 "category": "enemy",
 "name_en": "Plague Crawler",
@@ -7361,7 +7374,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em16",
-"name_support": 11
+"name_support": 14
 },
 {
 "room": 61,
@@ -7625,7 +7638,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em12",
-"name_support": 5
+"name_support": 9
 },
 {
 "room": 63,
@@ -7653,7 +7666,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em16",
-"name_support": 11
+"name_support": 14
 },
 {
 "room": 63,
@@ -7735,7 +7748,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em12",
-"name_support": 5
+"name_support": 9
 },
 {
 "room": 64,
@@ -7763,7 +7776,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em16",
-"name_support": 11
+"name_support": 14
 },
 {
 "room": 64,
@@ -8201,7 +8214,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em50",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 66,
@@ -8229,7 +8242,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em51",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 66,
@@ -8257,7 +8270,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em50",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 66,
@@ -8285,7 +8298,7 @@
 "region": "sh",
 "distance": 0.0,
 "model": "em51",
-"name_support": 4
+"name_support": 7
 },
 {
 "room": 86,
@@ -8328,7 +8341,12 @@
 "amount": {
 "easy": 0,
 "normal": 0,
-"hard": 0
+"hard": 0,
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
 },
 "category": "enemy",
 "name_en": "Giant Spider",
@@ -9477,7 +9495,12 @@
 "amount": {
 "easy": 0,
 "normal": 0,
-"hard": 0
+"hard": 0,
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
 },
 "category": "enemy",
 "name_en": "Giant Spider",
@@ -9505,7 +9528,12 @@
 "amount": {
 "easy": 0,
 "normal": 0,
-"hard": 0
+"hard": 0,
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
 },
 "category": "enemy",
 "name_en": "Giant Spider",
@@ -11376,7 +11404,7 @@
 "region": "ch",
 "distance": 0.0,
 "model": "em16",
-"name_support": 11
+"name_support": 14
 },
 {
 "room": 107,
@@ -11981,7 +12009,7 @@
 "region": "ch",
 "distance": 0.0,
 "model": "em16",
-"name_support": 11
+"name_support": 14
 },
 {
 "room": 112,
@@ -17299,6 +17327,10127 @@
 "distance": 0.0
 },
 {
+"room": 36,
+"kind": 113,
+"item": 90,
+"world": [
+770.0,
+520.0,
+381.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 638.3499999999999,
+"y": 395.505,
+"piece": "i_sh00a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 36,
+"kind": 113,
+"item": 90,
+"world": [
+1355.0,
+45.0,
+707.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 699.7750000000001,
+"y": 429.735,
+"piece": "i_sh0090",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 36,
+"kind": 113,
+"item": 90,
+"world": [
+561.0,
+0.0,
+629.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 616.405,
+"y": 421.54499999999996,
+"piece": "i_sh0090",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 36,
+"kind": 113,
+"item": 91,
+"world": [
+830.0,
+520.0,
+381.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 644.6500000000001,
+"y": 395.505,
+"piece": "i_sh00a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 36,
+"kind": 113,
+"item": 91,
+"world": [
+1368.0,
+45.0,
+638.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 701.14,
+"y": 422.49,
+"piece": "i_sh0090",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 36,
+"kind": 113,
+"item": 43,
+"world": [
+860.0000610351562,
+0.0,
+997.9999389648438
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "item",
+"name_en": "Green Herb",
+"name_ko": "그린 허브",
+"evidence": "arrange table",
+"x": 647.8000064086914,
+"y": 460.28999359130853,
+"piece": "i_sh0090",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 36,
+"kind": 113,
+"item": 43,
+"world": [
+742.0,
+0.0,
+983.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1
+},
+"category": "item",
+"name_en": "Green Herb",
+"name_ko": "그린 허브",
+"evidence": "arrange table",
+"x": 635.41,
+"y": 458.7149999999999,
+"piece": "i_sh0090",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 37,
+"kind": 17,
+"item": 0,
+"world": [
+235.99998474121094,
+-0.0,
+243.0
+],
+"condition": 0,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 735.2799983978271,
+"y": 381.015,
+"piece": "i_sh0190",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0,
+"model": "em11",
+"name_support": 5
+},
+{
+"room": 37,
+"kind": 17,
+"item": 0,
+"world": [
+775.0,
+-0.0,
+1351.0
+],
+"condition": 0,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 791.875,
+"y": 497.355,
+"piece": "i_sh0190",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0,
+"model": "em11",
+"name_support": 5
+},
+{
+"room": 37,
+"kind": 113,
+"item": 91,
+"world": [
+286.0,
+84.30000305175781,
+1374.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 740.53,
+"y": 499.7700000000001,
+"piece": "i_sh0190",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 37,
+"kind": 113,
+"item": 91,
+"world": [
+653.0,
+86.69999694824219,
+705.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 779.0649999999999,
+"y": 429.5250000000001,
+"piece": "i_sh0190",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 37,
+"kind": 113,
+"item": 2,
+"world": [
+253.0,
+105.29999542236328,
+736.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Knife",
+"name_ko": "나이프",
+"evidence": "arrange table",
+"x": 737.0649999999999,
+"y": 432.78,
+"piece": "i_sh0190",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 38,
+"kind": 17,
+"item": 0,
+"world": [
+496.9999694824219,
+-0.0,
+446.0
+],
+"condition": 2,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 813.6849967956543,
+"y": 400.83000000000004,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0,
+"model": "em11",
+"name_support": 5
+},
+{
+"room": 38,
+"kind": 17,
+"item": 0,
+"world": [
+176.0,
+-0.0,
+513.0
+],
+"condition": 2,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 779.98,
+"y": 407.865,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0,
+"model": "em11",
+"name_support": 5
+},
+{
+"room": 38,
+"kind": 113,
+"item": 90,
+"world": [
+263.0,
+90.0,
+298.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 789.115,
+"y": 385.28999999999996,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 38,
+"kind": 113,
+"item": 90,
+"world": [
+249.0,
+20.0,
+408.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 787.645,
+"y": 396.84000000000003,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 38,
+"kind": 113,
+"item": 90,
+"world": [
+244.0,
+83.0,
+41.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 787.12,
+"y": 358.30500000000006,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 38,
+"kind": 113,
+"item": 91,
+"world": [
+359.0,
+0.0,
+297.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 799.1949999999999,
+"y": 385.18500000000006,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 38,
+"kind": 113,
+"item": 91,
+"world": [
+188.0,
+0.0,
+390.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 781.24,
+"y": 394.95000000000005,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 38,
+"kind": 113,
+"item": 91,
+"world": [
+56.0,
+97.0,
+305.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 767.38,
+"y": 386.0250000000001,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 38,
+"kind": 113,
+"item": 91,
+"world": [
+274.0,
+84.0,
+42.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 790.27,
+"y": 358.40999999999997,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 39,
+"kind": 113,
+"item": 43,
+"world": [
+210.99998474121094,
+88.0,
+242.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "item",
+"name_en": "Green Herb",
+"name_ko": "그린 허브",
+"evidence": "arrange table",
+"x": 510.65499839782717,
+"y": 395.90999999999997,
+"piece": "i_sh0390",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 39,
+"kind": 113,
+"item": 43,
+"world": [
+359.8000183105469,
+109.0,
+448.9999694824219
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1
+},
+"category": "item",
+"name_en": "Green Herb",
+"name_ko": "그린 허브",
+"evidence": "arrange table",
+"x": 526.2790019226074,
+"y": 417.6449967956544,
+"piece": "i_sh0390",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 39,
+"kind": 113,
+"item": 44,
+"world": [
+288.20001220703125,
+109.0,
+446.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1
+},
+"category": "item",
+"name_en": "Blue Herb",
+"name_ko": "블루 허브",
+"evidence": "arrange table",
+"x": 518.7610012817383,
+"y": 417.33000000000004,
+"piece": "i_sh0390",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 40,
+"kind": 67,
+"item": 0,
+"world": [
+90.0,
+-0.0,
+213.00001525878906
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Mimicry Marcus",
+"name_ko": "미미크리 마커스",
+"evidence": "arrange table",
+"x": 476.95000000000005,
+"y": 424.3650016021728,
+"piece": "i_sh0490",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0,
+"model": "em43",
+"name_support": 10
+},
+{
+"room": 41,
+"kind": 67,
+"item": 0,
+"world": [
+248.0,
+-0.0,
+394.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Mimicry Marcus",
+"name_ko": "미미크리 마커스",
+"evidence": "arrange table",
+"x": 483.04,
+"y": 501.8700000000001,
+"piece": "i_sh0590",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0,
+"model": "em43",
+"name_support": 10
+},
+{
+"room": 41,
+"kind": 113,
+"item": 32,
+"world": [
+117.0,
+86.0,
+259.0
+],
+"condition": 0,
+"amount": {
+"leech0": 30,
+"leech1": 30,
+"leech2": 30,
+"leech3": 30,
+"leech4": 30
+},
+"category": "item",
+"name_en": "Handgun Ammo",
+"name_ko": "핸드건의 탄약",
+"evidence": "arrange table",
+"x": 469.28499999999997,
+"y": 487.69499999999994,
+"piece": "i_sh0590",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 41,
+"kind": 113,
+"item": 40,
+"world": [
+715.0,
+81.0,
+365.0
+],
+"condition": 0,
+"amount": {
+"leech0": 150,
+"leech1": 150
+},
+"category": "item",
+"name_en": "Machinegun Ammo",
+"name_ko": "서브 머신건 탄약",
+"evidence": "arrange table",
+"x": 532.075,
+"y": 498.82499999999993,
+"piece": "i_sh0590",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 42,
+"kind": 25,
+"item": 0,
+"world": [
+989.7999877929688,
+-0.0,
+1591.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 778.4289987182617,
+"y": 347.05500000000006,
+"piece": "i_sh0690",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0,
+"model": "em19",
+"name_support": 5
+},
+{
+"room": 42,
+"kind": 25,
+"item": 0,
+"world": [
+808.0,
+-0.0,
+1558.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 759.34,
+"y": 343.59000000000003,
+"piece": "i_sh0690",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0,
+"model": "em19",
+"name_support": 5
+},
+{
+"room": 42,
+"kind": 113,
+"item": 90,
+"world": [
+800.0,
+0.0,
+1575.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 758.5,
+"y": 345.375,
+"piece": "i_sh0690",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 42,
+"kind": 113,
+"item": 91,
+"world": [
+67.0,
+-150.0,
+953.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 681.535,
+"y": 280.06500000000005,
+"piece": "i_sh0690",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 42,
+"kind": 113,
+"item": 91,
+"world": [
+1062.0,
+0.0,
+1569.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 786.01,
+"y": 344.7450000000001,
+"piece": "i_sh0690",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 43,
+"kind": 106,
+"item": 0,
+"world": [
+1000.0,
+200.0,
+357.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 725.5,
+"y": 89.98500000000001,
+"piece": "i_sh07b0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0,
+"model": "em6a",
+"name_support": 7
+},
+{
+"room": 43,
+"kind": 107,
+"item": 0,
+"world": [
+724.0,
+-0.0,
+661.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 696.52,
+"y": 121.90499999999997,
+"piece": "i_sh07b0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0,
+"model": "em6b",
+"name_support": 6
+},
+{
+"room": 43,
+"kind": 106,
+"item": 0,
+"world": [
+578.0,
+-0.0,
+597.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 681.1899999999999,
+"y": 115.18500000000006,
+"piece": "i_sh07b0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0,
+"model": "em6a",
+"name_support": 7
+},
+{
+"room": 43,
+"kind": 107,
+"item": 0,
+"world": [
+737.0,
+-0.0,
+488.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 697.885,
+"y": 103.74000000000001,
+"piece": "i_sh07b0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0,
+"model": "em6b",
+"name_support": 6
+},
+{
+"room": 43,
+"kind": 113,
+"item": 90,
+"world": [
+512.0,
+3.0,
+587.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 674.26,
+"y": 114.13500000000005,
+"piece": "i_sh07b0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 43,
+"kind": 113,
+"item": 90,
+"world": [
+855.0,
+0.0,
+721.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 710.2750000000001,
+"y": 128.20500000000004,
+"piece": "i_sh07b0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 43,
+"kind": 113,
+"item": 90,
+"world": [
+559.0,
+0.0,
+534.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 679.1949999999999,
+"y": 108.57,
+"piece": "i_sh07b0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 43,
+"kind": 113,
+"item": 90,
+"world": [
+840.0,
+146.0,
+381.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 708.7,
+"y": 92.505,
+"piece": "i_sh07b0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 43,
+"kind": 113,
+"item": 43,
+"world": [
+834.0,
+87.0,
+802.0000610351562
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "item",
+"name_en": "Green Herb",
+"name_ko": "그린 허브",
+"evidence": "arrange table",
+"x": 708.0699999999999,
+"y": 136.7100064086914,
+"piece": "i_sh07b0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 44,
+"kind": 47,
+"item": 0,
+"world": [
+400.0,
+-0.0,
+211.99998474121094
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 769.0,
+"y": 280.2599983978272,
+"piece": "i_sh0890",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 44,
+"kind": 47,
+"item": 0,
+"world": [
+123.0,
+-0.0,
+583.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 739.915,
+"y": 319.21500000000003,
+"piece": "i_sh0890",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 44,
+"kind": 47,
+"item": 0,
+"world": [
+190.0,
+-0.0,
+498.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 746.95,
+"y": 310.28999999999996,
+"piece": "i_sh0890",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 44,
+"kind": 47,
+"item": 0,
+"world": [
+160.0,
+-0.0,
+568.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 743.8,
+"y": 317.64,
+"piece": "i_sh0890",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 44,
+"kind": 113,
+"item": 91,
+"world": [
+573.0,
+64.0,
+446.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 787.165,
+"y": 304.83000000000004,
+"piece": "i_sh0890",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 44,
+"kind": 113,
+"item": 91,
+"world": [
+75.0,
+0.0,
+630.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 734.875,
+"y": 324.1500000000001,
+"piece": "i_sh0890",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 44,
+"kind": 113,
+"item": 43,
+"world": [
+263.0,
+19.0,
+469.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "item",
+"name_en": "Green Herb",
+"name_ko": "그린 허브",
+"evidence": "arrange table",
+"x": 754.615,
+"y": 307.245,
+"piece": "i_sh0890",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 47,
+"kind": 113,
+"item": 91,
+"world": [
+797.0,
+79.9000015258789,
+169.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 641.1850000000001,
+"y": 236.745,
+"piece": "i_sh0ba0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 47,
+"kind": 113,
+"item": 91,
+"world": [
+88.0,
+10.70001220703125,
+689.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 566.74,
+"y": 291.345,
+"piece": "i_sh0ba0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 47,
+"kind": 113,
+"item": 90,
+"world": [
+1336.0,
+-40.0,
+836.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 697.78,
+"y": 306.78,
+"piece": "i_sh0ba0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 47,
+"kind": 113,
+"item": 90,
+"world": [
+444.9999694824219,
+-20.0,
+902.0000610351562
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 604.2249967956543,
+"y": 313.71000640869147,
+"piece": "i_sh0ba0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 47,
+"kind": 113,
+"item": 2,
+"world": [
+1467.0,
+105.99999237060547,
+162.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Knife",
+"name_ko": "나이프",
+"evidence": "arrange table",
+"x": 711.535,
+"y": 236.01,
+"piece": "i_sh0ba0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 48,
+"kind": 47,
+"item": 0,
+"world": [
+282.0,
+-0.0,
+345.0
+],
+"condition": 1,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 467.11,
+"y": 360.2249999999999,
+"piece": "i_sh0ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 48,
+"kind": 47,
+"item": 0,
+"world": [
+941.0,
+-0.0,
+303.0
+],
+"condition": 1,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 536.3050000000001,
+"y": 355.81499999999994,
+"piece": "i_sh0ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 48,
+"kind": 47,
+"item": 0,
+"world": [
+135.0,
+-0.0,
+297.0
+],
+"condition": 1,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 451.67499999999995,
+"y": 355.18500000000006,
+"piece": "i_sh0ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 48,
+"kind": 22,
+"item": 0,
+"world": [
+282.0,
+-0.0,
+345.0
+],
+"condition": 2,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 467.11,
+"y": 360.2249999999999,
+"piece": "i_sh0ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em16",
+"name_support": 14
+},
+{
+"room": 48,
+"kind": 22,
+"item": 0,
+"world": [
+941.0,
+-0.0,
+303.0
+],
+"condition": 2,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 536.3050000000001,
+"y": 355.81499999999994,
+"piece": "i_sh0ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em16",
+"name_support": 14
+},
+{
+"room": 48,
+"kind": 22,
+"item": 0,
+"world": [
+135.0,
+-0.0,
+297.0
+],
+"condition": 2,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 451.67499999999995,
+"y": 355.18500000000006,
+"piece": "i_sh0ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em16",
+"name_support": 14
+},
+{
+"room": 48,
+"kind": 113,
+"item": 90,
+"world": [
+-9.0,
+119.00000762939453,
+231.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 436.555,
+"y": 348.255,
+"piece": "i_sh0ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 48,
+"kind": 113,
+"item": 90,
+"world": [
+142.0,
+0.0,
+322.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 452.40999999999997,
+"y": 357.81000000000006,
+"piece": "i_sh0ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 48,
+"kind": 113,
+"item": 90,
+"world": [
+314.0,
+0.0,
+323.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 470.46999999999997,
+"y": 357.91499999999996,
+"piece": "i_sh0ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 48,
+"kind": 113,
+"item": 90,
+"world": [
+522.0,
+0.0,
+324.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 492.31000000000006,
+"y": 358.02,
+"piece": "i_sh0ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 48,
+"kind": 113,
+"item": 91,
+"world": [
+908.0,
+0.0,
+327.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 532.84,
+"y": 358.33500000000004,
+"piece": "i_sh0ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 48,
+"kind": 113,
+"item": 91,
+"world": [
+1084.0,
+0.0,
+301.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 551.3199999999999,
+"y": 355.605,
+"piece": "i_sh0ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 48,
+"kind": 113,
+"item": 91,
+"world": [
+1084.0,
+0.0,
+68.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 551.3199999999999,
+"y": 331.14,
+"piece": "i_sh0ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 48,
+"kind": 113,
+"item": 91,
+"world": [
+650.0,
+0.0,
+326.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 505.75,
+"y": 358.23,
+"piece": "i_sh0ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 49,
+"kind": 18,
+"item": 0,
+"world": [
+777.0,
+-0.0,
+138.0
+],
+"condition": 0,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 532.585,
+"y": 305.49,
+"piece": "i_sh0da0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em12",
+"name_support": 9
+},
+{
+"room": 49,
+"kind": 18,
+"item": 0,
+"world": [
+500.0,
+-0.0,
+357.0
+],
+"condition": 0,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 503.5,
+"y": 328.485,
+"piece": "i_sh0da0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em12",
+"name_support": 9
+},
+{
+"room": 49,
+"kind": 18,
+"item": 0,
+"world": [
+367.0,
+-0.0,
+213.00001525878906
+],
+"condition": 0,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 489.53499999999997,
+"y": 313.3650016021728,
+"piece": "i_sh0da0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em12",
+"name_support": 9
+},
+{
+"room": 49,
+"kind": 18,
+"item": 0,
+"world": [
+446.0,
+-0.0,
+444.9999694824219
+],
+"condition": 0,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 497.83,
+"y": 337.7249967956543,
+"piece": "i_sh0da0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em12",
+"name_support": 9
+},
+{
+"room": 49,
+"kind": 113,
+"item": 90,
+"world": [
+386.0,
+65.0,
+337.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 491.53000000000003,
+"y": 326.385,
+"piece": "i_sh0da0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 49,
+"kind": 113,
+"item": 44,
+"world": [
+457.0000305175781,
+86.0,
+496.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1
+},
+"category": "item",
+"name_en": "Blue Herb",
+"name_ko": "블루 허브",
+"evidence": "arrange table",
+"x": 498.98500320434573,
+"y": 343.08000000000004,
+"piece": "i_sh0da0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 49,
+"kind": 113,
+"item": 17,
+"world": [
+325.0,
+71.0,
+343.0
+],
+"condition": 0,
+"amount": {
+"leech0": 8,
+"leech1": 8,
+"leech2": 8,
+"leech3": 8,
+"leech4": 8
+},
+"category": "key",
+"name_en": "Custom Handgun",
+"name_ko": "커스텀 핸드건",
+"evidence": "arrange table",
+"x": 485.125,
+"y": 327.015,
+"piece": "i_sh0da0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 50,
+"kind": 16,
+"item": 0,
+"world": [
+814.0000610351562,
+-0.0,
+576.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 521.4700064086915,
+"y": 426.48,
+"piece": "i_sh0ea0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em10",
+"name_support": 4
+},
+{
+"room": 50,
+"kind": 16,
+"item": 0,
+"world": [
+198.0,
+-0.0,
+42.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 456.79,
+"y": 370.40999999999997,
+"piece": "i_sh0ea0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em10",
+"name_support": 4
+},
+{
+"room": 50,
+"kind": 113,
+"item": 90,
+"world": [
+639.0,
+49.0,
+289.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 503.095,
+"y": 396.345,
+"piece": "i_sh0ea0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 50,
+"kind": 113,
+"item": 90,
+"world": [
+768.0,
+10.0,
+647.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 516.64,
+"y": 433.93499999999995,
+"piece": "i_sh0ea0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 50,
+"kind": 113,
+"item": 91,
+"world": [
+117.99999237060547,
+98.0,
+42.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 448.38999919891353,
+"y": 370.40999999999997,
+"piece": "i_sh0ea0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 50,
+"kind": 113,
+"item": 91,
+"world": [
+889.0000610351562,
+0.0,
+116.99999237060547
+],
+"condition": 0,
+"amount": {
+"leech0": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 529.3450064086915,
+"y": 378.2849991989135,
+"piece": "i_sh0ea0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 50,
+"kind": 113,
+"item": 91,
+"world": [
+190.0,
+84.5999984741211,
+647.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 455.95000000000005,
+"y": 433.93499999999995,
+"piece": "i_sh0ea0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 51,
+"kind": 80,
+"item": 0,
+"world": [
+334.0,
+-0.0,
+117.99999237060547
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 402.07,
+"y": 288.38999919891353,
+"piece": "i_sh0fa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em50",
+"name_support": 7
+},
+{
+"room": 51,
+"kind": 81,
+"item": 0,
+"world": [
+134.0,
+-0.0,
+250.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 381.07,
+"y": 302.25,
+"piece": "i_sh0fa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em51",
+"name_support": 7
+},
+{
+"room": 51,
+"kind": 80,
+"item": 0,
+"world": [
+613.0,
+-0.0,
+124.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 431.365,
+"y": 289.02,
+"piece": "i_sh0fa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em50",
+"name_support": 7
+},
+{
+"room": 51,
+"kind": 81,
+"item": 0,
+"world": [
+692.0,
+-0.0,
+153.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 439.65999999999997,
+"y": 292.06499999999994,
+"piece": "i_sh0fa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em51",
+"name_support": 7
+},
+{
+"room": 51,
+"kind": 113,
+"item": 90,
+"world": [
+58.999996185302734,
+13.0,
+349.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 373.19499959945676,
+"y": 312.645,
+"piece": "i_sh0fa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 51,
+"kind": 113,
+"item": 90,
+"world": [
+58.999996185302734,
+13.0,
+240.00001525878906
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 373.19499959945676,
+"y": 301.20000160217285,
+"piece": "i_sh0fa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 51,
+"kind": 113,
+"item": 90,
+"world": [
+58.999996185302734,
+13.0,
+419.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 373.19499959945676,
+"y": 319.995,
+"piece": "i_sh0fa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 51,
+"kind": 113,
+"item": 90,
+"world": [
+168.0,
+86.0,
+13.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 384.64,
+"y": 277.365,
+"piece": "i_sh0fa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 52,
+"kind": 16,
+"item": 0,
+"world": [
+320.0,
+-0.0,
+260.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 400.6,
+"y": 372.29999999999995,
+"piece": "i_sh10a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em10",
+"name_support": 4
+},
+{
+"room": 52,
+"kind": 17,
+"item": 0,
+"world": [
+409.0,
+-0.0,
+325.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 409.945,
+"y": 379.125,
+"piece": "i_sh10a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em11",
+"name_support": 5
+},
+{
+"room": 52,
+"kind": 17,
+"item": 0,
+"world": [
+288.0,
+-0.0,
+376.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 397.24,
+"y": 384.48,
+"piece": "i_sh10a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em11",
+"name_support": 5
+},
+{
+"room": 52,
+"kind": 113,
+"item": 91,
+"world": [
+536.0,
+100.0,
+151.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 423.28000000000003,
+"y": 360.855,
+"piece": "i_sh10a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 52,
+"kind": 113,
+"item": 91,
+"world": [
+448.9999694824219,
+100.0,
+145.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 414.14499679565427,
+"y": 360.2249999999999,
+"piece": "i_sh10a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 52,
+"kind": 113,
+"item": 91,
+"world": [
+500.0,
+229.0,
+29.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 419.5,
+"y": 348.04499999999996,
+"piece": "i_sh10a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 52,
+"kind": 113,
+"item": 32,
+"world": [
+248.0,
+0.0,
+365.0
+],
+"condition": 0,
+"amount": {
+"leech0": 30,
+"leech1": 30
+},
+"category": "item",
+"name_en": "Handgun Ammo",
+"name_ko": "핸드건의 탄약",
+"evidence": "arrange table",
+"x": 393.04,
+"y": 383.32500000000005,
+"piece": "i_sh10a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 53,
+"kind": 47,
+"item": 0,
+"world": [
+500.0,
+-0.0,
+539.0
+],
+"condition": 1,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 503.5,
+"y": 280.095,
+"piece": "i_sh11a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 53,
+"kind": 47,
+"item": 0,
+"world": [
+893.9999389648438,
+-0.0,
+539.0
+],
+"condition": 1,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 544.8699935913087,
+"y": 280.095,
+"piece": "i_sh11a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 53,
+"kind": 47,
+"item": 0,
+"world": [
+177.0,
+-0.0,
+580.0
+],
+"condition": 1,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 469.585,
+"y": 284.4000000000001,
+"piece": "i_sh11a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 53,
+"kind": 18,
+"item": 0,
+"world": [
+500.0,
+-0.0,
+539.0
+],
+"condition": 2,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 503.5,
+"y": 280.095,
+"piece": "i_sh11a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em12",
+"name_support": 9
+},
+{
+"room": 53,
+"kind": 22,
+"item": 0,
+"world": [
+893.9999389648438,
+-0.0,
+539.0
+],
+"condition": 2,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 544.8699935913087,
+"y": 280.095,
+"piece": "i_sh11a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em16",
+"name_support": 14
+},
+{
+"room": 53,
+"kind": 18,
+"item": 0,
+"world": [
+177.0,
+-0.0,
+580.0
+],
+"condition": 2,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 469.585,
+"y": 284.4000000000001,
+"piece": "i_sh11a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em12",
+"name_support": 9
+},
+{
+"room": 53,
+"kind": 113,
+"item": 90,
+"world": [
+164.0,
+-0.0,
+550.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 468.21999999999997,
+"y": 281.25,
+"piece": "i_sh11a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 53,
+"kind": 113,
+"item": 90,
+"world": [
+695.0,
+0.0,
+565.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 523.975,
+"y": 282.82500000000005,
+"piece": "i_sh11a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 53,
+"kind": 113,
+"item": 90,
+"world": [
+814.9999389648438,
+0.0,
+564.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 536.5749935913086,
+"y": 282.72,
+"piece": "i_sh11a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 53,
+"kind": 113,
+"item": 91,
+"world": [
+320.0,
+0.0,
+567.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 484.6,
+"y": 283.03499999999997,
+"piece": "i_sh11a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 53,
+"kind": 113,
+"item": 91,
+"world": [
+524.0,
+-0.0,
+565.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 506.02,
+"y": 282.82500000000005,
+"piece": "i_sh11a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 55,
+"kind": 43,
+"item": 0,
+"world": [
+574.0,
+180.0,
+617.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Crow",
+"name_ko": "까마귀",
+"evidence": "arrange table",
+"x": 533.77,
+"y": 501.2850000000001,
+"piece": "i_sh13a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2b",
+"name_support": 2
+},
+{
+"room": 55,
+"kind": 43,
+"item": 0,
+"world": [
+423.0,
+180.0,
+617.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Crow",
+"name_ko": "까마귀",
+"evidence": "arrange table",
+"x": 517.915,
+"y": 501.2850000000001,
+"piece": "i_sh13a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2b",
+"name_support": 2
+},
+{
+"room": 55,
+"kind": 43,
+"item": 0,
+"world": [
+329.0,
+180.0,
+617.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Crow",
+"name_ko": "까마귀",
+"evidence": "arrange table",
+"x": 508.045,
+"y": 501.2850000000001,
+"piece": "i_sh13a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2b",
+"name_support": 2
+},
+{
+"room": 55,
+"kind": 43,
+"item": 0,
+"world": [
+196.0,
+180.0,
+617.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Crow",
+"name_ko": "까마귀",
+"evidence": "arrange table",
+"x": 494.08,
+"y": 501.2850000000001,
+"piece": "i_sh13a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2b",
+"name_support": 2
+},
+{
+"room": 55,
+"kind": 113,
+"item": 91,
+"world": [
+203.0,
+111.0,
+451.0000305175781
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 494.815,
+"y": 483.8550032043456,
+"piece": "i_sh13a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 55,
+"kind": 113,
+"item": 91,
+"world": [
+772.0,
+22.0,
+516.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 554.5600000000001,
+"y": 490.68000000000006,
+"piece": "i_sh13a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 55,
+"kind": 113,
+"item": 4,
+"world": [
+397.0,
+51.0,
+357.0
+],
+"condition": 0,
+"amount": {
+"leech0": 15,
+"leech1": 15,
+"leech2": 15,
+"leech3": 15
+},
+"category": "key",
+"name_en": "Handgun",
+"name_ko": "핸드건",
+"evidence": "arrange table",
+"x": 515.185,
+"y": 473.985,
+"piece": "i_sh13a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 56,
+"kind": 80,
+"item": 0,
+"world": [
+707.0,
+-0.0,
+423.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 799.735,
+"y": 483.91499999999996,
+"piece": "i_sh14a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em50",
+"name_support": 7
+},
+{
+"room": 56,
+"kind": 81,
+"item": 0,
+"world": [
+564.0,
+-0.0,
+104.99999237060547
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 784.72,
+"y": 450.5249991989135,
+"piece": "i_sh14a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em51",
+"name_support": 7
+},
+{
+"room": 56,
+"kind": 16,
+"item": 0,
+"world": [
+691.0,
+-0.0,
+169.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 798.0550000000001,
+"y": 457.2450000000001,
+"piece": "i_sh14a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em10",
+"name_support": 4
+},
+{
+"room": 56,
+"kind": 81,
+"item": 0,
+"world": [
+638.0,
+-0.0,
+265.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 792.49,
+"y": 467.32499999999993,
+"piece": "i_sh14a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em51",
+"name_support": 7
+},
+{
+"room": 56,
+"kind": 80,
+"item": 0,
+"world": [
+659.0,
+-0.0,
+292.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 794.6949999999999,
+"y": 470.1600000000001,
+"piece": "i_sh14a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em50",
+"name_support": 7
+},
+{
+"room": 56,
+"kind": 113,
+"item": 91,
+"world": [
+705.0,
+0.0,
+488.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 799.5250000000001,
+"y": 490.74,
+"piece": "i_sh14a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 56,
+"kind": 113,
+"item": 90,
+"world": [
+678.0,
+0.0,
+615.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 796.69,
+"y": 504.07499999999993,
+"piece": "i_sh14a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 56,
+"kind": 113,
+"item": 90,
+"world": [
+729.0,
+0.0,
+584.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 802.0450000000001,
+"y": 500.81999999999994,
+"piece": "i_sh14a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 56,
+"kind": 113,
+"item": 90,
+"world": [
+774.0,
+130.0,
+433.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 806.77,
+"y": 484.9649999999999,
+"piece": "i_sh14a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 57,
+"kind": 44,
+"item": 0,
+"world": [
+621.0,
+0.0,
+530.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Plague Crawler",
+"name_ko": "플레이그 크롤러",
+"evidence": "arrange table",
+"x": 790.705,
+"y": 411.1500000000001,
+"piece": "i_sh15a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2c",
+"name_support": 7
+},
+{
+"room": 57,
+"kind": 113,
+"item": 90,
+"world": [
+769.0,
+0.0,
+454.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 806.245,
+"y": 403.1700000000001,
+"piece": "i_sh15a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 57,
+"kind": 113,
+"item": 91,
+"world": [
+394.0,
+148.0,
+153.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 766.87,
+"y": 371.56499999999994,
+"piece": "i_sh15a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 57,
+"kind": 113,
+"item": 91,
+"world": [
+524.0,
+48.0,
+581.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 780.52,
+"y": 416.5049999999999,
+"piece": "i_sh15a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 58,
+"kind": 67,
+"item": 0,
+"world": [
+270.0,
+-0.0,
+374.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Mimicry Marcus",
+"name_ko": "미미크리 마커스",
+"evidence": "arrange table",
+"x": 837.8499999999999,
+"y": 394.77,
+"piece": "i_sh16a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em43",
+"name_support": 10
+},
+{
+"room": 59,
+"kind": 67,
+"item": 0,
+"world": [
+308.0,
+-0.0,
+99.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Mimicry Marcus",
+"name_ko": "미미크리 마커스",
+"evidence": "arrange table",
+"x": 820.84,
+"y": 349.395,
+"piece": "i_sh17a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em43",
+"name_support": 10
+},
+{
+"room": 60,
+"kind": 47,
+"item": 0,
+"world": [
+182.0,
+-0.0,
+171.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 744.61,
+"y": 299.95500000000004,
+"piece": "i_sh18a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 60,
+"kind": 47,
+"item": 0,
+"world": [
+276.0,
+-0.0,
+513.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 754.48,
+"y": 335.865,
+"piece": "i_sh18a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 60,
+"kind": 113,
+"item": 7,
+"world": [
+447.0,
+0.0,
+124.0
+],
+"condition": 0,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 1,
+"leech3": 1
+},
+"category": "key",
+"name_en": "Grenade Launcher",
+"name_ko": "유탄 발사기",
+"evidence": "arrange table",
+"x": 772.4350000000001,
+"y": 295.02,
+"piece": "i_sh18a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 60,
+"kind": 113,
+"item": 90,
+"world": [
+473.0,
+0.0,
+362.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 775.165,
+"y": 320.01,
+"piece": "i_sh18a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 60,
+"kind": 113,
+"item": 90,
+"world": [
+385.0,
+0.0,
+150.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 765.925,
+"y": 297.75,
+"piece": "i_sh18a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 61,
+"kind": 22,
+"item": 0,
+"world": [
+141.0,
+-0.0,
+451.0000305175781
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 824.3050000000001,
+"y": 329.35500320434573,
+"piece": "i_sh19a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em16",
+"name_support": 14
+},
+{
+"room": 61,
+"kind": 22,
+"item": 0,
+"world": [
+116.0,
+-0.0,
+168.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 821.6800000000001,
+"y": 299.64,
+"piece": "i_sh19a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em16",
+"name_support": 14
+},
+{
+"room": 61,
+"kind": 23,
+"item": 0,
+"world": [
+623.0,
+-0.0,
+166.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 874.915,
+"y": 299.43000000000006,
+"piece": "i_sh19a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em17",
+"name_support": 8
+},
+{
+"room": 61,
+"kind": 23,
+"item": 0,
+"world": [
+685.0,
+-0.0,
+431.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 881.425,
+"y": 327.255,
+"piece": "i_sh19a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em17",
+"name_support": 8
+},
+{
+"room": 61,
+"kind": 23,
+"item": 0,
+"world": [
+340.0,
+-0.0,
+108.00000762939453
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 845.2,
+"y": 293.3400008010865,
+"piece": "i_sh19a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em17",
+"name_support": 8
+},
+{
+"room": 61,
+"kind": 113,
+"item": 90,
+"world": [
+432.0000305175781,
+70.0,
+231.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 854.8600032043457,
+"y": 306.255,
+"piece": "i_sh19a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 61,
+"kind": 113,
+"item": 90,
+"world": [
+782.0,
+91.0,
+656.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 891.61,
+"y": 350.88,
+"piece": "i_sh19a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 61,
+"kind": 113,
+"item": 91,
+"world": [
+716.0,
+91.0,
+656.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 884.6800000000001,
+"y": 350.88,
+"piece": "i_sh19a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 61,
+"kind": 113,
+"item": 91,
+"world": [
+376.0,
+91.0,
+1.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 848.98,
+"y": 282.105,
+"piece": "i_sh19a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 62,
+"kind": 80,
+"item": 0,
+"world": [
+326.79998779296875,
+-0.0,
+999.699951171875
+],
+"condition": 0,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 881.3139987182617,
+"y": 388.4684948730469,
+"piece": "i_sh1aa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em50",
+"name_support": 7
+},
+{
+"room": 62,
+"kind": 81,
+"item": 0,
+"world": [
+505.0000305175781,
+-0.0,
+1014.9999389648438
+],
+"condition": 0,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 900.0250032043457,
+"y": 390.0749935913086,
+"piece": "i_sh1aa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em51",
+"name_support": 7
+},
+{
+"room": 62,
+"kind": 80,
+"item": 0,
+"world": [
+743.0,
+-0.0,
+606.0
+],
+"condition": 0,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 925.015,
+"y": 347.13,
+"piece": "i_sh1aa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em50",
+"name_support": 7
+},
+{
+"room": 62,
+"kind": 113,
+"item": 91,
+"world": [
+773.0,
+0.0,
+677.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 928.165,
+"y": 354.58500000000004,
+"piece": "i_sh1aa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 62,
+"kind": 113,
+"item": 91,
+"world": [
+461.0,
+0.0,
+1036.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 895.405,
+"y": 392.28,
+"piece": "i_sh1aa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 62,
+"kind": 113,
+"item": 91,
+"world": [
+717.0,
+0.0,
+465.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 922.285,
+"y": 332.32500000000005,
+"piece": "i_sh1aa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 62,
+"kind": 113,
+"item": 48,
+"world": [
+323.0,
+-0.0,
+935.9999389648438
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "item",
+"name_en": "Herbal Mix",
+"name_ko": "조제한 허브",
+"evidence": "arrange table",
+"x": 880.915,
+"y": 381.77999359130865,
+"piece": "i_sh1aa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 63,
+"kind": 67,
+"item": 0,
+"world": [
+679.0,
+-0.0,
+247.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Mimicry Marcus",
+"name_ko": "미미크리 마커스",
+"evidence": "arrange table",
+"x": 880.795,
+"y": 439.93499999999995,
+"piece": "i_sh1ba0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em43",
+"name_support": 10
+},
+{
+"room": 64,
+"kind": 80,
+"item": 0,
+"world": [
+1681.0,
+-0.0,
+667.0
+],
+"condition": 1,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 734.005,
+"y": 245.53499999999997,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em50",
+"name_support": 7
+},
+{
+"room": 64,
+"kind": 81,
+"item": 0,
+"world": [
+1344.0,
+-0.0,
+288.0
+],
+"condition": 1,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 698.6200000000001,
+"y": 205.74,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em51",
+"name_support": 7
+},
+{
+"room": 64,
+"kind": 80,
+"item": 0,
+"world": [
+215.00001525878906,
+-0.0,
+296.0
+],
+"condition": 1,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 580.0750016021728,
+"y": 206.58000000000004,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em50",
+"name_support": 7
+},
+{
+"room": 64,
+"kind": 81,
+"item": 0,
+"world": [
+1200.0,
+-0.0,
+148.0
+],
+"condition": 1,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 683.5,
+"y": 191.03999999999996,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em51",
+"name_support": 7
+},
+{
+"room": 64,
+"kind": 80,
+"item": 0,
+"world": [
+1681.0,
+-0.0,
+667.0
+],
+"condition": 2,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 734.005,
+"y": 245.53499999999997,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em50",
+"name_support": 7
+},
+{
+"room": 64,
+"kind": 81,
+"item": 0,
+"world": [
+1344.0,
+-0.0,
+288.0
+],
+"condition": 2,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 698.6200000000001,
+"y": 205.74,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em51",
+"name_support": 7
+},
+{
+"room": 64,
+"kind": 80,
+"item": 0,
+"world": [
+215.00001525878906,
+-0.0,
+296.0
+],
+"condition": 2,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 580.0750016021728,
+"y": 206.58000000000004,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em50",
+"name_support": 7
+},
+{
+"room": 64,
+"kind": 81,
+"item": 0,
+"world": [
+1200.0,
+-0.0,
+148.0
+],
+"condition": 2,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 683.5,
+"y": 191.03999999999996,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0,
+"model": "em51",
+"name_support": 7
+},
+{
+"room": 64,
+"kind": 113,
+"item": 91,
+"world": [
+1754.0001220703125,
+7.0,
+306.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 741.6700128173828,
+"y": 207.63,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 64,
+"kind": 113,
+"item": 91,
+"world": [
+1368.0,
+82.0,
+210.99998474121094
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 701.14,
+"y": 197.65499839782706,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 64,
+"kind": 113,
+"item": 91,
+"world": [
+1553.0,
+87.0,
+211.99998474121094
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 720.565,
+"y": 197.7599983978272,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 64,
+"kind": 113,
+"item": 90,
+"world": [
+770.0,
+0.0,
+249.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 638.3499999999999,
+"y": 201.64499999999998,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 64,
+"kind": 113,
+"item": 90,
+"world": [
+1.0,
+82.0,
+307.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 557.605,
+"y": 207.735,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 64,
+"kind": 113,
+"item": 90,
+"world": [
+75.0,
+30.000001907348633,
+210.99998474121094
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 565.375,
+"y": 197.65499839782706,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 65,
+"kind": 44,
+"item": 0,
+"world": [
+1342.0,
+600.0,
+1250.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Plague Crawler",
+"name_ko": "플레이그 크롤러",
+"evidence": "arrange table",
+"x": 698.41,
+"y": 308.25,
+"piece": "i_sh1db0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2c",
+"name_support": 7
+},
+{
+"room": 65,
+"kind": 44,
+"item": 0,
+"world": [
+453.0000305175781,
+600.0,
+705.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Plague Crawler",
+"name_ko": "플레이그 크롤러",
+"evidence": "arrange table",
+"x": 605.0650032043457,
+"y": 251.0250000000001,
+"piece": "i_sh1db0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2c",
+"name_support": 7
+},
+{
+"room": 65,
+"kind": 44,
+"item": 0,
+"world": [
+571.0,
+600.0,
+743.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Plague Crawler",
+"name_ko": "플레이그 크롤러",
+"evidence": "arrange table",
+"x": 617.455,
+"y": 255.015,
+"piece": "i_sh1db0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2c",
+"name_support": 7
+},
+{
+"room": 65,
+"kind": 44,
+"item": 0,
+"world": [
+1114.0,
+600.0,
+2272.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Plague Crawler",
+"name_ko": "플레이그 크롤러",
+"evidence": "arrange table",
+"x": 674.47,
+"y": 415.55999999999995,
+"piece": "i_sh1db0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0,
+"model": "em2c",
+"name_support": 7
+},
+{
+"room": 65,
+"kind": 113,
+"item": 90,
+"world": [
+1494.0,
+600.0,
+2441.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 714.3700000000001,
+"y": 433.30500000000006,
+"piece": "i_sh1db0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 65,
+"kind": 113,
+"item": 90,
+"world": [
+1292.0,
+600.0,
+92.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 693.16,
+"y": 186.65999999999997,
+"piece": "i_sh1db0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 65,
+"kind": 113,
+"item": 90,
+"world": [
+1266.0,
+600.0,
+2468.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 690.4300000000001,
+"y": 436.14,
+"piece": "i_sh1db0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 65,
+"kind": 113,
+"item": 37,
+"world": [
+1214.0,
+600.0,
+335.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1
+},
+"category": "item",
+"name_en": "Napalm Grenades",
+"name_ko": "소이탄",
+"evidence": "arrange table",
+"x": 684.97,
+"y": 212.17499999999995,
+"piece": "i_sh1db0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 66,
+"kind": 47,
+"item": 0,
+"world": [
+1509.0,
+-0.0,
+540.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 562.9449999999999,
+"y": 310.20000000000005,
+"piece": "i_sh1e80",
+"floor": "b1",
+"region": "sh",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 66,
+"kind": 47,
+"item": 0,
+"world": [
+1518.0,
+-0.0,
+997.9999389648438
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 563.89,
+"y": 358.28999359130853,
+"piece": "i_sh1e80",
+"floor": "b1",
+"region": "sh",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 66,
+"kind": 47,
+"item": 0,
+"world": [
+1061.0,
+-0.0,
+947.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 515.905,
+"y": 352.93500000000006,
+"piece": "i_sh1e80",
+"floor": "b1",
+"region": "sh",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 66,
+"kind": 47,
+"item": 0,
+"world": [
+1194.0,
+-0.0,
+88.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 529.87,
+"y": 262.74,
+"piece": "i_sh1e80",
+"floor": "b1",
+"region": "sh",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 66,
+"kind": 47,
+"item": 0,
+"world": [
+1220.0,
+-0.0,
+163.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 532.6,
+"y": 270.615,
+"piece": "i_sh1e80",
+"floor": "b1",
+"region": "sh",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 66,
+"kind": 113,
+"item": 91,
+"world": [
+1117.0,
+0.0,
+94.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 521.785,
+"y": 263.37,
+"piece": "i_sh1e80",
+"floor": "b1",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 66,
+"kind": 113,
+"item": 43,
+"world": [
+1222.0,
+0.0,
+1183.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "item",
+"name_en": "Green Herb",
+"name_ko": "그린 허브",
+"evidence": "arrange table",
+"x": 532.8100000000001,
+"y": 377.71500000000003,
+"piece": "i_sh1e80",
+"floor": "b1",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 67,
+"kind": 113,
+"item": 6,
+"world": [
+457.0001220703125,
+-53.0,
+188.0
+],
+"condition": 0,
+"amount": {
+"leech0": 6,
+"leech1": 6,
+"leech2": 6,
+"leech3": 6,
+"leech4": 6
+},
+"category": "key",
+"name_en": "Shotgun",
+"name_ko": "샷건",
+"evidence": "arrange table",
+"x": 504.98501281738277,
+"y": 408.24,
+"piece": "i_sh1f80",
+"floor": "b1",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 67,
+"kind": 113,
+"item": 33,
+"world": [
+406.0,
+-60.000003814697266,
+293.0
+],
+"condition": 0,
+"amount": {
+"leech0": 14,
+"leech1": 14,
+"leech2": 14,
+"leech3": 14,
+"leech4": 14
+},
+"category": "item",
+"name_en": "Shotgun Ammo",
+"name_ko": "샷건의 탄약",
+"evidence": "arrange table",
+"x": 499.63,
+"y": 419.265,
+"piece": "i_sh1f80",
+"floor": "b1",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 86,
+"kind": 52,
+"item": 0,
+"world": [
+907.0,
+295.0,
+1145.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Giant Spider",
+"name_ko": "거대 거미",
+"evidence": "arrange table",
+"x": 573.235,
+"y": 493.7249999999999,
+"piece": "i_dm0080",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em34",
+"name_support": 2
+},
+{
+"room": 86,
+"kind": 52,
+"item": 0,
+"world": [
+588.0,
+295.0,
+656.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Giant Spider",
+"name_ko": "거대 거미",
+"evidence": "arrange table",
+"x": 539.74,
+"y": 442.3799999999999,
+"piece": "i_dm0080",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em34",
+"name_support": 2
+},
+{
+"room": 86,
+"kind": 52,
+"item": 0,
+"world": [
+338.0,
+149.0,
+10.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Giant Spider",
+"name_ko": "거대 거미",
+"evidence": "arrange table",
+"x": 513.49,
+"y": 374.54999999999995,
+"piece": "i_dm0080",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em34",
+"name_support": 2
+},
+{
+"room": 86,
+"kind": 52,
+"item": 0,
+"world": [
+1150.0,
+295.0,
+1145.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Giant Spider",
+"name_ko": "거대 거미",
+"evidence": "arrange table",
+"x": 598.75,
+"y": 493.7249999999999,
+"piece": "i_dm0080",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em34",
+"name_support": 2
+},
+{
+"room": 86,
+"kind": 113,
+"item": 90,
+"world": [
+1157.0,
+0.0,
+1144.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 599.485,
+"y": 493.6200000000001,
+"piece": "i_dm0080",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 86,
+"kind": 113,
+"item": 90,
+"world": [
+580.0,
+0.0,
+120.00000762939453
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 538.9,
+"y": 386.10000080108637,
+"piece": "i_dm0080",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 86,
+"kind": 113,
+"item": 91,
+"world": [
+570.0,
+0.0,
+1092.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 537.85,
+"y": 488.1600000000001,
+"piece": "i_dm0080",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 86,
+"kind": 113,
+"item": 91,
+"world": [
+717.9066162109375,
+0.0,
+1181.702392578125
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 553.3801947021484,
+"y": 497.5787512207031,
+"piece": "i_dm0080",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 87,
+"kind": 22,
+"item": 0,
+"world": [
+356.0,
+0.0,
+234.99998474121094
+],
+"condition": 1,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 588.88,
+"y": 380.17499839782715,
+"piece": "i_dm0180",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em16",
+"name_support": 14
+},
+{
+"room": 87,
+"kind": 18,
+"item": 0,
+"world": [
+217.0,
+0.0,
+223.0
+],
+"condition": 1,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 574.285,
+"y": 378.91499999999996,
+"piece": "i_dm0180",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em12",
+"name_support": 9
+},
+{
+"room": 87,
+"kind": 18,
+"item": 0,
+"world": [
+101.0,
+0.0,
+235.99998474121094
+],
+"condition": 1,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 562.105,
+"y": 380.27999839782706,
+"piece": "i_dm0180",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em12",
+"name_support": 9
+},
+{
+"room": 87,
+"kind": 22,
+"item": 0,
+"world": [
+64.0,
+0.0,
+312.0
+],
+"condition": 1,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 558.22,
+"y": 388.26,
+"piece": "i_dm0180",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em16",
+"name_support": 14
+},
+{
+"room": 87,
+"kind": 18,
+"item": 0,
+"world": [
+217.0,
+0.0,
+223.0
+],
+"condition": 2,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 574.285,
+"y": 378.91499999999996,
+"piece": "i_dm0180",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em12",
+"name_support": 9
+},
+{
+"room": 87,
+"kind": 18,
+"item": 0,
+"world": [
+101.0,
+0.0,
+235.99998474121094
+],
+"condition": 2,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 562.105,
+"y": 380.27999839782706,
+"piece": "i_dm0180",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em12",
+"name_support": 9
+},
+{
+"room": 87,
+"kind": 22,
+"item": 0,
+"world": [
+64.0,
+0.0,
+312.0
+],
+"condition": 2,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 558.22,
+"y": 388.26,
+"piece": "i_dm0180",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em16",
+"name_support": 14
+},
+{
+"room": 87,
+"kind": 22,
+"item": 0,
+"world": [
+544.0,
+0.0,
+456.0
+],
+"condition": 2,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 608.62,
+"y": 403.38,
+"piece": "i_dm0180",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em16",
+"name_support": 14
+},
+{
+"room": 88,
+"kind": 47,
+"item": 0,
+"world": [
+220.0,
+-0.0,
+479.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 583.5999999999999,
+"y": 315.79499999999996,
+"piece": "i_dm0280",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 88,
+"kind": 47,
+"item": 0,
+"world": [
+378.0,
+-0.0,
+590.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 600.1899999999999,
+"y": 327.45000000000005,
+"piece": "i_dm0280",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 88,
+"kind": 47,
+"item": 0,
+"world": [
+536.0,
+-0.0,
+489.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 616.78,
+"y": 316.845,
+"piece": "i_dm0280",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 88,
+"kind": 47,
+"item": 0,
+"world": [
+417.9999694824219,
+-0.0,
+463.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 604.3899967956543,
+"y": 314.115,
+"piece": "i_dm0280",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 88,
+"kind": 113,
+"item": 6,
+"world": [
+296.0,
+63.0,
+734.0
+],
+"condition": 0,
+"amount": {
+"leech0": 7,
+"leech1": 7,
+"leech2": 7,
+"leech3": 7,
+"leech4": 7
+},
+"category": "key",
+"name_en": "Shotgun",
+"name_ko": "샷건",
+"evidence": "arrange table",
+"x": 591.58,
+"y": 342.56999999999994,
+"piece": "i_dm0280",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 88,
+"kind": 113,
+"item": 33,
+"world": [
+81.0,
+-0.0,
+417.9999694824219
+],
+"condition": 0,
+"amount": {
+"leech0": 14,
+"leech1": 14,
+"leech2": 14,
+"leech3": 14,
+"leech4": 14
+},
+"category": "item",
+"name_en": "Shotgun Ammo",
+"name_ko": "샷건의 탄약",
+"evidence": "arrange table",
+"x": 569.005,
+"y": 309.38999679565427,
+"piece": "i_dm0280",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 88,
+"kind": 113,
+"item": 91,
+"world": [
+555.0,
+0.0,
+487.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 618.7750000000001,
+"y": 316.635,
+"piece": "i_dm0280",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 88,
+"kind": 113,
+"item": 91,
+"world": [
+177.0,
+0.0,
+471.9999694824219
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 579.085,
+"y": 315.05999679565434,
+"piece": "i_dm0280",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 88,
+"kind": 113,
+"item": 43,
+"world": [
+650.0,
+48.0,
+793.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "item",
+"name_en": "Green Herb",
+"name_ko": "그린 허브",
+"evidence": "arrange table",
+"x": 628.75,
+"y": 348.765,
+"piece": "i_dm0280",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 89,
+"kind": 57,
+"item": 0,
+"world": [
+87.0,
+-0.0,
+57.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Eliminator",
+"name_ko": "일리미네이터",
+"evidence": "arrange table",
+"x": 457.135,
+"y": 361.485,
+"piece": "i_dm0380",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em39",
+"name_support": 8
+},
+{
+"room": 89,
+"kind": 57,
+"item": 0,
+"world": [
+137.0,
+-0.0,
+104.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Eliminator",
+"name_ko": "일리미네이터",
+"evidence": "arrange table",
+"x": 462.385,
+"y": 366.41999999999996,
+"piece": "i_dm0380",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em39",
+"name_support": 8
+},
+{
+"room": 90,
+"kind": 47,
+"item": 0,
+"world": [
+888.0,
+-0.0,
+1400.0
+],
+"condition": 1,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 631.24,
+"y": 442.5,
+"piece": "i_dm0470",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 90,
+"kind": 47,
+"item": 0,
+"world": [
+126.0,
+-0.0,
+75.0
+],
+"condition": 1,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Hunter",
+"name_ko": "헌터",
+"evidence": "arrange table",
+"x": 551.23,
+"y": 303.375,
+"piece": "i_dm0470",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0,
+"model": "em2f",
+"name_support": 9
+},
+{
+"room": 90,
+"kind": 22,
+"item": 0,
+"world": [
+707.0,
+-0.0,
+711.0
+],
+"condition": 2,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 612.235,
+"y": 370.155,
+"piece": "i_dm0470",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0,
+"model": "em16",
+"name_support": 14
+},
+{
+"room": 90,
+"kind": 22,
+"item": 0,
+"world": [
+955.0,
+-0.0,
+465.0
+],
+"condition": 2,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 638.2750000000001,
+"y": 344.32500000000005,
+"piece": "i_dm0470",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0,
+"model": "em16",
+"name_support": 14
+},
+{
+"room": 90,
+"kind": 22,
+"item": 0,
+"world": [
+48.0,
+-0.0,
+338.0
+],
+"condition": 2,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 543.04,
+"y": 330.99,
+"piece": "i_dm0470",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0,
+"model": "em16",
+"name_support": 14
+},
+{
+"room": 90,
+"kind": 18,
+"item": 0,
+"world": [
+484.0,
+-0.0,
+506.0
+],
+"condition": 2,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 588.8199999999999,
+"y": 348.63,
+"piece": "i_dm0470",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0,
+"model": "em12",
+"name_support": 9
+},
+{
+"room": 90,
+"kind": 18,
+"item": 0,
+"world": [
+1203.0,
+-0.0,
+784.0
+],
+"condition": 2,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 664.315,
+"y": 377.81999999999994,
+"piece": "i_dm0470",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0,
+"model": "em12",
+"name_support": 9
+},
+{
+"room": 90,
+"kind": 113,
+"item": 53,
+"world": [
+888.0,
+-0.0,
+1400.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1
+},
+"category": "item",
+"name_en": "First-Aid Spray",
+"name_ko": "구급 스프레이",
+"evidence": "arrange table",
+"x": 631.24,
+"y": 442.5,
+"piece": "i_dm0470",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 91,
+"kind": 25,
+"item": 0,
+"world": [
+274.0,
+-0.0,
+51.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 608.77,
+"y": 284.355,
+"piece": "i_dm0570",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0,
+"model": "em19",
+"name_support": 5
+},
+{
+"room": 91,
+"kind": 25,
+"item": 0,
+"world": [
+197.0,
+-0.0,
+79.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 600.6850000000001,
+"y": 287.29499999999996,
+"piece": "i_dm0570",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0,
+"model": "em19",
+"name_support": 5
+},
+{
+"room": 91,
+"kind": 25,
+"item": 0,
+"world": [
+323.0,
+-0.0,
+250.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 613.915,
+"y": 305.25,
+"piece": "i_dm0570",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0,
+"model": "em19",
+"name_support": 5
+},
+{
+"room": 91,
+"kind": 113,
+"item": 91,
+"world": [
+334.0,
+47.0,
+312.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 615.0699999999999,
+"y": 311.76,
+"piece": "i_dm0570",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 91,
+"kind": 113,
+"item": 91,
+"world": [
+320.0,
+0.0,
+127.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 613.5999999999999,
+"y": 292.33500000000004,
+"piece": "i_dm0570",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 91,
+"kind": 113,
+"item": 91,
+"world": [
+203.0,
+0.0,
+127.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 601.3149999999999,
+"y": 292.33500000000004,
+"piece": "i_dm0570",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 92,
+"kind": 80,
+"item": 0,
+"world": [
+360.0,
+-0.0,
+353.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 623.8,
+"y": 517.065,
+"piece": "i_dm0670",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0,
+"model": "em50",
+"name_support": 7
+},
+{
+"room": 92,
+"kind": 81,
+"item": 0,
+"world": [
+421.0,
+-0.0,
+353.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 630.205,
+"y": 517.065,
+"piece": "i_dm0670",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0,
+"model": "em51",
+"name_support": 7
+},
+{
+"room": 92,
+"kind": 81,
+"item": 0,
+"world": [
+330.0,
+-0.0,
+160.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 620.6500000000001,
+"y": 496.80000000000007,
+"piece": "i_dm0670",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0,
+"model": "em51",
+"name_support": 7
+},
+{
+"room": 92,
+"kind": 80,
+"item": 0,
+"world": [
+65.0,
+-0.0,
+351.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 592.825,
+"y": 516.855,
+"piece": "i_dm0670",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0,
+"model": "em50",
+"name_support": 7
+},
+{
+"room": 92,
+"kind": 113,
+"item": 91,
+"world": [
+354.0,
+144.0,
+406.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 623.17,
+"y": 522.6299999999999,
+"piece": "i_dm0670",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 92,
+"kind": 113,
+"item": 91,
+"world": [
+565.0,
+57.0,
+417.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 645.325,
+"y": 523.7850000000001,
+"piece": "i_dm0670",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 92,
+"kind": 113,
+"item": 44,
+"world": [
+37.0,
+0.0,
+316.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1
+},
+"category": "item",
+"name_en": "Blue Herb",
+"name_ko": "블루 허브",
+"evidence": "arrange table",
+"x": 589.885,
+"y": 513.1800000000001,
+"piece": "i_dm0670",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 92,
+"kind": 113,
+"item": 43,
+"world": [
+37.0,
+0.0,
+350.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "item",
+"name_en": "Green Herb",
+"name_ko": "그린 허브",
+"evidence": "arrange table",
+"x": 589.885,
+"y": 516.75,
+"piece": "i_dm0670",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 93,
+"kind": 20,
+"item": 0,
+"world": [
+224.0,
+-0.0,
+226.0
+],
+"condition": 0,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 572.02,
+"y": 439.23,
+"piece": "i_dm0770",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0,
+"model": "em14",
+"name_support": 1
+},
+{
+"room": 93,
+"kind": 22,
+"item": 0,
+"world": [
+431.0,
+-0.0,
+302.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 593.755,
+"y": 447.21000000000004,
+"piece": "i_dm0770",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0,
+"model": "em16",
+"name_support": 14
+},
+{
+"room": 93,
+"kind": 22,
+"item": 0,
+"world": [
+338.0,
+-0.0,
+145.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Zombie",
+"name_ko": "좀비",
+"evidence": "arrange table",
+"x": 583.99,
+"y": 430.7249999999999,
+"piece": "i_dm0770",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0,
+"model": "em16",
+"name_support": 14
+},
+{
+"room": 93,
+"kind": 113,
+"item": 90,
+"world": [
+22.0,
+131.0,
+222.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 550.8100000000001,
+"y": 438.80999999999995,
+"piece": "i_dm0770",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 93,
+"kind": 113,
+"item": 90,
+"world": [
+269.0,
+0.0,
+309.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 576.745,
+"y": 447.94499999999994,
+"piece": "i_dm0770",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 93,
+"kind": 113,
+"item": 90,
+"world": [
+416.0,
+0.0,
+229.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 592.1800000000001,
+"y": 439.54499999999996,
+"piece": "i_dm0770",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 93,
+"kind": 113,
+"item": 45,
+"world": [
+492.9999694824219,
+0.0,
+405.0000305175781
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "item",
+"name_en": "Red Herb",
+"name_ko": "레드 허브",
+"evidence": "arrange table",
+"x": 600.2649967956543,
+"y": 458.0250032043457,
+"piece": "i_dm0770",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 93,
+"kind": 113,
+"item": 45,
+"world": [
+429.0,
+0.0,
+116.99999237060547
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1
+},
+"category": "item",
+"name_en": "Red Herb",
+"name_ko": "레드 허브",
+"evidence": "arrange table",
+"x": 593.545,
+"y": 427.7849991989135,
+"piece": "i_dm0770",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 93,
+"kind": 113,
+"item": 9,
+"world": [
+393.0,
+56.0,
+371.0
+],
+"condition": 0,
+"amount": {
+"leech0": 30,
+"leech1": 30
+},
+"category": "key",
+"name_en": "Grenade Launcher",
+"name_ko": "유탄 발사기",
+"evidence": "arrange table",
+"x": 589.765,
+"y": 454.45500000000004,
+"piece": "i_dm0770",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 94,
+"kind": 44,
+"item": 0,
+"world": [
+403.0000305175781,
+-0.0,
+205.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Plague Crawler",
+"name_ko": "플레이그 크롤러",
+"evidence": "arrange table",
+"x": 611.8150032043457,
+"y": 275.0250000000001,
+"piece": "i_dm0860",
+"floor": "b3",
+"region": "dm",
+"distance": 0.0,
+"model": "em2c",
+"name_support": 7
+},
+{
+"room": 94,
+"kind": 44,
+"item": 0,
+"world": [
+321.0,
+-0.0,
+127.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Plague Crawler",
+"name_ko": "플레이그 크롤러",
+"evidence": "arrange table",
+"x": 603.205,
+"y": 266.83500000000004,
+"piece": "i_dm0860",
+"floor": "b3",
+"region": "dm",
+"distance": 0.0,
+"model": "em2c",
+"name_support": 7
+},
+{
+"room": 94,
+"kind": 44,
+"item": 0,
+"world": [
+440.0,
+-0.0,
+221.0
+],
+"condition": 2,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Plague Crawler",
+"name_ko": "플레이그 크롤러",
+"evidence": "arrange table",
+"x": 615.7,
+"y": 276.70500000000004,
+"piece": "i_dm0860",
+"floor": "b3",
+"region": "dm",
+"distance": 0.0,
+"model": "em2c",
+"name_support": 7
+},
+{
+"room": 94,
+"kind": 113,
+"item": 108,
+"world": [
+136.0,
+75.0,
+243.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1
+},
+"category": "key",
+"name_en": "Fire Key",
+"name_ko": "불의 열쇠",
+"evidence": "arrange table",
+"x": 583.78,
+"y": 279.015,
+"piece": "i_dm0860",
+"floor": "b3",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 94,
+"kind": 113,
+"item": 43,
+"world": [
+125.0,
+63.5,
+190.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech1": 1,
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "item",
+"name_en": "Green Herb",
+"name_ko": "그린 허브",
+"evidence": "arrange table",
+"x": 582.625,
+"y": 273.45000000000005,
+"piece": "i_dm0860",
+"floor": "b3",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 94,
+"kind": 113,
+"item": 90,
+"world": [
+733.0,
+0.0,
+154.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 646.465,
+"y": 269.66999999999996,
+"piece": "i_dm0860",
+"floor": "b3",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 94,
+"kind": 113,
+"item": 90,
+"world": [
+622.0,
+0.0,
+291.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 634.8100000000001,
+"y": 284.05500000000006,
+"piece": "i_dm0860",
+"floor": "b3",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 94,
+"kind": 113,
+"item": 91,
+"world": [
+414.0,
+0.0,
+111.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 612.97,
+"y": 265.155,
+"piece": "i_dm0860",
+"floor": "b3",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 95,
+"kind": 52,
+"item": 0,
+"world": [
+571.0,
+300.0,
+442.0
+],
+"condition": 0,
+"amount": {
+"leech0": 0,
+"leech1": 0,
+"leech2": 0,
+"leech3": 0,
+"leech4": 0
+},
+"category": "enemy",
+"name_en": "Giant Spider",
+"name_ko": "거대 거미",
+"evidence": "arrange table",
+"x": 597.955,
+"y": 236.90999999999997,
+"piece": "i_dm0960",
+"floor": "b3",
+"region": "dm",
+"distance": 0.0,
+"model": "em34",
+"name_support": 2
+},
+{
+"room": 96,
+"kind": 113,
+"item": 90,
+"world": [
+837.0,
+300.0,
+45.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 669.385,
+"y": 82.72499999999997,
+"piece": "i_dm0a60",
+"floor": "b3",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 97,
+"kind": 57,
+"item": 0,
+"world": [
+150.0,
+-0.0,
+52.999996185302734
+],
+"condition": 0,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Eliminator",
+"name_ko": "일리미네이터",
+"evidence": "arrange table",
+"x": 462.25,
+"y": 307.06499959945677,
+"piece": "i_dm0b80",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em39",
+"name_support": 8
+},
+{
+"room": 97,
+"kind": 57,
+"item": 0,
+"world": [
+519.0,
+-0.0,
+109.0
+],
+"condition": 0,
+"amount": {
+"leech0": 2,
+"leech1": 2,
+"leech2": 2,
+"leech3": 2,
+"leech4": 2
+},
+"category": "enemy",
+"name_en": "Eliminator",
+"name_ko": "일리미네이터",
+"evidence": "arrange table",
+"x": 500.995,
+"y": 312.94499999999994,
+"piece": "i_dm0b80",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0,
+"model": "em39",
+"name_support": 8
+},
+{
+"room": 97,
+"kind": 113,
+"item": 11,
+"world": [
+536.0,
+0.0,
+380.0
+],
+"condition": 0,
+"amount": {
+"leech0": 300,
+"leech1": 300
+},
+"category": "key",
+"name_en": "Sub-Machinegun",
+"name_ko": "서브 머신건",
+"evidence": "arrange table",
+"x": 502.78000000000003,
+"y": 341.4000000000001,
+"piece": "i_dm0b80",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 97,
+"kind": 113,
+"item": 90,
+"world": [
+305.0,
+-0.0,
+167.0
+],
+"condition": 0,
+"amount": {
+"leech0": 1,
+"leech2": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 478.525,
+"y": 319.03499999999997,
+"piece": "i_dm0b80",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 36,
+"kind": 113,
+"item": 91,
+"world": [
+770.0,
+520.0,
+381.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 638.3499999999999,
+"y": 395.505,
+"piece": "i_sh00a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 36,
+"kind": 113,
+"item": 91,
+"world": [
+1355.0,
+45.0,
+707.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 699.7750000000001,
+"y": 429.735,
+"piece": "i_sh0090",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 36,
+"kind": 113,
+"item": 91,
+"world": [
+561.0,
+0.0,
+629.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 616.405,
+"y": 421.54499999999996,
+"piece": "i_sh0090",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 36,
+"kind": 113,
+"item": 90,
+"world": [
+830.0,
+520.0,
+383.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 644.6500000000001,
+"y": 395.71500000000003,
+"piece": "i_sh00a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 36,
+"kind": 113,
+"item": 90,
+"world": [
+1368.0,
+45.0,
+638.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 701.14,
+"y": 422.49,
+"piece": "i_sh0090",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 37,
+"kind": 113,
+"item": 90,
+"world": [
+286.0,
+84.30000305175781,
+1374.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 740.53,
+"y": 499.7700000000001,
+"piece": "i_sh0190",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 37,
+"kind": 113,
+"item": 90,
+"world": [
+653.0,
+86.69999694824219,
+705.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 779.0649999999999,
+"y": 429.5250000000001,
+"piece": "i_sh0190",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 38,
+"kind": 113,
+"item": 91,
+"world": [
+263.0,
+90.0,
+298.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 789.115,
+"y": 385.28999999999996,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 38,
+"kind": 113,
+"item": 91,
+"world": [
+249.0,
+20.0,
+408.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 787.645,
+"y": 396.84000000000003,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 38,
+"kind": 113,
+"item": 91,
+"world": [
+244.0,
+83.0,
+41.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 787.12,
+"y": 358.30500000000006,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 38,
+"kind": 113,
+"item": 90,
+"world": [
+359.0,
+0.0,
+297.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 799.1949999999999,
+"y": 385.18500000000006,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 38,
+"kind": 113,
+"item": 90,
+"world": [
+188.0,
+0.0,
+390.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 781.24,
+"y": 394.95000000000005,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 38,
+"kind": 113,
+"item": 90,
+"world": [
+56.0,
+97.0,
+305.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 767.38,
+"y": 386.0250000000001,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 38,
+"kind": 113,
+"item": 90,
+"world": [
+274.0,
+84.0,
+42.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 790.27,
+"y": 358.40999999999997,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 42,
+"kind": 113,
+"item": 91,
+"world": [
+800.0,
+0.0,
+1575.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 758.5,
+"y": 345.375,
+"piece": "i_sh0690",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 42,
+"kind": 113,
+"item": 90,
+"world": [
+67.0,
+-150.0,
+953.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 681.535,
+"y": 280.06500000000005,
+"piece": "i_sh0690",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 42,
+"kind": 113,
+"item": 90,
+"world": [
+1062.0,
+0.0,
+1569.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 786.01,
+"y": 344.7450000000001,
+"piece": "i_sh0690",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 43,
+"kind": 113,
+"item": 91,
+"world": [
+512.0,
+3.0,
+587.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 674.26,
+"y": 114.13500000000005,
+"piece": "i_sh07b0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 43,
+"kind": 113,
+"item": 91,
+"world": [
+855.0,
+0.0,
+721.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 710.2750000000001,
+"y": 128.20500000000004,
+"piece": "i_sh07b0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 43,
+"kind": 113,
+"item": 91,
+"world": [
+559.0,
+0.0,
+534.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 679.1949999999999,
+"y": 108.57,
+"piece": "i_sh07b0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 43,
+"kind": 113,
+"item": 91,
+"world": [
+840.0,
+146.0,
+381.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 708.7,
+"y": 92.505,
+"piece": "i_sh07b0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 44,
+"kind": 113,
+"item": 90,
+"world": [
+573.0,
+64.0,
+446.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 787.165,
+"y": 304.83000000000004,
+"piece": "i_sh0890",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 44,
+"kind": 113,
+"item": 90,
+"world": [
+75.0,
+0.0,
+630.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 734.875,
+"y": 324.1500000000001,
+"piece": "i_sh0890",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 47,
+"kind": 113,
+"item": 90,
+"world": [
+797.0,
+79.9000015258789,
+169.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 641.1850000000001,
+"y": 236.745,
+"piece": "i_sh0ba0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 47,
+"kind": 113,
+"item": 90,
+"world": [
+88.0,
+10.70001220703125,
+689.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 566.74,
+"y": 291.345,
+"piece": "i_sh0ba0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 47,
+"kind": 113,
+"item": 91,
+"world": [
+1336.0,
+-40.0,
+836.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 697.78,
+"y": 306.78,
+"piece": "i_sh0ba0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 47,
+"kind": 113,
+"item": 91,
+"world": [
+444.9999694824219,
+-20.0,
+902.0000610351562
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 604.2249967956543,
+"y": 313.71000640869147,
+"piece": "i_sh0ba0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 49,
+"kind": 113,
+"item": 91,
+"world": [
+386.0,
+65.0,
+337.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 491.53000000000003,
+"y": 326.385,
+"piece": "i_sh0da0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 50,
+"kind": 113,
+"item": 91,
+"world": [
+639.0,
+49.0,
+289.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 503.095,
+"y": 396.345,
+"piece": "i_sh0ea0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 50,
+"kind": 113,
+"item": 91,
+"world": [
+768.0,
+10.0,
+647.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 516.64,
+"y": 433.93499999999995,
+"piece": "i_sh0ea0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 50,
+"kind": 113,
+"item": 90,
+"world": [
+117.99999237060547,
+98.0,
+42.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 448.38999919891353,
+"y": 370.40999999999997,
+"piece": "i_sh0ea0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 50,
+"kind": 113,
+"item": 90,
+"world": [
+889.0000610351562,
+0.0,
+116.99999237060547
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 529.3450064086915,
+"y": 378.2849991989135,
+"piece": "i_sh0ea0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 50,
+"kind": 113,
+"item": 90,
+"world": [
+190.0,
+84.5999984741211,
+647.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 455.95000000000005,
+"y": 433.93499999999995,
+"piece": "i_sh0ea0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 51,
+"kind": 113,
+"item": 91,
+"world": [
+58.999996185302734,
+13.0,
+349.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 373.19499959945676,
+"y": 312.645,
+"piece": "i_sh0fa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 51,
+"kind": 113,
+"item": 91,
+"world": [
+58.999996185302734,
+13.0,
+240.00001525878906
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 373.19499959945676,
+"y": 301.20000160217285,
+"piece": "i_sh0fa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 51,
+"kind": 113,
+"item": 91,
+"world": [
+58.999996185302734,
+13.0,
+419.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 373.19499959945676,
+"y": 319.995,
+"piece": "i_sh0fa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 51,
+"kind": 113,
+"item": 91,
+"world": [
+168.0,
+86.0,
+13.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 384.64,
+"y": 277.365,
+"piece": "i_sh0fa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 52,
+"kind": 113,
+"item": 90,
+"world": [
+536.0,
+100.0,
+151.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 423.28000000000003,
+"y": 360.855,
+"piece": "i_sh10a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 52,
+"kind": 113,
+"item": 90,
+"world": [
+448.9999694824219,
+100.0,
+145.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 414.14499679565427,
+"y": 360.2249999999999,
+"piece": "i_sh10a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 52,
+"kind": 113,
+"item": 90,
+"world": [
+500.0,
+229.0,
+29.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 419.5,
+"y": 348.04499999999996,
+"piece": "i_sh10a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 55,
+"kind": 113,
+"item": 90,
+"world": [
+203.0,
+111.0,
+451.0000305175781
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 494.815,
+"y": 483.8550032043456,
+"piece": "i_sh13a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 55,
+"kind": 113,
+"item": 90,
+"world": [
+772.0,
+22.0,
+516.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 554.5600000000001,
+"y": 490.68000000000006,
+"piece": "i_sh13a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 56,
+"kind": 113,
+"item": 90,
+"world": [
+705.0,
+0.0,
+488.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 799.5250000000001,
+"y": 490.74,
+"piece": "i_sh14a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 56,
+"kind": 113,
+"item": 91,
+"world": [
+729.0,
+0.0,
+584.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 802.0450000000001,
+"y": 500.81999999999994,
+"piece": "i_sh14a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 56,
+"kind": 113,
+"item": 91,
+"world": [
+774.0,
+130.0,
+433.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 806.77,
+"y": 484.9649999999999,
+"piece": "i_sh14a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 57,
+"kind": 113,
+"item": 91,
+"world": [
+769.0,
+0.0,
+454.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 806.245,
+"y": 403.1700000000001,
+"piece": "i_sh15a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 57,
+"kind": 113,
+"item": 90,
+"world": [
+394.0,
+148.0,
+153.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 766.87,
+"y": 371.56499999999994,
+"piece": "i_sh15a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 57,
+"kind": 113,
+"item": 90,
+"world": [
+524.0,
+48.0,
+581.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 780.52,
+"y": 416.5049999999999,
+"piece": "i_sh15a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 60,
+"kind": 113,
+"item": 91,
+"world": [
+473.0,
+0.0,
+362.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 775.165,
+"y": 320.01,
+"piece": "i_sh18a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 60,
+"kind": 113,
+"item": 91,
+"world": [
+385.0,
+0.0,
+150.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 765.925,
+"y": 297.75,
+"piece": "i_sh18a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 61,
+"kind": 113,
+"item": 91,
+"world": [
+432.0000305175781,
+70.0,
+231.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 854.8600032043457,
+"y": 306.255,
+"piece": "i_sh19a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 61,
+"kind": 113,
+"item": 91,
+"world": [
+782.0,
+91.0,
+656.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 891.61,
+"y": 350.88,
+"piece": "i_sh19a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 61,
+"kind": 113,
+"item": 90,
+"world": [
+716.0,
+91.0,
+656.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 884.6800000000001,
+"y": 350.88,
+"piece": "i_sh19a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 61,
+"kind": 113,
+"item": 90,
+"world": [
+376.0,
+91.0,
+1.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 848.98,
+"y": 282.105,
+"piece": "i_sh19a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 62,
+"kind": 113,
+"item": 90,
+"world": [
+773.0,
+0.0,
+677.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 928.165,
+"y": 354.58500000000004,
+"piece": "i_sh1aa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 62,
+"kind": 113,
+"item": 90,
+"world": [
+461.0,
+0.0,
+1036.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 895.405,
+"y": 392.28,
+"piece": "i_sh1aa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 62,
+"kind": 113,
+"item": 90,
+"world": [
+717.0,
+0.0,
+465.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 922.285,
+"y": 332.32500000000005,
+"piece": "i_sh1aa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 64,
+"kind": 113,
+"item": 90,
+"world": [
+1754.0001220703125,
+7.0,
+306.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 741.6700128173828,
+"y": 207.63,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 64,
+"kind": 113,
+"item": 90,
+"world": [
+1368.0,
+82.0,
+210.99998474121094
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 701.14,
+"y": 197.65499839782706,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 64,
+"kind": 113,
+"item": 90,
+"world": [
+1553.0,
+87.0,
+211.99998474121094
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 720.565,
+"y": 197.7599983978272,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 64,
+"kind": 113,
+"item": 91,
+"world": [
+770.0,
+0.0,
+249.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 638.3499999999999,
+"y": 201.64499999999998,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 64,
+"kind": 113,
+"item": 91,
+"world": [
+1.0,
+82.0,
+307.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 557.605,
+"y": 207.735,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 64,
+"kind": 113,
+"item": 91,
+"world": [
+75.0,
+30.000001907348633,
+210.99998474121094
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 565.375,
+"y": 197.65499839782706,
+"piece": "i_sh1ca0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 65,
+"kind": 113,
+"item": 91,
+"world": [
+1494.0,
+600.0,
+2441.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 714.3700000000001,
+"y": 433.30500000000006,
+"piece": "i_sh1db0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 65,
+"kind": 113,
+"item": 91,
+"world": [
+1292.0,
+600.0,
+92.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 693.16,
+"y": 186.65999999999997,
+"piece": "i_sh1db0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 65,
+"kind": 113,
+"item": 91,
+"world": [
+1266.0,
+600.0,
+2468.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 690.4300000000001,
+"y": 436.14,
+"piece": "i_sh1db0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 66,
+"kind": 113,
+"item": 90,
+"world": [
+1117.0,
+0.0,
+94.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 521.785,
+"y": 263.37,
+"piece": "i_sh1e80",
+"floor": "b1",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 86,
+"kind": 113,
+"item": 91,
+"world": [
+1157.0,
+0.0,
+1144.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 599.485,
+"y": 493.6200000000001,
+"piece": "i_dm0080",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 86,
+"kind": 113,
+"item": 91,
+"world": [
+580.0,
+0.0,
+120.00000762939453
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 538.9,
+"y": 386.10000080108637,
+"piece": "i_dm0080",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 86,
+"kind": 113,
+"item": 90,
+"world": [
+570.0,
+0.0,
+1092.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 537.85,
+"y": 488.1600000000001,
+"piece": "i_dm0080",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 86,
+"kind": 113,
+"item": 90,
+"world": [
+717.9066162109375,
+0.0,
+1181.702392578125
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 553.3801947021484,
+"y": 497.5787512207031,
+"piece": "i_dm0080",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 88,
+"kind": 113,
+"item": 90,
+"world": [
+555.0,
+0.0,
+487.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 618.7750000000001,
+"y": 316.635,
+"piece": "i_dm0280",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 88,
+"kind": 113,
+"item": 90,
+"world": [
+177.0,
+0.0,
+471.9999694824219
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 579.085,
+"y": 315.05999679565434,
+"piece": "i_dm0280",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 91,
+"kind": 113,
+"item": 90,
+"world": [
+334.0,
+47.0,
+312.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 615.0699999999999,
+"y": 311.76,
+"piece": "i_dm0570",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 91,
+"kind": 113,
+"item": 90,
+"world": [
+320.0,
+0.0,
+127.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 613.5999999999999,
+"y": 292.33500000000004,
+"piece": "i_dm0570",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 91,
+"kind": 113,
+"item": 90,
+"world": [
+203.0,
+0.0,
+127.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 601.3149999999999,
+"y": 292.33500000000004,
+"piece": "i_dm0570",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 92,
+"kind": 113,
+"item": 90,
+"world": [
+354.0,
+144.0,
+406.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 623.17,
+"y": 522.6299999999999,
+"piece": "i_dm0670",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 93,
+"kind": 113,
+"item": 91,
+"world": [
+22.0,
+131.0,
+222.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 550.8100000000001,
+"y": 438.80999999999995,
+"piece": "i_dm0770",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 93,
+"kind": 113,
+"item": 91,
+"world": [
+269.0,
+0.0,
+309.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 576.745,
+"y": 447.94499999999994,
+"piece": "i_dm0770",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 93,
+"kind": 113,
+"item": 91,
+"world": [
+416.0,
+0.0,
+229.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 592.1800000000001,
+"y": 439.54499999999996,
+"piece": "i_dm0770",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 94,
+"kind": 113,
+"item": 91,
+"world": [
+733.0,
+0.0,
+154.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 646.465,
+"y": 269.66999999999996,
+"piece": "i_dm0860",
+"floor": "b3",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 94,
+"kind": 113,
+"item": 91,
+"world": [
+622.0,
+0.0,
+291.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 634.8100000000001,
+"y": 284.05500000000006,
+"piece": "i_dm0860",
+"floor": "b3",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 96,
+"kind": 113,
+"item": 91,
+"world": [
+837.0,
+300.0,
+45.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 669.385,
+"y": 82.72499999999997,
+"piece": "i_dm0a60",
+"floor": "b3",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 97,
+"kind": 113,
+"item": 91,
+"world": [
+85.0,
+-0.0,
+184.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 455.42499999999995,
+"y": 320.81999999999994,
+"piece": "i_dm0b80",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 97,
+"kind": 113,
+"item": 91,
+"world": [
+305.0,
+-0.0,
+167.0
+],
+"condition": 0,
+"amount": {
+"leech1": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 478.525,
+"y": 319.03499999999997,
+"piece": "i_dm0b80",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 36,
+"kind": 113,
+"item": 44,
+"world": [
+742.0,
+0.0,
+983.0
+],
+"condition": 0,
+"amount": {
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "item",
+"name_en": "Blue Herb",
+"name_ko": "블루 허브",
+"evidence": "arrange table",
+"x": 635.41,
+"y": 458.7149999999999,
+"piece": "i_sh0090",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 39,
+"kind": 113,
+"item": 44,
+"world": [
+359.8000183105469,
+109.0,
+448.9999694824219
+],
+"condition": 0,
+"amount": {
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "item",
+"name_en": "Blue Herb",
+"name_ko": "블루 허브",
+"evidence": "arrange table",
+"x": 526.2790019226074,
+"y": 417.6449967956544,
+"piece": "i_sh0390",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 39,
+"kind": 113,
+"item": 45,
+"world": [
+288.20001220703125,
+109.0,
+446.0
+],
+"condition": 0,
+"amount": {
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "item",
+"name_en": "Red Herb",
+"name_ko": "레드 허브",
+"evidence": "arrange table",
+"x": 518.7610012817383,
+"y": 417.33000000000004,
+"piece": "i_sh0390",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 41,
+"kind": 113,
+"item": 33,
+"world": [
+715.0,
+81.0,
+365.0
+],
+"condition": 0,
+"amount": {
+"leech2": 14,
+"leech3": 14,
+"leech4": 14
+},
+"category": "item",
+"name_en": "Shotgun Ammo",
+"name_ko": "샷건의 탄약",
+"evidence": "arrange table",
+"x": 532.075,
+"y": 498.82499999999993,
+"piece": "i_sh0590",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 50,
+"kind": 113,
+"item": 91,
+"world": [
+887.0,
+0.0,
+109.0
+],
+"condition": 0,
+"amount": {
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 529.135,
+"y": 377.44499999999994,
+"piece": "i_sh0ea0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 52,
+"kind": 113,
+"item": 32,
+"world": [
+146.0,
+229.0,
+26.0
+],
+"condition": 0,
+"amount": {
+"leech2": 30,
+"leech3": 30,
+"leech4": 30
+},
+"category": "item",
+"name_en": "Handgun Ammo",
+"name_ko": "핸드건의 탄약",
+"evidence": "arrange table",
+"x": 382.33,
+"y": 347.73,
+"piece": "i_sh10a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 65,
+"kind": 113,
+"item": 34,
+"world": [
+1214.0,
+600.0,
+335.0
+],
+"condition": 0,
+"amount": {
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "item",
+"name_en": "Magnum Ammo",
+"name_ko": "매그넘 탄약",
+"evidence": "arrange table",
+"x": 684.97,
+"y": 212.17499999999995,
+"piece": "i_sh1db0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 66,
+"kind": 113,
+"item": 108,
+"world": [
+1117.0,
+0.0,
+94.0
+],
+"condition": 0,
+"amount": {
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Fire Key",
+"name_ko": "불의 열쇠",
+"evidence": "arrange table",
+"x": 521.785,
+"y": 263.37,
+"piece": "i_sh1e80",
+"floor": "b1",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 66,
+"kind": 113,
+"item": 91,
+"world": [
+1461.0,
+0.0,
+426.0000305175781
+],
+"condition": 0,
+"amount": {
+"leech2": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 557.905,
+"y": 298.23000320434573,
+"piece": "i_sh1e80",
+"floor": "b1",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 90,
+"kind": 113,
+"item": 43,
+"world": [
+888.0,
+-0.0,
+1400.0
+],
+"condition": 0,
+"amount": {
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "item",
+"name_en": "Green Herb",
+"name_ko": "그린 허브",
+"evidence": "arrange table",
+"x": 631.24,
+"y": 442.5,
+"piece": "i_dm0470",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 92,
+"kind": 113,
+"item": 43,
+"world": [
+37.0,
+0.0,
+316.0
+],
+"condition": 0,
+"amount": {
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "item",
+"name_en": "Green Herb",
+"name_ko": "그린 허브",
+"evidence": "arrange table",
+"x": 589.885,
+"y": 513.1800000000001,
+"piece": "i_dm0670",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 93,
+"kind": 113,
+"item": 43,
+"world": [
+429.0,
+0.0,
+116.99999237060547
+],
+"condition": 0,
+"amount": {
+"leech2": 1,
+"leech3": 1,
+"leech4": 1
+},
+"category": "item",
+"name_en": "Green Herb",
+"name_ko": "그린 허브",
+"evidence": "arrange table",
+"x": 593.545,
+"y": 427.7849991989135,
+"piece": "i_dm0770",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 93,
+"kind": 113,
+"item": 8,
+"world": [
+393.0,
+56.0,
+371.0
+],
+"condition": 0,
+"amount": {
+"leech2": 30,
+"leech3": 30
+},
+"category": "key",
+"name_en": "Grenade Launcher",
+"name_ko": "유탄 발사기",
+"evidence": "arrange table",
+"x": 589.765,
+"y": 454.45500000000004,
+"piece": "i_dm0770",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 97,
+"kind": 113,
+"item": 10,
+"world": [
+536.0,
+0.0,
+380.0
+],
+"condition": 0,
+"amount": {
+"leech2": 8,
+"leech3": 8,
+"leech4": 8
+},
+"category": "key",
+"name_en": "Magnum",
+"name_ko": "매그넘",
+"evidence": "arrange table",
+"x": 502.78000000000003,
+"y": 341.4000000000001,
+"piece": "i_dm0b80",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 97,
+"kind": 113,
+"item": 34,
+"world": [
+450.0,
+0.0,
+308.0
+],
+"condition": 0,
+"amount": {
+"leech2": 4,
+"leech3": 4,
+"leech4": 4
+},
+"category": "item",
+"name_en": "Magnum Ammo",
+"name_ko": "매그넘 탄약",
+"evidence": "arrange table",
+"x": 493.75,
+"y": 333.84000000000003,
+"piece": "i_dm0b80",
+"floor": "b1",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 44,
+"kind": 113,
+"item": 91,
+"world": [
+229.0,
+0.0,
+433.0
+],
+"condition": 0,
+"amount": {
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 751.045,
+"y": 303.46500000000003,
+"piece": "i_sh0890",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 62,
+"kind": 113,
+"item": 90,
+"world": [
+730.0,
+0.0,
+137.0
+],
+"condition": 0,
+"amount": {
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 923.6500000000001,
+"y": 297.885,
+"piece": "i_sh1aa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 66,
+"kind": 113,
+"item": 90,
+"world": [
+1461.0,
+0.0,
+426.0000305175781
+],
+"condition": 0,
+"amount": {
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 557.905,
+"y": 298.23000320434573,
+"piece": "i_sh1e80",
+"floor": "b1",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 92,
+"kind": 113,
+"item": 90,
+"world": [
+565.0,
+57.0,
+417.0
+],
+"condition": 0,
+"amount": {
+"leech3": 1,
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 645.325,
+"y": 523.7850000000001,
+"piece": "i_dm0670",
+"floor": "b2",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 36,
+"kind": 113,
+"item": 91,
+"world": [
+793.0,
+150.0,
+467.9999694824219
+],
+"condition": 0,
+"amount": {
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 640.765,
+"y": 404.63999679565427,
+"piece": "i_sh0090",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 36,
+"kind": 113,
+"item": 90,
+"world": [
+761.0,
+436.0,
+1300.0
+],
+"condition": 0,
+"amount": {
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 637.405,
+"y": 492.0,
+"piece": "i_sh00a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 37,
+"kind": 113,
+"item": 90,
+"world": [
+393.0,
+8.0,
+267.0
+],
+"condition": 0,
+"amount": {
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 751.765,
+"y": 383.53499999999997,
+"piece": "i_sh0190",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 38,
+"kind": 113,
+"item": 91,
+"world": [
+246.0,
+85.0,
+42.0
+],
+"condition": 0,
+"amount": {
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 787.33,
+"y": 358.40999999999997,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 38,
+"kind": 113,
+"item": 91,
+"world": [
+237.0,
+87.79998779296875,
+530.0
+],
+"condition": 0,
+"amount": {
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 786.385,
+"y": 409.6500000000001,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 38,
+"kind": 113,
+"item": 90,
+"world": [
+54.000003814697266,
+97.0,
+325.0
+],
+"condition": 0,
+"amount": {
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 767.1700004005432,
+"y": 388.125,
+"piece": "i_sh0290",
+"floor": "1f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 43,
+"kind": 113,
+"item": 91,
+"world": [
+1030.0,
+200.0,
+498.0
+],
+"condition": 0,
+"amount": {
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 728.6500000000001,
+"y": 104.79000000000002,
+"piece": "i_sh07b0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 55,
+"kind": 113,
+"item": 3,
+"world": [
+397.0,
+51.0,
+357.0
+],
+"condition": 0,
+"amount": {
+"leech4": 15
+},
+"category": "key",
+"name_en": "Handgun",
+"name_ko": "핸드건",
+"evidence": "arrange table",
+"x": 515.185,
+"y": 473.985,
+"piece": "i_sh13a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 60,
+"kind": 113,
+"item": 7,
+"world": [
+399.0,
+0.0,
+124.0
+],
+"condition": 0,
+"amount": {
+"leech4": 1
+},
+"category": "key",
+"name_en": "Grenade Launcher",
+"name_ko": "유탄 발사기",
+"evidence": "arrange table",
+"x": 767.395,
+"y": 295.02,
+"piece": "i_sh18a0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 62,
+"kind": 113,
+"item": 90,
+"world": [
+668.0,
+0.0,
+700.0
+],
+"condition": 0,
+"amount": {
+"leech4": 1
+},
+"category": "key",
+"name_en": "Bl. Leech Charm",
+"name_ko": "푸른 거머리의 오브제",
+"evidence": "arrange table",
+"x": 917.14,
+"y": 357.0,
+"piece": "i_sh1aa0",
+"floor": "2f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 65,
+"kind": 113,
+"item": 91,
+"world": [
+1008.0,
+600.0,
+1502.0
+],
+"condition": 0,
+"amount": {
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 663.34,
+"y": 334.71000000000004,
+"piece": "i_sh1db0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 65,
+"kind": 113,
+"item": 91,
+"world": [
+1422.0,
+600.0,
+2445.0
+],
+"condition": 0,
+"amount": {
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 706.8100000000001,
+"y": 433.7249999999999,
+"piece": "i_sh1db0",
+"floor": "3f",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 66,
+"kind": 113,
+"item": 91,
+"world": [
+1353.0,
+0.0,
+663.0
+],
+"condition": 0,
+"amount": {
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 546.565,
+"y": 323.115,
+"piece": "i_sh1e80",
+"floor": "b1",
+"region": "sh",
+"distance": 0.0
+},
+{
+"room": 94,
+"kind": 113,
+"item": 91,
+"world": [
+314.0,
+-0.0,
+69.0
+],
+"condition": 0,
+"amount": {
+"leech4": 1
+},
+"category": "key",
+"name_en": "Gr. Leech Charm",
+"name_ko": "녹색 거머리의 오브제",
+"evidence": "arrange table",
+"x": 602.47,
+"y": 260.745,
+"piece": "i_dm0860",
+"floor": "b3",
+"region": "dm",
+"distance": 0.0
+},
+{
+"room": 94,
+"kind": 113,
+"item": 7,
+"world": [
+721.0,
+0.0,
+226.0
+],
+"condition": 0,
+"amount": {
+"leech4": 30
+},
+"category": "key",
+"name_en": "Grenade Launcher",
+"name_ko": "유탄 발사기",
+"evidence": "arrange table",
+"x": 645.205,
+"y": 277.23,
+"piece": "i_dm0860",
+"floor": "b3",
+"region": "dm",
+"distance": 0.0
+},
+{
 "category": "lock",
 "room": 48,
 "target": 51,
@@ -20834,7 +30983,7 @@
 584.42
 ],
 "event": 1,
-"puzzle_row": 663,
+"puzzle_row": 1037,
 "script": {
 "scene": "sh07",
 "groups": [
@@ -20843,7 +30992,7 @@
 "volume": 2,
 "item": 81
 },
-"evidence": "cutscene in the use group of puzzle row 663; script sh07 item-use groups [9], trigger volume 2"
+"evidence": "cutscene in the use group of puzzle row 1037; script sh07 item-use groups [9], trigger volume 2"
 },
 {
 "category": "puzzle",
@@ -20866,7 +31015,7 @@
 270.11
 ],
 "event": 1,
-"puzzle_row": 664,
+"puzzle_row": 1038,
 "script": {
 "scene": "bt02",
 "groups": [
@@ -20875,7 +31024,7 @@
 "volume": 11,
 "item": 67
 },
-"evidence": "cutscene in the use group of puzzle row 664; script bt02 item-use groups [12], trigger volume 11",
+"evidence": "cutscene in the use group of puzzle row 1038; script bt02 item-use groups [12], trigger volume 11",
 "moved_into_room": 1
 },
 {
@@ -20899,7 +31048,7 @@
 282.5
 ],
 "event": 1,
-"puzzle_row": 669,
+"puzzle_row": 1043,
 "script": {
 "scene": "ch05",
 "groups": [
@@ -20908,7 +31057,7 @@
 "volume": 6,
 "item": 92
 },
-"evidence": "cutscene in the use group of puzzle row 669; script ch05 item-use groups [9], trigger volume 6"
+"evidence": "cutscene in the use group of puzzle row 1043; script ch05 item-use groups [9], trigger volume 6"
 },
 {
 "category": "puzzle",
@@ -20931,7 +31080,7 @@
 328.13
 ],
 "event": 1,
-"puzzle_row": 674,
+"puzzle_row": 1048,
 "script": {
 "scene": "tr0a",
 "groups": [
@@ -20940,7 +31089,7 @@
 "volume": 3,
 "item": 77
 },
-"evidence": "cutscene in the use group of puzzle row 674; script tr0a item-use groups [5], trigger volume 3",
+"evidence": "cutscene in the use group of puzzle row 1048; script tr0a item-use groups [5], trigger volume 3",
 "moved_into_room": 1
 },
 {
@@ -20964,7 +31113,7 @@
 584.42
 ],
 "event": 1,
-"puzzle_row": 678,
+"puzzle_row": 1052,
 "script": {
 "scene": "sh07",
 "groups": [
@@ -20973,7 +31122,7 @@
 "volume": 2,
 "item": 80
 },
-"evidence": "cutscene in the use group of puzzle row 678; script sh07 item-use groups [8], trigger volume 2"
+"evidence": "cutscene in the use group of puzzle row 1052; script sh07 item-use groups [8], trigger volume 2"
 },
 {
 "category": "puzzle",
@@ -20996,7 +31145,7 @@
 282.5
 ],
 "event": 1,
-"puzzle_row": 679,
+"puzzle_row": 1053,
 "script": {
 "scene": "ch05",
 "groups": [
@@ -21005,7 +31154,7 @@
 "volume": 6,
 "item": 93
 },
-"evidence": "cutscene in the use group of puzzle row 679; script ch05 item-use groups [10], trigger volume 6"
+"evidence": "cutscene in the use group of puzzle row 1053; script ch05 item-use groups [10], trigger volume 6"
 },
 {
 "category": "puzzle",
@@ -21028,7 +31177,7 @@
 323.7
 ],
 "event": 1,
-"puzzle_row": 680,
+"puzzle_row": 1054,
 "script": {
 "scene": "tr08",
 "groups": [
@@ -21037,7 +31186,7 @@
 "volume": 2,
 "item": 82
 },
-"evidence": "cutscene in the use group of puzzle row 680; script tr08 item-use groups [5], trigger volume 2"
+"evidence": "cutscene in the use group of puzzle row 1054; script tr08 item-use groups [5], trigger volume 2"
 },
 {
 "category": "puzzle",
@@ -21060,7 +31209,7 @@
 584.42
 ],
 "event": 1,
-"puzzle_row": 682,
+"puzzle_row": 1056,
 "script": {
 "scene": "sh07",
 "groups": [
@@ -21069,7 +31218,7 @@
 "volume": 2,
 "item": 79
 },
-"evidence": "cutscene in the use group of puzzle row 682; script sh07 item-use groups [7], trigger volume 2"
+"evidence": "cutscene in the use group of puzzle row 1056; script sh07 item-use groups [7], trigger volume 2"
 },
 {
 "category": "puzzle",
@@ -21092,7 +31241,7 @@
 90.29
 ],
 "event": 1,
-"puzzle_row": 683,
+"puzzle_row": 1057,
 "script": {
 "scene": "bt04",
 "groups": [
@@ -21101,7 +31250,7 @@
 "volume": 2,
 "item": 111
 },
-"evidence": "cutscene in the use group of puzzle row 683; script bt04 item-use groups [5], trigger volume 2"
+"evidence": "cutscene in the use group of puzzle row 1057; script bt04 item-use groups [5], trigger volume 2"
 },
 {
 "category": "puzzle",
@@ -21124,7 +31273,7 @@
 654.81
 ],
 "event": 1,
-"puzzle_row": 684,
+"puzzle_row": 1058,
 "script": {
 "scene": "sh19",
 "groups": [
@@ -21133,7 +31282,7 @@
 "volume": 1,
 "item": 83
 },
-"evidence": "cutscene in the use group of puzzle row 684; script sh19 item-use groups [6], trigger volume 1"
+"evidence": "cutscene in the use group of puzzle row 1058; script sh19 item-use groups [6], trigger volume 1"
 },
 {
 "category": "puzzle",
@@ -21156,7 +31305,7 @@
 90.29
 ],
 "event": 1,
-"puzzle_row": 686,
+"puzzle_row": 1060,
 "script": {
 "scene": "bt04",
 "groups": [
@@ -21165,7 +31314,7 @@
 "volume": 2,
 "item": 73
 },
-"evidence": "cutscene in the use group of puzzle row 686; script bt04 item-use groups [4], trigger volume 2"
+"evidence": "cutscene in the use group of puzzle row 1060; script bt04 item-use groups [4], trigger volume 2"
 }
 ]
 }

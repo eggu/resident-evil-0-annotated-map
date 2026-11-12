@@ -19,7 +19,9 @@ from build_labels import WEAPONS
 from unicorn import Uc,UC_ARCH_X86,UC_MODE_32
 from unicorn.x86_const import UC_X86_REG_ESP
 BASE=0x400000;ANCHOR=0x5bb8c0;ADJUST=0x5bd390;FLOOR_TABLE=0xd9d7b8
-TABLES={'easy':'loctbl0000','normal':'loctbl0100','hard':'loctbl0200'}
+TABLES={'easy':'loctbl0000','normal':'loctbl0100','hard':'loctbl0200',**{f'leech{i}':f'loctbl030{i}' for i in range(5)}} # Leech Hunter: 0x4111cc loads loctbl030<rand()%5> in mode 3
+# Leech Hunter Small Library: a zombie lying in pose 12 (record byte 5, uEnemy10 +0x67c8) takes no damage and never goes (user 2026-11-11). (room, kind, pose).
+DECOR={(52,0x10,12)}
 REGIONS=[('tr',0),('sh',36),('dm',86),('ch',99),('bt',132),('pl',141)];END=175
 def locate(room):
  for i,(name,base) in enumerate(REGIONS):
@@ -108,7 +110,8 @@ def locate_record(nat,room,x,z,by_room,pieces,boxes,locations,k=SCALE,only=None)
 FLOOR_OF={(134,67):'b4'}
 # Rooms whose two floors share x/z, told apart by world y: room: (y below which, floor; otherwise floor). 142: B6 Air Regulator Room rows lie at y 0 (3 Zombies, the herbs,
 # Empty Bottle, as Evil Resource and the user, 2026-11-11), B5 Control Room rows at y 470-557.
-FLOOR_BY_Y={142:(200,'b6','b5')}
+# 36: Main Hall 1F and 2F balcony; Leech Hunter puts charms at y 436-520, main-game rows lie at y 0. The split is DROP_FLOOR_Y's (tools/build_labels.py).
+FLOOR_BY_Y={142:(200,'b6','b5'),36:(300,'1f','2f')}
 def floor_of(row):
  f=FLOOR_OF.get((row['room'],row['item']))
  if f or row['room'] not in FLOOR_BY_Y:return f
@@ -393,6 +396,7 @@ def build(game,image,out):
   repeats={}
   for rm in rooms:
    for r in rm['records']:
+    if mode.startswith('leech') and (rm['room'],r['kind'],r['a'][3]) in DECOR:continue
     x,y,z=r['pos'];spot=(rm['room'],r['kind'],r['item'],round(x,2),round(y,2),round(z,2),r['a'][0]);nth=repeats[spot]=repeats.get(spot,-1)+1
     # One row per table record, since each has its own slot and kill state: four leech places hold one record per condition (173 until pl0b g4 clears it and sets 174),
     # and room 104 holds two equal records at one spot (nth). Merged rows lost the other slot.

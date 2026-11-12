@@ -22,7 +22,12 @@
   "table_counts": {
    "easy": 647,
    "normal": 589,
-   "hard": 568
+   "hard": 568,
+   "leech0": 263,
+   "leech1": 263,
+   "leech2": 264,
+   "leech3": 264,
+   "leech4": 264
   },
   "link_offset_from_manager": "0x2c+slot*0x5c",
   "done_rule": "row kind (slot base+4) is 0, byte +0x39 is set (the spawn gate refuses it, 0x410c02), or the room link at manager+0x2c+slot*0x5c is -1 (ObjDeleteType); for an enemy row also an actor on its slot with HP at or below 0. Read only when the count equals table_counts for a table, row+0 holds the room, row+4 the kind or 0, and row+8 the item (items only: 0x412c30 rewrites it for actors); otherwise not done and counted",
@@ -333,6 +338,56 @@
     "rows": 568,
     "slot_mismatches": 0,
     "listed": 568,
+    "pickup_mismatches": 0,
+    "respawn_after_pickup": 0,
+    "dropped_slot_freed": true,
+    "freed_table_slots_unlinked": 3
+   },
+   "leech0": {
+    "native": "0x4101f0,0x40fb10,0x4106c0,0x4de730,0x412060,0x412d90,0x410bb0",
+    "rows": 263,
+    "slot_mismatches": 0,
+    "listed": 263,
+    "pickup_mismatches": 0,
+    "respawn_after_pickup": 0,
+    "dropped_slot_freed": true,
+    "freed_table_slots_unlinked": 3
+   },
+   "leech1": {
+    "native": "0x4101f0,0x40fb10,0x4106c0,0x4de730,0x412060,0x412d90,0x410bb0",
+    "rows": 263,
+    "slot_mismatches": 0,
+    "listed": 263,
+    "pickup_mismatches": 0,
+    "respawn_after_pickup": 0,
+    "dropped_slot_freed": true,
+    "freed_table_slots_unlinked": 3
+   },
+   "leech2": {
+    "native": "0x4101f0,0x40fb10,0x4106c0,0x4de730,0x412060,0x412d90,0x410bb0",
+    "rows": 264,
+    "slot_mismatches": 0,
+    "listed": 264,
+    "pickup_mismatches": 0,
+    "respawn_after_pickup": 0,
+    "dropped_slot_freed": true,
+    "freed_table_slots_unlinked": 3
+   },
+   "leech3": {
+    "native": "0x4101f0,0x40fb10,0x4106c0,0x4de730,0x412060,0x412d90,0x410bb0",
+    "rows": 264,
+    "slot_mismatches": 0,
+    "listed": 264,
+    "pickup_mismatches": 0,
+    "respawn_after_pickup": 0,
+    "dropped_slot_freed": true,
+    "freed_table_slots_unlinked": 3
+   },
+   "leech4": {
+    "native": "0x4101f0,0x40fb10,0x4106c0,0x4de730,0x412060,0x412d90,0x410bb0",
+    "rows": 264,
+    "slot_mismatches": 0,
+    "listed": 264,
     "pickup_mismatches": 0,
     "respawn_after_pickup": 0,
     "dropped_slot_freed": true,
@@ -2048,7 +2103,12 @@
    "slot": {
     "easy": 110,
     "normal": 97,
-    "hard": 94
+    "hard": 94,
+    "leech0": 9,
+    "leech1": 9,
+    "leech2": 9,
+    "leech3": 9,
+    "leech4": 10
    },
    "kind": 17
   },
@@ -3246,7 +3306,10 @@
    "slot": {
     "easy": 184,
     "normal": 163,
-    "hard": 157
+    "hard": 157,
+    "leech2": 76,
+    "leech3": 77,
+    "leech4": 78
    }
   },
   {
@@ -4016,7 +4079,12 @@
    "slot": {
     "easy": 233,
     "normal": 207,
-    "hard": 198
+    "hard": 198,
+    "leech0": 128,
+    "leech1": 128,
+    "leech2": 128,
+    "leech3": 129,
+    "leech4": 127
    },
    "kind": 44
   },
@@ -5309,7 +5377,12 @@
    "slot": {
     "easy": 311,
     "normal": 282,
-    "hard": 272
+    "hard": 272,
+    "leech0": 189,
+    "leech1": 189,
+    "leech2": 190,
+    "leech3": 191,
+    "leech4": 189
    },
    "kind": 52
   },
@@ -6007,7 +6080,12 @@
    "slot": {
     "easy": 355,
     "normal": 321,
-    "hard": 311
+    "hard": 311,
+    "leech0": 255,
+    "leech1": 254,
+    "leech2": 255,
+    "leech3": 255,
+    "leech4": 254
    },
    "kind": 52
   },
@@ -6024,7 +6102,12 @@
    "slot": {
     "easy": 356,
     "normal": 322,
-    "hard": 312
+    "hard": 312,
+    "leech0": 256,
+    "leech1": 255,
+    "leech2": 256,
+    "leech3": 256,
+    "leech4": 255
    },
    "kind": 52
   },
@@ -10715,6 +10798,6265 @@
   },
   {
    "index": 641,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 36,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 2,
+    "leech2": 2
+   }
+  },
+  {
+   "index": 642,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 36,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 3,
+    "leech2": 3
+   }
+  },
+  {
+   "index": 643,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 36,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 4,
+    "leech2": 4
+   }
+  },
+  {
+   "index": 644,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 36,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 5,
+    "leech2": 5
+   }
+  },
+  {
+   "index": 645,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 36,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 6,
+    "leech2": 6
+   }
+  },
+  {
+   "index": 646,
+   "category": "item",
+   "name_en": "Green Herb",
+   "room": 36,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 7,
+    "leech1": 7,
+    "leech2": 7,
+    "leech3": 7,
+    "leech4": 7
+   }
+  },
+  {
+   "index": 647,
+   "category": "item",
+   "name_en": "Green Herb",
+   "room": 36,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 8,
+    "leech1": 8
+   }
+  },
+  {
+   "index": 648,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 37,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy11: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 10,
+    "leech1": 10,
+    "leech2": 10,
+    "leech3": 10,
+    "leech4": 11
+   },
+   "kind": 17
+  },
+  {
+   "index": 649,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 37,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy11: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 11,
+    "leech1": 11,
+    "leech2": 11,
+    "leech3": 11,
+    "leech4": 12
+   },
+   "kind": 17
+  },
+  {
+   "index": 650,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 37,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 12,
+    "leech2": 12
+   }
+  },
+  {
+   "index": 651,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 37,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 13,
+    "leech2": 13,
+    "leech3": 13,
+    "leech4": 14
+   }
+  },
+  {
+   "index": 652,
+   "category": "key",
+   "name_en": "Knife",
+   "room": 37,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 14,
+    "leech1": 14,
+    "leech2": 14,
+    "leech3": 14,
+    "leech4": 16
+   }
+  },
+  {
+   "index": 653,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy11: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 15,
+    "leech1": 15,
+    "leech2": 15,
+    "leech3": 15,
+    "leech4": 17
+   },
+   "kind": 17
+  },
+  {
+   "index": 654,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy11: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 16,
+    "leech1": 16,
+    "leech2": 16,
+    "leech3": 16,
+    "leech4": 18
+   },
+   "kind": 17
+  },
+  {
+   "index": 655,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 17,
+    "leech2": 17
+   }
+  },
+  {
+   "index": 656,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 18,
+    "leech2": 18,
+    "leech4": 22
+   }
+  },
+  {
+   "index": 657,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 19,
+    "leech2": 19
+   }
+  },
+  {
+   "index": 658,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 20,
+    "leech2": 20
+   }
+  },
+  {
+   "index": 659,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 21,
+    "leech2": 21
+   }
+  },
+  {
+   "index": 660,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 22,
+    "leech2": 22
+   }
+  },
+  {
+   "index": 661,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 23,
+    "leech2": 23
+   }
+  },
+  {
+   "index": 662,
+   "category": "item",
+   "name_en": "Green Herb",
+   "room": 39,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 24,
+    "leech1": 24,
+    "leech2": 24,
+    "leech3": 24,
+    "leech4": 26
+   }
+  },
+  {
+   "index": 663,
+   "category": "item",
+   "name_en": "Green Herb",
+   "room": 39,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 25,
+    "leech1": 25
+   }
+  },
+  {
+   "index": 664,
+   "category": "item",
+   "name_en": "Blue Herb",
+   "room": 39,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 26,
+    "leech1": 26
+   }
+  },
+  {
+   "index": 665,
+   "category": "enemy",
+   "name_en": "Mimicry Marcus",
+   "room": 40,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy43: save virtual 0x4b0b10 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 27,
+    "leech1": 27,
+    "leech2": 27,
+    "leech3": 27,
+    "leech4": 29
+   },
+   "kind": 67
+  },
+  {
+   "index": 666,
+   "category": "enemy",
+   "name_en": "Mimicry Marcus",
+   "room": 41,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy43: save virtual 0x4b0b10 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 28,
+    "leech1": 28,
+    "leech2": 28,
+    "leech3": 28,
+    "leech4": 30
+   },
+   "kind": 67
+  },
+  {
+   "index": 667,
+   "category": "item",
+   "name_en": "Handgun Ammo",
+   "room": 41,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 29,
+    "leech1": 29,
+    "leech2": 29,
+    "leech3": 29,
+    "leech4": 31
+   }
+  },
+  {
+   "index": 668,
+   "category": "item",
+   "name_en": "Machinegun Ammo",
+   "room": 41,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 30,
+    "leech1": 30
+   }
+  },
+  {
+   "index": 669,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 42,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy19: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 31,
+    "leech1": 31,
+    "leech2": 31,
+    "leech3": 31,
+    "leech4": 33
+   },
+   "kind": 25
+  },
+  {
+   "index": 670,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 42,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy19: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 32,
+    "leech1": 32,
+    "leech2": 32,
+    "leech3": 32,
+    "leech4": 34
+   },
+   "kind": 25
+  },
+  {
+   "index": 671,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 42,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 33,
+    "leech2": 33
+   }
+  },
+  {
+   "index": 672,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 42,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 34,
+    "leech2": 34
+   }
+  },
+  {
+   "index": 673,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 42,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 35,
+    "leech2": 35
+   }
+  },
+  {
+   "index": 674,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 43,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy6a: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 36,
+    "leech1": 36,
+    "leech2": 36,
+    "leech3": 36,
+    "leech4": 38
+   },
+   "kind": 106
+  },
+  {
+   "index": 675,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 43,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy6b: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 37,
+    "leech1": 37,
+    "leech2": 37,
+    "leech3": 37,
+    "leech4": 39
+   },
+   "kind": 107
+  },
+  {
+   "index": 676,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 43,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy6a: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 38,
+    "leech1": 38,
+    "leech2": 38,
+    "leech3": 38,
+    "leech4": 40
+   },
+   "kind": 106
+  },
+  {
+   "index": 677,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 43,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy6b: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 39,
+    "leech1": 39,
+    "leech2": 39,
+    "leech3": 39,
+    "leech4": 41
+   },
+   "kind": 107
+  },
+  {
+   "index": 678,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 43,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 40,
+    "leech2": 40
+   }
+  },
+  {
+   "index": 679,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 43,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 41,
+    "leech2": 41
+   }
+  },
+  {
+   "index": 680,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 43,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 42,
+    "leech2": 42
+   }
+  },
+  {
+   "index": 681,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 43,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 43,
+    "leech2": 43
+   }
+  },
+  {
+   "index": 682,
+   "category": "item",
+   "name_en": "Green Herb",
+   "room": 43,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 44,
+    "leech1": 44,
+    "leech2": 44,
+    "leech3": 44,
+    "leech4": 47
+   }
+  },
+  {
+   "index": 683,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 44,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 45,
+    "leech1": 45,
+    "leech2": 45,
+    "leech3": 45,
+    "leech4": 48
+   },
+   "kind": 47
+  },
+  {
+   "index": 684,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 44,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 46,
+    "leech1": 46,
+    "leech2": 46,
+    "leech3": 46,
+    "leech4": 49
+   },
+   "kind": 47
+  },
+  {
+   "index": 685,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 44,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 47,
+    "leech1": 47,
+    "leech2": 47,
+    "leech3": 47,
+    "leech4": 50
+   },
+   "kind": 47
+  },
+  {
+   "index": 686,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 44,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 48,
+    "leech1": 48,
+    "leech2": 48,
+    "leech3": 48,
+    "leech4": 51
+   },
+   "kind": 47
+  },
+  {
+   "index": 687,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 44,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 49,
+    "leech2": 49
+   }
+  },
+  {
+   "index": 688,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 44,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 50,
+    "leech2": 50
+   }
+  },
+  {
+   "index": 689,
+   "category": "item",
+   "name_en": "Green Herb",
+   "room": 44,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 51,
+    "leech1": 51,
+    "leech2": 51,
+    "leech3": 52,
+    "leech4": 55
+   }
+  },
+  {
+   "index": 690,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 47,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 52,
+    "leech2": 52
+   }
+  },
+  {
+   "index": 691,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 47,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 53,
+    "leech2": 53
+   }
+  },
+  {
+   "index": 692,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 47,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 54,
+    "leech2": 54
+   }
+  },
+  {
+   "index": 693,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 47,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 55,
+    "leech2": 55
+   }
+  },
+  {
+   "index": 694,
+   "category": "key",
+   "name_en": "Knife",
+   "room": 47,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 56,
+    "leech1": 56,
+    "leech2": 56,
+    "leech3": 57,
+    "leech4": 60
+   }
+  },
+  {
+   "index": 695,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 48,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 57,
+    "leech1": 57,
+    "leech2": 57,
+    "leech3": 58,
+    "leech4": 61
+   },
+   "kind": 47
+  },
+  {
+   "index": 696,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 48,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 58,
+    "leech1": 58,
+    "leech2": 58,
+    "leech3": 59,
+    "leech4": 62
+   },
+   "kind": 47
+  },
+  {
+   "index": 697,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 48,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 59,
+    "leech1": 59,
+    "leech2": 59,
+    "leech3": 60,
+    "leech4": 63
+   },
+   "kind": 47
+  },
+  {
+   "index": 698,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 48,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy16: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 60,
+    "leech1": 60,
+    "leech2": 60,
+    "leech3": 61,
+    "leech4": 64
+   },
+   "kind": 22
+  },
+  {
+   "index": 699,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 48,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy16: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 61,
+    "leech1": 61,
+    "leech2": 61,
+    "leech3": 62,
+    "leech4": 65
+   },
+   "kind": 22
+  },
+  {
+   "index": 700,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 48,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy16: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 62,
+    "leech1": 62,
+    "leech2": 62,
+    "leech3": 63,
+    "leech4": 66
+   },
+   "kind": 22
+  },
+  {
+   "index": 701,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 48,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 63,
+    "leech1": 63,
+    "leech2": 63,
+    "leech3": 64,
+    "leech4": 67
+   }
+  },
+  {
+   "index": 702,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 48,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 64,
+    "leech1": 64,
+    "leech2": 64,
+    "leech3": 65,
+    "leech4": 68
+   }
+  },
+  {
+   "index": 703,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 48,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 65,
+    "leech1": 65,
+    "leech2": 65,
+    "leech3": 66,
+    "leech4": 69
+   }
+  },
+  {
+   "index": 704,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 48,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 66,
+    "leech1": 66,
+    "leech2": 66,
+    "leech3": 67
+   }
+  },
+  {
+   "index": 705,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 48,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 67,
+    "leech1": 67,
+    "leech2": 67,
+    "leech3": 68
+   }
+  },
+  {
+   "index": 706,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 48,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 68,
+    "leech1": 68,
+    "leech2": 68,
+    "leech3": 69,
+    "leech4": 70
+   }
+  },
+  {
+   "index": 707,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 48,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 69,
+    "leech1": 69,
+    "leech2": 69,
+    "leech3": 70,
+    "leech4": 71
+   }
+  },
+  {
+   "index": 708,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 48,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 70,
+    "leech1": 70,
+    "leech2": 70,
+    "leech3": 71,
+    "leech4": 72
+   }
+  },
+  {
+   "index": 709,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 49,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy12: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 71,
+    "leech1": 71,
+    "leech2": 71,
+    "leech3": 72,
+    "leech4": 73
+   },
+   "kind": 18
+  },
+  {
+   "index": 710,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 49,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy12: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 72,
+    "leech1": 72,
+    "leech2": 72,
+    "leech3": 73,
+    "leech4": 74
+   },
+   "kind": 18
+  },
+  {
+   "index": 711,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 49,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy12: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 73,
+    "leech1": 73,
+    "leech2": 73,
+    "leech3": 74,
+    "leech4": 75
+   },
+   "kind": 18
+  },
+  {
+   "index": 712,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 49,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy12: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 74,
+    "leech1": 74,
+    "leech2": 74,
+    "leech3": 75,
+    "leech4": 76
+   },
+   "kind": 18
+  },
+  {
+   "index": 713,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 49,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 75,
+    "leech2": 75
+   }
+  },
+  {
+   "index": 714,
+   "category": "item",
+   "name_en": "Blue Herb",
+   "room": 49,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 76,
+    "leech1": 76
+   }
+  },
+  {
+   "index": 715,
+   "category": "key",
+   "name_en": "Custom Handgun",
+   "room": 49,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 77,
+    "leech1": 77,
+    "leech2": 77,
+    "leech3": 78,
+    "leech4": 79
+   }
+  },
+  {
+   "index": 716,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 50,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy10: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 78,
+    "leech1": 78,
+    "leech2": 78,
+    "leech3": 79,
+    "leech4": 80
+   },
+   "kind": 16
+  },
+  {
+   "index": 717,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 50,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy10: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 79,
+    "leech1": 79,
+    "leech2": 79,
+    "leech3": 80,
+    "leech4": 81
+   },
+   "kind": 16
+  },
+  {
+   "index": 718,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 50,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 80,
+    "leech2": 80
+   }
+  },
+  {
+   "index": 719,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 50,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 81,
+    "leech2": 81
+   }
+  },
+  {
+   "index": 720,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 50,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 82,
+    "leech2": 82
+   }
+  },
+  {
+   "index": 721,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 50,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 83
+   }
+  },
+  {
+   "index": 722,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 50,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 84,
+    "leech2": 84
+   }
+  },
+  {
+   "index": 723,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 51,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy50: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 85,
+    "leech1": 85,
+    "leech2": 85,
+    "leech3": 86,
+    "leech4": 87
+   },
+   "kind": 80
+  },
+  {
+   "index": 724,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 51,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy51: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 86,
+    "leech1": 86,
+    "leech2": 86,
+    "leech3": 87,
+    "leech4": 88
+   },
+   "kind": 81
+  },
+  {
+   "index": 725,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 51,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy50: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 87,
+    "leech1": 87,
+    "leech2": 87,
+    "leech3": 88,
+    "leech4": 89
+   },
+   "kind": 80
+  },
+  {
+   "index": 726,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 51,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy51: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 88,
+    "leech1": 88,
+    "leech2": 88,
+    "leech3": 89,
+    "leech4": 90
+   },
+   "kind": 81
+  },
+  {
+   "index": 727,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 51,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 89,
+    "leech2": 89
+   }
+  },
+  {
+   "index": 728,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 51,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 90,
+    "leech2": 90
+   }
+  },
+  {
+   "index": 729,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 51,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 91,
+    "leech2": 91
+   }
+  },
+  {
+   "index": 730,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 51,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 92,
+    "leech2": 92
+   }
+  },
+  {
+   "index": 731,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 52,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy10: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 93,
+    "leech1": 93,
+    "leech2": 93,
+    "leech3": 94,
+    "leech4": 95
+   },
+   "kind": 16
+  },
+  {
+   "index": 732,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 52,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy11: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 94,
+    "leech1": 94,
+    "leech2": 94,
+    "leech3": 95,
+    "leech4": 96
+   },
+   "kind": 17
+  },
+  {
+   "index": 733,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 52,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy11: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 95,
+    "leech1": 95,
+    "leech2": 95,
+    "leech3": 96,
+    "leech4": 97
+   },
+   "kind": 17
+  },
+  {
+   "index": 734,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 52,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 97,
+    "leech2": 97
+   }
+  },
+  {
+   "index": 735,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 52,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 98,
+    "leech2": 98
+   }
+  },
+  {
+   "index": 736,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 52,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 99,
+    "leech2": 99
+   }
+  },
+  {
+   "index": 737,
+   "category": "item",
+   "name_en": "Handgun Ammo",
+   "room": 52,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 100,
+    "leech1": 100
+   }
+  },
+  {
+   "index": 738,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 53,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 101,
+    "leech1": 101,
+    "leech2": 101,
+    "leech3": 102,
+    "leech4": 102
+   },
+   "kind": 47
+  },
+  {
+   "index": 739,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 53,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 102,
+    "leech1": 102,
+    "leech2": 102,
+    "leech3": 103,
+    "leech4": 103
+   },
+   "kind": 47
+  },
+  {
+   "index": 740,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 53,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 103,
+    "leech1": 103,
+    "leech2": 103,
+    "leech3": 104,
+    "leech4": 104
+   },
+   "kind": 47
+  },
+  {
+   "index": 741,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 53,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy12: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 104,
+    "leech1": 104,
+    "leech2": 104,
+    "leech3": 105,
+    "leech4": 105
+   },
+   "kind": 18
+  },
+  {
+   "index": 742,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 53,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy16: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 105,
+    "leech1": 105,
+    "leech2": 105,
+    "leech3": 106,
+    "leech4": 106
+   },
+   "kind": 22
+  },
+  {
+   "index": 743,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 53,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy12: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 106,
+    "leech1": 106,
+    "leech2": 106,
+    "leech3": 107,
+    "leech4": 107
+   },
+   "kind": 18
+  },
+  {
+   "index": 744,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 53,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 107,
+    "leech1": 107,
+    "leech2": 107,
+    "leech3": 108,
+    "leech4": 108
+   }
+  },
+  {
+   "index": 745,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 53,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 108,
+    "leech1": 108,
+    "leech2": 108,
+    "leech3": 109,
+    "leech4": 109
+   }
+  },
+  {
+   "index": 746,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 53,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 109,
+    "leech1": 109,
+    "leech2": 109,
+    "leech3": 110,
+    "leech4": 110
+   }
+  },
+  {
+   "index": 747,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 53,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 110,
+    "leech1": 110,
+    "leech2": 110,
+    "leech3": 111
+   }
+  },
+  {
+   "index": 748,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 53,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 111,
+    "leech1": 111,
+    "leech2": 111,
+    "leech3": 112,
+    "leech4": 111
+   }
+  },
+  {
+   "index": 749,
+   "category": "enemy",
+   "name_en": "Crow",
+   "room": 55,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2b: save virtual 0x439180 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 112,
+    "leech1": 112,
+    "leech2": 112,
+    "leech3": 113,
+    "leech4": 112
+   },
+   "kind": 43
+  },
+  {
+   "index": 750,
+   "category": "enemy",
+   "name_en": "Crow",
+   "room": 55,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2b: save virtual 0x439180 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 113,
+    "leech1": 113,
+    "leech2": 113,
+    "leech3": 114,
+    "leech4": 113
+   },
+   "kind": 43
+  },
+  {
+   "index": 751,
+   "category": "enemy",
+   "name_en": "Crow",
+   "room": 55,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2b: save virtual 0x439180 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 114,
+    "leech1": 114,
+    "leech2": 114,
+    "leech3": 115,
+    "leech4": 114
+   },
+   "kind": 43
+  },
+  {
+   "index": 752,
+   "category": "enemy",
+   "name_en": "Crow",
+   "room": 55,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2b: save virtual 0x439180 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 115,
+    "leech1": 115,
+    "leech2": 115,
+    "leech3": 116,
+    "leech4": 115
+   },
+   "kind": 43
+  },
+  {
+   "index": 753,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 55,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 116,
+    "leech2": 116
+   }
+  },
+  {
+   "index": 754,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 55,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 117,
+    "leech2": 117
+   }
+  },
+  {
+   "index": 755,
+   "category": "key",
+   "name_en": "Handgun",
+   "room": 55,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 118,
+    "leech1": 118,
+    "leech2": 118,
+    "leech3": 119
+   }
+  },
+  {
+   "index": 756,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 56,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy50: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 119,
+    "leech1": 119,
+    "leech2": 119,
+    "leech3": 120,
+    "leech4": 119
+   },
+   "kind": 80
+  },
+  {
+   "index": 757,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 56,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy51: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 120,
+    "leech1": 120,
+    "leech2": 120,
+    "leech3": 121,
+    "leech4": 120
+   },
+   "kind": 81
+  },
+  {
+   "index": 758,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 56,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy10: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 121,
+    "leech1": 121,
+    "leech2": 121,
+    "leech3": 122,
+    "leech4": 121
+   },
+   "kind": 16
+  },
+  {
+   "index": 759,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 56,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy51: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 122,
+    "leech1": 122,
+    "leech2": 122,
+    "leech3": 123,
+    "leech4": 122
+   },
+   "kind": 81
+  },
+  {
+   "index": 760,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 56,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy50: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 123,
+    "leech1": 123,
+    "leech2": 123,
+    "leech3": 124,
+    "leech4": 123
+   },
+   "kind": 80
+  },
+  {
+   "index": 761,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 56,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 124,
+    "leech2": 124
+   }
+  },
+  {
+   "index": 762,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 56,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 125,
+    "leech1": 125,
+    "leech2": 125,
+    "leech3": 126
+   }
+  },
+  {
+   "index": 763,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 56,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 126,
+    "leech2": 126
+   }
+  },
+  {
+   "index": 764,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 56,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 127,
+    "leech2": 127
+   }
+  },
+  {
+   "index": 765,
+   "category": "enemy",
+   "name_en": "Plague Crawler",
+   "room": 57,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2c: save virtual 0x4435a0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 129,
+    "leech1": 129,
+    "leech2": 129,
+    "leech3": 130,
+    "leech4": 128
+   },
+   "kind": 44
+  },
+  {
+   "index": 766,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 57,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 130,
+    "leech2": 130
+   }
+  },
+  {
+   "index": 767,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 57,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 131,
+    "leech2": 131
+   }
+  },
+  {
+   "index": 768,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 57,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 132,
+    "leech2": 132
+   }
+  },
+  {
+   "index": 769,
+   "category": "enemy",
+   "name_en": "Mimicry Marcus",
+   "room": 58,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy43: save virtual 0x4b0b10 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 133,
+    "leech1": 133,
+    "leech2": 133,
+    "leech3": 134,
+    "leech4": 131
+   },
+   "kind": 67
+  },
+  {
+   "index": 770,
+   "category": "enemy",
+   "name_en": "Mimicry Marcus",
+   "room": 59,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy43: save virtual 0x4b0b10 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 134,
+    "leech1": 134,
+    "leech2": 134,
+    "leech3": 135,
+    "leech4": 132
+   },
+   "kind": 67
+  },
+  {
+   "index": 771,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 60,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 135,
+    "leech1": 135,
+    "leech2": 135,
+    "leech3": 136,
+    "leech4": 133
+   },
+   "kind": 47
+  },
+  {
+   "index": 772,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 60,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 136,
+    "leech1": 136,
+    "leech2": 136,
+    "leech3": 137,
+    "leech4": 134
+   },
+   "kind": 47
+  },
+  {
+   "index": 773,
+   "category": "key",
+   "name_en": "Grenade Launcher",
+   "room": 60,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 137,
+    "leech1": 137,
+    "leech2": 137,
+    "leech3": 138
+   }
+  },
+  {
+   "index": 774,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 60,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 138,
+    "leech2": 138
+   }
+  },
+  {
+   "index": 775,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 60,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 139,
+    "leech2": 139
+   }
+  },
+  {
+   "index": 776,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 61,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy16: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 140,
+    "leech1": 140,
+    "leech2": 140,
+    "leech3": 141,
+    "leech4": 136
+   },
+   "kind": 22
+  },
+  {
+   "index": 777,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 61,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy16: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 141,
+    "leech1": 141,
+    "leech2": 141,
+    "leech3": 142,
+    "leech4": 137
+   },
+   "kind": 22
+  },
+  {
+   "index": 778,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 61,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy17: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 142,
+    "leech1": 142,
+    "leech2": 142,
+    "leech3": 143,
+    "leech4": 138
+   },
+   "kind": 23
+  },
+  {
+   "index": 779,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 61,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy17: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 143,
+    "leech1": 143,
+    "leech2": 143,
+    "leech3": 144,
+    "leech4": 139
+   },
+   "kind": 23
+  },
+  {
+   "index": 780,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 61,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy17: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 144,
+    "leech1": 144,
+    "leech2": 144,
+    "leech3": 145,
+    "leech4": 140
+   },
+   "kind": 23
+  },
+  {
+   "index": 781,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 61,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 145,
+    "leech2": 145
+   }
+  },
+  {
+   "index": 782,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 61,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 146,
+    "leech2": 146
+   }
+  },
+  {
+   "index": 783,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 61,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 147,
+    "leech2": 147
+   }
+  },
+  {
+   "index": 784,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 61,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 148,
+    "leech2": 148
+   }
+  },
+  {
+   "index": 785,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 62,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy50: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 149,
+    "leech1": 149,
+    "leech2": 149,
+    "leech3": 150,
+    "leech4": 144
+   },
+   "kind": 80
+  },
+  {
+   "index": 786,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 62,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy51: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 150,
+    "leech1": 150,
+    "leech2": 150,
+    "leech3": 151,
+    "leech4": 145
+   },
+   "kind": 81
+  },
+  {
+   "index": 787,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 62,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy50: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 151,
+    "leech1": 151,
+    "leech2": 151,
+    "leech3": 152,
+    "leech4": 146
+   },
+   "kind": 80
+  },
+  {
+   "index": 788,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 62,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 152,
+    "leech2": 152
+   }
+  },
+  {
+   "index": 789,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 62,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 153,
+    "leech2": 153
+   }
+  },
+  {
+   "index": 790,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 62,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 154,
+    "leech2": 154
+   }
+  },
+  {
+   "index": 791,
+   "category": "item",
+   "name_en": "Herbal Mix",
+   "room": 62,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 155,
+    "leech1": 155,
+    "leech2": 155,
+    "leech3": 156,
+    "leech4": 151
+   }
+  },
+  {
+   "index": 792,
+   "category": "enemy",
+   "name_en": "Mimicry Marcus",
+   "room": 63,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy43: save virtual 0x4b0b10 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 156,
+    "leech1": 156,
+    "leech2": 156,
+    "leech3": 157,
+    "leech4": 152
+   },
+   "kind": 67
+  },
+  {
+   "index": 793,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy50: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 157,
+    "leech1": 157,
+    "leech2": 157,
+    "leech3": 158,
+    "leech4": 153
+   },
+   "kind": 80
+  },
+  {
+   "index": 794,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy51: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 158,
+    "leech1": 158,
+    "leech2": 158,
+    "leech3": 159,
+    "leech4": 154
+   },
+   "kind": 81
+  },
+  {
+   "index": 795,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy50: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 159,
+    "leech1": 159,
+    "leech2": 159,
+    "leech3": 160,
+    "leech4": 155
+   },
+   "kind": 80
+  },
+  {
+   "index": 796,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy51: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 160,
+    "leech1": 160,
+    "leech2": 160,
+    "leech3": 161,
+    "leech4": 156
+   },
+   "kind": 81
+  },
+  {
+   "index": 797,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy50: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 161,
+    "leech1": 161,
+    "leech2": 161,
+    "leech3": 162,
+    "leech4": 157
+   },
+   "kind": 80
+  },
+  {
+   "index": 798,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy51: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 162,
+    "leech1": 162,
+    "leech2": 162,
+    "leech3": 163,
+    "leech4": 158
+   },
+   "kind": 81
+  },
+  {
+   "index": 799,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy50: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 163,
+    "leech1": 163,
+    "leech2": 163,
+    "leech3": 164,
+    "leech4": 159
+   },
+   "kind": 80
+  },
+  {
+   "index": 800,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy51: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 164,
+    "leech1": 164,
+    "leech2": 164,
+    "leech3": 165,
+    "leech4": 160
+   },
+   "kind": 81
+  },
+  {
+   "index": 801,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 165,
+    "leech2": 165
+   }
+  },
+  {
+   "index": 802,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 166,
+    "leech2": 166
+   }
+  },
+  {
+   "index": 803,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 167,
+    "leech2": 167
+   }
+  },
+  {
+   "index": 804,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 168,
+    "leech2": 168
+   }
+  },
+  {
+   "index": 805,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 169,
+    "leech2": 169
+   }
+  },
+  {
+   "index": 806,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 170,
+    "leech2": 170
+   }
+  },
+  {
+   "index": 807,
+   "category": "enemy",
+   "name_en": "Plague Crawler",
+   "room": 65,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2c: save virtual 0x4435a0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 171,
+    "leech1": 171,
+    "leech2": 171,
+    "leech3": 172,
+    "leech4": 167
+   },
+   "kind": 44
+  },
+  {
+   "index": 808,
+   "category": "enemy",
+   "name_en": "Plague Crawler",
+   "room": 65,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2c: save virtual 0x4435a0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 172,
+    "leech1": 172,
+    "leech2": 172,
+    "leech3": 173,
+    "leech4": 168
+   },
+   "kind": 44
+  },
+  {
+   "index": 809,
+   "category": "enemy",
+   "name_en": "Plague Crawler",
+   "room": 65,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2c: save virtual 0x4435a0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 173,
+    "leech1": 173,
+    "leech2": 173,
+    "leech3": 174,
+    "leech4": 169
+   },
+   "kind": 44
+  },
+  {
+   "index": 810,
+   "category": "enemy",
+   "name_en": "Plague Crawler",
+   "room": 65,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2c: save virtual 0x4435a0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 174,
+    "leech1": 174,
+    "leech2": 174,
+    "leech3": 175,
+    "leech4": 170
+   },
+   "kind": 44
+  },
+  {
+   "index": 811,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 65,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 175,
+    "leech2": 175
+   }
+  },
+  {
+   "index": 812,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 65,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 176,
+    "leech2": 176
+   }
+  },
+  {
+   "index": 813,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 65,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 177,
+    "leech2": 177
+   }
+  },
+  {
+   "index": 814,
+   "category": "item",
+   "name_en": "Napalm Grenades",
+   "room": 65,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 178,
+    "leech1": 178
+   }
+  },
+  {
+   "index": 815,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 66,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 179,
+    "leech1": 179,
+    "leech2": 179,
+    "leech3": 180,
+    "leech4": 177
+   },
+   "kind": 47
+  },
+  {
+   "index": 816,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 66,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 180,
+    "leech1": 180,
+    "leech2": 180,
+    "leech3": 181,
+    "leech4": 178
+   },
+   "kind": 47
+  },
+  {
+   "index": 817,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 66,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 181,
+    "leech1": 181,
+    "leech2": 181,
+    "leech3": 182,
+    "leech4": 179
+   },
+   "kind": 47
+  },
+  {
+   "index": 818,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 66,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 182,
+    "leech1": 182,
+    "leech2": 182,
+    "leech3": 183,
+    "leech4": 180
+   },
+   "kind": 47
+  },
+  {
+   "index": 819,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 66,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 183,
+    "leech1": 183,
+    "leech2": 183,
+    "leech3": 184,
+    "leech4": 181
+   },
+   "kind": 47
+  },
+  {
+   "index": 820,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 66,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 184
+   }
+  },
+  {
+   "index": 821,
+   "category": "item",
+   "name_en": "Green Herb",
+   "room": 66,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 185,
+    "leech1": 185,
+    "leech2": 186,
+    "leech3": 187,
+    "leech4": 185
+   }
+  },
+  {
+   "index": 822,
+   "category": "key",
+   "name_en": "Shotgun",
+   "room": 67,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 186,
+    "leech1": 186,
+    "leech2": 187,
+    "leech3": 188,
+    "leech4": 186
+   }
+  },
+  {
+   "index": 823,
+   "category": "item",
+   "name_en": "Shotgun Ammo",
+   "room": 67,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 187,
+    "leech1": 187,
+    "leech2": 188,
+    "leech3": 189,
+    "leech4": 187
+   }
+  },
+  {
+   "index": 824,
+   "category": "enemy",
+   "name_en": "Giant Spider",
+   "room": 86,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy34: save virtual 0x461020 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 188,
+    "leech1": 188,
+    "leech2": 189,
+    "leech3": 190,
+    "leech4": 188
+   },
+   "kind": 52
+  },
+  {
+   "index": 825,
+   "category": "enemy",
+   "name_en": "Giant Spider",
+   "room": 86,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy34: save virtual 0x461020 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 190,
+    "leech1": 190,
+    "leech2": 191,
+    "leech3": 192,
+    "leech4": 190
+   },
+   "kind": 52
+  },
+  {
+   "index": 826,
+   "category": "enemy",
+   "name_en": "Giant Spider",
+   "room": 86,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy34: save virtual 0x461020 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 191,
+    "leech1": 191,
+    "leech2": 192,
+    "leech3": 193,
+    "leech4": 191
+   },
+   "kind": 52
+  },
+  {
+   "index": 827,
+   "category": "enemy",
+   "name_en": "Giant Spider",
+   "room": 86,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy34: save virtual 0x461020 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 192,
+    "leech1": 192,
+    "leech2": 193,
+    "leech3": 194,
+    "leech4": 192
+   },
+   "kind": 52
+  },
+  {
+   "index": 828,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 86,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 193,
+    "leech2": 194
+   }
+  },
+  {
+   "index": 829,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 86,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 194,
+    "leech2": 195
+   }
+  },
+  {
+   "index": 830,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 86,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 195,
+    "leech2": 196
+   }
+  },
+  {
+   "index": 831,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 86,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 196,
+    "leech2": 197
+   }
+  },
+  {
+   "index": 832,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 87,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy16: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 197,
+    "leech1": 197,
+    "leech2": 198,
+    "leech3": 199,
+    "leech4": 197
+   },
+   "kind": 22
+  },
+  {
+   "index": 833,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 87,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy12: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 198,
+    "leech1": 198,
+    "leech2": 199,
+    "leech3": 200,
+    "leech4": 198
+   },
+   "kind": 18
+  },
+  {
+   "index": 834,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 87,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy12: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 199,
+    "leech1": 199,
+    "leech2": 200,
+    "leech3": 201,
+    "leech4": 199
+   },
+   "kind": 18
+  },
+  {
+   "index": 835,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 87,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy16: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 200,
+    "leech1": 200,
+    "leech2": 201,
+    "leech3": 202,
+    "leech4": 200
+   },
+   "kind": 22
+  },
+  {
+   "index": 836,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 87,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy12: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 201,
+    "leech1": 201,
+    "leech2": 202,
+    "leech3": 203,
+    "leech4": 201
+   },
+   "kind": 18
+  },
+  {
+   "index": 837,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 87,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy12: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 202,
+    "leech1": 202,
+    "leech2": 203,
+    "leech3": 204,
+    "leech4": 202
+   },
+   "kind": 18
+  },
+  {
+   "index": 838,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 87,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy16: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 203,
+    "leech1": 203,
+    "leech2": 204,
+    "leech3": 205,
+    "leech4": 203
+   },
+   "kind": 22
+  },
+  {
+   "index": 839,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 87,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy16: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 204,
+    "leech1": 204,
+    "leech2": 205,
+    "leech3": 206,
+    "leech4": 204
+   },
+   "kind": 22
+  },
+  {
+   "index": 840,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 88,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 205,
+    "leech1": 205,
+    "leech2": 206,
+    "leech3": 207,
+    "leech4": 205
+   },
+   "kind": 47
+  },
+  {
+   "index": 841,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 88,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 206,
+    "leech1": 206,
+    "leech2": 207,
+    "leech3": 208,
+    "leech4": 206
+   },
+   "kind": 47
+  },
+  {
+   "index": 842,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 88,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 207,
+    "leech1": 207,
+    "leech2": 208,
+    "leech3": 209,
+    "leech4": 207
+   },
+   "kind": 47
+  },
+  {
+   "index": 843,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 88,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 208,
+    "leech1": 208,
+    "leech2": 209,
+    "leech3": 210,
+    "leech4": 208
+   },
+   "kind": 47
+  },
+  {
+   "index": 844,
+   "category": "key",
+   "name_en": "Shotgun",
+   "room": 88,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 209,
+    "leech1": 209,
+    "leech2": 210,
+    "leech3": 211,
+    "leech4": 209
+   }
+  },
+  {
+   "index": 845,
+   "category": "item",
+   "name_en": "Shotgun Ammo",
+   "room": 88,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 210,
+    "leech1": 210,
+    "leech2": 211,
+    "leech3": 212,
+    "leech4": 210
+   }
+  },
+  {
+   "index": 846,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 88,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 211,
+    "leech2": 212
+   }
+  },
+  {
+   "index": 847,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 88,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 212,
+    "leech2": 213
+   }
+  },
+  {
+   "index": 848,
+   "category": "item",
+   "name_en": "Green Herb",
+   "room": 88,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 213,
+    "leech1": 213,
+    "leech2": 214,
+    "leech3": 215,
+    "leech4": 213
+   }
+  },
+  {
+   "index": 849,
+   "category": "enemy",
+   "name_en": "Eliminator",
+   "room": 89,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy39: save virtual 0x480a80 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 214,
+    "leech1": 214,
+    "leech2": 215,
+    "leech3": 216,
+    "leech4": 214
+   },
+   "kind": 57
+  },
+  {
+   "index": 850,
+   "category": "enemy",
+   "name_en": "Eliminator",
+   "room": 89,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy39: save virtual 0x480a80 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 215,
+    "leech1": 215,
+    "leech2": 216,
+    "leech3": 217,
+    "leech4": 215
+   },
+   "kind": 57
+  },
+  {
+   "index": 851,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 90,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 216,
+    "leech1": 216,
+    "leech2": 217,
+    "leech3": 218,
+    "leech4": 216
+   },
+   "kind": 47
+  },
+  {
+   "index": 852,
+   "category": "enemy",
+   "name_en": "Hunter",
+   "room": 90,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2f: save virtual 0x44d6c0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 217,
+    "leech1": 217,
+    "leech2": 218,
+    "leech3": 219,
+    "leech4": 217
+   },
+   "kind": 47
+  },
+  {
+   "index": 853,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 90,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy16: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 218,
+    "leech1": 218,
+    "leech2": 219,
+    "leech3": 220,
+    "leech4": 218
+   },
+   "kind": 22
+  },
+  {
+   "index": 854,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 90,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy16: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 219,
+    "leech1": 219,
+    "leech2": 220,
+    "leech3": 221,
+    "leech4": 219
+   },
+   "kind": 22
+  },
+  {
+   "index": 855,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 90,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy16: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 220,
+    "leech1": 220,
+    "leech2": 221,
+    "leech3": 222,
+    "leech4": 220
+   },
+   "kind": 22
+  },
+  {
+   "index": 856,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 90,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy12: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 221,
+    "leech1": 221,
+    "leech2": 222,
+    "leech3": 223,
+    "leech4": 221
+   },
+   "kind": 18
+  },
+  {
+   "index": 857,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 90,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy12: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 222,
+    "leech1": 222,
+    "leech2": 223,
+    "leech3": 224,
+    "leech4": 222
+   },
+   "kind": 18
+  },
+  {
+   "index": 858,
+   "category": "item",
+   "name_en": "First-Aid Spray",
+   "room": 90,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 223,
+    "leech1": 223
+   }
+  },
+  {
+   "index": 859,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 91,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy19: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 224,
+    "leech1": 224,
+    "leech2": 225,
+    "leech3": 226,
+    "leech4": 224
+   },
+   "kind": 25
+  },
+  {
+   "index": 860,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 91,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy19: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 225,
+    "leech1": 225,
+    "leech2": 226,
+    "leech3": 227,
+    "leech4": 225
+   },
+   "kind": 25
+  },
+  {
+   "index": 861,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 91,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy19: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 226,
+    "leech1": 226,
+    "leech2": 227,
+    "leech3": 228,
+    "leech4": 226
+   },
+   "kind": 25
+  },
+  {
+   "index": 862,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 91,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 227,
+    "leech2": 228
+   }
+  },
+  {
+   "index": 863,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 91,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 228,
+    "leech2": 229
+   }
+  },
+  {
+   "index": 864,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 91,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 229,
+    "leech2": 230
+   }
+  },
+  {
+   "index": 865,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 92,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy50: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 230,
+    "leech1": 230,
+    "leech2": 231,
+    "leech3": 232,
+    "leech4": 230
+   },
+   "kind": 80
+  },
+  {
+   "index": 866,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 92,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy51: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 231,
+    "leech1": 231,
+    "leech2": 232,
+    "leech3": 233,
+    "leech4": 231
+   },
+   "kind": 81
+  },
+  {
+   "index": 867,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 92,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy51: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 232,
+    "leech1": 232,
+    "leech2": 233,
+    "leech3": 234,
+    "leech4": 232
+   },
+   "kind": 81
+  },
+  {
+   "index": 868,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 92,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy50: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 233,
+    "leech1": 233,
+    "leech2": 234,
+    "leech3": 235,
+    "leech4": 233
+   },
+   "kind": 80
+  },
+  {
+   "index": 869,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 92,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 234,
+    "leech2": 235
+   }
+  },
+  {
+   "index": 870,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 92,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 235,
+    "leech1": 235,
+    "leech2": 236
+   }
+  },
+  {
+   "index": 871,
+   "category": "item",
+   "name_en": "Blue Herb",
+   "room": 92,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 236,
+    "leech1": 236
+   }
+  },
+  {
+   "index": 872,
+   "category": "item",
+   "name_en": "Green Herb",
+   "room": 92,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 237,
+    "leech1": 237,
+    "leech2": 238,
+    "leech3": 239,
+    "leech4": 237
+   }
+  },
+  {
+   "index": 873,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 93,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy14: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 238,
+    "leech1": 238,
+    "leech2": 239,
+    "leech3": 240,
+    "leech4": 238
+   },
+   "kind": 20
+  },
+  {
+   "index": 874,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 93,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy16: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 239,
+    "leech1": 239,
+    "leech2": 240,
+    "leech3": 241,
+    "leech4": 239
+   },
+   "kind": 22
+  },
+  {
+   "index": 875,
+   "category": "enemy",
+   "name_en": "Zombie",
+   "room": 93,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy16: save virtual 0x420db0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 240,
+    "leech1": 240,
+    "leech2": 241,
+    "leech3": 242,
+    "leech4": 240
+   },
+   "kind": 22
+  },
+  {
+   "index": 876,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 93,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 241,
+    "leech2": 242
+   }
+  },
+  {
+   "index": 877,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 93,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 242,
+    "leech2": 243,
+    "leech4": 242
+   }
+  },
+  {
+   "index": 878,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 93,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 243,
+    "leech2": 244
+   }
+  },
+  {
+   "index": 879,
+   "category": "item",
+   "name_en": "Red Herb",
+   "room": 93,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 244,
+    "leech1": 244,
+    "leech2": 245,
+    "leech3": 246,
+    "leech4": 244
+   }
+  },
+  {
+   "index": 880,
+   "category": "item",
+   "name_en": "Red Herb",
+   "room": 93,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 245,
+    "leech1": 245
+   }
+  },
+  {
+   "index": 881,
+   "category": "key",
+   "name_en": "Grenade Launcher",
+   "room": 93,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 246,
+    "leech1": 246
+   }
+  },
+  {
+   "index": 882,
+   "category": "enemy",
+   "name_en": "Plague Crawler",
+   "room": 94,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2c: save virtual 0x4435a0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 247,
+    "leech1": 247,
+    "leech2": 248,
+    "leech3": 249,
+    "leech4": 246
+   },
+   "kind": 44
+  },
+  {
+   "index": 883,
+   "category": "enemy",
+   "name_en": "Plague Crawler",
+   "room": 94,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2c: save virtual 0x4435a0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 248,
+    "leech1": 248,
+    "leech2": 249,
+    "leech3": 250,
+    "leech4": 247
+   },
+   "kind": 44
+  },
+  {
+   "index": 884,
+   "category": "enemy",
+   "name_en": "Plague Crawler",
+   "room": 94,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy2c: save virtual 0x4435a0 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 249,
+    "leech1": 249,
+    "leech2": 250,
+    "leech3": 251,
+    "leech4": 248
+   },
+   "kind": 44
+  },
+  {
+   "index": 885,
+   "category": "key",
+   "name_en": "Fire Key",
+   "room": 94,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 250,
+    "leech1": 250
+   }
+  },
+  {
+   "index": 886,
+   "category": "item",
+   "name_en": "Green Herb",
+   "room": 94,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 251,
+    "leech1": 251,
+    "leech2": 251,
+    "leech3": 252,
+    "leech4": 249
+   }
+  },
+  {
+   "index": 887,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 94,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 252,
+    "leech2": 252
+   }
+  },
+  {
+   "index": 888,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 94,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 253,
+    "leech2": 253
+   }
+  },
+  {
+   "index": 889,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 94,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 254,
+    "leech2": 254
+   }
+  },
+  {
+   "index": 890,
+   "category": "enemy",
+   "name_en": "Giant Spider",
+   "room": 95,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy34: save virtual 0x461020 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 257,
+    "leech1": 256,
+    "leech2": 257,
+    "leech3": 257,
+    "leech4": 256
+   },
+   "kind": 52
+  },
+  {
+   "index": 891,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 96,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 258,
+    "leech2": 258
+   }
+  },
+  {
+   "index": 892,
+   "category": "enemy",
+   "name_en": "Eliminator",
+   "room": 97,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy39: save virtual 0x480a80 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 259,
+    "leech1": 258,
+    "leech2": 259,
+    "leech3": 259,
+    "leech4": 258
+   },
+   "kind": 57
+  },
+  {
+   "index": 893,
+   "category": "enemy",
+   "name_en": "Eliminator",
+   "room": 97,
+   "done_flag": null,
+   "done_when": "row_gone_or_actor_hp",
+   "evidence": "uEnemy39: save virtual 0x480a80 returns 1 at HP 0, so 0x412d7a sets row+0x39 and spawn 0x410c02 refuses it. Actor HP +0x1030 while its room is loaded.",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 260,
+    "leech1": 259,
+    "leech2": 260,
+    "leech3": 260,
+    "leech4": 259
+   },
+   "kind": 57
+  },
+  {
+   "index": 894,
+   "category": "key",
+   "name_en": "Sub-Machinegun",
+   "room": 97,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 261,
+    "leech1": 260
+   }
+  },
+  {
+   "index": 895,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 97,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech0": 262,
+    "leech2": 263
+   }
+  },
+  {
+   "index": 896,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 36,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 2,
+    "leech3": 2,
+    "leech4": 2
+   }
+  },
+  {
+   "index": 897,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 36,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 3,
+    "leech3": 3,
+    "leech4": 3
+   }
+  },
+  {
+   "index": 898,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 36,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 4,
+    "leech3": 4,
+    "leech4": 4
+   }
+  },
+  {
+   "index": 899,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 36,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 5,
+    "leech3": 5,
+    "leech4": 6
+   }
+  },
+  {
+   "index": 900,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 36,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 6,
+    "leech3": 6
+   }
+  },
+  {
+   "index": 901,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 37,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 12,
+    "leech3": 12,
+    "leech4": 13
+   }
+  },
+  {
+   "index": 902,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 37,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 13
+   }
+  },
+  {
+   "index": 903,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 17,
+    "leech3": 17,
+    "leech4": 19
+   }
+  },
+  {
+   "index": 904,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 18,
+    "leech3": 18
+   }
+  },
+  {
+   "index": 905,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 19,
+    "leech3": 19
+   }
+  },
+  {
+   "index": 906,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 20,
+    "leech3": 20
+   }
+  },
+  {
+   "index": 907,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 21,
+    "leech3": 21
+   }
+  },
+  {
+   "index": 908,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 22,
+    "leech3": 22,
+    "leech4": 23
+   }
+  },
+  {
+   "index": 909,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 23,
+    "leech3": 23,
+    "leech4": 24
+   }
+  },
+  {
+   "index": 910,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 42,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 33,
+    "leech3": 33,
+    "leech4": 35
+   }
+  },
+  {
+   "index": 911,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 42,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 34,
+    "leech3": 34,
+    "leech4": 36
+   }
+  },
+  {
+   "index": 912,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 42,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 35,
+    "leech3": 35,
+    "leech4": 37
+   }
+  },
+  {
+   "index": 913,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 43,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 40,
+    "leech3": 40,
+    "leech4": 42
+   }
+  },
+  {
+   "index": 914,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 43,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 41,
+    "leech3": 41,
+    "leech4": 43
+   }
+  },
+  {
+   "index": 915,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 43,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 42,
+    "leech3": 42,
+    "leech4": 44
+   }
+  },
+  {
+   "index": 916,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 43,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 43,
+    "leech3": 43,
+    "leech4": 45
+   }
+  },
+  {
+   "index": 917,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 44,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 49,
+    "leech3": 49,
+    "leech4": 52
+   }
+  },
+  {
+   "index": 918,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 44,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 50,
+    "leech3": 50,
+    "leech4": 53
+   }
+  },
+  {
+   "index": 919,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 47,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 52,
+    "leech3": 53,
+    "leech4": 56
+   }
+  },
+  {
+   "index": 920,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 47,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 53,
+    "leech3": 54,
+    "leech4": 57
+   }
+  },
+  {
+   "index": 921,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 47,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 54,
+    "leech3": 55,
+    "leech4": 58
+   }
+  },
+  {
+   "index": 922,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 47,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 55,
+    "leech3": 56,
+    "leech4": 59
+   }
+  },
+  {
+   "index": 923,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 49,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 75,
+    "leech3": 76,
+    "leech4": 77
+   }
+  },
+  {
+   "index": 924,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 50,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 80,
+    "leech3": 81,
+    "leech4": 82
+   }
+  },
+  {
+   "index": 925,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 50,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 81,
+    "leech3": 82,
+    "leech4": 83
+   }
+  },
+  {
+   "index": 926,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 50,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 82,
+    "leech3": 83,
+    "leech4": 84
+   }
+  },
+  {
+   "index": 927,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 50,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 83,
+    "leech3": 84,
+    "leech4": 85
+   }
+  },
+  {
+   "index": 928,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 50,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 84,
+    "leech3": 85,
+    "leech4": 86
+   }
+  },
+  {
+   "index": 929,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 51,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 89,
+    "leech3": 90,
+    "leech4": 91
+   }
+  },
+  {
+   "index": 930,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 51,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 90,
+    "leech3": 91,
+    "leech4": 92
+   }
+  },
+  {
+   "index": 931,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 51,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 91,
+    "leech3": 92,
+    "leech4": 93
+   }
+  },
+  {
+   "index": 932,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 51,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 92,
+    "leech3": 93,
+    "leech4": 94
+   }
+  },
+  {
+   "index": 933,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 52,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 97,
+    "leech3": 98,
+    "leech4": 99
+   }
+  },
+  {
+   "index": 934,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 52,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 98,
+    "leech3": 99,
+    "leech4": 100
+   }
+  },
+  {
+   "index": 935,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 52,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 99,
+    "leech3": 100
+   }
+  },
+  {
+   "index": 936,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 55,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 116,
+    "leech3": 117,
+    "leech4": 116
+   }
+  },
+  {
+   "index": 937,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 55,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 117,
+    "leech3": 118,
+    "leech4": 117
+   }
+  },
+  {
+   "index": 938,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 56,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 124,
+    "leech3": 125,
+    "leech4": 124
+   }
+  },
+  {
+   "index": 939,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 56,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 126,
+    "leech3": 127,
+    "leech4": 125
+   }
+  },
+  {
+   "index": 940,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 56,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 127,
+    "leech3": 128,
+    "leech4": 126
+   }
+  },
+  {
+   "index": 941,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 57,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 130,
+    "leech3": 131
+   }
+  },
+  {
+   "index": 942,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 57,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 131,
+    "leech3": 132,
+    "leech4": 129
+   }
+  },
+  {
+   "index": 943,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 57,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 132,
+    "leech3": 133,
+    "leech4": 130
+   }
+  },
+  {
+   "index": 944,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 60,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 138,
+    "leech3": 139
+   }
+  },
+  {
+   "index": 945,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 60,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 139,
+    "leech3": 140
+   }
+  },
+  {
+   "index": 946,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 61,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 145,
+    "leech3": 146,
+    "leech4": 141
+   }
+  },
+  {
+   "index": 947,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 61,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 146,
+    "leech3": 147
+   }
+  },
+  {
+   "index": 948,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 61,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 147,
+    "leech3": 148,
+    "leech4": 142
+   }
+  },
+  {
+   "index": 949,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 61,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 148,
+    "leech3": 149,
+    "leech4": 143
+   }
+  },
+  {
+   "index": 950,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 62,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 152,
+    "leech3": 153,
+    "leech4": 147
+   }
+  },
+  {
+   "index": 951,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 62,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 153,
+    "leech3": 154,
+    "leech4": 148
+   }
+  },
+  {
+   "index": 952,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 62,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 154
+   }
+  },
+  {
+   "index": 953,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 165,
+    "leech3": 166,
+    "leech4": 161
+   }
+  },
+  {
+   "index": 954,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 166,
+    "leech3": 167,
+    "leech4": 162
+   }
+  },
+  {
+   "index": 955,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 167,
+    "leech3": 168,
+    "leech4": 163
+   }
+  },
+  {
+   "index": 956,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 168,
+    "leech3": 169,
+    "leech4": 164
+   }
+  },
+  {
+   "index": 957,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 169,
+    "leech3": 170,
+    "leech4": 165
+   }
+  },
+  {
+   "index": 958,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 64,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 170,
+    "leech3": 171,
+    "leech4": 166
+   }
+  },
+  {
+   "index": 959,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 65,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 175,
+    "leech3": 176,
+    "leech4": 171
+   }
+  },
+  {
+   "index": 960,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 65,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 176,
+    "leech3": 177,
+    "leech4": 172
+   }
+  },
+  {
+   "index": 961,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 65,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 177,
+    "leech3": 178,
+    "leech4": 173
+   }
+  },
+  {
+   "index": 962,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 66,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 184
+   }
+  },
+  {
+   "index": 963,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 86,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 193,
+    "leech3": 195,
+    "leech4": 193
+   }
+  },
+  {
+   "index": 964,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 86,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 194,
+    "leech3": 196,
+    "leech4": 194
+   }
+  },
+  {
+   "index": 965,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 86,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 195,
+    "leech3": 197,
+    "leech4": 195
+   }
+  },
+  {
+   "index": 966,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 86,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 196,
+    "leech3": 198,
+    "leech4": 196
+   }
+  },
+  {
+   "index": 967,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 88,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 211,
+    "leech3": 213,
+    "leech4": 211
+   }
+  },
+  {
+   "index": 968,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 88,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 212,
+    "leech3": 214,
+    "leech4": 212
+   }
+  },
+  {
+   "index": 969,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 91,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 227,
+    "leech3": 229,
+    "leech4": 227
+   }
+  },
+  {
+   "index": 970,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 91,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 228,
+    "leech3": 230,
+    "leech4": 228
+   }
+  },
+  {
+   "index": 971,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 91,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 229,
+    "leech3": 231,
+    "leech4": 229
+   }
+  },
+  {
+   "index": 972,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 92,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 234,
+    "leech3": 236,
+    "leech4": 234
+   }
+  },
+  {
+   "index": 973,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 93,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 241,
+    "leech3": 243,
+    "leech4": 241
+   }
+  },
+  {
+   "index": 974,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 93,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 242,
+    "leech3": 244
+   }
+  },
+  {
+   "index": 975,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 93,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 243,
+    "leech3": 245,
+    "leech4": 243
+   }
+  },
+  {
+   "index": 976,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 94,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 252,
+    "leech3": 253,
+    "leech4": 251
+   }
+  },
+  {
+   "index": 977,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 94,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 253,
+    "leech3": 254,
+    "leech4": 250
+   }
+  },
+  {
+   "index": 978,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 96,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 257,
+    "leech3": 258,
+    "leech4": 257
+   }
+  },
+  {
+   "index": 979,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 97,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 261,
+    "leech4": 263
+   }
+  },
+  {
+   "index": 980,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 97,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech1": 262,
+    "leech3": 263,
+    "leech4": 262
+   }
+  },
+  {
+   "index": 981,
+   "category": "item",
+   "name_en": "Blue Herb",
+   "room": 36,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech2": 8,
+    "leech3": 8,
+    "leech4": 8
+   }
+  },
+  {
+   "index": 982,
+   "category": "item",
+   "name_en": "Blue Herb",
+   "room": 39,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech2": 25,
+    "leech3": 25,
+    "leech4": 27
+   }
+  },
+  {
+   "index": 983,
+   "category": "item",
+   "name_en": "Red Herb",
+   "room": 39,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech2": 26,
+    "leech3": 26,
+    "leech4": 28
+   }
+  },
+  {
+   "index": 984,
+   "category": "item",
+   "name_en": "Shotgun Ammo",
+   "room": 41,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech2": 30,
+    "leech3": 30,
+    "leech4": 32
+   }
+  },
+  {
+   "index": 985,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 50,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech2": 83
+   }
+  },
+  {
+   "index": 986,
+   "category": "item",
+   "name_en": "Handgun Ammo",
+   "room": 52,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech2": 100,
+    "leech3": 101,
+    "leech4": 101
+   }
+  },
+  {
+   "index": 987,
+   "category": "item",
+   "name_en": "Magnum Ammo",
+   "room": 65,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech2": 178,
+    "leech3": 179,
+    "leech4": 176
+   }
+  },
+  {
+   "index": 988,
+   "category": "key",
+   "name_en": "Fire Key",
+   "room": 66,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech2": 184,
+    "leech3": 185,
+    "leech4": 182
+   }
+  },
+  {
+   "index": 989,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 66,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech2": 185
+   }
+  },
+  {
+   "index": 990,
+   "category": "item",
+   "name_en": "Green Herb",
+   "room": 90,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech2": 224,
+    "leech3": 225,
+    "leech4": 223
+   }
+  },
+  {
+   "index": 991,
+   "category": "item",
+   "name_en": "Green Herb",
+   "room": 92,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech2": 237,
+    "leech3": 238,
+    "leech4": 236
+   }
+  },
+  {
+   "index": 992,
+   "category": "item",
+   "name_en": "Green Herb",
+   "room": 93,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech2": 246,
+    "leech3": 247,
+    "leech4": 245
+   }
+  },
+  {
+   "index": 993,
+   "category": "key",
+   "name_en": "Grenade Launcher",
+   "room": 93,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech2": 247,
+    "leech3": 248
+   }
+  },
+  {
+   "index": 994,
+   "category": "key",
+   "name_en": "Magnum",
+   "room": 97,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech2": 261,
+    "leech3": 261,
+    "leech4": 260
+   }
+  },
+  {
+   "index": 995,
+   "category": "item",
+   "name_en": "Magnum Ammo",
+   "room": 97,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech2": 262,
+    "leech3": 262,
+    "leech4": 261
+   }
+  },
+  {
+   "index": 996,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 44,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech3": 51,
+    "leech4": 54
+   }
+  },
+  {
+   "index": 997,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 62,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech3": 155,
+    "leech4": 149
+   }
+  },
+  {
+   "index": 998,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 66,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech3": 186,
+    "leech4": 183
+   }
+  },
+  {
+   "index": 999,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 92,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech3": 237,
+    "leech4": 235
+   }
+  },
+  {
+   "index": 1000,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 36,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech4": 5
+   }
+  },
+  {
+   "index": 1001,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 36,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech4": 9
+   }
+  },
+  {
+   "index": 1002,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 37,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech4": 15
+   }
+  },
+  {
+   "index": 1003,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech4": 20
+   }
+  },
+  {
+   "index": 1004,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech4": 21
+   }
+  },
+  {
+   "index": 1005,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 38,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech4": 25
+   }
+  },
+  {
+   "index": 1006,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 43,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech4": 46
+   }
+  },
+  {
+   "index": 1007,
+   "category": "key",
+   "name_en": "Handgun",
+   "room": 55,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech4": 118
+   }
+  },
+  {
+   "index": 1008,
+   "category": "key",
+   "name_en": "Grenade Launcher",
+   "room": 60,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech4": 135
+   }
+  },
+  {
+   "index": 1009,
+   "category": "key",
+   "name_en": "Bl. Leech Charm",
+   "room": 62,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech4": 150
+   }
+  },
+  {
+   "index": 1010,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 65,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech4": 174
+   }
+  },
+  {
+   "index": 1011,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 65,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech4": 175
+   }
+  },
+  {
+   "index": 1012,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 66,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech4": 184
+   }
+  },
+  {
+   "index": 1013,
+   "category": "key",
+   "name_en": "Gr. Leech Charm",
+   "room": 94,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech4": 252
+   }
+  },
+  {
+   "index": 1014,
+   "category": "key",
+   "name_en": "Grenade Launcher",
+   "room": 94,
+   "done_flag": null,
+   "done_when": "row_kind_zero_or_unlinked",
+   "evidence": "spawn 0x410bf5, pickup 0x4de80d-0x4de816, slot order 0x412110/0x40fb10",
+   "status": "proven",
+   "store": "arrange_row",
+   "slot": {
+    "leech4": 253
+   }
+  },
+  {
+   "index": 1015,
    "category": "lock",
    "name_en": "Fire Key",
    "room": 48,
@@ -10725,7 +17067,7 @@
    "store": "flag"
   },
   {
-   "index": 642,
+   "index": 1016,
    "category": "lock",
    "name_en": "Conductor's Key",
    "room": 2,
@@ -10736,7 +17078,7 @@
    "store": "flag"
   },
   {
-   "index": 643,
+   "index": 1017,
    "category": "lock",
    "name_en": "Dining Car Key",
    "room": 7,
@@ -10747,7 +17089,7 @@
    "store": "flag"
   },
   {
-   "index": 644,
+   "index": 1018,
    "category": "lock",
    "name_en": "Blue Keycard",
    "room": 1,
@@ -10758,7 +17100,7 @@
    "store": "flag"
   },
   {
-   "index": 645,
+   "index": 1019,
    "category": "lock",
    "name_en": "Blue Leech Charm",
    "room": 113,
@@ -10769,7 +17111,7 @@
    "store": "flag"
   },
   {
-   "index": 646,
+   "index": 1020,
    "category": "lock",
    "name_en": "Breeding Room Key",
    "room": 109,
@@ -10780,7 +17122,7 @@
    "store": "flag"
   },
   {
-   "index": 647,
+   "index": 1021,
    "category": "lock",
    "name_en": "Dial",
    "room": 102,
@@ -10791,7 +17133,7 @@
    "store": "flag"
   },
   {
-   "index": 648,
+   "index": 1022,
    "category": "lock",
    "name_en": "Fire Key",
    "room": 38,
@@ -10802,7 +17144,7 @@
    "store": "flag"
   },
   {
-   "index": 649,
+   "index": 1023,
    "category": "lock",
    "name_en": "Green Leech Charm",
    "room": 108,
@@ -10813,7 +17155,7 @@
    "store": "flag"
   },
   {
-   "index": 650,
+   "index": 1024,
    "category": "lock",
    "name_en": "Handle",
    "room": 145,
@@ -10824,7 +17166,7 @@
    "store": "flag"
   },
   {
-   "index": 651,
+   "index": 1025,
    "category": "lock",
    "name_en": "Ice Pick",
    "room": 17,
@@ -10835,7 +17177,7 @@
    "store": "flag"
   },
   {
-   "index": 652,
+   "index": 1026,
    "category": "lock",
    "name_en": "Iron Needle",
    "room": 56,
@@ -10846,7 +17188,7 @@
    "store": "flag"
   },
   {
-   "index": 653,
+   "index": 1027,
    "category": "lock",
    "name_en": "Iron Needle",
    "room": 40,
@@ -10857,7 +17199,7 @@
    "store": "flag"
   },
   {
-   "index": 654,
+   "index": 1028,
    "category": "lock",
    "name_en": "Keycard",
    "room": 174,
@@ -10868,7 +17210,7 @@
    "store": "flag"
   },
   {
-   "index": 655,
+   "index": 1029,
    "category": "lock",
    "name_en": "MO Disk",
    "room": 45,
@@ -10879,7 +17221,7 @@
    "store": "flag"
   },
   {
-   "index": 656,
+   "index": 1030,
    "category": "lock",
    "name_en": "MO Disk",
    "room": 53,
@@ -10890,7 +17232,7 @@
    "store": "flag"
   },
   {
-   "index": 657,
+   "index": 1031,
    "category": "lock",
    "name_en": "MO Disk",
    "room": 43,
@@ -10901,7 +17243,7 @@
    "store": "flag"
   },
   {
-   "index": 658,
+   "index": 1032,
    "category": "lock",
    "name_en": "Shaft Key (L)",
    "room": 173,
@@ -10912,7 +17254,7 @@
    "store": "flag"
   },
   {
-   "index": 659,
+   "index": 1033,
    "category": "lock",
    "name_en": "Shaft Key (R)",
    "room": 173,
@@ -10923,7 +17265,7 @@
    "store": "flag"
   },
   {
-   "index": 660,
+   "index": 1034,
    "category": "lock",
    "name_en": "Water Key",
    "room": 58,
@@ -10934,7 +17276,7 @@
    "store": "flag"
   },
   {
-   "index": 661,
+   "index": 1035,
    "category": "puzzle",
    "name_en": "Battery",
    "room": 45,
@@ -10945,7 +17287,7 @@
    "store": "flag"
   },
   {
-   "index": 662,
+   "index": 1036,
    "category": "puzzle",
    "name_en": "Crank Handle",
    "room": 50,
@@ -10956,7 +17298,7 @@
    "store": "flag"
   },
   {
-   "index": 663,
+   "index": 1037,
    "category": "puzzle",
    "name_en": "Discipline Tablet",
    "room": 43,
@@ -10967,7 +17309,7 @@
    "store": "flag"
   },
   {
-   "index": 664,
+   "index": 1038,
    "category": "puzzle",
    "name_en": "Elevator Key",
    "room": 134,
@@ -10978,7 +17320,7 @@
    "store": "flag"
   },
   {
-   "index": 665,
+   "index": 1039,
    "category": "puzzle",
    "name_en": "Hookshot",
    "room": 6,
@@ -10989,7 +17331,7 @@
    "store": "none"
   },
   {
-   "index": 666,
+   "index": 1040,
    "category": "puzzle",
    "name_en": "Hookshot",
    "room": 100,
@@ -11000,7 +17342,7 @@
    "store": "none"
   },
   {
-   "index": 667,
+   "index": 1041,
    "category": "puzzle",
    "name_en": "Hookshot",
    "room": 112,
@@ -11011,7 +17353,7 @@
    "store": "none"
   },
   {
-   "index": 668,
+   "index": 1042,
    "category": "puzzle",
    "name_en": "Hookshot",
    "room": 102,
@@ -11022,7 +17364,7 @@
    "store": "none"
   },
   {
-   "index": 669,
+   "index": 1043,
    "category": "puzzle",
    "name_en": "Input Regulator Coil",
    "room": 104,
@@ -11033,7 +17375,7 @@
    "store": "flag"
   },
   {
-   "index": 670,
+   "index": 1044,
    "category": "puzzle",
    "name_en": "Iron Needle",
    "room": 50,
@@ -11044,7 +17386,7 @@
    "store": "flag"
   },
   {
-   "index": 671,
+   "index": 1045,
    "category": "puzzle",
    "name_en": "Lighter",
    "room": 90,
@@ -11055,7 +17397,7 @@
    "store": "flag"
   },
   {
-   "index": 672,
+   "index": 1046,
    "category": "puzzle",
    "name_en": "Locker Key",
    "room": 96,
@@ -11066,7 +17408,7 @@
    "store": "flag"
   },
   {
-   "index": 673,
+   "index": 1047,
    "category": "puzzle",
    "name_en": "MO Disk",
    "room": 47,
@@ -11077,7 +17419,7 @@
    "store": "flag"
   },
   {
-   "index": 674,
+   "index": 1048,
    "category": "puzzle",
    "name_en": "Magnetic Card",
    "room": 10,
@@ -11088,7 +17430,7 @@
    "store": "flag"
   },
   {
-   "index": 675,
+   "index": 1049,
    "category": "puzzle",
    "name_en": "Microfilm A",
    "room": 39,
@@ -11099,7 +17441,7 @@
    "store": "flag"
   },
   {
-   "index": 676,
+   "index": 1050,
    "category": "puzzle",
    "name_en": "Microfilm B",
    "room": 39,
@@ -11110,7 +17452,7 @@
    "store": "flag"
   },
   {
-   "index": 677,
+   "index": 1051,
    "category": "puzzle",
    "name_en": "Motherboard",
    "room": 152,
@@ -11121,7 +17463,7 @@
    "store": "flag"
   },
   {
-   "index": 678,
+   "index": 1052,
    "category": "puzzle",
    "name_en": "Obedience Tablet",
    "room": 43,
@@ -11132,7 +17474,7 @@
    "store": "flag"
   },
   {
-   "index": 679,
+   "index": 1053,
    "category": "puzzle",
    "name_en": "Output Regulator Coil",
    "room": 104,
@@ -11147,7 +17489,7 @@
    ]
   },
   {
-   "index": 680,
+   "index": 1054,
    "category": "puzzle",
    "name_en": "Panel Opener",
    "room": 8,
@@ -11158,7 +17500,7 @@
    "store": "flag"
   },
   {
-   "index": 681,
+   "index": 1055,
    "category": "puzzle",
    "name_en": "Sterilizing Agent",
    "room": 105,
@@ -11169,7 +17511,7 @@
    "store": "flag"
   },
   {
-   "index": 682,
+   "index": 1056,
    "category": "puzzle",
    "name_en": "Unity Tablet",
    "room": 43,
@@ -11180,7 +17522,7 @@
    "store": "flag"
   },
   {
-   "index": 683,
+   "index": 1057,
    "category": "puzzle",
    "name_en": "Up Key",
    "room": 136,
@@ -11191,7 +17533,7 @@
    "store": "flag"
   },
   {
-   "index": 684,
+   "index": 1058,
    "category": "puzzle",
    "name_en": "Vise Handle",
    "room": 61,
@@ -11202,7 +17544,7 @@
    "store": "flag"
   },
   {
-   "index": 685,
+   "index": 1059,
    "category": "puzzle",
    "name_en": "Lighter",
    "room": 50,
@@ -11213,7 +17555,7 @@
    "store": "flag"
   },
   {
-   "index": 686,
+   "index": 1060,
    "category": "puzzle",
    "name_en": "Factory Key",
    "room": 136,
@@ -11224,7 +17566,7 @@
    "store": "flag"
   },
   {
-   "index": 687,
+   "index": 1061,
    "category": "puzzle",
    "name_en": "Hi-Power Battery",
    "room": 153,
@@ -11235,7 +17577,7 @@
    "store": "flag"
   },
   {
-   "index": 688,
+   "index": 1062,
    "category": "item",
    "name_en": "Handgun Ammo",
    "room": 2,
@@ -11250,7 +17592,7 @@
    ]
   },
   {
-   "index": 689,
+   "index": 1063,
    "category": "file",
    "name_en": "Brake Operation Manual",
    "room": 0,
@@ -11261,7 +17603,7 @@
    "store": "flag"
   },
   {
-   "index": 690,
+   "index": 1064,
    "category": "file",
    "name_en": "Hookshot Operator's Manual",
    "room": 10,
@@ -11272,7 +17614,7 @@
    "store": "flag"
   },
   {
-   "index": 691,
+   "index": 1065,
    "category": "item",
    "name_en": "Handgun Ammo",
    "room": 15,
@@ -11283,7 +17625,7 @@
    "store": "flag"
   },
   {
-   "index": 692,
+   "index": 1066,
    "category": "file",
    "name_en": "Player's Manual 2",
    "room": 15,
@@ -11294,7 +17636,7 @@
    "store": "flag"
   },
   {
-   "index": 693,
+   "index": 1067,
    "category": "file",
    "name_en": "Microfilm Image",
    "room": 39,
@@ -11305,7 +17647,7 @@
    "store": "flag"
   },
   {
-   "index": 694,
+   "index": 1068,
    "category": "file",
    "name_en": "Marcus' Diary 1",
    "room": 54,
@@ -11316,7 +17658,7 @@
    "store": "flag"
   },
   {
-   "index": 695,
+   "index": 1069,
    "category": "item",
    "name_en": "Handgun Ammo",
    "room": 113,
@@ -11327,7 +17669,7 @@
    "store": "flag"
   },
   {
-   "index": 696,
+   "index": 1070,
    "category": "file",
    "name_en": "Old Photograph",
    "room": 113,
@@ -11338,7 +17680,7 @@
    "store": "flag"
   },
   {
-   "index": 697,
+   "index": 1071,
    "category": "file",
    "name_en": "Gate Operation Manual",
    "room": 165,
@@ -11349,7 +17691,7 @@
    "store": "flag"
   },
   {
-   "index": 698,
+   "index": 1072,
    "category": "key",
    "name_en": "Green Chemical",
    "room": 49,
@@ -11360,7 +17702,7 @@
    "store": "none"
   },
   {
-   "index": 699,
+   "index": 1073,
    "category": "key",
    "name_en": "Red Chemical",
    "room": 105,
@@ -11371,7 +17713,7 @@
    "store": "none"
   },
   {
-   "index": 700,
+   "index": 1074,
    "category": "key",
    "name_en": "Green Chemical",
    "room": 107,
@@ -11382,7 +17724,7 @@
    "store": "none"
   },
   {
-   "index": 701,
+   "index": 1075,
    "category": "key",
    "name_en": "Red Chemical",
    "room": 103,
@@ -11393,7 +17735,7 @@
    "store": "none"
   },
   {
-   "index": 702,
+   "index": 1076,
    "category": "key",
    "name_en": "Red Chemical",
    "room": 143,
@@ -11404,7 +17746,7 @@
    "store": "none"
   },
   {
-   "index": 703,
+   "index": 1077,
    "category": "key",
    "name_en": "Blue Chemical",
    "room": 157,
@@ -11415,7 +17757,7 @@
    "store": "none"
   },
   {
-   "index": 704,
+   "index": 1078,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 132,
@@ -11427,7 +17769,7 @@
    "need_flag": null
   },
   {
-   "index": 705,
+   "index": 1079,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 134,
@@ -11439,7 +17781,7 @@
    "need_flag": null
   },
   {
-   "index": 706,
+   "index": 1080,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 134,
@@ -11451,7 +17793,7 @@
    "need_flag": null
   },
   {
-   "index": 707,
+   "index": 1081,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 100,
@@ -11463,7 +17805,7 @@
    "need_flag": 403
   },
   {
-   "index": 708,
+   "index": 1082,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 100,
@@ -11475,7 +17817,7 @@
    "need_flag": null
   },
   {
-   "index": 709,
+   "index": 1083,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 102,
@@ -11487,7 +17829,7 @@
    "need_flag": 216
   },
   {
-   "index": 710,
+   "index": 1084,
    "category": "puzzle",
    "name_en": "Event",
    "room": 102,
@@ -11499,7 +17841,7 @@
    "need_flag": null
   },
   {
-   "index": 711,
+   "index": 1085,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 102,
@@ -11511,7 +17853,7 @@
    "need_flag": null
   },
   {
-   "index": 712,
+   "index": 1086,
    "category": "puzzle",
    "name_en": "Event",
    "room": 106,
@@ -11523,7 +17865,7 @@
    "need_flag": null
   },
   {
-   "index": 713,
+   "index": 1087,
    "category": "puzzle",
    "name_en": "Cable Car",
    "room": 111,
@@ -11535,7 +17877,7 @@
    "need_flag": null
   },
   {
-   "index": 714,
+   "index": 1088,
    "category": "puzzle",
    "name_en": "Event",
    "room": 113,
@@ -11547,7 +17889,7 @@
    "need_flag": null
   },
   {
-   "index": 715,
+   "index": 1089,
    "category": "puzzle",
    "name_en": "Event",
    "room": 88,
@@ -11559,7 +17901,7 @@
    "need_flag": null
   },
   {
-   "index": 716,
+   "index": 1090,
    "category": "puzzle",
    "name_en": "Power Regulator",
    "room": 88,
@@ -11571,7 +17913,7 @@
    "need_flag": null
   },
   {
-   "index": 717,
+   "index": 1091,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 91,
@@ -11583,7 +17925,7 @@
    "need_flag": null
   },
   {
-   "index": 718,
+   "index": 1092,
    "category": "puzzle",
    "name_en": "Control Panel",
    "room": 96,
@@ -11595,7 +17937,7 @@
    "need_flag": null
   },
   {
-   "index": 719,
+   "index": 1093,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 97,
@@ -11607,7 +17949,7 @@
    "need_flag": 391
   },
   {
-   "index": 720,
+   "index": 1094,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 141,
@@ -11619,7 +17961,7 @@
    "need_flag": null
   },
   {
-   "index": 721,
+   "index": 1095,
    "category": "puzzle",
    "name_en": "Event",
    "room": 142,
@@ -11631,7 +17973,7 @@
    "need_flag": null
   },
   {
-   "index": 722,
+   "index": 1096,
    "category": "puzzle",
    "name_en": "Power Supply Panel",
    "room": 142,
@@ -11643,7 +17985,7 @@
    "need_flag": null
   },
   {
-   "index": 723,
+   "index": 1097,
    "category": "puzzle",
    "name_en": "Event",
    "room": 152,
@@ -11655,7 +17997,7 @@
    "need_flag": null
   },
   {
-   "index": 724,
+   "index": 1098,
    "category": "key",
    "name_en": "Crates",
    "room": 154,
@@ -11671,7 +18013,7 @@
    }
   },
   {
-   "index": 725,
+   "index": 1099,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 156,
@@ -11683,7 +18025,7 @@
    "need_flag": null
   },
   {
-   "index": 726,
+   "index": 1100,
    "category": "puzzle",
    "name_en": "Event",
    "room": 158,
@@ -11695,7 +18037,7 @@
    "need_flag": null
   },
   {
-   "index": 727,
+   "index": 1101,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 160,
@@ -11707,7 +18049,7 @@
    "need_flag": null
   },
   {
-   "index": 728,
+   "index": 1102,
    "category": "puzzle",
    "name_en": "Event",
    "room": 161,
@@ -11719,7 +18061,7 @@
    "need_flag": null
   },
   {
-   "index": 729,
+   "index": 1103,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 164,
@@ -11731,7 +18073,7 @@
    "need_flag": null
   },
   {
-   "index": 730,
+   "index": 1104,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 164,
@@ -11743,7 +18085,7 @@
    "need_flag": null
   },
   {
-   "index": 731,
+   "index": 1105,
    "category": "puzzle",
    "name_en": "Event",
    "room": 166,
@@ -11755,7 +18097,7 @@
    "need_flag": 268
   },
   {
-   "index": 732,
+   "index": 1106,
    "category": "puzzle",
    "name_en": "Elevator",
    "room": 173,
@@ -11767,7 +18109,7 @@
    "need_flag": null
   },
   {
-   "index": 733,
+   "index": 1107,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 36,
@@ -11779,7 +18121,7 @@
    "need_flag": null
   },
   {
-   "index": 734,
+   "index": 1108,
    "category": "puzzle",
    "name_en": "Event",
    "room": 36,
@@ -11791,7 +18133,7 @@
    "need_flag": null
   },
   {
-   "index": 735,
+   "index": 1109,
    "category": "puzzle",
    "name_en": "Scales",
    "room": 36,
@@ -11803,7 +18145,7 @@
    "need_flag": null
   },
   {
-   "index": 736,
+   "index": 1110,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 40,
@@ -11815,7 +18157,7 @@
    "need_flag": null
   },
   {
-   "index": 737,
+   "index": 1111,
    "category": "puzzle",
    "name_en": "Event",
    "room": 47,
@@ -11827,7 +18169,7 @@
    "need_flag": 163
   },
   {
-   "index": 738,
+   "index": 1112,
    "category": "puzzle",
    "name_en": "Event",
    "room": 47,
@@ -11839,7 +18181,7 @@
    "need_flag": 163
   },
   {
-   "index": 739,
+   "index": 1113,
    "category": "puzzle",
    "name_en": "Event",
    "room": 50,
@@ -11851,7 +18193,7 @@
    "need_flag": 145
   },
   {
-   "index": 740,
+   "index": 1114,
    "category": "puzzle",
    "name_en": "Chessboard",
    "room": 54,
@@ -11863,7 +18205,7 @@
    "need_flag": null
   },
   {
-   "index": 741,
+   "index": 1115,
    "category": "puzzle",
    "name_en": "Event",
    "room": 55,
@@ -11875,7 +18217,7 @@
    "need_flag": null
   },
   {
-   "index": 742,
+   "index": 1116,
    "category": "key",
    "name_en": "Piano",
    "room": 62,
@@ -11891,7 +18233,7 @@
    }
   },
   {
-   "index": 743,
+   "index": 1117,
    "category": "puzzle",
    "name_en": "Event",
    "room": 65,
@@ -11903,7 +18245,7 @@
    "need_flag": null
   },
   {
-   "index": 744,
+   "index": 1118,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 65,
@@ -11915,7 +18257,7 @@
    "need_flag": 178
   },
   {
-   "index": 745,
+   "index": 1119,
    "category": "puzzle",
    "name_en": "Event",
    "room": 65,
@@ -11927,7 +18269,7 @@
    "need_flag": null
   },
   {
-   "index": 746,
+   "index": 1120,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 66,
@@ -11939,7 +18281,7 @@
    "need_flag": null
   },
   {
-   "index": 747,
+   "index": 1121,
    "category": "puzzle",
    "name_en": "Event",
    "room": 0,
@@ -11951,7 +18293,7 @@
    "need_flag": 113
   },
   {
-   "index": 748,
+   "index": 1122,
    "category": "puzzle",
    "name_en": "Brake Controls",
    "room": 0,
@@ -11963,7 +18305,7 @@
    "need_flag": 113
   },
   {
-   "index": 749,
+   "index": 1123,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 0,
@@ -11975,7 +18317,7 @@
    "need_flag": null
   },
   {
-   "index": 750,
+   "index": 1124,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 1,
@@ -11987,7 +18329,7 @@
    "need_flag": null
   },
   {
-   "index": 751,
+   "index": 1125,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 2,
@@ -11999,7 +18341,7 @@
    "need_flag": 0
   },
   {
-   "index": 752,
+   "index": 1126,
    "category": "puzzle",
    "name_en": "Event",
    "room": 2,
@@ -12011,7 +18353,7 @@
    "need_flag": null
   },
   {
-   "index": 753,
+   "index": 1127,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 6,
@@ -12023,7 +18365,7 @@
    "need_flag": null
   },
   {
-   "index": 754,
+   "index": 1128,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 6,
@@ -12035,7 +18377,7 @@
    "need_flag": 115
   },
   {
-   "index": 755,
+   "index": 1129,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 6,
@@ -12047,7 +18389,7 @@
    "need_flag": 68
   },
   {
-   "index": 756,
+   "index": 1130,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 6,
@@ -12059,7 +18401,7 @@
    "need_flag": 68
   },
   {
-   "index": 757,
+   "index": 1131,
    "category": "puzzle",
    "name_en": "Event",
    "room": 7,
@@ -12071,7 +18413,7 @@
    "need_flag": 76
   },
   {
-   "index": 758,
+   "index": 1132,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 7,
@@ -12083,7 +18425,7 @@
    "need_flag": null
   },
   {
-   "index": 759,
+   "index": 1133,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 8,
@@ -12095,7 +18437,7 @@
    "need_flag": null
   },
   {
-   "index": 760,
+   "index": 1134,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 8,
@@ -12107,7 +18449,7 @@
    "need_flag": null
   },
   {
-   "index": 761,
+   "index": 1135,
    "category": "puzzle",
    "name_en": "Event",
    "room": 10,
@@ -12119,7 +18461,7 @@
    "need_flag": null
   },
   {
-   "index": 762,
+   "index": 1136,
    "category": "puzzle",
    "name_en": "Event",
    "room": 11,
@@ -12131,7 +18473,7 @@
    "need_flag": 120
   },
   {
-   "index": 763,
+   "index": 1137,
    "category": "puzzle",
    "name_en": "Event",
    "room": 11,
@@ -12143,7 +18485,7 @@
    "need_flag": null
   },
   {
-   "index": 764,
+   "index": 1138,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 14,
@@ -12155,7 +18497,7 @@
    "need_flag": 87
   },
   {
-   "index": 765,
+   "index": 1139,
    "category": "puzzle",
    "name_en": "Event",
    "room": 15,
@@ -12167,7 +18509,7 @@
    "need_flag": null
   },
   {
-   "index": 766,
+   "index": 1140,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 15,
@@ -12179,7 +18521,7 @@
    "need_flag": null
   },
   {
-   "index": 767,
+   "index": 1141,
    "category": "puzzle",
    "name_en": "Event (room)",
    "room": 15,
@@ -12191,7 +18533,7 @@
    "need_flag": 98
   },
   {
-   "index": 768,
+   "index": 1142,
    "category": "puzzle",
    "name_en": "Event",
    "room": 17,
@@ -12203,68 +18545,68 @@
    "need_flag": null
   },
   {
-   "index": 769,
+   "index": 1143,
    "category": "puzzle",
    "name_en": "Event",
    "room": 43,
    "done_flag": 138,
    "done_when": "set",
-   "evidence": "state of puzzle row 663: sh07 g9 tag 8 y=81: FlagSet(0x8a,1)",
+   "evidence": "state of puzzle row 1037: sh07 g9 tag 8 y=81: FlagSet(0x8a,1)",
    "status": "proven",
    "store": "flag"
   },
   {
-   "index": 770,
+   "index": 1144,
    "category": "puzzle",
    "name_en": "Event",
    "room": 134,
    "done_flag": 412,
    "done_when": "set",
-   "evidence": "state of puzzle row 664: bt02 g12 tag 8 y=67: FlagSet(0x19c,1)",
+   "evidence": "state of puzzle row 1038: bt02 g12 tag 8 y=67: FlagSet(0x19c,1)",
    "status": "proven",
    "store": "flag"
   },
   {
-   "index": 771,
+   "index": 1145,
    "category": "puzzle",
    "name_en": "Event",
    "room": 104,
    "done_flag": 223,
    "done_when": "set",
-   "evidence": "state of puzzle row 669: ch05 g9 tag 8 y=92: FlagSet(0xdf,1) with item_sub",
+   "evidence": "state of puzzle row 1043: ch05 g9 tag 8 y=92: FlagSet(0xdf,1) with item_sub",
    "status": "proven",
    "store": "flag"
   },
   {
-   "index": 772,
+   "index": 1146,
    "category": "puzzle",
    "name_en": "Event",
    "room": 10,
    "done_flag": 112,
    "done_when": "set",
-   "evidence": "state of puzzle row 674: tr0a g5 tag 8 y=77: FlagSet(0x70,1) with item_sub",
+   "evidence": "state of puzzle row 1048: tr0a g5 tag 8 y=77: FlagSet(0x70,1) with item_sub",
    "status": "proven",
    "store": "flag"
   },
   {
-   "index": 773,
+   "index": 1147,
    "category": "puzzle",
    "name_en": "Event",
    "room": 43,
    "done_flag": 137,
    "done_when": "set",
-   "evidence": "state of puzzle row 678: sh07 g8 tag 8 y=80: FlagSet(0x89,1)",
+   "evidence": "state of puzzle row 1052: sh07 g8 tag 8 y=80: FlagSet(0x89,1)",
    "status": "proven",
    "store": "flag"
   },
   {
-   "index": 774,
+   "index": 1148,
    "category": "puzzle",
    "name_en": "Event",
    "room": 104,
    "done_flag": 224,
    "done_when": "set",
-   "evidence": "state of puzzle row 679: ch05 g10 tag 8 y=93: FlagSet(0xe0,1) with item_sub; cleared by ['ch03:g2', 'ch13:g2', 'ch14:g2', 'ch15:g2']; 0xe0 is cleared again by ch03 g2 (with 0xd8, 0x17); that path also sets 0xef, never cleared. Use 0xe0 or 0xef.",
+   "evidence": "state of puzzle row 1053: ch05 g10 tag 8 y=93: FlagSet(0xe0,1) with item_sub; cleared by ['ch03:g2', 'ch13:g2', 'ch14:g2', 'ch15:g2']; 0xe0 is cleared again by ch03 g2 (with 0xd8, 0x17); that path also sets 0xef, never cleared. Use 0xe0 or 0xef.",
    "status": "inferred",
    "store": "flag",
    "done_any_of": [
@@ -12273,57 +18615,57 @@
    ]
   },
   {
-   "index": 775,
+   "index": 1149,
    "category": "puzzle",
    "name_en": "Event",
    "room": 8,
    "done_flag": 8,
    "done_when": "set",
-   "evidence": "state of puzzle row 680: tr08 g5 tag 8 y=82: FlagSet(0x8,1) with item_sub",
+   "evidence": "state of puzzle row 1054: tr08 g5 tag 8 y=82: FlagSet(0x8,1) with item_sub",
    "status": "proven",
    "store": "flag"
   },
   {
-   "index": 776,
+   "index": 1150,
    "category": "puzzle",
    "name_en": "Event",
    "room": 43,
    "done_flag": 136,
    "done_when": "set",
-   "evidence": "state of puzzle row 682: sh07 g7 tag 8 y=79: FlagSet(0x88,1)",
+   "evidence": "state of puzzle row 1056: sh07 g7 tag 8 y=79: FlagSet(0x88,1)",
    "status": "proven",
    "store": "flag"
   },
   {
-   "index": 777,
+   "index": 1151,
    "category": "puzzle",
    "name_en": "Event",
    "room": 136,
    "done_flag": 248,
    "done_when": "set",
-   "evidence": "state of puzzle row 683: bt04 g5 tag 8 y=111: FlagSet(0xf8,1) with item_sub",
+   "evidence": "state of puzzle row 1057: bt04 g5 tag 8 y=111: FlagSet(0xf8,1) with item_sub",
    "status": "proven",
    "store": "flag"
   },
   {
-   "index": 778,
+   "index": 1152,
    "category": "puzzle",
    "name_en": "Event",
    "room": 61,
    "done_flag": 153,
    "done_when": "set",
-   "evidence": "state of puzzle row 684: sh19 g6 tag 8 y=83: FlagSet(0x99,1) with item_sub",
+   "evidence": "state of puzzle row 1058: sh19 g6 tag 8 y=83: FlagSet(0x99,1) with item_sub",
    "status": "proven",
    "store": "flag"
   },
   {
-   "index": 779,
+   "index": 1153,
    "category": "puzzle",
    "name_en": "Event",
    "room": 136,
    "done_flag": 248,
    "done_when": "set",
-   "evidence": "state of puzzle row 686: bt04 g4 tag 8 y=73: FlagSet(0xf8,1); 0xf8 is set by this use and by the Up Key (bt04 g5), never cleared; 0xf2 (turntable up) is cleared when it is lowered (bt02 g5).",
+   "evidence": "state of puzzle row 1060: bt04 g4 tag 8 y=73: FlagSet(0xf8,1); 0xf8 is set by this use and by the Up Key (bt04 g5), never cleared; 0xf2 (turntable up) is cleared when it is lowered (bt02 g5).",
    "status": "proven",
    "store": "flag"
   }

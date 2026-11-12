@@ -117,7 +117,7 @@ class Review(unittest.TestCase):
   for i,m in enumerate(ms):groups.setdefault((m[5],m[3],ints('marker_line2')[i*2],m[0],m[1]),[]).append(i)
   groups=[v for v in groups.values() if len(v)>1];self.assertTrue(groups);checked=0
   for v in groups:
-   m=ms[v[0]];modes=[b for b in range(3) if all(ms[i][6]>>b&1 for i in v)]
+   m=ms[v[0]];modes=[b for b in range(8) if all(ms[i][6]>>b&1 for i in v)]
    if not modes or m[5]==3:continue # a diamond has no icon glyph per row; its name is off for events
    s=core.default_settings();s.difficulty=modes[0];s.scope=2;flags=list(word_bits(RULE[NATIVE[m[2]]['id']]['visited']))
    for i in v:

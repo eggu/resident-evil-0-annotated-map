@@ -21,7 +21,8 @@ LANGUAGE=('[\\] 언어: 한국어','[\\] LANGUAGE: ENGLISH') # user 2026-11-08: 
 HOLD=[('[H] 아이템 이름: 끔','[H] Item names: Off'),('[H] 아이템 이름: 모두','[H] Item names: All'),('[H] 아이템 이름: 일반 제외','[H] Item names: No common')] # indexed by ItemNames 0 off, 1 all, 2 all except common; the panel is as wide as the widest of the three
 LEGEND_ICON_OPACITY=('Ctrl + [ · ] 아이콘 불투명도','Ctrl + [ · ] Icon opacity');LEGEND_ICON_SIZE=('Ctrl + - · + 아이콘 크기','Ctrl + - · + Icon size')
 HIDE=('[~] 숨김','[~] Hide');FOLD=('[~] 범례','[~] Legend') # RE2 annotated map's wording; [,] [.] still selects a room, as a debug key without a legend line
-MODES=[('쉬움','Easy'),('보통','Normal'),('어려움','Hard')]
+MODES=[('쉬움','Easy'),('보통','Normal'),('어려움','Hard')]+[('Leech Hunter','Leech Hunter')]*5 # README's name in both languages; the five tables it picks from are one mode to the player
+MODE_KEYS=('easy','normal','hard',*(f'leech{i}' for i in range(5))) # bit and slot order, as tools/extract/placements.py TABLES
 PANEL=[('연결된 곳','Exits'),('내용 없음','No contents'),('…','…')]
 ROW_FONT=24;SMALL_FONT=15;READOUT_FONT=20 # the bottom-right panel: larger than the legend's hints
 def category(row):
@@ -60,7 +61,7 @@ def catalogue(native,claims,contents,names,uses):
   p['links']=sorted({owner[l] for l in p['links']}-{places.index(p)})
  return places
 # A weapon row's amount is the rounds loaded in it, not a count of weapons. The catalogue lists all of these with no count.
-WEAPONS=('Knife','Handgun','Shotgun','Hunting Gun','Magnum','Magnum Revolver','Grenade Launcher','Submachine Gun','Molotov Cocktail')
+WEAPONS=('Knife','Handgun','Shotgun','Hunting Gun','Magnum','Magnum Revolver','Grenade Launcher','Submachine Gun','Molotov Cocktail','Custom Handgun','Sub-Machinegun') # the last two: Leech Hunter only, the game's short names
 # User: item names AA의 BB drop 의. One-syllable stems read wrong without it (선 서); those stay, listed in verification/ko-name-changes.md for review.
 KEEP_UI=('선의 서','악의 서','백의 조각상','흑의 조각상','불의 열쇠','물의 열쇠','시의 한 구절')
 def short_ko(name):
@@ -101,7 +102,7 @@ def marker_defs(placements,native):
    if not rooms:raise ValueError(f"lock {r['name_en']} on door {r['piece']} with no room")
    piece=next((i for i in rooms if pieces[i]['native_room_id']==r['room']),rooms[0])
   labels={}
-  for bit,mode in enumerate(('easy','normal','hard')):
+  for bit,mode in enumerate(MODE_KEYS):
    if mode in r['amount']:
     key=(marker_label(r,mode,0,None),marker_label(r,mode,1,None));labels[key]=labels.get(key,0)|1<<bit
   for (ko,en),modes in labels.items():out.append(dict(row=row_index,x=r['x'],y=r['y'],piece=piece,ko=ko,en=en,category=EVENT_CATEGORY if r.get('event') else MARKER_GROUPS.index(r['category']),modes=modes,hollow=int('room centre' in r['evidence']),condition=r.get('condition',0),rooms=rooms,event=int(bool(r.get('event')))))
@@ -167,6 +168,7 @@ def icon_mips(sheet,reduce=reduce_premult):
  chain=list(reversed(out))[:ICON_LEVELS]
  if mip_defect(chain,ICON_TEX)>MIP_BRIGHTEN_LIMIT:raise ValueError('icon mips brighten soft edges')
  return chain
+MARKER_ICON={'Bl. Leech Charm':'Blue Leech Charm','Fire Key':'Fire'} # Leech Hunter's pickups use the game's short name
 LOCK_ICON={'Fire Key':'Fire','Water Key':'Water',"Conductor's Key":"Conductor's",'Breeding Room Key':'Breeding Rm. Key','Green Leech Charm':'Gr. Leech Charm','Shaft Key (L)':'Shaft Key','Shaft Key (R)':'Shaft Key'}
 def icon_for(row,icon_names):
  """Icon name for a placed row. Puzzles and events (event rows are category puzzle in the data) stay code-drawn diamonds and have none."""
@@ -174,11 +176,11 @@ def icon_for(row,icon_names):
  if row['category']=='file':return 'Map' if row['name_en'].endswith('Map') else 'Document'
  if row['category']=='lock': # the key that opens it; no icon yet, padlock. Manifest names are the game's short names.
   return LOCK_ICON.get(row['name_en'],row['name_en']) if LOCK_ICON.get(row['name_en'],row['name_en']) in icon_names else 'Padlock'
- return row['name_en']
+ return MARKER_ICON.get(row['name_en'],row['name_en'])
 def marker_state_row(row,states,placed):
  """From verification/state-flags.json: table slots per difficulty, or the flags that finish a row. 0xffff none. An enemy row's item is not guarded: 0x412c30 rewrites row+8 from the actor."""
  s=states.get(row,{});slots=s.get('slot') or {};flags=[f for f in (s.get('done_any_of') or [s.get('done_flag')]) if f is not None]+[0xffff,0xffff];r=placed[row]
- return (*[slots.get(m,0xffff) for m in ('easy','normal','hard')],flags[0],flags[1],0xffff if r['category']=='enemy' else r.get('item') or 0,r.get('room') or 0,r.get('kind') or 0,0xffff if r.get('need_flag') is None else r['need_flag'])
+ return (*[slots.get(m,0xffff) for m in MODE_KEYS[:3]],flags[0],flags[1],0xffff if r['category']=='enemy' else r.get('item') or 0,r.get('room') or 0,r.get('kind') or 0,0xffff if r.get('need_flag') is None else r['need_flag'],*[slots.get(m,0xffff) for m in MODE_KEYS[3:]])
 def measure(text,font=FONT):
  """Atlas size of a room name: the box build() gives it. Multi-line text is wrapped between words."""
  box=ImageDraw.Draw(Image.new('L',(1,1))).multiline_textbbox((0,0),text,font=ImageFont.truetype(str(font),NAME_FONT),stroke_width=2,align='center');return math.ceil(box[2]-box[0])+12,math.ceil(box[3]-box[1])+12

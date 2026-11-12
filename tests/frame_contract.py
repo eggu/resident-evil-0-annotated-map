@@ -304,7 +304,7 @@ def check(core):
   if c[5]<4 or c[8]:continue
   for ki,kq in enumerate(m):
    if kq[5]==1 and not kq[8] and kq[2]==c[2] and kq[6]&c[6] and ic[ki]!=ic[ci] and abs(kq[0]-c[0])<2.4 and abs(kq[1]-c[1])<2.4:
-    s9=core.default_settings();s9.mask=127;s9.scope=2;s9.difficulty=[b for b in range(3) if kq[6]&c[6]>>b&1 or (kq[6]&c[6])>>b&1][0];off9=[0 if q in (ci,ki) else 1 for q in range(len(m))];g9=[o['glyph'] for o in core.frame(s9,W,H,{c[2]:[300,200,420,300]},(),(1.5,0,0),off9,[0]*33)[0]]
+    s9=core.default_settings();s9.mask=127;s9.scope=2;s9.difficulty=[b for b in range(8) if kq[6]&c[6]>>b&1 or (kq[6]&c[6])>>b&1][0];off9=[0 if q in (ci,ki) else 1 for q in range(len(m))];g9=[o['glyph'] for o in core.frame(s9,W,H,{c[2]:[300,200,420,300]},(),(1.5,0,0),off9,[0]*33)[0]]
     if ic[ki] in g9:
      pairs+=1
      if ic[ci] in g9:raise AssertionError('common mark kept on a key mark')
@@ -392,6 +392,8 @@ def scope_rules(core,data,rooms,m):
  if s.selected!=-1:raise AssertionError('selection took a room outside the scope')
  s=core.default_settings();s.scope=2;s.selected=rooms[index[undrawn]][6];ops,_=core.frame(s,W,H,box(a),(),view,None,v);c=[x*1.5 for x in canvas[index[undrawn]]]
  if not any(o['color']==0xffffe040 and abs(o['box'][1]+2-c[1])<1 for o in ops):raise AssertionError('All scope panel has no box for an undrawn room')
+ s.difficulty=3;ops,_=core.frame(s,W,H,box(a),(),view,None,v)
+ if any(o['color']==0xffffe040 for o in ops):raise AssertionError('Leech Hunter drew the room panel')
  # Unknown flags: what was drawn counts, as the capture replay of an old report has none.
  s=core.default_settings();ops,_=core.frame(s,W,H,box(b),(),view)
  if room not in [o['glyph'] for o in ops]:raise AssertionError('unknown flags hid a drawn room')

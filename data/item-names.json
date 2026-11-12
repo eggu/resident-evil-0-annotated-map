@@ -57,7 +57,7 @@
 "11": {
 "en": "Sub-Machinegun",
 "ko": "서브 머신건",
-"category": "item"
+"category": "key"
 },
 "12": {
 "en": "Invalid Message",
@@ -87,7 +87,7 @@
 "17": {
 "en": "Custom Handgun",
 "ko": "커스텀 핸드건",
-"category": "item"
+"category": "key"
 },
 "18": {
 "en": "Invalid Message",
@@ -97,7 +97,7 @@
 "19": {
 "en": "Custom Handgun",
 "ko": "커스텀 핸드건",
-"category": "item"
+"category": "key"
 },
 "20": {
 "en": "Invalid Message",

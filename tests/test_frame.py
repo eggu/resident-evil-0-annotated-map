@@ -25,6 +25,7 @@ MUTANTS={
  'common mark kept on a key mark':('if(common(markers[shown[i]].category)||!centred){state[i]=DROP;continue;}',''),
  'common name covers key items':('||overlap_score(b,occ,no,2)>0',''),
  'marker ignores difficulty':('(m->modes>>s->difficulty&1)&&','1&&'),
+ 'room panel in Leech Hunter':('if(s->difficulty<=2&&s->selected>=0','if(s->selected>=0'),
  'marker shown on undrawn piece':('&&marker_room_on(m,room_on)&&','&&1&&'),
  'mark tied to one piece of its room (live: Ice Pick)':('(allowed&&rooms[j].place==rooms[i].place)','(allowed&&j==i)'),
  'room name tied to one piece of its room':('clip,legend,readout,room_on,used,n,','clip,legend,readout,room_seen,used,n,'),

@@ -32,13 +32,13 @@ class EnemyRows(unittest.TestCase):
  def setUpClass(cls):
   cls.rows=json.loads((ROOT/'data/placements.json').read_text())['rows'];cls.doc=json.loads((ROOT/'verification/state-flags.json').read_text());cls.states={r['index']:r for r in cls.doc['rows']}
  def test_every_enemy_row_has_its_own_slot_per_table(self):
-  seen={'easy':set(),'normal':set(),'hard':set()}
+  seen={}
   for i,r in enumerate(self.rows):
    if r['category']!='enemy':continue
    slots=self.states[i]['slot']
    self.assertEqual(set(slots),set(r['amount']))
    for m,v in slots.items():
-    self.assertLess(v,self.doc['row_store']['table_counts'][m]);self.assertNotIn(v,seen[m]);seen[m].add(v)
+    self.assertLess(v,self.doc['row_store']['table_counts'][m]);self.assertNotIn(v,seen.setdefault(m,set()));seen[m].add(v)
  def test_player_rows_are_not_enemies_and_every_enemy_class_is_kept(self):
   kinds={r['kind'] for r in self.rows if r['category']=='enemy'}
   self.assertFalse(kinds&{2,5});self.assertLessEqual({0x6a,0x6b,0x2a},kinds);self.assertTrue(all(0x10<=k<0x70 and k!=0x3b for k in kinds))

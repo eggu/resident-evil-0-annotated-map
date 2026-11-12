@@ -15,7 +15,7 @@ from resources import Arc
 from unicorn import Uc,UC_ARCH_X86,UC_MODE_32,UC_HOOK_CODE,UC_HOOK_MEM_UNMAPPED
 from unicorn.x86_const import UC_X86_REG_ESP,UC_X86_REG_ECX,UC_X86_REG_EAX,UC_X86_REG_EIP
 BASE=0x400000;OWNER=0xdcc014;OFFSET=0x20;ARRANGE=0xdcc010;SLOT0=0x30;STRIDE=0x5c;SLOTS=0x4e8;COUNT=0x24fac;MODE=0x24ff0;ARRAY_WORDS=0x47
-TABLES={'easy':'loctbl0000','normal':'loctbl0100','hard':'loctbl0200'};MODE_INDEX={'easy':0,'normal':1,'hard':2}
+TABLES={'easy':'loctbl0000','normal':'loctbl0100','hard':'loctbl0200',**{f'leech{i}':f'loctbl030{i}' for i in range(5)}};MODE_INDEX={'easy':0,'normal':1,'hard':2}
 EVIDENCE='static native analysis, script-group evaluation and Unicorn runs of native functions; no run of the game'
 # (category, name_en, room): claim. door: scene, door target, flag guarding it. use: scene, used item id, flag set, whether the group consumes it.
 # grant: scene, granted item, flag set once taken. none: why no flag exists.

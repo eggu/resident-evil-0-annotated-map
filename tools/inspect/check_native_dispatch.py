@@ -55,7 +55,7 @@ MUTANTS={
  'taken state ignored':('src/core/frame.c','return !re0_marker_state_done(&marker_state[index],flags,arrange)&&re0_condition_met','return re0_condition_met'),
  'taken rows stay shown':('src/core/annotation.c','if(kind==0||row[GONE]||','if(row[GONE]||'),
  'difficulty stays manual':('src/runtime/re0_map.c','if(difficulty>=0)cfg.difficulty=difficulty;else cfg.difficulty=ini_difficulty;','(void)difficulty;'),
- 'table told by the mode field (candidate 21, save load)':('src/core/annotation.c','if(a&&a->rows)for(int i=0;i<3;i++)if(a->count==table_rows[i]) return i;','if(a&&a->rows)for(int i=0;i<3;i++)if(a->count==table_rows[i]&&read_u32(a->rows+0x24ff0)==(unsigned)i) return i;'),
+ 'table told by the mode field (candidate 21, save load)':('src/core/annotation.c','for(int i=0;i<3;i++)if(a->count==table_rows[i]) return i;','for(int i=0;i<3;i++)if(a->count==table_rows[i]&&read_u32(a->rows+0x24ff0)==(unsigned)i) return i;'),
  'row guard dropped':('src/core/annotation.c','if(read_u32(row)!=m->room||(kind&&kind!=m->kind)||(m->item!=0xffff&&read_u32(row+ITEM)!=m->item)){a->mismatches++;return 0;}',''),
  'fade owner at the wrong global':('src/runtime/re0_map.c','u32(VA(0xdcbea4))','u32(VA(0xdcbea8))'),
  'fade alpha at the wrong offset':('src/runtime/re0_map.c','return fade[0x277]<=FADE_DRAW_ALPHA;','return fade[0x276]<=FADE_DRAW_ALPHA;'),

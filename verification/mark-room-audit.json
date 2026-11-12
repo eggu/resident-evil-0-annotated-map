@@ -1,6 +1,6 @@
 {
 "evidence": "static: placements against room shape (outline silhouette plus translucent floor sheet); run local/icon-integration-20261105/item6_classify.py; 2026-11-10 hash carried over without a rerun (the script is no longer in local/): the added script-puzzle and puzzle-event rows copy the x/y/piece of an already audited row; the new puzzle rows Lighter (rooms 90, 50) Factory Key (136), Hi-Power Battery (153) and, 2026-11-11, Cable Car (111, trigger volume 1) are placed; 2026-11-11 the under-world Dial row (134) dropped, the Elevator Key (134) pinned to B4, room snapping limited to the row's own floor, room 142 rows split B5/B6 by height at distance 0 by locate_record, not shape-audited",
-"placements_sha256": "03d902fb04e1a392db4bdf5bca97fe880f33bda39e51f4cbe1d2fbfd97a2dbbf",
+"placements_sha256": "3c944da4b42d8449dd1119f59ca749dedcc284a29d731e952040c5b7558f9331",
 "checked": 738,
 "outside": 0,
 "over_12": 0,

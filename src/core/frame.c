@@ -660,7 +660,8 @@ unsigned re0_frame_ops(const RE0Settings *s,float width,float height,const unsig
  if(chrome_on)for(unsigned i=0;i<chrome_n&&n<MAX_RESERVED;i++)used[n++]=chrome[i];
  /* Held H hides names and everything attached to them; the legend stays, as in RE1 HD. */
  if(s->hidden||!s->enabled)return l.n;
- if(s->selected>=0&&s->selected<PLACE_COUNT&&shown.seen[s->selected])used[n++]=panel_ops(s,&shown,legend.l,legend.t-4,screen*.62f*NAME_SCALE,flags,&l);
+ /* No room panel in Leech Hunter (difficulty 3..7): its contents are the main game's catalogue (user 2026-11-11). */
+ if(s->difficulty<=2&&s->selected>=0&&s->selected<PLACE_COUNT&&shown.seen[s->selected])used[n++]=panel_ops(s,&shown,legend.l,legend.t-4,screen*.62f*NAME_SCALE,flags,&l);
  const RE0Box clip=area;
  const unsigned hard_end=n,kept_ops=l.n;
  if(have_fixed)n=layout_ops(s,&fixed,screen,view!=0,flags,clip,legend,readout,room_on,used,n,&l,results,n_results);

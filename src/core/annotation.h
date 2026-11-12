@@ -31,13 +31,13 @@ int re0_place_label(RE0Box room, float width, float height, RE0Box clip,
 #define RE0_KILLED_WORDS ((RE0_ROW_SLOTS+31)/32)
 typedef struct { unsigned count; const unsigned char *rows; unsigned mismatches; const unsigned *killed; } RE0ArrangeView;
 /* What finishes a marker: slot per table (0xffff none) or flag, flag2 in the bit array (0xffff none). kind: table kind the row must hold, or 0 once taken. item 0xffff: not guarded, as 0x412c30 rewrites row+8 from the actor. */
-typedef struct { unsigned short slot0,slot1,slot2,flag,flag2,item,room,kind,need; } RE0MarkerState;
+typedef struct { unsigned short slot0,slot1,slot2,flag,flag2,item,room,kind,need,leech0,leech1,leech2,leech3,leech4; } RE0MarkerState; /* leech0..4: slots in loctbl0300..0304 */
 int re0_marker_state_done(const RE0MarkerState *m,const unsigned *flags,RE0ArrangeView *arrange);
 /* The enemy group of the room walk 0x61d544-0x61d54f: 0x10..0x6f without 0x3b (uEnemy3bRebecca, a player stand-in). */
 int re0_kind_is_enemy(unsigned kind);
 /* One live actor from the lists: sets slot's killed bit when HP is at or below 0 and its table row is an enemy. Item and player actors have HP 0 too, so the row decides. */
 void re0_arrange_note_actor(const RE0ArrangeView *arrange,unsigned *killed,int slot,int hp);
-/* The game's own difficulty from the table it loaded, 0..2; -1 when unknown or another mode. */
+/* The table the game loaded: 0..2 difficulty, 3..7 Leech Hunter loctbl0300..0304; -1 when unknown or another mode. */
 int re0_arrange_difficulty(const RE0ArrangeView *arrange);
 /* flags is that array's start; null means unknown, so only condition 0 passes. */
 int re0_condition_met(unsigned condition,const unsigned *flags);
